@@ -13,3 +13,7 @@ core = "7.x"
 project = "ctools"
 datestamp = "1345319204"
 
+
+; Information added by Acquia.com packaging script
+acquia = "1"
+
