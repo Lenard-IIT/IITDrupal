@@ -55,3 +55,5 @@
  */
 
 $sites['admission-dev.iit.edu'] = 'admissions';
+
+$sites['sat-dev.iit.edu'] = 'sat';
