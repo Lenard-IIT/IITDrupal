@@ -54,6 +54,8 @@
  * @see http://drupal.org/documentation/install/multi-site
  */
 
+$sites['web-dev.iit.edu'] = 'web';
+
 $sites['admission-dev.iit.edu'] = 'admissions';
 
 $sites['sat-dev.iit.edu'] = 'sat';
