@@ -65,7 +65,7 @@
 <?php print $polyfills; ?>
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
-    <?php include "includes/facebook.js.api.inc"; ?>
+  <?php include "includes/top.body.inc"; ?>
   <div id="skip-link">
     <a href="<?php print $skip_link_target; ?>" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
