@@ -59,3 +59,7 @@ $sites['web-dev.iit.edu'] = 'web';
 $sites['admission-dev.iit.edu'] = 'admissions';
 
 $sites['sat-dev.iit.edu'] = 'sat';
+
+$sites['science-dev.iit.edu'] = 'science';
+
+$sites['humansci-dev.iit.edu'] = 'humanscience';
