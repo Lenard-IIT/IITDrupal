@@ -92,3 +92,97 @@ function iit_admissions_preprocess_block(&$vars) {
 function iit_admissions_process_block(&$vars) {
 }
 // */
+
+
+/**
+ * Override of adaptivetheme_field to iit_admissions_field__field_page_section_title__field_page_section
+ * Override the styling of the page section title on a page section field collection
+ *
+ * @param $vars
+ *   An associative array containing:
+ *   - label_hidden: A boolean indicating to show or hide the field label.
+ *   - title_attributes: A string containing the attributes for the title.
+ *   - label: The label for the field.
+ *   - content_attributes: A string containing the attributes for the content's
+ *     div.
+ *   - items: An array of field items.
+ *   - item_attributes: An array of attributes for each item.
+ *   - classes: A string containing the classes for the wrapping div.
+ *   - attributes: A string containing the attributes for the wrapping div.
+ *
+ * @see template_preprocess_field()
+ * @see template_process_field()
+ * @see field.tpl.php
+ */
+function iit_admissions_field__field_page_section_title__field_page_section($vars) {
+  $output = '';
+
+  // Render the label, if it's not hidden.
+  if (!$vars['label_hidden']) {
+    $output .= '<h2 class="field-label"' . $vars['title_attributes'] . '>' . $vars['label'] . ':&nbsp;</h2>';
+  }
+
+  // // Render the items.
+  // $output .= '<div class="field-items"' . $vars['content_attributes'] . '>';
+  // foreach ($vars['items'] as $delta => $item) {
+  //   $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+  //   $output .= '<div class="' . $classes . '"' . $vars['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+  // }
+  // $output .= '</div>';
+  $content = drupal_render($vars['items'][0]);
+
+  // // Render the top-level wrapper element.
+  // $tag = $vars['tag'];
+  // $output = "<$tag class=\"" . $vars['classes'] . '"' . $vars['attributes'] . '>' . $output . "</$tag>";
+
+  $output .= '<h2 class="' . $vars['classes'] . '"' . $vars['attributes'] . '>' . $content .'</h2>';
+
+  return $output;
+}
+
+
+/**
+ * Override of adaptivetheme_field to iit_admissions_field__field_page_section_content__field_page_section
+ * Override the styling of the page section content on a page section field collection
+ *
+ * @param $vars
+ *   An associative array containing:
+ *   - label_hidden: A boolean indicating to show or hide the field label.
+ *   - title_attributes: A string containing the attributes for the title.
+ *   - label: The label for the field.
+ *   - content_attributes: A string containing the attributes for the content's
+ *     div.
+ *   - items: An array of field items.
+ *   - item_attributes: An array of attributes for each item.
+ *   - classes: A string containing the classes for the wrapping div.
+ *   - attributes: A string containing the attributes for the wrapping div.
+ *
+ * @see template_preprocess_field()
+ * @see template_process_field()
+ * @see field.tpl.php
+ */
+function iit_admissions_field__field_page_section_content__field_page_section($vars) {
+  $output = '';
+
+  // Render the label, if it's not hidden.
+  if (!$vars['label_hidden']) {
+    $output .= '<h2 class="field-label"' . $vars['title_attributes'] . '>' . $vars['label'] . ':&nbsp;</h2>';
+  }
+
+  // // Render the items.
+  // $output .= '<div class="field-items"' . $vars['content_attributes'] . '>';
+  // foreach ($vars['items'] as $delta => $item) {
+  //   $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+  //   $output .= '<div class="' . $classes . '"' . $vars['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+  // }
+  // $output .= '</div>';
+  $content = drupal_render($vars['items'][0]);
+
+  // // Render the top-level wrapper element.
+  // $tag = $vars['tag'];
+  // $output = "<$tag class=\"" . $vars['classes'] . '"' . $vars['attributes'] . '>' . $output . "</$tag>";
+
+  $output .= '<div class="' . $vars['classes'] . '"' . $vars['attributes'] . '>' . $content .'</div>';
+
+  return $output;
+}
