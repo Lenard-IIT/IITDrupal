@@ -2,6 +2,7 @@
 
 /**
  * @file
+ *
  * Admissions Adaptivetheme Subtheme override implementation for field collection item - field page section.
  *
  * Available variables:

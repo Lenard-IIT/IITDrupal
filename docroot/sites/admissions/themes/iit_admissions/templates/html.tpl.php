@@ -2,6 +2,7 @@
 /**
  * @file
  * Admissions Adaptivetheme Subtheme override implementation to display the basic html structure of a single
+ *
  * Drupal page.
  *
  * Adaptivetheme Variables:
