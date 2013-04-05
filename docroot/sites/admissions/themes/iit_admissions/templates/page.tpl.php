@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Admissions Adaptivetheme Subtheme override implementation to display a single Drupal page.
+ * Admissions Adaptivetheme subtheme override implementation to display a single Drupal page.
  *
  * ###  Full Width Wrappers  ###
  *
@@ -102,11 +102,7 @@
   <div id="page" class="<?php print $classes; ?>">
 
     <?php if($page['iit_global_header']): ?>
-      <div id="iit-global-header-wrapper">
-        <div class="container clearfix">
-          <?php print render($page['iit_global_header']); ?>
-        </div>
-      </div>
+      <?php print render($page['iit_global_header']); ?>
     <?php endif; ?>
 
     <?php if($page['leaderboard']): ?>

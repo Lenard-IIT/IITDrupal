@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Admissions Adaptivetheme Subtheme override implementation to display the basic html structure of a single
+ * Admissions Adaptivetheme subtheme override implementation to display the basic html structure of a single
  *
  * Drupal page.
  *

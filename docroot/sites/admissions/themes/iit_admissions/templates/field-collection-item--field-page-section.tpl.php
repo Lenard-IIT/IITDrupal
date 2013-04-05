@@ -3,7 +3,7 @@
 /**
  * @file
  *
- * Admissions Adaptivetheme Subtheme override implementation for field collection item - field page section.
+ * Admissions Adaptivetheme subtheme override implementation for field collection item - field page section.
  *
  * Available variables:
  * - $content: An array of comment items. Use render($content) to print them all, or
