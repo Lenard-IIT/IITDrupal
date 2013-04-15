@@ -265,5 +265,9 @@
       </div>
     <?php endif; ?>
 
+    <?php if($page['iit_global_footer']): ?>
+      <?php print render($page['iit_global_footer']); ?>
+    <?php endif; ?>
+
   </div>
 </div>
