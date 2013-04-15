@@ -54,10 +54,12 @@ body {
 
 h1 {
   font-family: 'Open Sans Condensed', sans-serif;
+  color: #f90;
 }
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
+  color: #f90;
 }
 
 h3 {
@@ -316,7 +318,7 @@ var {
  * The main page title (h1)
  */
 #page-title {
-  margin: 0;
+  margin: 0 0 .5em 0;
 }
 
 
@@ -1765,3 +1767,17 @@ tr.error {}
   min-height: 260px;
   width: auto;
 }
+
+
+/* =============================================================================
+ *   Admissions Global Styles
+ * ========================================================================== */
+
+.field-name-field-page-section .field-collection-view {
+  margin: 0;
+  padding: 0;
+}
+
+ 
+
+
