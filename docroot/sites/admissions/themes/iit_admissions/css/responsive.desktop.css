@@ -8,6 +8,15 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 
+
+/* Sidebar 2 area */
 .region-sidebar-second section.block {
     background-color: #eee;
+}
+
+/* Facebook Like Box */
+.fb-like-box, 
+.fb-like-box > span,
+.fb-like-box > span iframe {
+    width: 100% !important;
 }
