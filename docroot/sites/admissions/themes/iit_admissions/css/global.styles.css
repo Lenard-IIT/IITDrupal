@@ -55,11 +55,13 @@ body {
 
 h1 {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
   color: #f90;
 }
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
   color: #f90;
 }
 
@@ -204,7 +206,7 @@ var {
  */
 #header-wrapper {
   /* Debug styles, is this working */
-  background: rgba(255, 192, 203, 0.5);
+  /* background: rgba(255, 192, 203, 0.5); */
 }
 #header-wrapper .container {}
 
@@ -249,7 +251,7 @@ var {
  */
 #footer-wrapper {
   /* Debug styles, is this working? */
-  background: rgba(255, 192, 203, 0.5);
+  /* background: rgba(255, 192, 203, 0.5); */
 }
 #footer-wrapper .container {}
 
@@ -1782,6 +1784,13 @@ tr.error {}
 a {
   color: #c00;
 }
- 
+
+.region-header #block-menu-menu-undergraduate .block-title {
+  display: none;
+}
+
+#header-wrapper {
+  margin-bottom: 2em;
+}
 
 

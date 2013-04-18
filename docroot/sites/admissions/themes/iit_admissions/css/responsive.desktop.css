@@ -13,6 +13,110 @@
 }
 
 /* =============================================================================
+ *   Standard Elements
+ * ========================================================================== */
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* end Standard Elements ====================================================== */
+
+
+/* =============================================================================
+ *   Undergraduate Admission Header Branding
+ * ========================================================================== */
+
+#iit-undergraduate-admission-branding h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: normal;
+	color: #888;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	margin: 0.4em 0 0.2em 0.15em;
+}
+
+#iit-undergraduate-admission-branding h2 span {
+	color: #FF9900;
+}
+
+#header {
+	border-bottom: 1px solid #bbb;
+	padding-bottom: 2em;
+}
+
+/* end Undergraduate Admission Header Branding =============================== */
+
+/* =============================================================================
+ *   Undergraduate Admission Section Menu
+ * ========================================================================== */
+
+.region-header #block-menu-menu-undergraduate .block-content ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	position: relative;
+	background-color: #888;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li {
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li a {
+	padding: .4em 1.5em;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li a:hover {
+	background-color: #aaa;
+}
+.region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
+	background-color: #ccc;
+	color: #000;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li ul {
+	position: absolute;
+	left: 0;
+	top: 2.8em;
+	background-color: transparent;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li ul li {
+	padding: .4em .9em;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li ul li a {
+	color: #888;
+	padding: 0;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li ul li a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li ul li a.active-trail {
+	background-color: transparent;
+	color: #c00;
+}
+
+
+/* end Undergraduate Admission Section Menu ======================================== */
+
+/* =============================================================================
  *   Sidebar 2 Area
  * ========================================================================== */
 

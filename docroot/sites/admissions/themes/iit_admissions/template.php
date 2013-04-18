@@ -53,9 +53,17 @@ function iit_admissions_process_html(&$vars) {
 /**
  * Override or insert variables for the page templates.
  */
-/* -- Delete this line if you want to use these functions
+
 function iit_admissions_preprocess_page(&$vars) {
+  if (isset($vars['node'])) {
+    
+    if ($vars['node']->type == 'undergraduate_admission_page') {
+      $vars['theme_hook_suggestions'][] = 'page__node__' . $vars['node']->type;
+    }
+    
+  }
 }
+/* -- Delete this line if you want to use these functions
 function iit_admissions_process_page(&$vars) {
 }
 // */

@@ -197,6 +197,7 @@ section#block-block-3 div.block-inner {
     border-top: 6px solid #c00;
     background-color: #444;
     min-height: 250px;
+    overflow: hidden;
 }
 
 #iit-gf-container {
