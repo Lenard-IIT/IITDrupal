@@ -1,0 +1,972 @@
+
+@font-face {
+    font-family: 'entypo';
+    src: url('entypo.eot');
+    src: url('entypo.eot?#iefix') format('embedded-opentype'),
+         url('entypo.woff') format('woff'),
+         url('entypo.ttf') format('truetype'),
+         url('entypo.svg#entypo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#iit-gh-nav-expander {
+    display: none;
+}
+
+.region-iit-global-header #block-iit-global-header-iit-global-header {
+    margin-bottom: 0;
+}
+
+.region-iit-global-header #block-iit-global-header-iit-global-header .block-inner {
+    margin: 0;
+}
+
+/* Standard layout */
+@media only screen and (min-width:1025px) {
+
+/* =============================================================================
+ *   IIT Global Header
+ * ========================================================================== */
+
+#iit-gh-header-wrapper {
+    border-top: 6px solid #c00;
+    border-bottom: 2px solid #888;
+}
+
+#iit-gh-header {
+    height: 70px;
+    position: relative;
+}
+
+#iit-gh-header > a {
+    position: absolute;
+    bottom: 0;
+    left: .5%;
+    font-size: 1.95em;
+    font-family: 'Economica', sans-serif;
+    color: #c00;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+}
+
+
+/* ----- iit global header nav ----- */
+#iit-gh-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#iit-gh-header nav ul li {
+    float: left;
+}
+
+nav#iit-gh-primary-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.1em;
+}
+
+nav#iit-gh-primary-nav li {
+}
+
+nav#iit-gh-primary-nav li a {
+    display: block;
+    padding: .2em .7em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.063em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+nav#iit-gh-secondary-nav {
+    position: absolute;
+    top: 4%;
+    right: .7%;
+    font-size: .85em;
+}
+
+nav#iit-gh-secondary-nav li {
+    margin: 0 .85em;
+}
+
+nav#iit-gh-secondary-nav li a {
+    color: #999;
+    text-decoration: none;
+} 
+
+/* ----- iit global header menu ------*/
+#iit-gh-menu-wrapper {
+    background-color: #ececec;
+}
+
+#iit-gh-menu-exit.container {
+    max-width: inherit;
+}
+
+#iit-gh-menu-container {
+    overflow: hidden;
+    height: 350px;
+    position: relative;
+    display: none;
+}
+
+#iit-gh-menu-wrapper nav {
+    margin: 15px 0 0 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    font-size: 87.5%;
+}
+
+#iit-gh-menu-wrapper nav.iit-gh-menu-active {
+    display: block;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-4 {
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-5 {
+    width: 18%;
+    float: left;
+    margin: 0 1%;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category:first-child h5 {
+    margin: 0 0 .4em 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category h5 {
+    font-size: 1.25em;
+    margin: .9em 0 .4em 0;
+    border-bottom: 1px solid #aaa;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul {
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul li {
+    margin: 0 0 .2em 0;
+    font-size: 1em;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-singlelink {
+    font-size: 1em;
+    margin: 0 0 .2em 0;
+}
+
+#iit-gh-menu-wrapper a {
+    color: #555;
+    font-size: .938em;
+}
+
+#iit-gh-menu-exit {
+    background-color: #888;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    font-size: .8em;
+}
+/* end IIT Global Header ==================================================== */
+
+
+
+} /* end Standard Layout */
+
+
+
+
+
+
+/* Tablet landscape */
+@media only screen and (min-width:800px) and (max-width:1024px) {
+
+/* =============================================================================
+ *   IIT Global Header
+ * ========================================================================== */
+
+#iit-gh-header-wrapper {
+    border-top: 6px solid #c00;
+    border-bottom: 2px solid #888;
+}
+
+#iit-gh-header {
+    height: 70px;
+    position: relative;
+}
+
+#iit-gh-header > a {
+    position: absolute;
+    bottom: 30px;
+    left: .5%;
+    font-size: 1.95em;
+    font-family: 'Economica', sans-serif;
+    color: #c00;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+}
+
+
+/* ----- iit global header nav ----- */
+#iit-gh-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#iit-gh-header nav ul li {
+    float: left;
+}
+
+nav#iit-gh-primary-nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.1em;
+}
+
+nav#iit-gh-primary-nav li {
+}
+
+nav#iit-gh-primary-nav li a {
+    display: block;
+    padding: .2em .85em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.063em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+nav#iit-gh-secondary-nav {
+    position: absolute;
+    top: 4%;
+    right: .7%;
+    font-size: .85em;
+}
+
+nav#iit-gh-secondary-nav li {
+    margin: 0 .85em;
+}
+
+nav#iit-gh-secondary-nav li a {
+    color: #999;
+    text-decoration: none;
+} 
+
+/* ----- iit global header menu ------*/
+#iit-gh-menu-wrapper {
+    background-color: #ececec;
+}
+
+#iit-gh-menu-exit.container {
+    max-width: inherit;
+}
+
+#iit-gh-menu-container {
+    overflow: hidden;
+    height: 350px;
+    position: relative;
+    display: none;
+}
+
+#iit-gh-menu-wrapper nav {
+    margin: 15px 0 0 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    font-size: 87.5%;
+}
+
+#iit-gh-menu-wrapper nav.iit-gh-menu-active {
+    display: block;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-4 {
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-5 {
+    width: 18%;
+    float: left;
+    margin: 0 1%;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category:first-child h5 {
+    margin: 0 0 .4em 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category h5 {
+    font-size: 1.25em;
+    margin: .9em 0 .4em 0;
+    border-bottom: 1px solid #aaa;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul {
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul li {
+    margin: 0 0 .2em 0;
+    font-size: 1em;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-singlelink {
+    font-size: 1em;
+    margin: 0 0 .2em 0;
+}
+
+#iit-gh-menu-wrapper a {
+    color: #555;
+    font-size: .938em;
+}
+
+#iit-gh-menu-exit {
+    background-color: #888;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    font-size: .8em;
+}
+/* end IIT Global Header ==================================================== */
+
+
+} /* end Tablet landscape */
+
+
+
+
+
+
+/* Tablet portrait */
+@media only screen and (min-width:600px) and (max-width:799px) {
+
+
+/* =============================================================================
+ *   IIT Global Header
+ * ========================================================================== */
+
+#iit-gh-header-wrapper {
+    border-top: 6px solid #c00;
+    border-bottom: 2px solid #888;
+}
+
+#iit-gh-header {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#iit-gh-header > a {
+    font-size: 1.95em;
+    font-family: 'Economica', sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 1.1em 0 0;
+    color: #c00;
+    outline: none;
+}
+
+/* ----- iit global header nav ----- */
+#iit-gh-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#iit-gh-header nav ul li {
+    float: left;
+}
+
+nav#iit-gh-primary-nav {
+    font-size: 1.1em;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav#iit-gh-primary-nav ul {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+nav#iit-gh-primary-nav li {
+}
+
+nav#iit-gh-primary-nav li a {
+    display: block;
+    padding: .2em .55em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: .938em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+nav#iit-gh-secondary-nav {
+    font-size: .85em;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+}
+
+nav#iit-gh-secondary-nav ul {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav#iit-gh-secondary-nav li {
+    margin: 0 .85em;
+    position: relative;
+    right: 50%;
+}
+
+nav#iit-gh-secondary-nav li a {
+    color: #999;
+    text-decoration: none;
+} 
+
+/* ----- iit global header menu ------*/
+#iit-gh-menu-wrapper {
+    background-color: #ececec;
+}
+
+#iit-gh-menu-exit.container {
+    max-width: inherit;
+}
+
+#iit-gh-menu-container {
+    overflow: hidden;
+    height: 370px;
+    position: relative;
+    display: none;
+}
+
+#iit-gh-menu-wrapper nav {
+    margin: 15px 0 0 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    font-size: 87.5%;
+}
+
+#iit-gh-menu-wrapper nav.iit-gh-menu-active {
+    display: block;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-4 {
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-5 {
+    width: 18%;
+    float: left;
+    margin: 0 1%;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category:first-child h5 {
+    margin: 0 0 .4em 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category h5 {
+    font-size: 1.063em;
+    margin: .9em 0 .4em 0;
+    border-bottom: 1px solid #aaa;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul {
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul li {
+    margin: 0 0 .6em 0;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-singlelink {
+    font-size: 1em;
+    margin: 0 0 .6em 0;
+    line-height: 1em;
+}
+
+#iit-gh-menu-wrapper a {
+    color: #555;
+    font-size: .875em;
+    line-height: 1em;
+}
+
+#iit-gh-menu-exit {
+    background-color: #888;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    font-size: .8em;
+}
+/* end IIT Global Header ==================================================== */
+
+
+} /* end Tablet portrait */
+
+
+
+
+
+/* Smartphone landscape */
+@media only screen and (min-width:400px) and (max-width:599px) {
+
+/* =============================================================================
+ *   IIT Global Header
+ * ========================================================================== */
+
+#iit-gh-header-wrapper {
+    border-top: 6px solid #c00;
+    border-bottom: 2px solid #888;
+}
+
+#iit-gh-header {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#iit-gh-header > a {
+    font-size: 1.438em;
+    font-family: 'Economica', sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c00;
+    margin: 5px 0 0 8px;
+    padding-bottom: 5px;
+    outline: none;
+    float: left;
+}
+
+/* ----- iit global header nav ----- */
+#iit-gh-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#iit-gh-header nav ul li {
+    float: left;
+}
+
+nav#iit-gh-primary-nav {
+    font-size: 1.1em;
+    float: left;
+    width: 100%;
+    border-top: 2px solid #888;
+    display: none;
+
+}
+
+nav#iit-gh-primary-nav ul {
+    float: left;
+}
+
+nav#iit-gh-primary-nav li {
+    width: 30%;
+    padding: 0 0 0 3%;
+}
+
+nav#iit-gh-primary-nav li a {
+    display: block;
+    padding: .2em .6em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+nav#iit-gh-secondary-nav {
+    font-size: .85em;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+nav#iit-gh-secondary-nav ul {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav#iit-gh-secondary-nav li {
+    margin: 0 .85em;
+    position: relative;
+    right: 50%;
+}
+
+nav#iit-gh-secondary-nav li a {
+    color: #999;
+    text-decoration: none;
+} 
+
+/* ----- iit global header menu ------*/
+#iit-gh-menu-wrapper {
+    background-color: #ececec;
+}
+
+#iit-gh-menu-exit.container {
+    max-width: inherit;
+}
+
+#iit-gh-menu-container {
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+#iit-gh-menu-wrapper nav {
+    margin: 15px 0 0 0;
+    width: 100%;
+    display: none;
+    font-size: 87.5%;
+}
+
+#iit-gh-menu-wrapper nav.iit-gh-menu-active {
+    display: block;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-4 {
+    margin: 0 10px;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-5 {
+    margin: 0 10px;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category:first-child h5 {
+    margin: 0 0 .6em 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category h5 {
+    font-size: 1.4em;
+    margin: 0 0 .6em 0;
+    border-bottom: 1px solid #aaa;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul {
+    padding: 0;
+    display: none;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul li {
+    margin: 0 0 .6em 0;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-singlelink {
+    font-size: 1em;
+    margin: 0 0 .6em 0;
+    line-height: 1em;
+}
+
+#iit-gh-menu-wrapper a {
+    color: #555;
+    font-size: .875em;
+    line-height: 1em;
+}
+
+#iit-gh-menu-exit {
+    background-color: #888;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    font-size: .8em;
+}
+
+div#iit-gh-nav-expander {
+    color: #CC0000;
+    cursor: pointer;
+    float: left;
+    font-family: entypo;
+    font-size: 4em;
+    line-height: 0.6em;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: block;
+}
+
+/* end IIT Global Header ==================================================== */
+
+
+} /* end Smartphone landscape */
+
+
+
+
+/* Smartphone portrait */
+@media only screen and (max-width:399px) {
+
+/* =============================================================================
+ *   IIT Global Header
+ * ========================================================================== */
+
+#iit-gh-header-wrapper {
+    border-top: 6px solid #c00;
+    border-bottom: 2px solid #888;
+}
+
+#iit-gh-header {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#iit-gh-header > a {
+    font-size: 1.438em;
+    font-family: 'Economica', sans-serif;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c00;
+    margin: 5px 0 0 8px;
+    padding-bottom: 5px;
+    outline: none;
+    float: left;
+}
+
+/* ----- iit global header nav ----- */
+#iit-gh-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#iit-gh-header nav ul li {
+    float: left;
+}
+
+nav#iit-gh-primary-nav {
+    font-size: 1.1em;
+    float: left;
+    width: 100%;
+    border-top: 2px solid #888;
+    display: none;
+
+}
+
+nav#iit-gh-primary-nav ul {
+    float: left;
+}
+
+nav#iit-gh-primary-nav li {
+    width: 45%;
+    padding: 0 0 0 5%;
+}
+
+nav#iit-gh-primary-nav li a {
+    display: block;
+    padding: .2em .6em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #444;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25em;
+    outline: none;
+    text-transform: uppercase;
+}
+
+nav#iit-gh-secondary-nav {
+    font-size: .85em;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+nav#iit-gh-secondary-nav ul {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav#iit-gh-secondary-nav li {
+    margin: 0 .85em;
+    position: relative;
+    right: 50%;
+}
+
+nav#iit-gh-secondary-nav li a {
+    color: #999;
+    text-decoration: none;
+} 
+
+/* ----- iit global header menu ------*/
+#iit-gh-menu-wrapper {
+    background-color: #ececec;
+}
+
+#iit-gh-menu-exit.container {
+    max-width: inherit;
+}
+
+#iit-gh-menu-container {
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+#iit-gh-menu-wrapper nav {
+    margin: 15px 0 0 0;
+    width: 100%;
+    display: none;
+    font-size: 87.5%;
+}
+
+#iit-gh-menu-wrapper nav.iit-gh-menu-active {
+    display: block;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-4 {
+    margin: 0 10px;
+}
+
+#iit-gh-menu-wrapper div.iit-gh-menu-grid-5 {
+    margin: 0 10px;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category:first-child h5 {
+    margin: 0 0 .6em 0;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category h5 {
+    font-size: 1.4em;
+    margin: 0 0 .6em 0;
+    border-bottom: 1px solid #aaa;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul {
+    padding: 0;
+    display: none;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-category ul li {
+    margin: 0 0 .6em 0;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+#iit-gh-menu-wrapper .iit-gh-menu-singlelink {
+    font-size: 1em;
+    margin: 0 0 .6em 0;
+    line-height: 1em;
+}
+
+#iit-gh-menu-wrapper a {
+    color: #555;
+    font-size: .875em;
+    line-height: 1em;
+}
+
+#iit-gh-menu-exit {
+    background-color: #888;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    font-size: .8em;
+}
+
+div#iit-gh-nav-expander {
+    color: #CC0000;
+    cursor: pointer;
+    float: left;
+    font-family: entypo;
+    font-size: 4em;
+    line-height: 0.6em;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: block;
+}
+
+/* end IIT Global Header ==================================================== */
+
+} /* end Smartphone portrait */
+
+
+/*Smartphone retina*/
+@media only screen and (max-width:399px) and (-webkit-min-device-pixel-ratio : 1.5) {
+
+    
+
+}
+
+
+/*Smartphone retina landscape*/
+@media only screen and (min-width:400px) and (max-width:599px) and (-webkit-min-device-pixel-ratio : 1.5) {
+
+    
+}
+
+
+/*Tablet retina*/
+@media only screen and (min-width:600px) and (max-width:799px) and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-width:800px) and (max-width:1024px) and (-webkit-min-device-pixel-ratio : 1.5) {
+    
+   
+
+}
