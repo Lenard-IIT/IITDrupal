@@ -17,8 +17,6 @@
   stylesheets[screen][] = css/global.styles.css
   
   stylesheets[screen][] = css/iit-gf.css
-  stylesheets[screen][] = css/iit-gh.css
-
 
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
@@ -61,8 +59,6 @@
 
 
 ;----------// Scripts
-
-  scripts[] = scripts/iit-gh.js
 
   ; Internet Explorer Scripts
   ;
