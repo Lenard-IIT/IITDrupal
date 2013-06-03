@@ -1776,6 +1776,14 @@ tr.error {}
  *   Admissions Global Styles
  * ========================================================================== */
 
+#block-iit-global-header-iit-global-header {
+  margin: 0;
+}
+
+#block-iit-global-header-iit-global-header .block-inner {
+  margin: 0;
+}
+
 .field-name-field-page-section .field-collection-view {
   margin: 0;
   padding: 0;
