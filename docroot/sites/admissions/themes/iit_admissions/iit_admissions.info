@@ -39,6 +39,8 @@
 
   ; ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
 
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/iit-gh-lt-ie9.css
+
 
   ; Unset Module CSS or other Stylesheets
   ;
