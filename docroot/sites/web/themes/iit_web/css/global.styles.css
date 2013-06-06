@@ -19,6 +19,12 @@
  */
 
 /* =============================================================================
+ *   Google Font Imports
+ * ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
+
+/* =============================================================================
  *   Base
  * ========================================================================== */
 
@@ -36,8 +42,8 @@ html {
 
 
 body {
-  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 87.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
 }
 
 
