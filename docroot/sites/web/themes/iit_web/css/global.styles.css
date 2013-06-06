@@ -1749,3 +1749,13 @@ tr.error {}
   min-height: 260px;
   width: auto;
 }
+
+
+/* =============================================================================
+ *   Web Global Styles
+ * ========================================================================== */
+
+#block-iit-global-header-iit-global-header, 
+#block-iit-global-header-iit-global-header .block-inner {
+  margin: 0;
+}
