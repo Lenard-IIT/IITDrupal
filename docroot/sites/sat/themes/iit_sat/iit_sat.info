@@ -90,6 +90,10 @@
   regions[page_top]          = Page top
   regions[page_bottom]       = Page bottom
 
+  ;--------// Subtheme added regions
+  regions[iit_global_header] = IIT Global Header
+  regions[iit_global_footer] = IIT Global Footer
+
 
 ;----------// Gpanel Regions
 
