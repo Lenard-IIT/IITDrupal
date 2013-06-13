@@ -1,9 +1,9 @@
 /* =============================================================================
  *   IIT Global Header - Global Styles
  * ========================================================================== */
-
+/**/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
-
+/**/
 @font-face {
     font-family: 'EconomicaBold-IIT-GH';
     src: url('Economica-Bold-OTF-webfont.eot');
@@ -59,10 +59,15 @@
     text-transform: uppercase;
 }
 
+/* ----- Branding ----- */
 #iit-gh-header-branding {
     font-family: 'EconomicaBold-IIT-GH', sans-serif;
     text-decoration: none;
     color: #b00;
+    margin: .638888889em 0 .055555556em .25em;
+    font-size: 2.25em;
+    float: left;
+    line-height: 1.25em;
 }
 
 #iit-gh-header-wrapper {
@@ -100,23 +105,6 @@
     position: relative;
 }
 
-/* ----- Branding ----- */
-#iit-gh-header-branding {
-    margin: .95238em 0 .26190em .2em;
-    font-size: 2.625em;
-    float: left;
-}
-
-#iit-gh-header-triangle {
-    float: right;
-    margin: 3.3em .5em 0 0;
-    width: 48px;
-    height: 42px;
-    background-image: url('../images/iit-triangle-48.png');
-    text-indent: -9999px;
-    overflow: hidden;
-}
-
 /* ----- Primary Nav ----- */
 #iit-gh-primary-nav {
     width: 100%;
@@ -134,11 +122,12 @@
 }
 
 #iit-gh-primary-nav ul li a {
-    padding: .25em 1.15em .05em;
+    padding: .2em 1.15em .05em;
     display: block;
     text-decoration: none;
     color: #fff;
     font-size: 1.250em;
+    line-height: 1.250em;
 }
 
 #iit-gh-primary-nav ul li a:hover {
@@ -153,8 +142,9 @@
 /* ----- Secondary Nav ----- */
 #iit-gh-secondary-nav {
     position: absolute;
-    top: .75em;
+    top: 0;
     right: 0;
+    font-size: .875em;
 }
 
 #iit-gh-secondary-nav ul li {
@@ -163,7 +153,6 @@
 }
 
 #iit-gh-secondary-nav ul li a {
-    font-size: .875em;
     color: #444;
 }
 
@@ -294,23 +283,6 @@ div.iit-gh-menu-singlelink a {
     position: relative;
 }
 
-/* ----- Branding ----- */
-#iit-gh-header-branding {
-    margin: .95238em 0 .26190em .2em;
-    font-size: 2.625em;
-    float: left;
-}
-
-#iit-gh-header-triangle {
-    float: right;
-    margin: 3.3em .5em 0 0;
-    width: 48px;
-    height: 42px;
-    background-image: url('../images/iit-triangle-48.png');
-    text-indent: -9999px;
-    overflow: hidden;
-}
-
 /* ----- Primary Nav ----- */
 #iit-gh-primary-nav {
     width: 100%;
@@ -328,11 +300,12 @@ div.iit-gh-menu-singlelink a {
 }
 
 #iit-gh-primary-nav ul li a {
-    padding: .25em 1.05em .05em;
+    padding: .2em 1.05em .05em;
     display: block;
     text-decoration: none;
     color: #fff;
     font-size: 1.250em;
+    line-height: 1.250em;
 }
 
 #iit-gh-primary-nav ul li a:hover {
@@ -347,8 +320,9 @@ div.iit-gh-menu-singlelink a {
 /* ----- Secondary Nav ----- */
 #iit-gh-secondary-nav {
     position: absolute;
-    top: .75em;
+    top: 0;
     right: 0;
+    font-size: .875em;
 }
 
 #iit-gh-secondary-nav ul li {
@@ -357,7 +331,6 @@ div.iit-gh-menu-singlelink a {
 }
 
 #iit-gh-secondary-nav ul li a {
-    font-size: .875em;
     color: #444;
 }
 
@@ -490,23 +463,6 @@ div.iit-gh-menu-singlelink a {
     position: relative;
 }
 
-/* ----- Branding ----- */
-#iit-gh-header-branding {
-    margin: .95238em 0 .26190em .2em;
-    font-size: 2.625em;
-    float: left;
-}
-
-#iit-gh-header-triangle {
-    float: right;
-    margin: 3.3em .5em 0 0;
-    width: 48px;
-    height: 42px;
-    background-image: url('../images/iit-triangle-48.png');
-    text-indent: -9999px;
-    overflow: hidden;
-}
-
 /* ----- Primary Nav ----- */
 #iit-gh-primary-nav {
     width: 100%;
@@ -524,11 +480,12 @@ div.iit-gh-menu-singlelink a {
 }
 
 #iit-gh-primary-nav ul li a {
-    padding: .45em .6em .25em;
+    padding: .333333333em .555555556em .22222222em;
     display: block;
     text-decoration: none;
     color: #fff;
     font-size: 1.125em;
+    line-height: 1.125em;
 }
 
 #iit-gh-primary-nav ul li a:hover {
@@ -543,8 +500,9 @@ div.iit-gh-menu-singlelink a {
 /* ----- Secondary Nav ----- */
 #iit-gh-secondary-nav {
     position: absolute;
-    top: .75em;
+    top: 0;
     right: 0;
+    font-size: .875em;
 }
 
 #iit-gh-secondary-nav ul li {
@@ -553,7 +511,6 @@ div.iit-gh-menu-singlelink a {
 }
 
 #iit-gh-secondary-nav ul li a {
-    font-size: .875em;
     color: #444;
 }
 
@@ -666,12 +623,9 @@ div.iit-gh-menu-singlelink a {
 @media only screen and (min-width:750px) and (max-width:799px) {
 
 #iit-gh-primary-nav ul li a {
-    padding: .3em .85em .1em;
+    padding: .2em .85em .05em;
     font-size: 1.250em;
-}
-
-#iit-gh-header-branding {
-    margin: .95238em 0 .26190em .2em;
+    line-height: 1.250em;
 }
 
 #iit-gh-menu-container {
@@ -698,7 +652,7 @@ div.iit-gh-menu-singlelink a {
 
 /* ----- Layout ----- */
 #iit-gh-header-wrapper {
-    margin-bottom: .3em;
+    border-bottom: 4px solid #666;
 }
 
 #iit-gh-topbar {
@@ -710,7 +664,7 @@ div.iit-gh-menu-singlelink a {
     font-style: bold;
     cursor: pointer;
     text-decoration: none;
-    margin: .15em .6em .15em 0;
+    margin: .0625em .6em .1875em 0;
     float: right;
     width: 32px;
     height: 32px;
@@ -778,15 +732,12 @@ div.iit-gh-menu-singlelink a {
 
 /* ----- Branding ----- */
 #iit-gh-header-branding {
-    margin: .2em 0;
     font-size: 2.1875em;
+    line-height: 1.2em;
     display:block;
+    float: none;
     text-align: center;
-    margin: .2em 0 0 0;
-}
-
-#iit-gh-header-triangle {
-    display: none;
+    margin: .14285714em 0 0 0;
 }
 
 /* ----- Primary Nav ----- */
@@ -794,7 +745,7 @@ div.iit-gh-menu-singlelink a {
     background-color: #fff;
     float: left;
     width: 100%;
-    padding: .6% 0 0 0;
+    padding: .125em 0;
 }
 
 #iit-gh-primary-nav ul li {
@@ -880,7 +831,7 @@ div.iit-gh-menu-singlelink a {
 
 /* ----- Layout ----- */
 #iit-gh-header-wrapper {
-    margin-bottom: .3em;
+    border-bottom: 4px solid #666;
 }
 
 #iit-gh-topbar {
@@ -892,7 +843,7 @@ div.iit-gh-menu-singlelink a {
     font-style: bold;
     cursor: pointer;
     text-decoration: none;
-    margin: .15em .6em .15em 0;
+    margin: .0625em .6em .1875em 0;
     float: right;
     width: 32px;
     height: 32px;
@@ -960,15 +911,12 @@ div.iit-gh-menu-singlelink a {
 
 /* ----- Branding ----- */
 #iit-gh-header-branding {
-    margin: .2em 0;
     font-size: 1.75em;
+    line-height: 1.25em;
     display:block;
+    float: none;
     text-align: center;
-    margin: .2em 0 0 0;
-}
-
-#iit-gh-header-triangle {
-    display: none;
+    margin: .178571428em 0 .035714285em 0;
 }
 
 /* ----- Primary Nav ----- */
@@ -976,7 +924,7 @@ div.iit-gh-menu-singlelink a {
     background-color: #fff;
     float: left;
     width: 100%;
-    padding: .6% 0 0 0;
+    padding: .125em 0;
 }
 
 #iit-gh-primary-nav ul li {
@@ -992,7 +940,7 @@ div.iit-gh-menu-singlelink a {
     color: #fff;
     background-color: #aaa;
     font-size: 1.125em;
-    padding: .15em 0 0 0;
+    padding: .222222222em 0 0 0;
 }
 
 #iit-gh-primary-nav ul li a#iit-gh-nav-search {
@@ -1078,8 +1026,5 @@ div.iit-gh-menu-singlelink a {
 
 /* Tablet portrait, Tablet landscape, Standard layout - HiDPI */
 @media only screen and (min-width:600px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    #iit-gh-header-triangle {
-        background-image: url('../images/iit-triangle-96.png');
-        background-size: 48px;
-    }
+
 }
