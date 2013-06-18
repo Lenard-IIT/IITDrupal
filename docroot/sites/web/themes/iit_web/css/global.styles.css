@@ -1759,3 +1759,8 @@ tr.error {}
 #block-iit-global-header-iit-global-header .block-inner {
   margin: 0;
 }
+
+#block-iit-global-footer-iit-global-footer, 
+#block-iit-global-footer-iit-global-footer .block-inner {
+  margin: 0;
+}
