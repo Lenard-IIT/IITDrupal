@@ -1,39 +1,4 @@
-/**/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
-/**/
-/*Base Styles*/
-
-.container {
-width: 100%;
-max-width: 1140px;
-margin:0 auto;
-}
-
-.clearfix:after {
-    clear: both;
-    content: " ";
-    display: table;
-}
-
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-}
-
-#header, #footer {
-    height: 100px;
-    background-color: #ddd;
-}
-
-
-
-
-/* =============================================================================
+//* =============================================================================
  *   IIT Launchpage - Global Styles - mobile first
  * ========================================================================== */
 body.page-launchpage {
