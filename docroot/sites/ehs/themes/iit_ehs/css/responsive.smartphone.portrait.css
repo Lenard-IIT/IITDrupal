@@ -8,6 +8,35 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 /* Increase the default font size on small devices */
+/*
 html {
   font-size: 112.5%;
 }
+*/
+
+
+/* =============================================================================
+ *   Footer Area
+ * ========================================================================== */
+
+#footer-wrapper {
+    border-top: 3px solid #444;
+    background-color: #e9e9e9;
+}
+
+#footer-wrapper #block-block-1 {
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+#footer-wrapper h5 {
+    font-size: 1.25em;
+    margin: 6px 0 0 0;
+}
+
+#footer-wrapper p {
+    font-size: .813em;
+    margin: 0 0 .8em;
+}
+
+/* end Footer Area ======================================================= */
