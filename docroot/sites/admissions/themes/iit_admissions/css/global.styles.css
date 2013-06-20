@@ -23,8 +23,6 @@
  * ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
-@import url(http://fonts.googleapis.com/css?family=Economica:400,400italic,700,700italic);
-
 
 /* =============================================================================
  *   Base
@@ -1776,11 +1774,13 @@ tr.error {}
  *   Admissions Global Styles
  * ========================================================================== */
 
-#block-iit-global-header-iit-global-header {
+#block-iit-global-header-iit-global-header, 
+#block-iit-global-header-iit-global-header .block-inner {
   margin: 0;
 }
 
-#block-iit-global-header-iit-global-header .block-inner {
+#block-iit-global-footer-iit-global-footer, 
+#block-iit-global-footer-iit-global-footer .block-inner {
   margin: 0;
 }
 
