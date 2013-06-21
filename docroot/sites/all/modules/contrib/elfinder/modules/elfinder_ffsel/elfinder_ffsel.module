@@ -69,10 +69,10 @@ function filefield_source_elfinder_menu() {
 /**
  * Implementation of hook_theme().
  */
-function filefield_source_elfinder_theme() {
+function elfinder_ffsel_theme() {
   return array(
     'filefield_source_elfinder_element' => array(
-      'arguments' => array('element' => NULL),
+      'render element' => 'element',
     ),
  );
 }
@@ -186,7 +186,8 @@ function filefield_source_elfinder_value($element, &$item) {
 function theme_filefield_source_elfinder_element($variables) {
   $element = $variables['element'];
 
-  $output = drupal_render_children($element);;
+  $output = drupal_render_children($element);
+  
   return '<div class="filefield-source filefield-source-elfinder clear-block">' . $output . '</div>';
 }
 

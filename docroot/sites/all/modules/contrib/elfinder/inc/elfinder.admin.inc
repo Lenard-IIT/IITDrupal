@@ -51,7 +51,7 @@ function elfinder_admin_form(&$form_state) {
     '#type' => 'textfield',
     '#title' => t('Custom path'),
     '#default_value' => variable_get('elfinder_settings_filesystem_root_custom', ''),
-    '#description' => t('Custom filesystem root path.') . '<br/>' . t('Available tokens: <code>%files</code> (base path, eg: <code>/</code>), <code>%name</code> (current username, eg: <code>@u</code>), <code>%uid</code> (current user id, eg: <code>@uid</code>), <code>%lang</code> (current language code, eg: <code>@lang</code>), plus all tokens provided by token module', array('@u' => $user->name, '@uid' => $user->uid, '@lang' => $language->language)),
+    '#description' => t('Custom filesystem root path.') . '<br/>' . t('Available tokens: <code>%files</code> (base path, eg: <code>/</code>), <code>%name</code> (current username, eg: <code>@u</code>, <b>NOTE:</b> it is not unique - users can have same username, so better to combine it with user id value), <code>%uid</code> (current user id, eg: <code>@uid</code>), <code>%lang</code> (current language code, eg: <code>@lang</code>), plus all tokens provided by token module', array('@u' => $user->name, '@uid' => $user->uid, '@lang' => $language->language)),
   );
 
   $form['filesystem_settings']['filesystem_url_custom'] = array(
@@ -60,7 +60,7 @@ function elfinder_admin_form(&$form_state) {
     '#type' => 'textfield',
     '#title' => t('Custom URL'),
     '#default_value' => variable_get('elfinder_settings_filesystem_url_custom', ''),
-    '#description' => t('Custom filesystem url.') . '<br/>' . t('Available tokens: <code>%files</code> (base path, eg: <code>/</code>), <code>%name</code> (current username, eg: <code>@u</code>), <code>%uid</code> (current user id, eg: <code>@uid</code>), <code>%lang</code> (current language code, eg: <code>@lang</code>), plus all tokens provided by token module', array('@u' => $user->name, '@uid' => $user->uid, '@lang' => $language->language)),
+    '#description' => t('Custom filesystem url.') . '<br/>' . t('Available tokens: <code>%files</code> (base path, eg: <code>/</code>), <code>%name</code> (current username, eg: <code>@u</code>, <b>NOTE:</b> it is not unique - users can have same username, so better to combine it with user id value), <code>%uid</code> (current user id, eg: <code>@uid</code>), <code>%lang</code> (current language code, eg: <code>@lang</code>), plus all tokens provided by token module', array('@u' => $user->name, '@uid' => $user->uid, '@lang' => $language->language)),
   );
 
   $form['filesystem_settings']['mime_detect'] = array(

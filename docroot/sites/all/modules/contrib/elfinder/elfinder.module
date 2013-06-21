@@ -62,6 +62,25 @@ function elfinder_menu() {
   return ($newitems) ? $newitems : $items;
 }
 
+function elfinder_init() {
+		$libpath = elfinder_lib_path();
+		$badfiles = array('elfinder.html', 'elfinder.php.html', 'connectors/php/connector.php', 'php/connector.php');
+		
+		$badpaths = array();
+		
+		foreach ($badfiles as $badfile) {
+			$path = $libpath . '/' . $badfile;
+			if (file_exists($path)) {
+				$badpaths[] = $path;
+			}
+		}
+		
+		if (count($badpaths) > 0) {
+			watchdog('elfinder', 'elFinder library directory containing features test files :files. Please remove these files to avoid security hole.', array(':files' => implode(', ', $badpaths)), WATCHDOG_ALERT);
+		}
+		
+}
+
 /**
  * File browser render
  */
@@ -96,6 +115,7 @@ function elfinder_file_browser($browser_mode = 'default') {
       'editorApp' => $editorApp,
       'langCode' => $langCode,
       'rememberLastDir' => variable_get('elfinder_settings_misc_rememberlastdir', 'true')  == 'true' ? TRUE : FALSE, // remember last opened directory
+      'browserMode' => $browser_mode,
     );
     
     if ($editorApp) {
@@ -278,43 +298,11 @@ function elfinder_connector($mode = 'default') {
         return parent::_mimetype($path);      
       }
     }
-    
-    /*public function _fnamereplace(&$filename)  {
-      $filename = preg_replace('/atv/','bike--', $filename);
-    }*/
-    protected function _upload_callback($file) {
-      global $user;
 
-      $dir = $this->_options['root'];
-      
-      $relative_path = str_replace($this->_options['root'], '', $file);    
-      
+    protected function _hash($path) {
+			return drupal_get_token($path);
+		}
 
-        $uri = file_build_uri($relative_path);
-        // Create a file object.
-        $f = new stdClass();
-        $f->fid = NULL;
-        $f->uri = $uri;
-        $f->filename = basename($uri);
-        $f->filemime = file_get_mimetype($f->uri);
-        $f->uid      = $user->uid;
-        $f->status   = FILE_STATUS_PERMANENT;
-        $f->filesize = filesize($file);
-drupal_set_message("file_uploaded",'warning');
-        file_save($f);
-        //drupal_set_message("file_uploaded: dir=$dir base=$base root=$root file=$file size=".filesize($file).' dir2='.$this->_options['root'],'warning');
-
-    }
-
-
-    protected function _remove_callback($file) {
-      global $user;
-
-      $dir = $this->_options['root'];
-      
-      $relative_path = str_replace($this->_options['root'], '', $file);    
-  
-    }
   };
 
   $newopts = module_invoke_all('elfinder_connector_init', $opts);
@@ -324,12 +312,6 @@ drupal_set_message("file_uploaded",'warning');
   }
 
   $fm = new elFinderDrupal($opts);
-  
-  /*if (is_callable( "elFinder::_upload_callback" )) {
-    drupal_set_message('callbacks supported', 'warning');
-  } else {
-    drupal_set_message('callbacks NOT supported', 'warning');
-  }*/
   
   $fm->run();
 
@@ -642,11 +624,15 @@ function elfinder_document_root() {
 function elfinder_parse_path_tokens($unparsed_path) {
   global $user, $language;
   $path = $unparsed_path;
+  
+  $uname = isset($user->name) ? preg_replace('/[[:^alnum:]]+/', '', $path) : '';
+  $langCode = isset($language->language) ? $language->language : 'en';
+  
   $path_tokens = array(
     '%uid' => $user->uid,
-    '%name' => $user->name,
+    '%name' => $uname,
     '%files' => elfinder_default_directory_path(),
-    '%lang' => $language->language,
+    '%lang' => $langCode,
   );
 
   $path = strtr($path, $path_tokens);
@@ -742,7 +728,7 @@ function elfinder_prepare_directory($directory) {
 /**
   * Add css
   */
-function elfinder_add_css($path, $options) {
+function elfinder_add_css($path, $options = array()) {
   global $base_path;
 
   if (isset($options['type']) && $options['type'] == 'external') {
@@ -764,9 +750,12 @@ function elfinder_browser_css() {
   $rms = array();
   
   if (module_exists('admin_menu')) {
-    $rms[] = drupal_get_path('module','admin_menu') || '';
-    $rms[] = drupal_get_path('module','admin_menu_toolbar') || '';
-
+    $apath = drupal_get_path('module','admin_menu');
+    $atpath = drupal_get_path('module','admin_menu_toolbar');
+  
+    $rms[] = isset($apath) ? $apath : '';
+    $rms[] = isset($atpath) ? $atpath : '';
+    
     foreach (array_keys($css) as $k) {
       foreach ($rms as $rm) {
         if (preg_match('|' . $rm . '|', $k) && $rm != '') {
@@ -788,8 +777,11 @@ function elfinder_browser_js() {
   
   if (module_exists('admin_menu')) {
   
-    $rms[] = drupal_get_path('module','admin_menu') || '';
-    $rms[] = drupal_get_path('module','admin_menu_toolbar') || '';
+    $apath = drupal_get_path('module','admin_menu');
+    $atpath = drupal_get_path('module','admin_menu_toolbar');
+  
+    $rms[] = isset($apath) ? $apath : '';
+    $rms[] = isset($atpath) ? $atpath : '';
 
     foreach (array_keys($js) as $k) {
       foreach ($rms as $rm) {
