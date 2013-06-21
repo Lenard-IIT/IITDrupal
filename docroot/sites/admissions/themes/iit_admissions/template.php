@@ -53,7 +53,7 @@ function iit_admissions_process_html(&$vars) {
 /**
  * Override or insert variables for the page templates.
  */
-
+/* -- Delete this line if you want to use these functions
 function iit_admissions_preprocess_page(&$vars) {
   if (isset($vars['node'])) {
     
@@ -63,7 +63,6 @@ function iit_admissions_preprocess_page(&$vars) {
     
   }
 }
-/* -- Delete this line if you want to use these functions
 function iit_admissions_process_page(&$vars) {
 }
 // */
