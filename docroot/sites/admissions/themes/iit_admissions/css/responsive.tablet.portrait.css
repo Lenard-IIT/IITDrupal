@@ -26,10 +26,11 @@ h2 {
   font-size: 2em;
 }
 
-/* end Standard Elements ======================================================= */
+/* end Standard Elements ==================================================== */
+
 
 /* =============================================================================
- *   Undergraduate Admission Header Branding
+ *   Undergraduate Admission Header
  * ========================================================================== */
 
 #iit-undergraduate-admission-branding h2 {
@@ -45,12 +46,48 @@ h2 {
   color: #FF9900;
 }
 
+#iit-undergraduate-admission-branding a {
+  color: #888;
+  text-decoration: none;
+}
+
 #header {
   border-bottom: 1px solid #bbb;
   padding-bottom: 2em;
 }
 
-/* end Undergraduate Admission Header Branding =============================== */
+/* end Undergraduate Admission Header ======================================= */
+
+
+/* =============================================================================
+ *   Graduate Admission Header
+ * ========================================================================== */
+
+#iit-graduate-admission-branding h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+  color: #888;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 0.4em 0 0.2em 0.15em;
+}
+
+#iit-graduate-admission-branding h2 span {
+  color: #9b0000;
+}
+
+#iit-graduate-admission-branding a {
+  color: #888;
+  text-decoration: none;
+}
+
+#header {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 2em;
+}
+
+/* end Graduate Admission Header ======================================= */
+
 
 /* =============================================================================
  *   Undergraduate Admission Section Menu

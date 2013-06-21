@@ -1791,6 +1791,7 @@ tr.error {}
 
 a {
   color: #c00;
+  outline: none;
 }
 
 .region-header #block-menu-menu-undergraduate .block-title {
