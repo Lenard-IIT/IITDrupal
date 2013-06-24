@@ -1784,9 +1784,21 @@ tr.error {}
   margin: 0;
 }
 
+.region-header #block-menu-menu-undergraduate .block-title {
+  display: none;
+}
+
+.region-header #block-menu-menu-undergraduate ul.menu li ul {
+  display: none;
+}
+
 .field-name-field-page-section .field-collection-view {
   margin: 0;
   padding: 0;
+}
+
+#header-wrapper {
+  margin-bottom: 2em;
 }
 
 a {
@@ -1794,12 +1806,5 @@ a {
   outline: none;
 }
 
-.region-header #block-menu-menu-undergraduate .block-title {
-  display: none;
-}
-
-#header-wrapper {
-  margin-bottom: 2em;
-}
 
 
