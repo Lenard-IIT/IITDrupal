@@ -169,6 +169,7 @@ h2 {
 .region-sidebar-second section div.block-inner h2 {
   margin: 0 0 .5em;
   line-height: 1em;
+  color: #000;
 }
 
 /* Facebook Like Box */
@@ -177,10 +178,6 @@ h2 {
 .fb-like-box > span iframe {
     width: 100% !important;
     background-color: #fff;
-}
-
-.region-sidebar-second #block-block-5 .block-inner {
-    margin: 0;
 }
 
 /* end Sidebar 2 Area ======================================================= */

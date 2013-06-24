@@ -164,9 +164,8 @@ h2 {
 	background-color: #eaeaea;
 }
 
-.region-sidebar-second #block-block-5 {
-	width: 50%;
-	float: left;
+.region-sidebar-second section div.block-inner h2 {
+  color: #000;
 }
 
 /* Facebook Like Box */

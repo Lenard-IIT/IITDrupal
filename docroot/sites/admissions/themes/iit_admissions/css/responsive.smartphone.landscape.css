@@ -172,11 +172,9 @@ h2 {
 	background-color: #eaeaea;
 }
 
-.region-sidebar-second #block-block-5 {
-	display: none;
+.region-sidebar-second section div.block-inner h2 {
+  color: #000;
 }
-
-
 
 .region-sidebar-second section#block-block-1 {
 	display: none;
