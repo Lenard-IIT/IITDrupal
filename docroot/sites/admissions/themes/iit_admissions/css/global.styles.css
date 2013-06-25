@@ -1784,13 +1784,16 @@ tr.error {}
   margin: 0;
 }
 
-.region-header #block-menu-menu-undergraduate .block-title {
+.region-header #block-menu-menu-undergraduate .block-title,
+.region-header #block-menu-menu-graduate .block-title {
   display: none;
 }
 
-.region-header #block-menu-menu-undergraduate ul.menu li ul {
+.region-header #block-menu-menu-undergraduate ul.menu li ul,
+.region-header #block-menu-menu-graduate ul.menu li ul {
   display: none;
 }
+
 
 .field-name-field-page-section .field-collection-view {
   margin: 0;

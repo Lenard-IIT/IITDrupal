@@ -86,7 +86,7 @@ h2 {
 
 
 /* =============================================================================
- *   Undergraduate Admission Section Menu
+ *   Undergraduate Admission Department Main Menu
  * ========================================================================== */
 
 .region-header #block-menu-menu-undergraduate .block-content ul {
@@ -122,34 +122,48 @@ h2 {
   color: #000;
 }
 
-.region-header #block-menu-menu-undergraduate .block-content ul li ul {
-  position: absolute;
-  left: 0;
-  top: 2.8em;
-  background-color: transparent;
-}
+/* end Undergraduate Admission Department Main Menu ========================= */
 
-.region-header #block-menu-menu-undergraduate .block-content ul li ul li {
-  padding: .4em .7em;
-}
 
-.region-header #block-menu-menu-undergraduate .block-content ul li ul li a {
-  color: #888;
+/* =============================================================================
+ *   Graduate Admission Department Main Menu
+ * ========================================================================== */
+
+.region-header #block-menu-menu-graduate .block-content ul {
+  margin: 0;
   padding: 0;
+  list-style-type: none;
+  float: left;
+  width: 100%;
+  position: relative;
+  background-color: #888;
 }
 
-.region-header #block-menu-menu-undergraduate .block-content ul li ul li a:hover {
-  background-color: transparent;
-  text-decoration: underline;
+.region-header #block-menu-menu-graduate .block-content ul li {
+  float: left;
+  list-style-type: none;
+  list-style-image: none;
 }
 
-.region-header #block-menu-menu-undergraduate .block-content ul li ul li a.active-trail {
-  background-color: transparent;
-  color: #c00;
+.region-header #block-menu-menu-graduate .block-content ul li a {
+  padding: .4em 1.2em;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: .938em;
 }
 
+.region-header #block-menu-menu-graduate .block-content ul li a:hover {
+  background-color: #aaa;
+}
+.region-header #block-menu-menu-graduate .block-content ul li a.active-trail {
+  background-color: #ccc;
+  color: #000;
+}
 
-/* end Undergraduate Admission Section Menu ======================================== */
+/* end Graduate Admission Department Main Menu ========================= */
+
 
 /* =============================================================================
  *   Sidebar 2 Area
