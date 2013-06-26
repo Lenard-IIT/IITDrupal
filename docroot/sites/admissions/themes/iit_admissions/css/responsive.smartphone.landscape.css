@@ -96,7 +96,8 @@ h2 {
   list-style-type: none;
   float: left;
   width: 100%;
-  background-color: #888;
+  background-color: #f90;
+  text-transform: uppercase;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li {
@@ -106,7 +107,7 @@ h2 {
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li a {
-  padding: .4em 1em;
+  padding: .2em 1em;
   display: block;
   color: #fff;
   text-decoration: none;
@@ -135,7 +136,8 @@ h2 {
   list-style-type: none;
   float: left;
   width: 100%;
-  background-color: #888;
+  background-color: #9b0000;
+  text-transform: uppercase;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li {
@@ -145,7 +147,7 @@ h2 {
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li a {
-  padding: .4em 1em;
+  padding: .2em 1em;
   display: block;
   color: #fff;
   text-decoration: none;

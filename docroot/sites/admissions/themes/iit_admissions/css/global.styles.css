@@ -54,29 +54,31 @@ body {
 h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
-  color: #f90;
 }
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
-  color: #f90;
 }
 
 h3 {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
 }
 
 h4 {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
 }
 
 h5 {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
 }
 
 h6 {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
 }
 
 p {
@@ -1794,6 +1796,31 @@ tr.error {}
   display: none;
 }
 
+body.undergraduate a {
+  color: #f90;
+  outline: none;
+}
+
+body.graduate a {
+  color: #9b0000;
+  outline: none;
+}
+
+body.undergraduate h1 {
+  color: #f90;
+}
+
+body.undergraduate h2 {
+  color: #f90;
+}
+
+body.graduate h1 {
+  color: #9b0000;
+}
+
+body.graduate h2 {
+  color: #9b0000;
+}
 
 .field-name-field-page-section .field-collection-view {
   margin: 0;
@@ -1804,10 +1831,6 @@ tr.error {}
   margin-bottom: 2em;
 }
 
-a {
-  color: #c00;
-  outline: none;
-}
 
 
 
