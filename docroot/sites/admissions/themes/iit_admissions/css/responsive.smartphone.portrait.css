@@ -168,11 +168,23 @@ h2 {
 
 
 /* =============================================================================
+ *   Columns Main Content Area
+ * ========================================================================== */
+
+
+/* end Columns Main Content Area ============================================ */
+
+
+/* =============================================================================
  *   Sidebar 2 Area
  * ========================================================================== */
 
 .region-sidebar-second section.block {
 	background-color: #eaeaea;
+}
+
+.region-sidebar-second nav.block-menu-block {
+  background-color: #FFFAE0;
 }
 
 .region-sidebar-second section div.block-inner h2 {
@@ -181,10 +193,6 @@ h2 {
 
 .region-sidebar-second section#block-block-1 {
 	display: none;
-}
-
-.region-sidebar-second section#block-block-2 {
-	clear: both;
 }
 
 /* end Sidebar 2 Area ======================================================= */

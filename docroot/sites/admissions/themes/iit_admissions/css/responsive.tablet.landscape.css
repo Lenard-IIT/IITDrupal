@@ -8,10 +8,6 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 
-.sidebar-second .content-inner {
-  margin-right: 32%;
-}
-
 /* =============================================================================
  *   Standard Elements
  * ========================================================================== */
@@ -168,12 +164,32 @@ h2 {
 
 
 /* =============================================================================
+ *   Columns Main Content Area
+ * ========================================================================== */
+
+.sidebar-second .content-inner {
+  margin-right: 32%;
+}
+
+/* end Columns Main Content Area ============================================ */
+
+
+/* =============================================================================
  *   Sidebar 2 Area
  * ========================================================================== */
+
+.region-sidebar-second {
+  margin-left: -29%;
+}
 
 .region-sidebar-second section.block {
     background-color: #eaeaea;
     padding: 16px;
+}
+
+.region-sidebar-second nav.block-menu-block {
+  background-color: #FFFAE0;
+  padding: 16px;
 }
 
 .region-sidebar-second section div.block-inner {
