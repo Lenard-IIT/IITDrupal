@@ -1842,6 +1842,23 @@ body.graduate h2 {
   margin-bottom: 2em;
 }
 
+/* Facebook Like Box */
+.fb-like-box, 
+.fb-like-box > span,
+.fb-like-box > span iframe {
+    background-color: #fff;
+}
 
+#block-block-1 {
+  padding: 0;
+  background-color: #fff;
+}
 
+#block-block-1 h2 {
+  background-color: #3B5998;
+  color: white;
+  margin-bottom: .2em;
+  padding: .25em;
+}
+/* end Facebook Like Box */
 

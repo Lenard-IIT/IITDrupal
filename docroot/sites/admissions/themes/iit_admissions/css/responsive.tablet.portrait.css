@@ -193,13 +193,6 @@ h2 {
   color: #000;
 }
 
-/* Facebook Like Box */
-.fb-like-box, 
-.fb-like-box > span,
-.fb-like-box > span iframe {
-    background-color: #fff;
-}
-
 .region-sidebar-second section#block-block-1 {
   padding-bottom: 10px;
 }
