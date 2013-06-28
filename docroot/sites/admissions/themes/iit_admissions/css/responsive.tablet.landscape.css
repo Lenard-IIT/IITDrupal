@@ -206,7 +206,6 @@ h2 {
 .fb-like-box, 
 .fb-like-box > span,
 .fb-like-box > span iframe {
-    width: 100% !important;
     background-color: #fff;
 }
 
