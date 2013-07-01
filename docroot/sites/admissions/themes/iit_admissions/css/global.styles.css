@@ -1857,7 +1857,7 @@ body.graduate h2 {
 
 #iit-undergraduate-admission-branding,
 #iit-graduate-admission-branding {
-  height: 5em;
+  height: 5.25em;
   position: relative;
 }
 
@@ -1938,6 +1938,8 @@ body.graduate h2 {
   color: white;
   margin-bottom: .2em;
   padding: .25em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
 }
 /* end Facebook Like Box */
 

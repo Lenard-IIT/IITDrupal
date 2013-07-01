@@ -64,12 +64,12 @@ h2 {
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li a {
-  padding: .2em 1em;
+  padding: .285714285714em .9285714285714em .3571428571428em;
   display: block;
   color: #666;
   text-decoration: none;
   outline: none;
-  font-size: .813em;
+  font-size: .875em;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li a:hover {
@@ -105,12 +105,12 @@ h2 {
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li a {
-  padding: .2em 1em;
+  padding: .285714285714em .9285714285714em .3571428571428em;
   display: block;
   color: #666;
   text-decoration: none;
   outline: none;
-  font-size: .813em;
+  font-size: .875em;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li a:hover {
