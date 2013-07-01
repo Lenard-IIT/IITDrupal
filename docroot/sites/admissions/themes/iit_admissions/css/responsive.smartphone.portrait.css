@@ -32,6 +32,10 @@ h2 {
 /* =============================================================================
  *   Undergraduate & Graduate Admission Header
  * ========================================================================== */
+#iit-undergraduate-admission-branding, 
+#iit-graduate-admission-branding {
+  height: 3.25em;
+}
 
 #iit-undergraduate-admission-branding h2 {
   font-size: 1.8em;
@@ -40,7 +44,6 @@ h2 {
 #iit-graduate-admission-branding h2 {
   font-size: 1.8em;
 }
-
 /* end Undergraduate & Graduate Admission Header ============================= */
 
 
@@ -79,6 +82,7 @@ h2 {
 .region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
   background-color: #f90;
   color: #fff;
+  font-weight: bold;
 }
 
 /* end Undergraduate Admission Department Main Menu ========================= */
@@ -119,6 +123,7 @@ h2 {
 .region-header #block-menu-menu-graduate .block-content ul li a.active-trail {
   background-color: #9b0000;
   color: #fff;
+  font-weight: bold;
 }
 
 /* end Graduate Admission Department Main Menu ========================= */
