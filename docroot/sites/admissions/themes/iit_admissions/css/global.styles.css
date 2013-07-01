@@ -1797,16 +1797,6 @@ tr.error {}
   margin: 0;
 }
 
-.region-header #block-menu-menu-undergraduate .block-title,
-.region-header #block-menu-menu-graduate .block-title {
-  display: none;
-}
-
-.region-header #block-menu-menu-undergraduate ul.menu li ul,
-.region-header #block-menu-menu-graduate ul.menu li ul {
-  display: none;
-}
-
 body.undergraduate a {
   color: #f90;
   outline: none;
@@ -1899,6 +1889,26 @@ body.graduate h2 {
   text-decoration: none;
 }
 /* end Undergraduate & Graduate Admission Headers */
+
+
+/* Undergraduate & Graduate Admission Primary Nav */
+.region-header #block-menu-menu-undergraduate .block-title,
+.region-header #block-menu-menu-graduate .block-title {
+  display: none;
+}
+
+.region-header #block-menu-menu-undergraduate ul.menu li ul,
+.region-header #block-menu-menu-graduate ul.menu li ul {
+  display: none;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul,
+.region-header #block-menu-menu-graduate .block-content ul {
+  background: url("images/background.png");
+}
+
+
+/* end Undergraduate & Graduate Admission Primary Nav */
 
 
 .field-name-field-page-section .field-collection-view {

@@ -55,7 +55,6 @@ h2 {
   float: left;
   width: 100%;
   position: relative;
-  background-color: #f90;
   text-transform: uppercase;
 }
 
@@ -77,9 +76,10 @@ h2 {
 .region-header #block-menu-menu-undergraduate .block-content ul li a:hover {
   background-color: #aaa;
 }
+
 .region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
-  background-color: #ccc;
-  color: #000;
+  background-color: #f90;
+  color: #fff;
 }
 
 /* end Undergraduate Admission Department Main Menu ========================= */
@@ -96,7 +96,6 @@ h2 {
   float: left;
   width: 100%;
   position: relative;
-  background-color: #9b0000;
   text-transform: uppercase;
 }
 
@@ -118,9 +117,10 @@ h2 {
 .region-header #block-menu-menu-graduate .block-content ul li a:hover {
   background-color: #aaa;
 }
+
 .region-header #block-menu-menu-graduate .block-content ul li a.active-trail {
-  background-color: #ccc;
-  color: #000;
+  background-color: #9b0000;
+  color: #fff;
 }
 
 /* end Graduate Admission Department Main Menu ========================= */
