@@ -37,6 +37,10 @@ h2 {
   font-family: 'smartphone_landscape';
 }
 
+#header-wrapper {
+  margin-bottom: 1em;
+}
+
 #iit-undergraduate-admission-branding h2 {
   font-size: 1.75em;
   padding: 0.428571428em 0 0;

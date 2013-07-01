@@ -1,0 +1,1 @@
+//JS for Department Menu when using mobile

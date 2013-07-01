@@ -1925,6 +1925,12 @@ body.graduate h2 {
 /* end Undergraduate & Graduate Admission Primary Nav */
 
 
+
+#footer h5 {
+  font-weight: bold;
+}
+
+
 .field-name-field-page-section .field-collection-view {
   margin: 0;
   padding: 0;
