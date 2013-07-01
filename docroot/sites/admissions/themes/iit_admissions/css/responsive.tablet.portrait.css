@@ -55,7 +55,6 @@ h2 {
   float: left;
   width: 100%;
   position: relative;
-  text-transform: uppercase;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li {
@@ -67,14 +66,15 @@ h2 {
 .region-header #block-menu-menu-undergraduate .block-content ul li a {
   padding: .2em 1em;
   display: block;
-  color: #fff;
+  color: #666;
   text-decoration: none;
   outline: none;
   font-size: .813em;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li a:hover {
-  background-color: #aaa;
+  background-color: #ccc;
+  color: #fff;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
@@ -96,7 +96,6 @@ h2 {
   float: left;
   width: 100%;
   position: relative;
-  text-transform: uppercase;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li {
@@ -108,14 +107,15 @@ h2 {
 .region-header #block-menu-menu-graduate .block-content ul li a {
   padding: .2em 1em;
   display: block;
-  color: #fff;
+  color: #666;
   text-decoration: none;
   outline: none;
   font-size: .813em;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li a:hover {
-  background-color: #aaa;
+  background-color: #ccc;
+  color: #fff;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li a.active-trail {
