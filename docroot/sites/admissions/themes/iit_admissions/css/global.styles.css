@@ -1833,25 +1833,53 @@ body.graduate h2 {
   color: #9b0000;
 }
 
-/* Undergraduate Admission Header */
-#block-block-7 {
-  position: relative;
+
+/* Undergraduate & Graduate Admission Headers */
+#header-wrapper {
+  margin-bottom: 2em;
+}
+
+#header {
+  font-size: 16px;
+}
+
+#block-block-7,
+#block-block-8 {
+  margin: 0 .75em;
+}
+
+#block-block-7 .block-inner,
+#block-block-8 .block-inner {
+  margin: 0;
+}
+
+#block-menu-menu-undergraduate,
+#block-menu-menu-graduate {
+  margin: 0 .75em;
+  padding: 0 0 .375em;
+  border-bottom: 1px solid #888;
+}
+
+#block-menu-menu-undergraduate .block-inner,
+#block-menu-menu-graduate .block-inner {
+  margin: 0;
+}
+
+#iit-undergraduate-admission-branding,
+#iit-graduate-admission-branding {
   height: 100px;
-  margin: 0;
-  overflow: hidden;
+  position: relative;
 }
 
-#block-block-7 .block-inner {
-  margin: 0;
-}
-
-#iit-undergraduate-admission-branding h2 {
+#iit-undergraduate-admission-branding h2,
+#iit-graduate-admission-branding h2 {
   font-family: 'EconomicaBold-IIT', sans-serif;
   font-weight: normal;
   font-size: 2.1875em;
   margin: 0;
 }
 
+/* Undergraduate */
 #iit-undergraduate-admission-branding h2 a span {
   color: #888;
 }
@@ -1861,30 +1889,7 @@ body.graduate h2 {
   text-decoration: none;
 }
 
-#header {
-  border-bottom: 1px solid #bbb;
-}
-
-
-/* Graduate Admission Header */
-#block-block-8 {
-  position: relative;
-  height: 100px;
-  margin: 0;
-  overflow: hidden;  
-}
-
-#block-block-8 .block-inner {
-  margin: 0;
-}
-
-#iit-graduate-admission-branding h2 {
-  font-family: 'EconomicaBold-IIT', sans-serif;
-  font-weight: normal;
-  font-size: 2.1875em;
-  margin: 0;
-}
-
+/* Graduate */
 #iit-graduate-admission-branding h2 a span {
   color: #888;
 }
@@ -1893,11 +1898,7 @@ body.graduate h2 {
   color: #9b0000;
   text-decoration: none;
 }
-
-#header {
-  border-bottom: 1px solid #bbb;
-}
-
+/* end Undergraduate & Graduate Admission Headers */
 
 
 .field-name-field-page-section .field-collection-view {
@@ -1905,9 +1906,6 @@ body.graduate h2 {
   padding: 0;
 }
 
-#header-wrapper {
-  margin-bottom: 2em;
-}
 
 /* Facebook Like Box */
 .fb-like-box, 

@@ -20,29 +20,22 @@ h2 {
 	font-size: 2em;
 }
 
-/* end Standard Elements ====================================================== */
+/* end Standard Elements ==================================================== */
 
 
 /* =============================================================================
- *   Undergraduate Admission Header
+ *   Undergraduate & Graduate Admission Header
  * ========================================================================== */
 
 #iit-undergraduate-admission-branding h2 {
 	font-size: 2.1875em;
 }
 
-/* end Undergraduate Admission Header ======================================= */
-
-
-/* =============================================================================
- *   Graduate Admission Header
- * ========================================================================== */
-
 #iit-graduate-admission-branding h2 {
 	font-size: 2.1875em;
 }
 
-/* end Graduate Admission Header ============================================ */
+/* end Undergraduate & Graduate Admission Header ============================= */
 
 
 /* =============================================================================
