@@ -61,7 +61,7 @@
 
 ;----------// Scripts
 
-  scripts[] = scripts/dept_menu.js
+  scripts[][] = scripts/dept_menu.js
 
   ; Internet Explorer Scripts
   ;
