@@ -1825,6 +1825,11 @@ body.graduate h2 {
 
 
 /* Undergraduate & Graduate Admission Headers */
+#header #block-menu-menu-undergraduate {
+  /* used for testing media query in js */
+  font-family: 'desktop';
+}
+
 #header-wrapper {
   margin-bottom: 2em;
 }
@@ -1907,6 +1912,14 @@ body.graduate h2 {
   background: url("images/background.png");
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .region-header #block-menu-menu-undergraduate .block-content ul,
+  .region-header #block-menu-menu-graduate .block-content ul {
+    background: url("images/background@2x.png");
+    background-size: 7px;
+  }
 }
 
 /* end Undergraduate & Graduate Admission Primary Nav */

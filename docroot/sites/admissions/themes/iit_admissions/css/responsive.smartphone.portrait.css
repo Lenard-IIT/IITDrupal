@@ -32,13 +32,19 @@ h2 {
 /* =============================================================================
  *   Undergraduate & Graduate Admission Header
  * ========================================================================== */
+#header #block-menu-menu-undergraduate {
+  /* used for testing media query in js */
+  font-family: 'smartphone_portrait';
+}
 
 #iit-undergraduate-admission-branding h2 {
-  font-size: 1.8em;
+  font-size: 1.75em;
+  padding: 0.428571428em 0 0;
 }
 
 #iit-graduate-admission-branding h2 {
-  font-size: 1.8em;
+  font-size: 1.75em;
+  padding: 0.428571428em 0 0;
 }
 /* end Undergraduate & Graduate Admission Header ============================= */
 
@@ -51,12 +57,11 @@ h2 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  float: left;
+  float: none;
   width: 100%;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li {
-  float: left;
   list-style-type: none;
   list-style-image: none;
 }
@@ -92,12 +97,12 @@ h2 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  float: left;
+  float: none;
   width: 100%;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li {
-  float: left;
+  float: none;
   list-style-type: none;
   list-style-image: none;
 }
