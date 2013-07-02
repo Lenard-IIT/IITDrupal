@@ -17,10 +17,6 @@ stylesheets[all][] = system.base.css
 
 settings[theme_test_setting] = default value
 
-; Information added by drupal.org packaging script on 2013-01-16
-version = "7.19"
-project = "drupal"
-datestamp = "1358374870"
 
 
 ; Information added by Acquia.com packaging script
