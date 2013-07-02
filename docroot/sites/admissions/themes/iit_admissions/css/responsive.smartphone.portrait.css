@@ -14,6 +14,11 @@ html {
 }
 */
 
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'smartphone_portrait';
+}
+
 /* =============================================================================
  *   Standard Elements
  * ========================================================================== */
@@ -30,73 +35,22 @@ h2 {
 
 
 /* =============================================================================
- *   Undergraduate & Graduate Admission Header
+ *   Undergraduate & Graduate Admission Headers
  * ========================================================================== */
-#header #block-menu-menu-undergraduate {
-  /* used for testing media query in js */
-  font-family: 'smartphone_portrait';
-}
 
 #header-wrapper {
   margin-bottom: 1em;
 }
 
-#iit-undergraduate-admission-branding h2 {
-  font-size: 1.75em;
-  padding: 0.428571428em 0 0;
-}
-
+#iit-admissions-branding h2,
+#iit-undergraduate-admission-branding h2,
 #iit-graduate-admission-branding h2 {
   font-size: 1.75em;
   padding: 0.428571428em 0 0;
 }
-/* end Undergraduate & Graduate Admission Header ============================= */
 
-
-/* =============================================================================
- *   Undergraduate Admission Department Main Menu
- * ========================================================================== */
-
-.region-header #block-menu-menu-undergraduate .block-content ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  float: none;
-  width: 100%;
-}
-
-.region-header #block-menu-menu-undergraduate .block-content ul li {
-  list-style-type: none;
-  list-style-image: none;
-}
-
-.region-header #block-menu-menu-undergraduate .block-content ul li a {
-  padding: .2em 1em;
-  display: block;
-  color: #666;
-  text-decoration: none;
-  outline: none;
-  font-size: .875em;
-}
-
-.region-header #block-menu-menu-undergraduate .block-content ul li a:hover {
-  background-color: #ccc;
-  color: #fff;
-}
-
-.region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
-  background-color: #f90;
-  color: #fff;
-  font-weight: bold;
-}
-
-/* end Undergraduate Admission Department Main Menu ========================= */
-
-
-/* =============================================================================
- *   Graduate Admission Department Main Menu
- * ========================================================================== */
-
+.region-header #block-menu-menu-admissions-menu .block-content ul,
+.region-header #block-menu-menu-undergraduate .block-content ul,
 .region-header #block-menu-menu-graduate .block-content ul {
   margin: 0;
   padding: 0;
@@ -105,12 +59,15 @@ h2 {
   width: 100%;
 }
 
+.region-header #block-menu-menu-admissions-menu .block-content ul li,
+.region-header #block-menu-menu-undergraduate .block-content ul li,
 .region-header #block-menu-menu-graduate .block-content ul li {
-  float: none;
   list-style-type: none;
   list-style-image: none;
 }
 
+.region-header #block-menu-menu-admissions-menu .block-content ul li a,
+.region-header #block-menu-menu-undergraduate .block-content ul li a,
 .region-header #block-menu-menu-graduate .block-content ul li a {
   padding: .2em 1em;
   display: block;
@@ -120,9 +77,23 @@ h2 {
   font-size: .875em;
 }
 
+.region-header #block-menu-menu-admissions-menu .block-content ul li a:hover,
+.region-header #block-menu-menu-undergraduate .block-content ul li a:hover,
 .region-header #block-menu-menu-graduate .block-content ul li a:hover {
   background-color: #ccc;
   color: #fff;
+}
+
+.region-header #block-menu-menu-admissions-menu .block-content ul li a.active-trail {
+  background-color: #666;
+  color: #fff;
+  font-weight: bold;
+}
+
+.region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
+  background-color: #f90;
+  color: #fff;
+  font-weight: bold;
 }
 
 .region-header #block-menu-menu-graduate .block-content ul li a.active-trail {
@@ -131,7 +102,7 @@ h2 {
   font-weight: bold;
 }
 
-/* end Graduate Admission Department Main Menu ========================= */
+/* end Undergraduate & Graduate Admission Header ============================= */
 
 
 /* =============================================================================

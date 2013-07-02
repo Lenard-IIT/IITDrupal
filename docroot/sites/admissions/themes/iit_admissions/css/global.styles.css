@@ -1786,6 +1786,10 @@ tr.error {}
 /* =============================================================================
  *   Admissions Global Styles
  * ========================================================================== */
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'desktop';
+}
 
 #block-iit-global-header-iit-global-header, 
 #block-iit-global-header-iit-global-header .block-inner {
@@ -1825,11 +1829,6 @@ body.graduate h2 {
 
 
 /* Undergraduate & Graduate Admission Headers */
-#header #block-menu-menu-undergraduate {
-  /* used for testing media query in js */
-  font-family: 'desktop';
-}
-
 #header-wrapper {
   margin-bottom: 2em;
 }
@@ -1839,39 +1838,51 @@ body.graduate h2 {
 }
 
 #block-block-7,
-#block-block-8 {
+#block-block-8,
+#block-block-9 {
   margin: 0 .75em;
 }
 
 #block-block-7 .block-inner,
-#block-block-8 .block-inner {
+#block-block-8 .block-inner,
+#block-block-9 .block-inner {
   margin: 0;
 }
 
 #block-menu-menu-undergraduate,
-#block-menu-menu-graduate {
+#block-menu-menu-graduate,
+#block-menu-menu-admissions-menu {
   margin: 0 .75em;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
 }
 
 #block-menu-menu-undergraduate .block-inner,
-#block-menu-menu-graduate .block-inner {
+#block-menu-menu-graduate .block-inner,
+#block-menu-menu-admissions-menu .block-inner {
   margin: 0;
 }
 
 #iit-undergraduate-admission-branding,
-#iit-graduate-admission-branding {
+#iit-graduate-admission-branding,
+#iit-admissions-branding {
   position: relative;
 }
 
 #iit-undergraduate-admission-branding h2,
-#iit-graduate-admission-branding h2 {
+#iit-graduate-admission-branding h2,
+#iit-admissions-branding h2 {
   font-family: 'EconomicaBold-IIT', sans-serif;
   font-weight: normal;
   font-size: 2.1875em;
   margin: 0;
   padding: 1.2em 0 0;
+}
+
+/* Global Admissions */
+#iit-admissions-branding h2 a {
+  color: #888;
+  text-decoration: none;
 }
 
 /* Undergraduate */
@@ -1898,17 +1909,20 @@ body.graduate h2 {
 
 /* Undergraduate & Graduate Admission Primary Nav */
 .region-header #block-menu-menu-undergraduate .block-title,
-.region-header #block-menu-menu-graduate .block-title {
+.region-header #block-menu-menu-graduate .block-title,
+.region-header #block-menu-menu-admissions-menu .block-title {
   display: none;
 }
 
 .region-header #block-menu-menu-undergraduate ul.menu li ul,
-.region-header #block-menu-menu-graduate ul.menu li ul {
+.region-header #block-menu-menu-graduate ul.menu li ul,
+.region-header #block-menu-menu-admissions-menu ul.menu li ul {
   display: none;
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul,
-.region-header #block-menu-menu-graduate .block-content ul {
+.region-header #block-menu-menu-graduate .block-content ul,
+.region-header #block-menu-menu-admissions-menu .block-content ul {
   background: url("images/background.png");
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -1916,7 +1930,8 @@ body.graduate h2 {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .region-header #block-menu-menu-undergraduate .block-content ul,
-  .region-header #block-menu-menu-graduate .block-content ul {
+  .region-header #block-menu-menu-graduate .block-content ul,
+  .region-header #block-menu-menu-admissions-menu .block-content ul {
     background: url("images/background@2x.png");
     background-size: 7px;
   }

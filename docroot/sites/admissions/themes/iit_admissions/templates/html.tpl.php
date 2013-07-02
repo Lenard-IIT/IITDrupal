@@ -73,5 +73,7 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+
+  <div id="media-check"></div>
 </body>
 </html>
