@@ -1837,40 +1837,42 @@ body.graduate h2 {
   font-size: 16px;
 }
 
-#block-block-7,
-#block-block-8,
+#block-block-7, 
+#block-block-8, 
 #block-block-9 {
   margin: 0 .75em;
+  width: inherit;
 }
 
-#block-block-7 .block-inner,
-#block-block-8 .block-inner,
+#block-block-7 .block-inner, 
+#block-block-8 .block-inner, 
 #block-block-9 .block-inner {
   margin: 0;
 }
 
-#block-menu-menu-undergraduate,
-#block-menu-menu-graduate,
+#block-menu-menu-undergraduate, 
+#block-menu-menu-graduate, 
 #block-menu-menu-admissions-menu {
   margin: 0 .75em;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
+  width: inherit;
 }
 
-#block-menu-menu-undergraduate .block-inner,
-#block-menu-menu-graduate .block-inner,
+#block-menu-menu-undergraduate .block-inner, 
+#block-menu-menu-graduate .block-inner, 
 #block-menu-menu-admissions-menu .block-inner {
   margin: 0;
 }
 
-#iit-undergraduate-admission-branding,
-#iit-graduate-admission-branding,
+#iit-undergraduate-admission-branding, 
+#iit-graduate-admission-branding, 
 #iit-admissions-branding {
   position: relative;
 }
 
-#iit-undergraduate-admission-branding h2,
-#iit-graduate-admission-branding h2,
+#iit-undergraduate-admission-branding h2, 
+#iit-graduate-admission-branding h2, 
 #iit-admissions-branding h2 {
   font-family: 'EconomicaBold-IIT', sans-serif;
   font-weight: normal;
@@ -1908,20 +1910,20 @@ body.graduate h2 {
 
 
 /* Undergraduate & Graduate Admission Primary Nav */
-.region-header #block-menu-menu-undergraduate .block-title,
-.region-header #block-menu-menu-graduate .block-title,
+.region-header #block-menu-menu-undergraduate .block-title, 
+.region-header #block-menu-menu-graduate .block-title, 
 .region-header #block-menu-menu-admissions-menu .block-title {
   display: none;
 }
 
-.region-header #block-menu-menu-undergraduate ul.menu li ul,
-.region-header #block-menu-menu-graduate ul.menu li ul,
+.region-header #block-menu-menu-undergraduate ul.menu li ul, 
+.region-header #block-menu-menu-graduate ul.menu li ul, 
 .region-header #block-menu-menu-admissions-menu ul.menu li ul {
   display: none;
 }
 
-.region-header #block-menu-menu-undergraduate .block-content ul,
-.region-header #block-menu-menu-graduate .block-content ul,
+.region-header #block-menu-menu-undergraduate .block-content ul, 
+.region-header #block-menu-menu-graduate .block-content ul, 
 .region-header #block-menu-menu-admissions-menu .block-content ul {
   background: url("images/background.png");
   font-family: 'Open Sans', sans-serif;
@@ -1929,8 +1931,8 @@ body.graduate h2 {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .region-header #block-menu-menu-undergraduate .block-content ul,
-  .region-header #block-menu-menu-graduate .block-content ul,
+  .region-header #block-menu-menu-undergraduate .block-content ul, 
+  .region-header #block-menu-menu-graduate .block-content ul, 
   .region-header #block-menu-menu-admissions-menu .block-content ul {
     background: url("images/background@2x.png");
     background-size: 7px;
@@ -1954,7 +1956,7 @@ body.graduate h2 {
 
 /* Facebook Like Box */
 .fb-like-box, 
-.fb-like-box > span,
+.fb-like-box > span, 
 .fb-like-box > span iframe {
     background-color: #fff;
 }
