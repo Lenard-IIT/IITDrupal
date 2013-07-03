@@ -1942,6 +1942,15 @@ body.graduate h2 {
 
 
 /* Undergraduate & Graduate Admission Secondary Nav Block */
+.sidebar nav.block-menu-block .block-inner {
+  margin: 0;
+}
+
+.sidebar nav.block-menu-block h2.block-title {
+  font-size: 2em;
+  line-height: 1em;
+}
+
 body.undergraduate .sidebar nav.block-menu-block {
   background-color: #f90;
   padding: 16px;
