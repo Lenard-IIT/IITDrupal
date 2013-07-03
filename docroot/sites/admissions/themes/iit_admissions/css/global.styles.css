@@ -1938,20 +1938,44 @@ body.graduate h2 {
     background-size: 7px;
   }
 }
-
 /* end Undergraduate & Graduate Admission Primary Nav */
 
 
+/* Undergraduate & Graduate Admission Secondary Nav Block */
+body.undergraduate .sidebar nav.block-menu-block {
+  background-color: #f90;
+  padding: 16px;
+}
 
+body.graduate .sidebar nav.block-menu-block {
+  background-color: #9b0000;
+  padding: 16px;
+}
+
+body.undergraduate .sidebar nav.block-menu-block a,
+body.graduate .sidebar nav.block-menu-block a {
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  outline: none;
+  text-transform: uppercase;
+}
+/* Undergraduate & Graduate Admission Secondary Nav Block */
+
+
+/* Department Footer */
 #footer h5 {
   font-weight: bold;
 }
+/* end Department Footer */
 
 
+/* Page Section Styles */
 .field-name-field-page-section .field-collection-view {
   margin: 0;
   padding: 0;
 }
+/* end Page Section Styles */
 
 
 /* Facebook Like Box */
