@@ -55,13 +55,19 @@
  */
 
 $sites['web-dev.iit.edu'] = 'web';
+$sites['web-stg.iit.edu'] = 'web';
 
 $sites['admission-dev.iit.edu'] = 'admissions';
+$sites['admission-stg.iit.edu'] = 'admissions';
 
 $sites['sat-dev.iit.edu'] = 'sat';
+$sites['sat-stg.iit.edu'] = 'sat';
 
 $sites['science-dev.iit.edu'] = 'science';
+$sites['science-stg.iit.edu'] = 'science';
 
 $sites['humansci-dev.iit.edu'] = 'humanscience';
+$sites['humansci-stg.iit.edu'] = 'humanscience';
 
 $sites['ehs-dev.iit.edu'] = 'ehs';
+$sites['ehs-stg.iit.edu'] = 'ehs';
