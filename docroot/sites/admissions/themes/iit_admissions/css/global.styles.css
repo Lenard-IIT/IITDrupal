@@ -1834,7 +1834,7 @@ body.undergraduate #main-content ul {
 
 body.undergraduate #main-content ul li {
   padding: 0 0 0 18px;
-  background: url("images/bullet-uga.png") no-repeat 0 50%;
+  background: url("images/bullet-uga.png") no-repeat 0 6px;
 }
 
 body.graduate #main-content ul {
@@ -1844,7 +1844,7 @@ body.graduate #main-content ul {
 
 body.graduate #main-content ul li {
   padding: 0 0 0 18px;
-  background: url("images/bullet-ga.png") no-repeat 0 50%;
+  background: url("images/bullet-ga.png") no-repeat 0 6px;
 }
 
 body #main-content ul.primary li,
