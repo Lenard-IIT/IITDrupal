@@ -1802,29 +1802,56 @@ tr.error {}
 }
 
 body.undergraduate a {
-  color: #f90;
+  color: #C98A1A;
   outline: none;
 }
 
 body.graduate a {
-  color: #9b0000;
+  color: #770000;
   outline: none;
 }
 
 body.undergraduate h1 {
-  color: #f90;
+  color: #C98A1A;
 }
 
 body.undergraduate h2 {
-  color: #f90;
+  color: #C98A1A;
 }
 
 body.graduate h1 {
-  color: #9b0000;
+  color: #770000;
 }
 
 body.graduate h2 {
-  color: #9b0000;
+  color: #770000;
+}
+
+body.undergraduate #main-content ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+body.undergraduate #main-content ul li {
+  padding: 0 0 0 18px;
+  background: url("images/bullet-uga.png") no-repeat 0 50%;
+}
+
+body.graduate #main-content ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+body.graduate #main-content ul li {
+  padding: 0 0 0 18px;
+  background: url("images/bullet-ga.png") no-repeat 0 50%;
+}
+
+body #main-content ul.primary li,
+body #main-content ul.field-collection-view-links li,
+body #main-content ul.action-links li {
+  padding: 0;
+  background: transparent;
 }
 
 
@@ -1893,7 +1920,7 @@ body.graduate h2 {
 }
 
 #iit-undergraduate-admission-branding h2 a {
-  color: #FF9900;
+  color: #C98A1A;
   text-decoration: none;
 }
 
@@ -1903,7 +1930,7 @@ body.graduate h2 {
 }
 
 #iit-graduate-admission-branding h2 a {
-  color: #9b0000;
+  color: #770000;
   text-decoration: none;
 }
 /* end Undergraduate & Graduate Admission Headers */
@@ -1952,12 +1979,12 @@ body.graduate h2 {
 }
 
 body.undergraduate .sidebar nav.block-menu-block {
-  background-color: #f90;
+  background-color: #C98A1A;
   padding: 16px;
 }
 
 body.graduate .sidebar nav.block-menu-block {
-  background-color: #9b0000;
+  background-color: #770000;
   padding: 16px;
 }
 
@@ -2008,4 +2035,37 @@ body.graduate .sidebar nav.block-menu-block a {
   font-weight: bold;
 }
 /* end Facebook Like Box */
+
+
+/* Combined Admissions Homepage */
+#admissions-homepage-panel .block-inner {
+  margin: 0;
+}
+
+#admissions-homepage-panel h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+}
+
+#admissions-homepage-panel p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+  font-size: 24px;
+}
+
+#admissions-homepage-panel a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 1.5em;
+}
+
+
+
+
 

@@ -91,7 +91,7 @@ h2 {
 }
 
 .region-header #block-menu-menu-undergraduate .block-content ul li a.active-trail {
-  background-color: #f90;
+  background-color: #C98A1A;
   color: #fff;
   font-weight: bold;
 }
@@ -157,3 +157,50 @@ h2 {
 }
 
 /* end Footer Area ======================================================= */
+
+
+/* =============================================================================
+ *   Combined Admissions Homepage
+ * ========================================================================== */
+#admissions-homepage-pane {
+  margin-bottom: 0;
+}
+
+#admissions-homepage-pane #adm-home-uga-text {
+  background-color: #C98A1A;
+  margin-bottom: 12px;
+  background-image: url("images/background-uga.png");
+}
+
+#admissions-homepage-pane #adm-home-ga-text {
+  background-color: #770000;
+  background-image: url("images/background-ga.png");
+}
+
+#admissions-homepage-panel h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+#admissions-homepage-panel p {
+  margin: 0;
+  font-size: 20px;
+}
+
+#adm-home-1 {
+  display: none;
+}
+
+#adm-home-3 {
+  display: none;
+}
+
+#adm-home-2 {
+  display: none;
+} 
+
+#adm-home-4 {
+  display: none;
+}
+
+/* end Combined Admissions Homepage ======================================== */
