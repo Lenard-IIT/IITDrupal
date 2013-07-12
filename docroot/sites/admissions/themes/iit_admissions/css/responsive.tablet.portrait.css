@@ -114,7 +114,7 @@ h2 {
  *   Sidebar 2 Area
  * ========================================================================== */
 
-.region-sidebar-second section.block {
+.region-sidebar-second .block {
 	background-color: #eaeaea;
 }
 

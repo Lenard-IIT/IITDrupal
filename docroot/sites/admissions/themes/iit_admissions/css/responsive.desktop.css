@@ -113,7 +113,7 @@ h2 {
 	margin-left: -29%;
 }
 
-.region-sidebar-second section.block {
+.region-sidebar-second .block {
     background-color: #eaeaea;
     padding: 16px;
 }
