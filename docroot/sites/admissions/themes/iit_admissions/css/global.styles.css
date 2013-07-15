@@ -2066,6 +2066,22 @@ body.graduate .sidebar nav.block-menu-block a {
 }
 
 
+/* Youtube Video FW Wrappers */
+.youtube-wrapper-43 {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+.youtube-wrapper-43 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 
