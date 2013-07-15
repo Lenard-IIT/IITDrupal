@@ -1802,7 +1802,7 @@ tr.error {}
 }
 
 body.undergraduate a {
-  color: #C98A1A;
+  color: #F90;
   outline: none;
 }
 
@@ -1812,11 +1812,11 @@ body.graduate a {
 }
 
 body.undergraduate h1 {
-  color: #C98A1A;
+  color: #F90;
 }
 
 body.undergraduate h2 {
-  color: #C98A1A;
+  color: #F90;
 }
 
 body.graduate h1 {
@@ -1920,7 +1920,7 @@ body #main-content ul.action-links li {
 }
 
 #iit-undergraduate-admission-branding h2 a {
-  color: #C98A1A;
+  color: #F90;
   text-decoration: none;
 }
 
@@ -1979,7 +1979,7 @@ body #main-content ul.action-links li {
 }
 
 body.undergraduate .sidebar nav.block-menu-block {
-  background-color: #C98A1A;
+  background-color: #F90;
   padding: 16px;
 }
 
