@@ -1807,7 +1807,7 @@ body.undergraduate a {
 }
 
 body.graduate a {
-  color: #770000;
+  color: #9B0000;
   outline: none;
 }
 
@@ -1820,11 +1820,11 @@ body.undergraduate h2 {
 }
 
 body.graduate h1 {
-  color: #770000;
+  color: #9B0000;
 }
 
 body.graduate h2 {
-  color: #770000;
+  color: #9B0000;
 }
 
 body.undergraduate #main-content ul {
@@ -1930,7 +1930,7 @@ body #main-content ul.action-links li {
 }
 
 #iit-graduate-admission-branding h2 a {
-  color: #770000;
+  color: #9B0000;
   text-decoration: none;
 }
 /* end Undergraduate & Graduate Admission Headers */
@@ -1984,7 +1984,7 @@ body.undergraduate .sidebar nav.block-menu-block {
 }
 
 body.graduate .sidebar nav.block-menu-block {
-  background-color: #770000;
+  background-color: #9B0000;
   padding: 16px;
 }
 
