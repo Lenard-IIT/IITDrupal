@@ -2005,7 +2005,8 @@ body.graduate .sidebar nav.block-menu-block a {
   padding: 6px;
 }
 
-#block-block-10 .block-inner {
+#block-block-10 .block-inner,
+#block-block-10 p {
   margin: 0;
 }
 
