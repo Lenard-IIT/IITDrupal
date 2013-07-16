@@ -2002,8 +2002,8 @@ body.graduate .sidebar nav.block-menu-block a {
 /* Undergraduate & Graduate Contact Block */
 #block-block-10,
 #block-block-11 {
-  background-color: #666;
-  padding: 6px;
+  background-color: transparent;
+  padding: 0;
 }
 
 #block-block-10 .block-inner,
@@ -2023,7 +2023,9 @@ body.graduate .sidebar nav.block-menu-block a {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  width: 50%;  
+  width: 48%;
+  padding: 4px 0;
+  background-color: #666;
 }
 
 #block-block-10 p a:hover,
