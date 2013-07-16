@@ -46,7 +46,8 @@ h2 {
 
 .region-header #block-menu-menu-admissions-menu .block-content ul,
 .region-header #block-menu-menu-undergraduate .block-content ul,
-.region-header #block-menu-menu-graduate .block-content ul {
+.region-header #block-menu-menu-graduate .block-content ul,
+.region-header #block-menu-menu-admissions-apply-menu .block-content ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -57,7 +58,8 @@ h2 {
 
 .region-header #block-menu-menu-admissions-menu .block-content ul li,
 .region-header #block-menu-menu-undergraduate .block-content ul li,
-.region-header #block-menu-menu-graduate .block-content ul li {
+.region-header #block-menu-menu-graduate .block-content ul li,
+.region-header #block-menu-menu-admissions-apply-menu .block-content ul li {
   float: left;
   list-style-type: none;
   list-style-image: none;
@@ -65,7 +67,8 @@ h2 {
 
 .region-header #block-menu-menu-admissions-menu .block-content ul li a,
 .region-header #block-menu-menu-undergraduate .block-content ul li a,
-.region-header #block-menu-menu-graduate .block-content ul li a {
+.region-header #block-menu-menu-graduate .block-content ul li a,
+.region-header #block-menu-menu-admissions-apply-menu .block-content ul li a {
   padding: .285714285714em .9285714285714em .3571428571428em;
   display: block;
   color: #666;
@@ -76,12 +79,14 @@ h2 {
 
 .region-header #block-menu-menu-admissions-menu .block-content ul li a:hover,
 .region-header #block-menu-menu-undergraduate .block-content ul li a:hover,
-.region-header #block-menu-menu-graduate .block-content ul li a:hover {
+.region-header #block-menu-menu-graduate .block-content ul li a:hover,
+.region-header #block-menu-menu-admissions-apply-menu .block-content ul li a:hover {
   background-color: #ccc;
   color: #fff;
 }
 
-.region-header #block-menu-menu-admissions-menu .block-content ul li a.active-trail {
+.region-header #block-menu-menu-admissions-menu .block-content ul li a.active-trail,
+.region-header #block-menu-menu-admissions-apply-menu .block-content ul li a.active-trail {
   background-color: #666;
   color: #fff;
   font-weight: bold;
