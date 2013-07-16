@@ -1866,20 +1866,23 @@ body #main-content ul.action-links li {
 
 #block-block-7, 
 #block-block-8, 
-#block-block-9 {
+#block-block-9,
+#block-block-12 {
   margin: 0 .75em;
   width: inherit;
 }
 
 #block-block-7 .block-inner, 
 #block-block-8 .block-inner, 
-#block-block-9 .block-inner {
+#block-block-9 .block-inner,
+#block-block-12 .block-inner {
   margin: 0;
 }
 
 #block-menu-menu-undergraduate, 
 #block-menu-menu-graduate, 
-#block-menu-menu-admissions-menu {
+#block-menu-menu-admissions-menu,
+#block-menu-menu-admissions-apply-menu {
   margin: 0 .75em;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
@@ -1888,7 +1891,8 @@ body #main-content ul.action-links li {
 
 #block-menu-menu-undergraduate .block-inner, 
 #block-menu-menu-graduate .block-inner, 
-#block-menu-menu-admissions-menu .block-inner {
+#block-menu-menu-admissions-menu .block-inner,
+#block-menu-menu-admissions-apply-menu .block-inner {
   margin: 0;
 }
 
