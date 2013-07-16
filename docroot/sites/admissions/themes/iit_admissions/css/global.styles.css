@@ -1999,18 +1999,22 @@ body.graduate .sidebar nav.block-menu-block a {
 /* end Undergraduate & Graduate Admission Secondary Nav Block */
 
 
-/* Undergraduate Contact Block */
-#block-block-10 {
+/* Undergraduate & Graduate Contact Block */
+#block-block-10,
+#block-block-11 {
   background-color: #666;
   padding: 6px;
 }
 
 #block-block-10 .block-inner,
-#block-block-10 p {
+#block-block-11 .block-inner,
+#block-block-10 p,
+#block-block-11 p {
   margin: 0;
 }
 
-#block-block-10 p a {
+#block-block-10 p a,
+#block-block-11 p a {
   color: #fff;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
@@ -2022,11 +2026,12 @@ body.graduate .sidebar nav.block-menu-block a {
   width: 50%;  
 }
 
-#block-block-10 p a:hover {
+#block-block-10 p a:hover,
+#block-block-11 p a:hover {
   background-color: #888;
 }
 
-/* end Undergraduate Contact Block */
+/* end Undergraduate & Graduate Contact Block */
 
 
 /* Department Footer */
