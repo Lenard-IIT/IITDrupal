@@ -2149,5 +2149,29 @@ body.graduate .sidebar nav.block-menu-block a {
 /* end Youtube Video FW Wrappers */
 
 
+/* Rolling Table */
+.rolling-table-img {
+  display: inline-block;
+  margin-right: 3%;
+  vertical-align: top;
+  width: 33%;
+}
 
+.rolling-table-item-copy {
+  display: inline-block;
+  vertical-align: top;
+  width: 63%;
+}
+
+.rolling-table-item-copy h2 {
+  margin-top: 0;
+  line-height: 1em;
+}
+
+.rolling-table-item {
+    border-bottom: 1px dotted #999999;
+    margin: 0 0 1.5em;
+    padding: 0 0 1.5em;
+}
+/* end Rolling Table */
 
