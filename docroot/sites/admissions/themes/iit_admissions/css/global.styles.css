@@ -35,6 +35,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'EconomicaRegular-IIT';
+    src: url('Economica-Regular-OTF-webfont.eot');
+    src: url('Economica-Regular-OTF-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Economica-Regular-OTF-webfont.woff') format('woff'),
+         url('Economica-Regular-OTF-webfont.ttf') format('truetype'),
+         url('Economica-Regular-OTF-webfont.svg#EconomicaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* =============================================================================
  *   Base
  * ========================================================================== */
@@ -63,7 +74,7 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'EconomicaRegular-IIT', sans-serif;
   font-weight: normal;
 }
 
@@ -1783,9 +1794,9 @@ tr.error {}
 }
 
 
-/* =============================================================================
+/* ============================================================================
  *   Admissions Global Styles
- * ========================================================================== */
+ * ========================================================================= */
 #media-check {
   /* used for testing media query in js */
   font-family: 'desktop';
@@ -1816,7 +1827,7 @@ body.undergraduate h1 {
 }
 
 body.undergraduate h2 {
-  color: #F90;
+  color: #C00;
 }
 
 body.graduate h1 {
