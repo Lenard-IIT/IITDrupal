@@ -1826,10 +1826,6 @@ body.graduate a {
   outline: none;
 }
 
-h1 {
-  font-size: 2.1875em;
-}
-
 body.undergraduate h1 {
   color: #F90;
 }
@@ -1838,24 +1834,12 @@ body.undergraduate h2 {
   color: #C00;
 }
 
-h2 {
-  font-size: 1.875em;
-}
-
 body.graduate h1 {
   color: #9B0000;
 }
 
 body.graduate h2 {
   color: #9B0000;
-}
-
-h3 {
-  font-size: 1.75em;
-}
-
-h4 {
-  font-size: 1.625em;
 }
 
 body.undergraduate #main-content ul {
