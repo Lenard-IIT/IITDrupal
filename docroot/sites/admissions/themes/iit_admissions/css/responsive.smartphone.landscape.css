@@ -217,3 +217,13 @@ h4 {
 }
 
 /* end Combined Admissions Homepage ======================================== */
+
+/* Rolling Table */
+.rolling-table-img {
+  display: none;
+}
+
+.rolling-table-item-copy {
+  width: 100%;
+}
+/* end Rolling Table */
