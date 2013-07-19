@@ -149,6 +149,39 @@ function iit_admissions_field__field_page_section_title__field_page_section($var
 
 
 /**
+ * Override of adaptivetheme_field to iit_admissions_field__field_page_section_anchor__field_page_section
+ * Override the styling of the page section title on a page section field collection
+ *
+ * @param $vars
+ *   An associative array containing:
+ *   - label_hidden: A boolean indicating to show or hide the field label.
+ *   - title_attributes: A string containing the attributes for the title.
+ *   - label: The label for the field.
+ *   - content_attributes: A string containing the attributes for the content's
+ *     div.
+ *   - items: An array of field items.
+ *   - item_attributes: An array of attributes for each item.
+ *   - classes: A string containing the classes for the wrapping div.
+ *   - attributes: A string containing the attributes for the wrapping div.
+ *
+ * @see template_preprocess_field()
+ * @see template_process_field()
+ * @see field.tpl.php
+ */
+function iit_admissions_field__field_page_section_anchor__field_page_section($vars) {
+  $output = '';
+  
+  $content = drupal_render($vars['items'][0]);
+
+  if (strlen($content) > 0) {
+    $output .= '<a name="' . $content . '"></a>';
+  }
+
+  return $output;
+}
+
+
+/**
  * Override of adaptivetheme_field to iit_admissions_field__field_page_section_content__field_page_section
  * Override the styling of the page section content on a page section field collection
  *
