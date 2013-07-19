@@ -2019,6 +2019,10 @@ body.graduate .sidebar nav.block-menu-block a {
   outline: none;
   text-transform: uppercase;
 }
+
+.sidebar nav.block-menu-block h2 a:before {
+  content: "« ";
+}
 /* end Undergraduate & Graduate Admission Secondary Nav Block */
 
 
