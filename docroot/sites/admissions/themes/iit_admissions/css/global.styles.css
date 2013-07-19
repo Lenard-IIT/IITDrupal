@@ -2152,9 +2152,10 @@ body.graduate .sidebar nav.block-menu-block a {
 /* Rolling Table */
 .rolling-table-img {
   display: inline-block;
-  margin-right: 3%;
+  margin-right: 2%;
   vertical-align: top;
-  width: 33%;
+  width: 34%;
+  line-height: 1em;
 }
 
 .rolling-table-item-copy {
@@ -2163,13 +2164,32 @@ body.graduate .sidebar nav.block-menu-block a {
   width: 63%;
 }
 
-.rolling-table-item-copy h2 {
-  margin-top: 0;
+.rolling-table-item-copy > h2 {
+  margin: 0 0 0.5em;
   line-height: 1em;
 }
 
+.rolling-table-item-copy > p {
+    margin: 0 0 1em;
+}
+
+div.rolling-table-item a.rolling-table-btn {
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.06667em;
+  font-weight: bold;
+  padding: .25em .5em;
+}
+
+div.rolling-table-item a.rolling-table-btn:hover {
+  background-color: #888;
+}
+
 .rolling-table-item {
-    border-bottom: 1px dotted #999999;
+    border-bottom: 1px solid #D7D7D7;
     margin: 0 0 1.5em;
     padding: 0 0 1.5em;
 }
