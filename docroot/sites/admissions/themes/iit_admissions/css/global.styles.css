@@ -1870,6 +1870,17 @@ body #main-content ul.action-links li {
 }
 
 
+/* Field Collection Overrides */
+.field-collection-container .field-items .field-item {
+  margin-bottom: 0;
+}
+
+.field-collection-view {
+  border: 0;
+}
+/* end Field Collection Overrides */
+
+
 /* Undergraduate & Graduate Admission Headers */
 #header-wrapper {
   margin-bottom: 2em;
@@ -2201,4 +2212,5 @@ div.rolling-table-item a.rolling-table-btn:hover {
     padding: 0 0 1.5em;
 }
 /* end Rolling Table */
+
 
