@@ -218,6 +218,26 @@ h4 {
 
 /* end Combined Admissions Homepage ======================================== */
 
+
+/* Combined Apply Homepage */
+#apply-homepage-panel .block-inner {
+  margin: 0 .75em;
+}
+
+#apply-uga,
+#apply-ga {
+  margin-bottom: 1%;
+  float: none;
+  width: 100%;
+}
+
+#apply-uga a,
+#apply-ga a {
+  font-size: 1.3em;
+}
+/* end Combined Apply Homepage */
+
+
 /* Rolling Table */
 .rolling-table-img {
   display: none;

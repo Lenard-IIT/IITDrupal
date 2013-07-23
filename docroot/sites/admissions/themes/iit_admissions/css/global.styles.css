@@ -1816,6 +1816,14 @@ h1#page-title {
   line-height: 1em;
 }
 
+.uga-color-background {
+  background: #F90 url("images/background-uga.png");
+}
+
+.ga-color-background {
+  background: #9B0000 url("images/background-ga.png");
+}
+
 body.undergraduate a {
   color: #F90;
   outline: none;
@@ -2122,6 +2130,60 @@ body.graduate .sidebar nav.block-menu-block a {
 /* end Facebook Like Box */
 
 
+/* Combined Apply Homepage */
+#apply-homepage-panel .block-inner {
+  margin: 0 .75em;
+}
+
+#apply-uga,
+#apply-ga {
+  width: 49.5%;
+  float: left;
+  margin-bottom: 1%;
+}
+
+#apply-uga {
+  margin-right: 1%;
+}
+
+#apply-uga a,
+#apply-ga a {
+  display: block;
+  width: 90%;
+  padding: 5%;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.75em;
+  line-height: 1.4em;
+}
+
+.apply-now-headline {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.apply-now-arrows {
+  font-size: 1.214285714285em;
+}
+
+#apply-img {
+  clear: both;
+}
+
+.page-apply #block-menu-menu-admissions-apply-menu .block-content ul li.first a:hover {
+  background-color: #F90;
+}
+
+.page-apply #block-menu-menu-admissions-apply-menu .block-content ul li.last a:hover {
+  background-color: #9B0000;
+}
+/* end Combined Apply Homepage */
+
+
 /* Combined Admissions Homepage */
 #admissions-homepage-panel .block-inner {
   margin: 0;
@@ -2148,6 +2210,14 @@ body.graduate .sidebar nav.block-menu-block a {
   outline: none;
   display: block;
   padding: 1.5em;
+}
+
+.page-homepage #block-menu-menu-admissions-menu .block-content ul li.first a:hover {
+  background-color: #F90;
+}
+
+.page-homepage #block-menu-menu-admissions-menu .block-content ul li.last a:hover {
+  background-color: #9B0000;
 }
 /* end Combined Admissions Homepage */
 
