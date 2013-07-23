@@ -1878,6 +1878,11 @@ body #main-content ul.action-links li {
 .field-collection-view {
   border: 0;
 }
+
+.field-collection-container {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
 /* end Field Collection Overrides */
 
 
