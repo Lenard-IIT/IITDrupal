@@ -2289,3 +2289,21 @@ div.rolling-table-item a.rolling-table-btn:hover {
 /* end Rolling Table */
 
 
+/* more info grey button */
+a.more-btn {
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.06667em;
+  font-weight: bold;
+  padding: .25em .5em;
+  display: inline-block;
+  margin-top: .4em;
+}
+
+a.more-btn:hover {
+  background-color: #888;
+}
+/* end more info grey button */
