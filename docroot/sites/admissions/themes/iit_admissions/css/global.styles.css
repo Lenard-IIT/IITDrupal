@@ -2290,7 +2290,7 @@ div.rolling-table-item a.rolling-table-btn:hover {
 
 
 /* more info grey button */
-body a.more-btn {
+body a.info-button {
   color: #fff;
   background-color: #666;
   text-decoration: none;
@@ -2303,7 +2303,7 @@ body a.more-btn {
   margin-top: .4em;
 }
 
-body a.more-btn:hover {
+body a.info-button:hover {
   background-color: #888;
 }
 /* end more info grey button */
