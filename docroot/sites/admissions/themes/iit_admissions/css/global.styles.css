@@ -2332,13 +2332,13 @@ body a.info-button:hover {
   margin: 0 16px;
 }
 
-.view-uga-profile-sb .views-field-field-sidebar-image img {
-  display: block;
+.view-uga-profile-sb .views-field-field-sidebar-image {
+  margin: 0 0 1em 0;
 }
 
-.view-uga-profile-sb .views-field-field-sidebar-image {
+.view-uga-profile-sb .views-field-field-sidebar-image img {
+  display: block;
   border-bottom: 6px solid #F90;
-  margin: 0 0 1em 0;
 }
 
 .view-uga-profile-sb .views-field-nothing {
