@@ -2286,6 +2286,11 @@ div.rolling-table-item a.rolling-table-btn:hover {
     margin: 0 0 1.5em;
     padding: 0 0 1.5em;
 }
+
+.rolling-table-item:first-child {
+  border-top: 1px solid #D7D7D7;
+  padding-top: 1.5em;
+}
 /* end Rolling Table */
 
 
