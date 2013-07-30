@@ -2310,58 +2310,68 @@ body a.info-button:hover {
 
 
 /* UGA Sidebar Student Profiles */
-#block-views-uga-profile-sb-block {
+#block-views-uga-profile-sb-block,
+#block-views-uga-profile-sb-block-1,
+#block-views-uga-profile-sb-block-2,
+#block-views-uga-profile-sb-block-3,
+#block-views-uga-profile-sb-block-4,
+#block-views-uga-profile-sb-block-5 {
   padding: 0;
 }
 
-#block-views-uga-profile-sb-block .block-inner {
+#block-views-uga-profile-sb-block .block-inner,
+#block-views-uga-profile-sb-block-1 .block-inner,
+#block-views-uga-profile-sb-block-2 .block-inner,
+#block-views-uga-profile-sb-block-3 .block-inner,
+#block-views-uga-profile-sb-block-4 .block-inner,
+#block-views-uga-profile-sb-block-5 .block-inner {
   margin: 0;
 }
 
-#block-views-uga-profile-sb-block .views-field {
+.view-uga-profile-sb .views-field {
   margin: 0 16px;
 }
 
-#block-views-uga-profile-sb-block .views-field-field-sidebar-image img {
+.view-uga-profile-sb .views-field-field-sidebar-image img {
   display: block;
 }
 
-#block-views-uga-profile-sb-block .views-field-field-sidebar-image {
+.view-uga-profile-sb .views-field-field-sidebar-image {
   border-bottom: 6px solid #F90;
   margin: 0 0 1em 0;
 }
 
-#block-views-uga-profile-sb-block .views-field-nothing {
+.view-uga-profile-sb .views-field-nothing {
   font-family: 'EconomicaBold-IIT', sans-serif;
   color: #C00;
   font-size: 1.5em;
   line-height: 1em;
 }
 
-#block-views-uga-profile-sb-block .views-field-nothing-1 {
+.view-uga-profile-sb .views-field-nothing-1 {
   font-family: 'EconomicaBold-IIT', sans-serif;
   font-size: 1.375em;
   line-height: 1em;
   margin-bottom: .5em;
 }
 
-#block-views-uga-profile-sb-block .views-field-field-sidebar-body {
+.view-uga-profile-sb .views-field-field-sidebar-body {
   border-bottom: 1px solid #F90;
   margin-bottom: .75em;
 }
 
-#block-views-uga-profile-sb-block .views-field-field-sidebar-body p {
+.view-uga-profile-sb .views-field-field-sidebar-body p {
   font-size: .8125em;
   line-height: 1.307692307em;
   margin-bottom: 1em;
 }
 
-#block-views-uga-profile-sb-block .views-field-nothing-2 {
+.view-uga-profile-sb .views-field-nothing-2 {
   font-weight: bold;
   font-size: .875em;
 }
 
-#block-views-uga-profile-sb-block .views-field-field-major {
+.view-uga-profile-sb .views-field-field-major {
   font-style: italic;
   font-size: .8125em;
   margin-bottom: 16px;
