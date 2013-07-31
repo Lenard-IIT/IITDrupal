@@ -1794,12 +1794,19 @@ tr.error {}
 }
 
 
+
+
 /* ============================================================================
  *   Admissions Global Styles
  * ========================================================================= */
+
 #media-check {
   /* used for testing media query in js */
   font-family: 'desktop';
+}
+
+#main-content {
+  margin: 0 .75em;
 }
 
 #block-iit-global-header-iit-global-header, 
@@ -2130,6 +2137,10 @@ body.graduate .sidebar nav.block-menu-block a {
 /* end Facebook Like Box */
 
 
+/* =============================================================
+ *   Undergraduate and Graduates Landing Pages/Homepages
+ * ========================================================== */
+
 /* Combined Apply Homepage */
 #apply-homepage-panel .block-inner {
   margin: 0 .75em;
@@ -2220,6 +2231,82 @@ body.graduate .sidebar nav.block-menu-block a {
   background-color: #9B0000;
 }
 /* end Combined Admissions Homepage */
+
+
+/* Undergraduate Admission Homepage */
+#undergraduate-homepage.panel-flexible {
+  margin: 0;
+}
+
+#undergraduate-homepage .block-inner {
+  margin: 0;
+}
+
+body #undergraduate-homepage ul.slides li {
+  background: transparent;
+  padding: 0;
+}
+
+#undergraduate-homepage .panels-flexible-region-1-main_slideshow {
+  width: 100%;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .flexslider {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 0 0;
+  margin: 0;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-nav {
+  top: 0;
+  bottom: inherit;
+  padding: 47% 0 0;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-nav li {
+  margin: 0 4px;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-paging li a {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #000;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-paging li a.flex-active {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #000;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .flex-direction-nav a {
+  top: 0;
+  margin-top: 25%;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .views-field-body {
+  background-color: #7d7d7d;
+  margin-top: 1%;
+  color: #FFF;
+  padding: 1.25% 1.6%;
+  font-size: 1em;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow .views-field-body p {
+  margin: 0;
+}
+
+#undergraduate-homepage .view-uga-main-slideshow span.main-slide-caption-headline {
+  color: #F90;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.86666666666em;
+}
+/* end Undergraduate Admission Homepage */
+
+/* =============================================================
+ *   end Undergraduate and Graduates Landing Pages/Homepages
+ * ========================================================== */
 
 
 /* Youtube Video FW Wrappers */
