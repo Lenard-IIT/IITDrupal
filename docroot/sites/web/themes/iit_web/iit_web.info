@@ -16,6 +16,7 @@
   stylesheets[screen][] = css/global.base.css
   stylesheets[screen][] = css/global.styles.css
   stylesheets[screen][] = css/iit-launchpage.css
+  stylesheets[screen][] = css/iit-searchpage.css
 
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
