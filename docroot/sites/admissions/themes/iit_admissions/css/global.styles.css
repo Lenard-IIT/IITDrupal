@@ -2233,25 +2233,31 @@ body.graduate .sidebar nav.block-menu-block a {
 /* end Combined Admissions Homepage */
 
 
-/* Undergraduate Admission Homepage */
-#undergraduate-homepage.panel-flexible {
+/* ---------- Undergraduate & Graduate Admission Homepages ---------- */
+/* Main Slideshows - row 1 */
+#undergraduate-homepage.panel-flexible,
+#graduate-homepage.panel-flexible {
   margin: 0;
 }
 
-#undergraduate-homepage .block-inner {
+#undergraduate-homepage .block-inner,
+#graduate-homepage .block-inner {
   margin: 0;
 }
 
-body #undergraduate-homepage ul.slides li {
+body #undergraduate-homepage ul.slides li,
+body #graduate-homepage ul.slides li {
   background: transparent;
   padding: 0;
 }
 
-#undergraduate-homepage .panels-flexible-region-1-main_slideshow {
+#undergraduate-homepage .panels-flexible-region-uga-homepage-main_slideshow,
+#graduate-homepage .panels-flexible-region-ga-homepage-main_slideshow {
   width: 100%;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .flexslider {
+#undergraduate-homepage .view-uga-main-slideshow .flexslider,
+#graduate-homepage .view-ga-main-slideshow .flexslider {
   background: transparent;
   border: 0;
   border-radius: 0;
@@ -2259,32 +2265,38 @@ body #undergraduate-homepage ul.slides li {
   margin: 0;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .flex-control-nav {
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-nav,
+#graduate-homepage .view-ga-main-slideshow .flex-control-nav {
   top: 0;
   bottom: inherit;
   padding: 47% 0 0;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .flex-control-nav li {
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-nav li,
+#graduate-homepage .view-ga-main-slideshow .flex-control-nav li {
   margin: 0 4px;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .flex-control-paging li a {
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-paging li a,
+#graduate-homepage .view-ga-main-slideshow .flex-control-paging li a {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid #000;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .flex-control-paging li a.flex-active {
+#undergraduate-homepage .view-uga-main-slideshow .flex-control-paging li a.flex-active,
+#graduate-homepage .view-ga-main-slideshow .flex-control-paging li a.flex-active {
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid #000;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .flex-direction-nav a {
+#undergraduate-homepage .view-uga-main-slideshow .flex-direction-nav a,
+#graduate-homepage .view-ga-main-slideshow .flex-direction-nav a {
   top: 0;
   margin-top: 25%;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .views-field-body {
+#undergraduate-homepage .view-uga-main-slideshow .views-field-body,
+#graduate-homepage .view-ga-main-slideshow .views-field-body {
   background-color: #7d7d7d;
   margin-top: 1%;
   color: #FFF;
@@ -2292,7 +2304,8 @@ body #undergraduate-homepage ul.slides li {
   font-size: 1em;
 }
 
-#undergraduate-homepage .view-uga-main-slideshow .views-field-body p {
+#undergraduate-homepage .view-uga-main-slideshow .views-field-body p,
+#graduate-homepage .view-ga-main-slideshow .views-field-body p {
   margin: 0;
 }
 
@@ -2302,7 +2315,14 @@ body #undergraduate-homepage ul.slides li {
   font-weight: bold;
   font-size: 1.86666666666em;
 }
-/* end Undergraduate Admission Homepage */
+
+#graduate-homepage .view-ga-main-slideshow span.main-slide-caption-headline {
+  color: #9B0000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1.86666666666em;
+}
+/* ---------- end Undergraduate & Graduate Admission Homepages ---------- */
 
 /* =============================================================
  *   end Undergraduate and Graduates Landing Pages/Homepages
