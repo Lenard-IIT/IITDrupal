@@ -2303,7 +2303,7 @@ body #graduate-homepage ul.slides li {
 #undergraduate-homepage .view-uga-main-slideshow .views-field-body,
 #graduate-homepage .view-ga-main-slideshow .views-field-body {
   background-color: #7d7d7d;
-  margin-top: 1%;
+  margin-top: .75em;
   color: #FFF;
   padding: 1.25% 1.6%;
   font-size: 1em;
