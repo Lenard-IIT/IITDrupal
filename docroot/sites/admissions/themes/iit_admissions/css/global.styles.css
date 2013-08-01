@@ -2256,6 +2256,11 @@ body #graduate-homepage ul.slides li {
   width: 100%;
 }
 
+#undergraduate-homepage .pane-uga-main-slideshow.block,
+#graduate-homepage .pane-ga-main-slideshow.block {
+  margin-bottom: 0;
+}
+
 #undergraduate-homepage .view-uga-main-slideshow .flexslider,
 #graduate-homepage .view-ga-main-slideshow .flexslider {
   background: transparent;
