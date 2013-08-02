@@ -74,7 +74,7 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'EconomicaRegular-IIT', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
@@ -1819,8 +1819,53 @@ tr.error {}
   margin: 0;
 }
 
+/* Field Collection Overrides */
+.field-collection-container .field-items .field-item {
+  margin-bottom: 0;
+}
+
+.field-collection-view {
+  border: 0;
+}
+
+.field-collection-container {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* end Field Collection Overrides */
+
+h1 {
+  font-size: 2.75em;
+}
+
+h2 {
+  font-size: 2.0625em;
+  margin: .2em 0 .8em 0;
+  border-bottom: 1px solid #888;
+  padding-bottom: .1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1em 0 .25em 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.375em;
+  color: green;
+}
+
 h1#page-title {
   line-height: 1em;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+li {
+  margin-bottom: .375em;
 }
 
 .uga-color-background {
@@ -1846,7 +1891,11 @@ body.undergraduate h1 {
 }
 
 body.undergraduate h2 {
-  color: #C00;
+  color: #F90;
+}
+
+body.undergraduate h3 {
+  color: #F90;
 }
 
 body.graduate h1 {
@@ -1854,6 +1903,10 @@ body.graduate h1 {
 }
 
 body.graduate h2 {
+  color: #9B0000;
+}
+
+body.graduate h3 {
   color: #9B0000;
 }
 
@@ -1883,22 +1936,6 @@ body #main-content ul.action-links li {
   padding: 0;
   background: transparent;
 }
-
-
-/* Field Collection Overrides */
-.field-collection-container .field-items .field-item {
-  margin-bottom: 0;
-}
-
-.field-collection-view {
-  border: 0;
-}
-
-.field-collection-container {
-  border-bottom: 0;
-  margin-bottom: 0;
-}
-/* end Field Collection Overrides */
 
 
 /* Undergraduate & Graduate Admission Headers */
@@ -1955,7 +1992,7 @@ body #main-content ul.action-links li {
   font-weight: normal;
   font-size: 2.1875em;
   margin: 0;
-  padding: 1.2em 0 0;
+  padding: 1em 0 0;
 }
 
 /* Global Admissions */
@@ -2028,8 +2065,9 @@ body #main-content ul.action-links li {
 }
 
 .sidebar nav.block-menu-block h2.block-title {
-  font-size: 2em;
+  font-size: 1.875em;
   line-height: 1em;
+  border: 0;
 }
 
 body.undergraduate .sidebar nav.block-menu-block {
@@ -2206,6 +2244,7 @@ body.graduate .sidebar nav.block-menu-block a {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
+  border: 0;
 }
 
 #admissions-homepage-panel p {
@@ -2369,6 +2408,7 @@ body #graduate-homepage ul.slides li {
 .rolling-table-item-copy > h2 {
   margin: 0 0 0.5em;
   line-height: 1em;
+  border: 0;
 }
 
 .rolling-table-item-copy > p {
