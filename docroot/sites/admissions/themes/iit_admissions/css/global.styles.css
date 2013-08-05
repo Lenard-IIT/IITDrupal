@@ -1849,11 +1849,14 @@ h3 {
   font-size: 1.5em;
   margin: 1em 0 .25em 0;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h4 {
-  font-size: 1.375em;
-  color: green;
+  font-size: 1.1875em;
+  margin: 1em 0 .25em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h1#page-title {
@@ -1886,27 +1889,17 @@ body.graduate a {
   outline: none;
 }
 
-body.undergraduate h1 {
+body.undergraduate h1,
+body.undergraduate h2,
+body.undergraduate h3,
+body.undergraduate h4 {
   color: #F90;
 }
 
-body.undergraduate h2 {
-  color: #F90;
-}
-
-body.undergraduate h3 {
-  color: #F90;
-}
-
-body.graduate h1 {
-  color: #9B0000;
-}
-
-body.graduate h2 {
-  color: #9B0000;
-}
-
-body.graduate h3 {
+body.graduate h1,
+body.graduate h2,
+body.graduate h3,
+body.graduate h4 {
   color: #9B0000;
 }
 
