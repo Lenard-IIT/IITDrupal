@@ -25,17 +25,28 @@
 }
 /* end Header */
 
+.search-page .content-inner {
+  margin-right: 32%!important;
+}
+
+#search-page-body-image {
+width: 100%;
+margin: 35px 0 0 8px;
+}
+
 
 /* Search Page & Search Bar  ================================================ */
 .search-page #iit-search-branding {
   position: relative;
   border-bottom: 1px solid #888;
-  padding-bottom: 10px;
 }
 
 .search-page #search-sidebar-links ul li {
   list-style-type: none;
   margin-bottom: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .search-page #search-sidebar-links ul li a {
@@ -108,7 +119,9 @@
   color: #000;
 }
 
-
+td div.gsc-clear-buton {
+  display: none!important;
+}
 
 /* end of Search Page & Search Bar */
 
@@ -329,6 +342,8 @@
      .search-page .sidebar-second .content-inner {
       margin-right: 32%;
     }
+
+
 
     /* end Columns Main Content Area ============================================ */
 
