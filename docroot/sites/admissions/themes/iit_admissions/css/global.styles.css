@@ -2335,7 +2335,7 @@ body #graduate-homepage ul.slides li {
 #undergraduate-homepage .view-uga-main-slideshow .views-field-body,
 #graduate-homepage .view-ga-main-slideshow .views-field-body {
   background-color: #7d7d7d;
-  margin-top: .75em;
+  margin-top: 1%;
   color: #FFF;
   padding: 1.25% 1.6%;
   font-size: 1em;
@@ -2359,6 +2359,64 @@ body #graduate-homepage ul.slides li {
   font-weight: bold;
   font-size: 1.86666666666em;
 }
+
+#undergraduate-homepage .panels-flexible-row {
+  padding:  0 0 1%;
+}
+
+#undergraduate-homepage .uga-homepage-row-2 .block,
+#undergraduate-homepage .uga-homepage-row-2 p,
+#undergraduate-homepage .uga-homepage-row-3 .block,
+#undergraduate-homepage .uga-homepage-row-3 p {
+  margin: 0;
+}
+
+#undergraduate-homepage .uga-homepage-row-2 img,
+#undergraduate-homepage .uga-homepage-row-3 img {
+  display: block;
+}
+
+#undergraduate-homepage .panels-flexible-column {
+  margin-left: 1%;
+}
+
+#undergraduate-homepage .panels-flexible-column-first {
+  margin-left: 0;
+}
+
+#undergraduate-homepage .panels-flexible-column-inside {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#undergraduate-homepage .uga-homepage-col-1-4 {
+  width: 24.25%;
+  position: relative;
+  height: 0;
+  background: #ccc;
+  padding-top: 24.25%;
+}
+
+#undergraduate-homepage .uga-homepage-col-1-4 .panels-flexible-region {
+  float: none;
+}
+
+#undergraduate-homepage .uga-homepage-col-2-4 {
+  width: 49.5%;
+  position: relative;
+  height: 0;
+  background: #ccc;
+  padding-bottom: 24.25%;
+}
+
+#undergraduate-homepage .uga-homepage-col-2-4 .panels-flexible-region {
+  float: none;
+}
+
 /* ---------- end Undergraduate & Graduate Admission Homepages ---------- */
 
 /* =============================================================
