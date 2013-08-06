@@ -2360,31 +2360,41 @@ body #graduate-homepage ul.slides li {
   font-size: 1.86666666666em;
 }
 
-#undergraduate-homepage .panels-flexible-row {
+#undergraduate-homepage .panels-flexible-row,
+#graduate-homepage .panels-flexible-row {
   padding:  0 0 1%;
 }
 
 #undergraduate-homepage .uga-homepage-row-2 .block,
 #undergraduate-homepage .uga-homepage-row-2 p,
 #undergraduate-homepage .uga-homepage-row-3 .block,
-#undergraduate-homepage .uga-homepage-row-3 p {
+#undergraduate-homepage .uga-homepage-row-3 p,
+#graduate-homepage .ga-homepage-row-2 .block,
+#graduate-homepage .ga-homepage-row-2 p,
+#graduate-homepage .ga-homepage-row-3 .block,
+#graduate-homepage .ga-homepage-row-3 p {
   margin: 0;
 }
 
 #undergraduate-homepage .uga-homepage-row-2 img,
-#undergraduate-homepage .uga-homepage-row-3 img {
+#undergraduate-homepage .uga-homepage-row-3 img,
+#graduate-homepage .ga-homepage-row-2 img,
+#graduate-homepage .ga-homepage-row-3 img {
   display: block;
 }
 
-#undergraduate-homepage .panels-flexible-column {
+#undergraduate-homepage .panels-flexible-column,
+#graduate-homepage .panels-flexible-column {
   margin-left: 1%;
 }
 
-#undergraduate-homepage .panels-flexible-column-first {
+#undergraduate-homepage .panels-flexible-column-first,
+#graduate-homepage .panels-flexible-column-first {
   margin-left: 0;
 }
 
-#undergraduate-homepage .panels-flexible-column-inside {
+#undergraduate-homepage .panels-flexible-column-inside,
+#graduate-homepage .panels-flexible-column-inside {
   padding: 0;
   position: absolute;
   top: 0;
@@ -2393,7 +2403,8 @@ body #graduate-homepage ul.slides li {
   right: 0;
 }
 
-#undergraduate-homepage .uga-homepage-col-1-4 {
+#undergraduate-homepage .uga-homepage-col-1-4,
+#graduate-homepage .ga-homepage-col-1-4 {
   width: 24.25%;
   position: relative;
   height: 0;
@@ -2401,11 +2412,13 @@ body #graduate-homepage ul.slides li {
   padding-top: 24.25%;
 }
 
-#undergraduate-homepage .uga-homepage-col-1-4 .panels-flexible-region {
+#undergraduate-homepage .uga-homepage-col-1-4 .panels-flexible-region,
+#graduate-homepage .ga-homepage-col-1-4 .panels-flexible-region {
   float: none;
 }
 
-#undergraduate-homepage .uga-homepage-col-2-4 {
+#undergraduate-homepage .uga-homepage-col-2-4,
+#graduate-homepage .ga-homepage-col-2-4 {
   width: 49.5%;
   position: relative;
   height: 0;
@@ -2413,7 +2426,8 @@ body #graduate-homepage ul.slides li {
   padding-bottom: 24.25%;
 }
 
-#undergraduate-homepage .uga-homepage-col-2-4 .panels-flexible-region {
+#undergraduate-homepage .uga-homepage-col-2-4 .panels-flexible-region,
+#graduate-homepage .ga-homepage-col-2-4 .panels-flexible-region {
   float: none;
 }
 
