@@ -30,8 +30,8 @@
 }
 
 #search-page-body-image {
-width: 100%;
-margin: 35px 0 0 8px;
+  width: 100%;
+  margin: 35px 0 0 0px;
 }
 
 
@@ -165,7 +165,7 @@ td div.gsc-clear-buton {
 
     /* end Footer Area ======================================================= */
 
-} /* end smart phone portrait */
+    } /* end smart phone portrait */
 
 
 
@@ -173,7 +173,7 @@ td div.gsc-clear-buton {
 
 
 
-@media only screen and (min-width:400px) and (max-width:599px) {
+    @media only screen and (min-width:400px) and (max-width:599px) {
 
     /* =============================================================================
      *  Headers
@@ -204,7 +204,7 @@ td div.gsc-clear-buton {
       margin: 0 0 .8em;
     }
 
-} /* end smart phone landscape */
+    } /* end smart phone landscape */
 
 
 
@@ -215,7 +215,7 @@ td div.gsc-clear-buton {
 
 
 
-@media only screen and (min-width:600px) and (max-width:799px) {
+    @media only screen and (min-width:600px) and (max-width:799px) {
 
 
     /* =============================================================================
@@ -242,7 +242,8 @@ td div.gsc-clear-buton {
       margin: 0 0 .8em;
     }
 
-} /* end tablet portrait */
+
+    } /* end tablet portrait */
 
 
 
@@ -250,14 +251,14 @@ td div.gsc-clear-buton {
 
 
 
-@media only screen and (min-width:800px) and (max-width:1024px) {
+    @media only screen and (min-width:800px) and (max-width:1024px) {
 
 
     /* =============================================================================
      *  Headers
      * ========================================================================== */
 
-    .search-page #iit-search-branding h2 {
+     .search-page #iit-search-branding h2 {
       font-size: 2.1875em;
     }
 
@@ -269,6 +270,11 @@ td div.gsc-clear-buton {
 
      .search-page .sidebar-second .content-inner {
       margin-right: 32%;
+    }
+
+    #search-page-body-image {
+      width: 100%;
+      margin: 35px 0 0 8px;
     }
 
     /* end Columns Main Content Area ============================================ */
@@ -314,7 +320,7 @@ td div.gsc-clear-buton {
 
     /* end Footer Area ======================================================= */
 
-} /* end tablet landscape */
+    } /* end tablet landscape */
 
 
 
@@ -322,7 +328,7 @@ td div.gsc-clear-buton {
 
 
 
-@media only screen and (min-width:1025px) {
+    @media only screen and (min-width:1025px) {
 
     /* =============================================================================
      *   Headers
@@ -341,6 +347,11 @@ td div.gsc-clear-buton {
 
      .search-page .sidebar-second .content-inner {
       margin-right: 32%;
+    }
+
+    #search-page-body-image {
+      width: 100%;
+      margin: 35px 0 0 8px;
     }
 
 
