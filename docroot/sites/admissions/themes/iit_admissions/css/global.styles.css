@@ -2537,7 +2537,8 @@ body a.info-button:hover {
 #block-views-uga-profile-sb-block-2,
 #block-views-uga-profile-sb-block-3,
 #block-views-uga-profile-sb-block-4,
-#block-views-uga-profile-sb-block-5 {
+#block-views-uga-profile-sb-block-5,
+#block-views-uga-profile-sb-block-6 {
   padding: 0;
 }
 
@@ -2546,7 +2547,8 @@ body a.info-button:hover {
 #block-views-uga-profile-sb-block-2 .block-inner,
 #block-views-uga-profile-sb-block-3 .block-inner,
 #block-views-uga-profile-sb-block-4 .block-inner,
-#block-views-uga-profile-sb-block-5 .block-inner {
+#block-views-uga-profile-sb-block-5 .block-inner,
+#block-views-uga-profile-sb-block-6 .block-inner {
   margin: 0;
 }
 
