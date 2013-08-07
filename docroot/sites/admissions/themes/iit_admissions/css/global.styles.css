@@ -2599,3 +2599,18 @@ body a.info-button:hover {
   margin-bottom: 16px;
 }
 /* end UGA Sidebar Student Profiles */
+
+/* uga brochures */
+.uga-brochure-link {
+	width: 220px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2% 2.5em;
+	text-align: center;
+	font-size: .9375em;
+}
+
+.uga-brochure-link img {
+	border: 1px solid #888;
+}
+/* end uga brochures */
