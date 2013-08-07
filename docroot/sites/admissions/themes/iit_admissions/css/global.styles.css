@@ -2623,6 +2623,9 @@ body.graduate .region-sidebar-second h5 {
   font-size: 1.25em;
   line-height: 1.25em;
 }
+.region-sidebar-second *:first-child {
+  margin-top: 0;
+}
 /* end UGA Sidebars */
 
 /* uga brochures */
