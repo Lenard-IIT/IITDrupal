@@ -2107,7 +2107,7 @@ body.graduate .sidebar nav.block-menu-block a {
   color: #fff;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  font-size: 1.066666666666em;
+  font-size: 1.230769230769em;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -2601,6 +2601,14 @@ body a.info-button:hover {
   margin-bottom: 16px;
 }
 /* end UGA Sidebar Student Profiles */
+
+/* UGA Sidebars */
+.region-sidebar-second p {
+  font-size: .8125em;
+  line-height: 1.307692307em;
+  margin-bottom: 1em;
+}
+/* end UGA Sidebars */
 
 /* uga brochures */
 .uga-brochure-link {
