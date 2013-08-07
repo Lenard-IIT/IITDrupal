@@ -2608,6 +2608,21 @@ body a.info-button:hover {
   line-height: 1.307692307em;
   margin-bottom: 1em;
 }
+
+body.undergraduate .region-sidebar-second h5 {
+  color: #F90;
+}
+
+body.graduate .region-sidebar-second h5 {
+  color: #9B0000;
+}
+
+.region-sidebar-second h5 {
+  margin: 1em 0 .5em 0;
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
 /* end UGA Sidebars */
 
 /* uga brochures */
