@@ -367,7 +367,7 @@ div.iit-gh-menu-singlelink a {
 #iit-gh-menu-container {
     overflow: hidden;
     position: relative;
-    height: 24em;
+    height: 25em;
     display: none;
 }
 
@@ -640,7 +640,7 @@ div.iit-gh-menu-singlelink a {
 }
 
 #iit-gh-menu-container {
-    height: 25em;
+    height: 28em;
 }
 
 } /* end iPad Portrait override */
