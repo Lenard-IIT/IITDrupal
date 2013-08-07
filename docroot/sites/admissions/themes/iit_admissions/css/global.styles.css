@@ -2642,3 +2642,10 @@ body.graduate .region-sidebar-second h5 {
 	border: 1px solid #888;
 }
 /* end uga brochures */
+
+/* global flexslider overrides in content block */
+.flexslider ul.slides li {
+  background: transparent !important;
+  padding: 0 !important;
+}
+/* end global flexslider overrides in content block */
