@@ -2164,6 +2164,7 @@ body.graduate .sidebar nav.block-menu-block a {
   padding: .25em;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
+  border: 0;
 }
 /* end Facebook Like Box */
 
