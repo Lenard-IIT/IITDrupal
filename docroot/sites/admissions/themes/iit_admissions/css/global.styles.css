@@ -2142,6 +2142,11 @@ body.graduate .sidebar nav.block-menu-block a {
 
 #footer .social-icons li {
   display: inline-block;
+  margin-left: 4px;
+}
+
+#footer .social-icons li:first-child {
+  margin-left: 0;
 }
 
 #footer .block-content {
