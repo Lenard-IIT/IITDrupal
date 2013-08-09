@@ -2130,11 +2130,24 @@ body.graduate .sidebar nav.block-menu-block a {
 /* end Undergraduate & Graduate Contact Block */
 
 
-/* Department Footer */
+/* Department Footers */
 #footer h5 {
   font-weight: bold;
 }
-/* end Department Footer */
+
+#footer .social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer .social-icons li {
+  display: inline-block;
+}
+
+#footer .block-content {
+  position: relative;
+}
+/* end Department Footers */
 
 
 /* Page Section Styles */
