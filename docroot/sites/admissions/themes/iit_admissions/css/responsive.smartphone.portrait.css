@@ -204,6 +204,45 @@ html {
 /* end Combined Admissions Homepage ======================================== */
 
 
+/* =============================================================================
+ *   Undergraduate and Graduate Admission Homepages
+ * ========================================================================== */
+#undergraduate-homepage .view-uga-main-slideshow ol.flex-control-paging,
+#graduate-homepage .view-ga-main-slideshow ol.flex-control-paging {
+  display: none;
+}
+
+#undergraduate-homepage .uga-homepage-col-1-4,
+#graduate-homepage .ga-homepage-col-1-4 {
+  width: 49.5%;
+  position: relative;
+  height: 0;
+  padding-top: 49.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#undergraduate-homepage .uga-homepage-col-2-4,
+#graduate-homepage .ga-homepage-col-2-4 {
+  width: 100%;
+  position: relative;
+  height: 0;
+  padding-bottom: 49.5%;
+  margin: 1% 0;
+}
+
+#undergraduate-homepage .panels-flexible-column-uga-homepage-7,
+#graduate-homepage .panels-flexible-column-ga-homepage-5 {
+  margin-left: 0;
+}
+
+#undergraduate-homepage .uga-homepage-row-2,
+#graduate-homepage .ga-homepage-row-2 {
+  padding: 0;
+}
+/* end Undergraduate and Graduate Admission Homepages ======================== */
+
+
 /* Combined Apply Homepage */
 #apply-homepage-panel .block-inner {
   margin: 0 .75em;
