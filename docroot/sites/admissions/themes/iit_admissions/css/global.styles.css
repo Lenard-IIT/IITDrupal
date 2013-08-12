@@ -2259,19 +2259,12 @@ body.graduate .sidebar nav.block-menu-block a {
   border: 0;
 }
 
-#admissions-homepage-panel p {
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  font-weight: normal;
-  margin: 0;
-  font-size: 24px;
-}
-
 #admissions-homepage-panel a {
   text-decoration: none;
   outline: none;
   display: block;
   padding: 1.5em;
+  color: #fff;
 }
 
 .page-homepage #block-menu-menu-admissions-menu .block-content ul li.first a:hover {
@@ -2619,7 +2612,7 @@ body a.info-button:hover {
 }
 /* end UGA Sidebar Student Profiles */
 
-/* UGA Sidebars */
+/* UGA & GA Sidebars */
 .region-sidebar-second p {
   font-size: .8125em;
   line-height: 1.307692307em;
@@ -2643,7 +2636,7 @@ body.graduate .region-sidebar-second h5 {
 .region-sidebar-second *:first-child {
   margin-top: 0;
 }
-/* end UGA Sidebars */
+/* end UGA & GA Sidebars */
 
 /* uga brochures */
 .uga-brochure-link {
