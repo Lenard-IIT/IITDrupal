@@ -218,8 +218,8 @@ html {
   position: relative;
   height: 0;
   padding-top: 49.5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-top: .5%;
+  margin-bottom: .5%;
 }
 
 #undergraduate-homepage .uga-homepage-col-2-4,
@@ -228,7 +228,7 @@ html {
   position: relative;
   height: 0;
   padding-bottom: 49.5%;
-  margin: 1% 0;
+  margin: .5% 0;
 }
 
 #undergraduate-homepage .panels-flexible-column-uga-homepage-7,
