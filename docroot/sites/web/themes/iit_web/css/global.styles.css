@@ -74,7 +74,7 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'EconomicaRegular-IIT', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
@@ -1797,7 +1797,7 @@ tr.error {}
 
 
 /* ============================================================================
- *   Admissions Global Styles
+ *   Web Global Styles
  * ========================================================================= */
 
 #media-check {
@@ -1823,4 +1823,7 @@ h1#page-title {
   line-height: 1em;
 }
 
+h1 {
+  font-size: 2.75em;
+}
 
