@@ -5,6 +5,16 @@
  * Assuming a mobile first approach with respond.js OFF, we must reset the font
  * size for lt IE9
  */
+
+/* Hide facebook widget on ie 8 */
+#block-block-1 {
+	display: none;
+}
+/* end Hide facebook widget on ie 8 */
+
+
+
+
 #media-check {
   /* used for testing media query in js */
   font-family: 'ie';
