@@ -1819,6 +1819,10 @@ tr.error {}
   margin: 0;
 }
 
+#header-wrapper {
+  margin-bottom: 2em;
+}
+
 h1#page-title {
   line-height: 1em;
 }
