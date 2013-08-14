@@ -28,10 +28,12 @@ a {
   text-decoration: underline;
   color: #0000ee;
 }
+/* commented out by Adrian Cabrera
 a[href^="http://"]:after, a[href^="http://"]:visited:after {
   content: "(" attr(href) ")";
   font-size: 10pt;
 }
+*/
 
 /*
  * Strip background from likely candidates
@@ -290,4 +292,14 @@ form {
   font-weight: 400;
   margin: 0;
   padding: 0;
+}
+
+/* Hides the global header navigation */
+
+#iit-gh-secondary-nav, 
+#iit-gh-primary-nav, 
+#iit-gh-menu-wrapper, 
+#block-menu-menu-undergraduate, 
+#iit-gh-primary-nav {
+  display: none;
 }
