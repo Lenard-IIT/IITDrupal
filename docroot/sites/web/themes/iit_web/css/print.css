@@ -294,12 +294,14 @@ form {
   padding: 0;
 }
 
-/* Hides the global header navigation */
+/* Hides elements of the page for print */
 
 #iit-gh-secondary-nav, 
 #iit-gh-primary-nav, 
 #iit-gh-menu-wrapper, 
 #block-menu-menu-undergraduate, 
-#iit-gh-primary-nav {
+#iit-gh-primary-nav,
+#footer .social-icons,
+#iit-gf-branding {
   display: none;
 }
