@@ -167,61 +167,11 @@
 /* =============================================================================
  *   Combined Admissions Homepage
  * ========================================================================== */
-
-#admissions-homepage-pane {
-  display: table;
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 0;
+#admissions-homepage-panel #adm-home-uga-text a,
+#admissions-homepage-panel #adm-home-ga-text a {
+  font-size: 31px;
+  padding: 6% 0 0 4%;
 }
-
-#admissions-homepage-pane .adm-home-row {
-  display: table-row;
-}
-
-#admissions-homepage-pane .adm-home-col {
-  display: table-cell;
-  width: 50%;
-  border: 12px solid #fff;
-  border-top: 0;
-  vertical-align: top;
-}
-
-#admissions-homepage-pane #adm-home-uga-text {
-  background-color: #F90;
-  margin-top: 12px;
-  background-image: url("images/background-uga.png");
-}
-
-#admissions-homepage-pane #adm-home-ga-text {
-  background-color: #9B0000;
-  margin-bottom: 12px;
-  background-image: url("images/background-ga.png");
-}
-/**/
-
-#adm-home-1 {
-  height: 200px;
-  background-image: url("images/fan.jpg");
-  background-position: top right;
-}
-
-#adm-home-3 {
-  background-image: url("images/fan.jpg");
-  background-position: bottom right;
-}
-
-#adm-home-2 {
-  background-image: url("images/splat.jpg");
-  background-position: top left;
-} 
-
-#adm-home-4 {
-  height: 436px;
-  background-image: url("images/splat.jpg");
-  background-position: bottom left;
-}
-
  /* end Combined Admissions Homepage ======================================== */
 
 

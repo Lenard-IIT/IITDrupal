@@ -112,7 +112,7 @@
     <div id="launchpage-wrapper">
       <div id="launchpage-container">
         <div id="launchpage-content">
-            <h5>Welcome to IIT</h5>
+            <h5>Welcome to Illinois Tech</h5>
             <p>We are re-building our web sites as well as transitioning to a new content management system&mdash;and we appreciate your patience during the next few months. You can reach the current IIT website by clicking on <a title="Illinois Institue of Technology" href="http://www.iit.edu/">www.iit.edu</a>.</p>
         </div>
       </div>

@@ -161,47 +161,36 @@ html {
 /* =============================================================================
  *   Combined Admissions Homepage
  * ========================================================================== */
-#admissions-homepage-pane {
-  margin-bottom: 0;
-}
-
-#admissions-homepage-pane #adm-home-uga-text {
-  background-color: #F90;
-  margin-bottom: 12px;
-  background-image: url("images/background-uga.png");
-}
-
-#admissions-homepage-pane #adm-home-ga-text {
-  background-color: #9B0000;
-  background-image: url("images/background-ga.png");
-}
-
-#admissions-homepage-panel h2 {
-  margin: 0;
-  font-size: 30px;
-}
-
-#admissions-homepage-panel p {
-  margin: 0;
-  font-size: 20px;
-}
-
-#adm-home-1 {
+#admissions-homepage-panel .panels-flexible-region-5-region_1_1,
+#admissions-homepage-panel .panels-flexible-region-5-region_1_3,
+#admissions-homepage-panel .panels-flexible-region-5-region_2_1,
+#admissions-homepage-panel .panels-flexible-region-5-region_2_3 {
   display: none;
 }
 
-#adm-home-3 {
-  display: none;
+#admissions-homepage-panel .home-col-1-2 {
+  width: 100%;
+  margin-left: 0;
 }
 
-#adm-home-2 {
-  display: none;
-} 
-
-#adm-home-4 {
-  display: none;
+#admissions-homepage-panel #adm-home-uga-text a,
+#admissions-homepage-panel #adm-home-ga-text a {
+  font-size: 38px;
+  position: inherit;
+  padding: 3% 0;
+  text-align: center;
 }
 
+#admissions-homepage-panel .panels-flexible-region-inside {
+  position: inherit;
+  overflow: auto;
+}
+
+#admissions-homepage-panel .panels-flexible-region-5-region_2_2,
+#admissions-homepage-panel .panels-flexible-region-5-region_1_2 {
+  padding-bottom: 0;
+  height: inherit;
+}
 /* end Combined Admissions Homepage ======================================== */
 
 
