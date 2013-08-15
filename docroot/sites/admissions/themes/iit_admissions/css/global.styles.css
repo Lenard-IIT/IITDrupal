@@ -2075,6 +2075,11 @@ body.graduate .sidebar nav.block-menu-block {
   padding: 16px;
 }
 
+body.undergraduate .sidebar nav.block-menu-block ul,
+body.graduate .sidebar nav.block-menu-block ul {
+  font-size: 1em;
+}
+
 body.undergraduate .sidebar nav.block-menu-block a,
 body.graduate .sidebar nav.block-menu-block a {
   color: #fff;
