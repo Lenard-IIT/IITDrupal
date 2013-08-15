@@ -2753,21 +2753,21 @@ body.graduate .region-sidebar-second h5 {
   margin-top: 0;
 }
 
-body.undergraduate .region-sidebar-second ul,
-body.graduate .region-sidebar-second ul {
+body.undergraduate .region-sidebar-second .view ul,
+body.graduate .region-sidebar-second .view ul {
   padding: 0;
   list-style-type: none;
 }
 
-body.undergraduate .region-sidebar-second ul li {
+body.undergraduate .region-sidebar-second .view ul li {
   padding: 0 0 0 18px;
-  background: url("images/bullet-uga.png") no-repeat 0 6px;
+  background: url("images/bullet-uga.png") no-repeat 0 2px;
   margin-bottom: .375em;
 }
 
-body.graduate .region-sidebar-second ul li {
+body.graduate .region-sidebar-second .view ul li {
   padding: 0 0 0 18px;
-  background: url("images/bullet-ga.png") no-repeat 0 6px;
+  background: url("images/bullet-ga.png") no-repeat 0 2px;
   margin-bottom: .375em;
 }
 /* end UGA & GA Sidebars */
