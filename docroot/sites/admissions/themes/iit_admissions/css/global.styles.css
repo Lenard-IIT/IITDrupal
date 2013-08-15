@@ -1838,6 +1838,14 @@ tr.error {}
 }
 /* end Field Collection Overrides */
 
+/* hide page titles on panel pages */
+body.page-graduate-home #page-title,
+body.page-undergraduate-home #page-title,
+body.page-apply #page-title {
+  display: none;
+}
+/* end hide page titles on panel pages */
+
 h1 {
   font-size: 2.75em;
 }
