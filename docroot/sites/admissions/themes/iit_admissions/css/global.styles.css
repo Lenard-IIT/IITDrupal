@@ -132,7 +132,9 @@ q {}
 
 address {}
 
-ul {}
+ul {
+  font-size: .938em;
+}
 
 ol {}
 
