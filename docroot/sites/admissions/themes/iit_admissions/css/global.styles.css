@@ -2728,6 +2728,11 @@ body a.info-button:hover {
   margin-bottom: 1em;
 }
 
+.region-sidebar-second ul {
+  font-size: .8125em;
+  line-height: 1.307692307em;
+}
+
 body.undergraduate .region-sidebar-second h5 {
   color: #F90;
 }
