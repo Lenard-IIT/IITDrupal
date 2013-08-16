@@ -2050,6 +2050,7 @@ body #main-content ul.action-links li {
   background: url("images/background.png");
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  font-size: 1em;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
