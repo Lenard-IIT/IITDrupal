@@ -1,7 +1,7 @@
 
 ;----------// Theme Information
 
-  name        = IIT Human Science
+  name        = IIT Human Sciences
   description = Illinois Institute of Technology Lewis College of Human Sciences Adaptive Subtheme
   core        = 7.x
   base theme  = adaptivetheme
@@ -17,7 +17,7 @@
   stylesheets[screen][] = css/global.styles.css
 
   ; Print - uncomment to load basic print styles.
-  ; stylesheets[print][] = css/print.css
+  stylesheets[print][] = css/print.css
 
 
   ; Internet Explorer Stylesheets
@@ -35,7 +35,10 @@
   ; "less than IE9" but "not IEMobile 7".
   ; Uncomment the following to use the included IE styleseet:
 
-  ; ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
+
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = ../../../all/modules/custom/iit_global_header/styles/iit-gh-lt-ie9.css
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = ../../../all/modules/custom/iit_global_footer/styles/iit-gf-lt-ie9.css
 
 
   ; Unset Module CSS or other Stylesheets
@@ -89,6 +92,10 @@
   regions[help]              = Help
   regions[page_top]          = Page top
   regions[page_bottom]       = Page bottom
+
+  ;--------// Subtheme added regions
+  regions[iit_global_header] = IIT Global Header
+  regions[iit_global_footer] = IIT Global Footer
 
 
 ;----------// Gpanel Regions
