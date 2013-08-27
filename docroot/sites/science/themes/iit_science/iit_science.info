@@ -37,8 +37,8 @@
 
   ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
 
-  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = ../../../all/css/iit-gh-lt-ie9.css
-  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = ../../../all/css/iit-gf-lt-ie9.css
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = ../../../all/modules/custom/iit_global_header/styles/iit-gh-lt-ie9.css
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = ../../../all/modules/custom/iit_global_footer/styles/iit-gf-lt-ie9.css
 
 
   ; Unset Module CSS or other Stylesheets
