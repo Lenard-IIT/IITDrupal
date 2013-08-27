@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * School of Applied Technology Adaptivetheme subtheme override implementation to display a single Drupal page.
+ * College of Science Adaptivetheme subtheme override implementation to display a single Drupal page.
  *
  * ###  Full Width Wrappers  ###
  *

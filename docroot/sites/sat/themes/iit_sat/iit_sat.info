@@ -17,7 +17,7 @@
   stylesheets[screen][] = css/global.styles.css
 
   ; Print - uncomment to load basic print styles.
-  ; stylesheets[print][] = css/print.css
+  stylesheets[print][] = css/print.css
 
 
   ; Internet Explorer Stylesheets
@@ -35,7 +35,10 @@
   ; "less than IE9" but "not IEMobile 7".
   ; Uncomment the following to use the included IE styleseet:
 
-  ; ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/lt-ie9.css
+
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/iit-gh-lt-ie9.css
+  ie_stylesheets[screen][(lt IE 9)&(!IEMobile 7)][] = css/iit-gf-lt-ie9.css
 
 
   ; Unset Module CSS or other Stylesheets
