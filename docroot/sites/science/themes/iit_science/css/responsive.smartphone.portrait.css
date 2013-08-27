@@ -8,6 +8,13 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 /* Increase the default font size on small devices */
+/*
 html {
   font-size: 112.5%;
+}
+*/
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'smartphone_portrait';
 }

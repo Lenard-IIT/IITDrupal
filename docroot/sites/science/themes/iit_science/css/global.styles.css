@@ -1,6 +1,6 @@
 /*
  * @file
- * global.styles
+ * College of Science - global.styles
  *
  * Styles you add here will load for all device sizes, they are "global", as
  * opposed to "responsive" styles, which only load for a given breakpoint (media
@@ -17,6 +17,12 @@
  * See global.base also which includes normalize.css and some additional
  * helper classes and base styles.
  */
+
+/* =============================================================================
+ *   Font Imports
+ * ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
 
 /* =============================================================================
  *   Base
@@ -36,8 +42,8 @@ html {
 
 
 body {
-  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 87.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
 }
 
 
@@ -45,19 +51,40 @@ body {
  *   HTML Elements
  * ========================================================================== */
 
-h1 {}
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 
-h2 {}
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 
-h3 {}
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 
-h4 {}
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 
-h5 {}
+h5 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 
-h6 {}
+h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
+}
 
-p {}
+p {
+  font-size: .938em;
+  line-height: 1.5em;
+}
 
 b,
 strong {}
@@ -83,9 +110,13 @@ q {}
 
 address {}
 
-ul {}
+ul {
+  font-size: .938em;
+}
 
-ol {}
+ol {
+  font-size: .938em;
+}
 
 li {}
 
@@ -1743,3 +1774,30 @@ tr.error {}
   min-height: 260px;
   width: auto;
 }
+
+
+
+
+/* ============================================================================
+ *   College of Science Global Styles
+ * ========================================================================= */
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'desktop';
+}
+
+/* Reset margins on Global Header and Footer so they span full width */
+#block-iit-global-header-iit-global-header, 
+#block-iit-global-header-iit-global-header .block-inner {
+  margin: 0;
+}
+
+#block-iit-global-footer-iit-global-footer, 
+#block-iit-global-footer-iit-global-footer .block-inner {
+  margin: 0;
+}
+
+
+
+
