@@ -127,6 +127,10 @@ html {
   padding-bottom: 10px;
 }
 
+.region-sidebar-second nav.block-menu-block {
+  width: inherit;
+}
+
 /* end Sidebar 2 Area ======================================================= */
 
 
