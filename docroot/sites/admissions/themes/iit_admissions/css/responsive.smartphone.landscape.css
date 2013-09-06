@@ -38,9 +38,18 @@ html {
 
 #iit-admissions-branding h2,
 #iit-undergraduate-admission-branding h2,
-#iit-graduate-admission-branding h2 {
+#iit-undergraduate-admission-homepage-branding h2,
+#iit-graduate-admission-branding h2,
+#iit-graduate-admission-homepage-branding h2 {
   font-size: 1.75em;
   padding: 0.428571428em 0 0;
+}
+
+#block-menu-menu-undergraduate, 
+#block-menu-menu-graduate, 
+#block-menu-menu-admissions-menu,
+#block-menu-menu-admissions-apply-menu {
+  border-top: 1px solid #888;
 }
 
 .region-header #block-menu-menu-admissions-menu .block-content ul,
@@ -126,6 +135,10 @@ html {
 
 .region-sidebar-second section#block-block-1 {
 	display: none;
+}
+
+.region-sidebar-second nav.block-menu-block {
+  width: inherit;
 }
 
 /* end Sidebar 2 Area ======================================================= */
@@ -261,3 +274,11 @@ html {
   width: 100%;
 }
 /* end Rolling Table */
+
+/* Homepage Header Contact Buttons */
+#iit-undergraduate-admission-homepage-buttons,
+#iit-graduate-admission-homepage-buttons {
+  position: static;
+  width: 100%;
+}
+/* end Homepage Header Contact Buttons */

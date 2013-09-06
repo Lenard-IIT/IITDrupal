@@ -1955,7 +1955,8 @@ body #main-content ul.action-links li {
 #block-block-7, 
 #block-block-8, 
 #block-block-9,
-#block-block-12 {
+#block-block-16,
+#block-block-21 {
   margin: 0 .75em;
   width: inherit;
 }
@@ -1963,7 +1964,8 @@ body #main-content ul.action-links li {
 #block-block-7 .block-inner, 
 #block-block-8 .block-inner, 
 #block-block-9 .block-inner,
-#block-block-12 .block-inner {
+#block-block-16 .block-inner,
+#block-block-21 .block-inner {
   margin: 0;
 }
 
@@ -1984,20 +1986,25 @@ body #main-content ul.action-links li {
   margin: 0;
 }
 
-#iit-undergraduate-admission-branding, 
-#iit-graduate-admission-branding, 
+#iit-undergraduate-admission-branding,
+#iit-undergraduate-admission-homepage-branding, 
+#iit-graduate-admission-branding,
+#iit-graduate-admission-homepage-branding, 
 #iit-admissions-branding {
   position: relative;
 }
 
-#iit-undergraduate-admission-branding h2, 
-#iit-graduate-admission-branding h2, 
+#iit-undergraduate-admission-branding h2,
+#iit-undergraduate-admission-homepage-branding h2, 
+#iit-graduate-admission-branding h2,
+#iit-graduate-admission-homepage-branding h2, 
 #iit-admissions-branding h2 {
   font-family: 'EconomicaBold-IIT', sans-serif;
   font-weight: normal;
   font-size: 2.1875em;
   margin: 0;
   padding: 1em 0 0;
+  border: 0;
 }
 
 /* Global Admissions */
@@ -2007,21 +2014,25 @@ body #main-content ul.action-links li {
 }
 
 /* Undergraduate */
-#iit-undergraduate-admission-branding h2 a span {
+#iit-undergraduate-admission-branding h2 a span,
+#iit-undergraduate-admission-homepage-branding h2 a span {
   color: #888;
 }
 
-#iit-undergraduate-admission-branding h2 a {
+#iit-undergraduate-admission-branding h2 a,
+#iit-undergraduate-admission-homepage-branding h2 a {
   color: #F90;
   text-decoration: none;
 }
 
 /* Graduate */
-#iit-graduate-admission-branding h2 a span {
+#iit-graduate-admission-branding h2 a span,
+#iit-graduate-admission-homepage-branding h2 a span {
   color: #888;
 }
 
-#iit-graduate-admission-branding h2 a {
+#iit-graduate-admission-branding h2 a,
+#iit-graduate-admission-homepage-branding h2 a {
   color: #9B0000;
   text-decoration: none;
 }
@@ -2120,6 +2131,7 @@ body.graduate .sidebar nav.block-menu-block a {
   margin: 0;
 }
 
+/* Sidebar contact buttons */
 #block-block-10 p a,
 #block-block-11 p a {
   color: #fff;
@@ -2142,6 +2154,42 @@ body.graduate .sidebar nav.block-menu-block a {
 
 #block-block-10 p a:first-child,
 #block-block-11 p a:first-child {
+  margin-right: 4%;
+}
+
+/* Homepage Header Contact Buttons */
+#iit-undergraduate-admission-homepage-buttons,
+#iit-graduate-admission-homepage-buttons {
+  margin-bottom: .6em;
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  width: 236px;
+}
+
+#iit-undergraduate-admission-homepage-buttons a,
+#iit-graduate-admission-homepage-buttons a {
+  color: #fff;
+  background-color: #666;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .35em 0;
+  display: inline-block;
+  width: 48%;
+}
+
+#iit-undergraduate-admission-homepage-buttons a:hover,
+#iit-graduate-admission-homepage-buttons a:hover {
+  background-color: #888;
+}
+
+#iit-undergraduate-admission-homepage-buttons a:first-child,
+#iit-graduate-admission-homepage-buttons a:first-child {
   margin-right: 4%;
 }
 
