@@ -18,12 +18,15 @@ Features
 The primary features include:
 
 * The current supported basic meta tags are ABSTRACT, DESCRIPTION, CANONICAL,
-  COPYRIGHT, GENERATOR, IMAGE_SRC, KEYWORDS, PUBLISHER, ROBOTS, SHORTLINK and
-  the page's TITLE tag.
+  COPYRIGHT, GENERATOR, IMAGE_SRC, KEYWORDS, PUBLISHER, REVISIT-AFTER, ROBOTS,
+  SHORTLINK and the page's TITLE tag.
 
 * Multi-lingual support using the Entity Translation module.
 
 * Translation support using the Internationalization (i18n) module.
+
+* Full support for entity revisions and workflows based upon revision editing,
+  e.g. Revisioning module.
 
 * Per-path control over meta tags using the "Metatag: Context" submodule
   (requires the Context module).
@@ -103,6 +106,14 @@ Fine Tuning
   * Hardcode the value in the site's settings.php file:
     $conf['metatag_load_all_pages'] = FALSE;
   To re-enable this option simply set the value to TRUE.
+* By default users will be able to edit meta tags on forms based on the 'Edit
+  meta tags' permission. The 'metatag_extended_permissions' variable may be set
+  to TRUE to give each individual meta tag a separate permission. This allows
+  fine-tuning of the site's editorial control, and for rarely-used fields to be
+  hidden from most users. Note: The 'Edit meta tags' permission is still
+  required otherwise none of the meta tag fields will display at all. The
+  functionality may be disabled again by either removing the variable or
+  setting it to FALSE.
 
 
 Developers
@@ -142,6 +153,10 @@ Troubleshooting / Known Issues
     <title>"The page title | My cool site"</title>
   The solution is to remove the browser plugin - the page's actual output is not
   affected, it is just a problem in the browser.
+* The core RDF module is known to cause validation problems for Open Graph meta
+  tags output by the Metatag:OpenGraph module. Unless it is actually needed for
+  the site, it may be worthwhile to disable the RDF module to avoid any
+  possible problems for the Open Graph integration.
 
 
 Related modules
@@ -163,13 +178,18 @@ Some modules are available that extend Metatag with additional functionality:
   Provide tokens to load fields using an image style preset, for when meta tags
   need to fix exact requirements.
 
+* Node Form Panes
+  https://drupal.org/project/node_form_panes
+  Create custom node-edit forms and control the location of the Metatag fields.
+
 
 Credits / Contact
 ------------------------------------------------------------------------------
-Currently maintained by Dave Reid [1] and Damien McKenna [2].
+Currently maintained by Damien McKenna [1] and Dave Reid [2]; all initial
+development was by Dave Reid.
 
-All initial development was sponsored by Acquia [3] and Palantir [4];
-continued development sponsored by Palantir and Mediacurrent [5].
+Ongoing development is sponsored by Mediacurrent [3] and Palantir.net [4]. All
+initial development was sponsored by Acquia [5] and Palantir.net.
 
 The best way to contact the authors is to submit an issue, be it a support
 request, a feature request or a bug report, in the project issue queue:
@@ -178,8 +198,8 @@ request, a feature request or a bug report, in the project issue queue:
 
 References
 ------------------------------------------------------------------------------
-1: http://drupal.org/user/53892
-2: http://drupal.org/user/108450
-3: http://www.acquia.com/
+1: http://drupal.org/user/108450
+2: http://drupal.org/user/53892
+3: http://www.mediacurrent.com/
 4: http://www.palantir.net/
-5: http://www.mediacurrent.com/
+5: http://www.acquia.com/

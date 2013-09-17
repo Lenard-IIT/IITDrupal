@@ -1,100 +1,8 @@
 <?php
-
 /**
  * @file
  * Install, update, and uninstall functions for the metatag module.
  */
-
-/**
- * Implements hook_schema().
- */
-function metatag_schema() {
-  $schema['metatag_config'] = array(
-    'description' => 'Storage of meta tag configuration and defaults.',
-    'export' => array(
-      'key' => 'instance',
-      'key name' => 'Instance',
-      'primary key' => 'cid',
-      'identifier' => 'config',
-      'default hook' => 'metatag_config_default',
-      'api' => array(
-        'owner' => 'metatag',
-        'api' => 'metatag',
-        'minimum_version' => 1,
-        'current_version' => 1,
-      ),
-      'cache defaults' => TRUE,
-      'default cache bin' => 'cache_metatag',
-    ),
-    'fields' => array(
-      'cid' => array(
-        'type' => 'serial',
-        'unsigned' => TRUE,
-        'not null' => TRUE,
-        'description' => 'The primary identifier for a metatag configuration set.',
-        'no export' => TRUE,
-      ),
-      'instance' => array(
-        'type' => 'varchar',
-        'length' => 255,
-        'not null' => TRUE,
-        'default' => '',
-        'description' => 'The machine-name of the configuration, typically entity-type:bundle.',
-      ),
-      'config' => array(
-        'type' => 'blob',
-        'size' => 'big',
-        'not null' => TRUE,
-        'serialize' => TRUE,
-        'description' => 'Serialized data containing the meta tag configuration.',
-        'translatable' => TRUE,
-      ),
-    ),
-    'primary key' => array('cid'),
-    'unique keys' => array(
-      'instance' => array('instance'),
-    ),
-  );
-
-  $schema['metatag'] = array(
-    'fields' => array(
-      'entity_type' => array(
-        'type' => 'varchar',
-        'length' => 32,
-        'not null' => TRUE,
-        'default' => '',
-        'description' => 'The entity type this data is attached to',
-      ),
-      'entity_id' => array(
-        'type' => 'int',
-        'unsigned' => TRUE,
-        'not null' => TRUE,
-        'default' => 0,
-        'description' => 'The entity id this data is attached to',
-      ),
-      // @todo Enable revisionable meta tags.
-      'data' => array(
-        'type' => 'blob',
-        'size' => 'big',
-        'not null' => TRUE,
-        'serialize' => TRUE,
-      ),
-      'language' => array(
-        'type' => 'varchar',
-        'length' => 32,
-        'not null' => TRUE,
-        'default' => '',
-        'description' => 'The language of the tag.',
-      ),
-    ),
-    'primary key' => array('entity_type', 'entity_id', 'language'),
-  );
-
-  $schema['cache_metatag'] = drupal_get_schema_unprocessed('system', 'cache');
-  $schema['cache_metatag']['description'] = t('Cache table for the generated meta tag output.');
-
-  return $schema;
-}
 
 /**
  * Implements hook_requirements().
@@ -173,16 +81,127 @@ function metatag_requirements($phase) {
         'description' => $t("The :filename file was removed in v7.x-1.0-beta5 but it still exists in the site's Metatag module's directory and will cause problems. This file needs to be removed. The file's path in the Drupal directory structure is:<br /><code>!short_path</code><br />The file's full path is:<br /><code>!full_path</code>", array(':filename' => $filename, '!short_path' => drupal_get_path('module', 'metatag') . '/' . $filename, '!full_path' => dirname(__FILE__) . $filename)),
       );
     }
+
+    // Check that Entity_Translation is current.
+    if (module_exists('entity_translation')) {
+      $rev = db_query("SELECT schema_version FROM {system} WHERE name = :module", array(':module' => 'entity_translation'))->fetchColumn();
+      if ($rev < 7004) {
+        $requirements['metatag_et_old'] = array(
+          'severity' => REQUIREMENT_ERROR,
+          'title' => 'Metatag',
+          'value' => $t('<a href="@url">Entity_Translation</a> is out of date and requires updating', array('@url' => 'http://drupal.org/project/entity_translation')),
+          'description' => $t('The Entity_Translation module is out of date and needs to be updated in order to be compatible with Metatag.'),
+        );
+      }
+    }
   }
 
   return $requirements;
 }
 
 /**
+ * Implements hook_schema().
+ */
+function metatag_schema() {
+  $schema['metatag_config'] = array(
+    'description' => 'Storage of meta tag configuration and defaults.',
+    'export' => array(
+      'key' => 'instance',
+      'key name' => 'Instance',
+      'primary key' => 'cid',
+      'identifier' => 'config',
+      'default hook' => 'metatag_config_default',
+      'api' => array(
+        'owner' => 'metatag',
+        'api' => 'metatag',
+        'minimum_version' => 1,
+        'current_version' => 1,
+      ),
+      'cache defaults' => TRUE,
+      'default cache bin' => 'cache_metatag',
+    ),
+    'fields' => array(
+      'cid' => array(
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'description' => 'The primary identifier for a metatag configuration set.',
+        'no export' => TRUE,
+      ),
+      'instance' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'The machine-name of the configuration, typically entity-type:bundle.',
+      ),
+      'config' => array(
+        'type' => 'blob',
+        'size' => 'big',
+        'not null' => TRUE,
+        'serialize' => TRUE,
+        'description' => 'Serialized data containing the meta tag configuration.',
+        'translatable' => TRUE,
+      ),
+    ),
+    'primary key' => array('cid'),
+    'unique keys' => array(
+      'instance' => array('instance'),
+    ),
+  );
+
+  $schema['metatag'] = array(
+    'fields' => array(
+      'entity_type' => array(
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'The entity type this data is attached to.',
+      ),
+      'entity_id' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The entity id this data is attached to.',
+      ),
+      'revision_id' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => FALSE,
+        'default' => 0,
+        'description' => 'The entity vid this data is attached to'
+      ),
+      'language' => array(
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'The language of the tag.',
+      ),
+      'data' => array(
+        'type' => 'blob',
+        'size' => 'big',
+        'not null' => TRUE,
+        'serialize' => TRUE,
+      ),
+    ),
+    'primary key' => array('entity_type', 'entity_id', 'revision_id', 'language'),
+  );
+
+  $schema['cache_metatag'] = drupal_get_schema_unprocessed('system', 'cache');
+  $schema['cache_metatag']['description'] = t('Cache table for the generated meta tag output.');
+
+  return $schema;
+}
+
+/**
  * Implements hook_install().
  */
-// function metatag_install() {
-// }
+function metatag_install() {
+  drupal_set_message(t("Thank you for installing the Metatag module. It is recommended to read the module's <a href=\"!url\" title=\"Read the Metatag module's documentation\">README.txt</a> file as there are some known issues that may afffect this site.", array('!url' => url(drupal_get_path('module', 'metatag') . '/README.txt'))));
+}
 
 /**
  * Implements hook_uninstall().
@@ -229,7 +248,9 @@ function metatag_update_7001() {
   );
   $keys = array('primary key' => array($field_name));
 
-  // Before making any changes, drop the existing primary key.
+  // Before making any changes, drop the existing primary key. Unforunately
+  // there is no API way to check if a primary key exists, so if it doesn't
+  // exist the db_drop_primary_key() call will fail.
   try {
     db_drop_primary_key($table_name);
   }
@@ -876,4 +897,20 @@ function metatag_update_7014() {
     }
     drupal_set_message(t('Fixed @count corrupt meta tag record(s).', array('@count' => $records->rowCount())));
   }
+}
+
+/**
+ * Add the revision_id from the entity into metatag schema, adjust the primary
+ * keys accordingly.
+ */
+function metatag_update_7015() {
+  // Add the new field.
+  db_add_field('metatag', 'revision_id', array('type' => 'int', 'unsigned' => TRUE, 'not null' => FALSE, 'default' => 0, 'description' => 'The entity id revision_id this data is attached to'));
+
+  // Remove the existing primary key. This may take some work so it can be
+  // database agnostic, i.e. some databases will not like it.
+  db_drop_primary_key('metatag');
+
+  // Add the new primary key.
+  db_add_primary_key('metatag', array('entity_type', 'entity_id', 'revision_id', 'language'));
 }

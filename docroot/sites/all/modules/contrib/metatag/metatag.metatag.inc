@@ -164,6 +164,13 @@ function metatag_metatag_info() {
     'class' => 'DrupalTextMetaTag',
     'group' => 'advanced',
   );
+  
+  $info['tags']['standout'] = array(
+    'label' => t('Google Standout'),
+    'description' => t("Highlight standout journalism on the web, especially for breaking news; used as an indicator in <a href=\"@google_news\">Google News</a>. Warning: Don't abuse it, to be used a maximum of 7 times per calendar week!", array('@google_news' => 'https://support.google.com/news/publisher/answer/191283?hl=en&ref_topic=2484650')),
+    'class' => 'DrupalTextMetaTag',
+    'group' => 'advanced',
+  );
 
   $info['tags']['generator'] = array(
     'label' => t('Generator'),
@@ -211,7 +218,7 @@ function metatag_metatag_info() {
 
   $info['tags']['author'] = array(
     'label' => t('Author URL'),
-    'description' => "Used by some search engines to confirm authorship of the content on a page. Should be either the full URL for the author's Google+ profile page or a local page with information about the author.",
+    'description' => t("Used by some search engines to confirm authorship of the content on a page. Should be either the full URL for the author's Google+ profile page or a local page with information about the author."),
     'class' => 'DrupalLinkMetaTag',
     'group' => 'advanced',
   );
@@ -221,8 +228,15 @@ function metatag_metatag_info() {
     'description' => '',
     'class' => 'DrupalTextMetaTag',
     'group' => 'advanced',
-    'description' => "Used to indicate the URL that broke the story, and can link to either an internal URL or an external source. If the full URL is not known it is acceptable to use a partial URL or just the domain name.",
+    'description' => t("Used to indicate the URL that broke the story, and can link to either an internal URL or an external source. If the full URL is not known it is acceptable to use a partial URL or just the domain name."),
   );
+
+   $info['tags']['revisit-after'] = array(
+     'label' => t('Revisit After'),
+     'description' => t('Tell search engines when to index the page again. Very few search engines support this tag, it is more useful to use an <a href="@xmlsitemap">XML Sitemap</a> file.', array('@xmlsitemap' => 'http://drupal.org/project/xmlsitemap')),
+     'class' => 'DrupalDateIntervalMetaTag',
+     'group' => 'advanced',
+   );
 
   return $info;
 }
