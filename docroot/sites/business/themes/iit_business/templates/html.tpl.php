@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Lewis College of Human Sciences Adaptivetheme subtheme override implementation to display the basic html structure of a single
+ * Stuart School of Business Adaptivetheme subtheme override implementation to display the basic html structure of a single
  * Drupal page.
  *
  * Adaptivetheme Variables:
