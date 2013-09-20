@@ -1,7 +1,7 @@
 
 ;----------// Theme Information
 
-  name        = IIT Business
+  name        = IIT Stuart
   description = Illinois Institute of Technology Stuart School of Business Adaptive Subtheme
   core        = 7.x
   base theme  = adaptivetheme

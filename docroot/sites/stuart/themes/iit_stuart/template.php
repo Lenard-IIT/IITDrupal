@@ -14,10 +14,10 @@
  * powerful way to easily modify the output of any template variable.
  * 
  * Preprocess and Process Functions SEE: http://drupal.org/node/254940#variables-processor
- * 1. Rename each function and instance of "iit_business" to match
+ * 1. Rename each function and instance of "iit_stuart" to match
  *    your subthemes name, e.g. if your theme name is "footheme" then the function
  *    name will be "footheme_preprocess_hook". Tip - you can search/replace
- *    on "iit_business".
+ *    on "iit_stuart".
  * 2. Uncomment the required function to use.
  */
 
@@ -26,7 +26,7 @@
  * Preprocess variables for the html template.
  */
 /* -- Delete this line to enable.
-function iit_business_preprocess_html(&$vars) {
+function iit_stuart_preprocess_html(&$vars) {
   global $theme_key;
 
   // Two examples of adding custom classes to the body.
@@ -45,7 +45,7 @@ function iit_business_preprocess_html(&$vars) {
  * Process variables for the html template.
  */
 /* -- Delete this line if you want to use this function
-function iit_business_process_html(&$vars) {
+function iit_stuart_process_html(&$vars) {
 }
 // */
 
@@ -54,9 +54,9 @@ function iit_business_process_html(&$vars) {
  * Override or insert variables for the page templates.
  */
 /* -- Delete this line if you want to use these functions
-function iit_business_preprocess_page(&$vars) {
+function iit_stuart_preprocess_page(&$vars) {
 }
-function iit_business_process_page(&$vars) {
+function iit_stuart_process_page(&$vars) {
 }
 // */
 
@@ -65,9 +65,9 @@ function iit_business_process_page(&$vars) {
  * Override or insert variables into the node templates.
  */
 /* -- Delete this line if you want to use these functions
-function iit_business_preprocess_node(&$vars) {
+function iit_stuart_preprocess_node(&$vars) {
 }
-function iit_business_process_node(&$vars) {
+function iit_stuart_process_node(&$vars) {
 }
 // */
 
@@ -76,9 +76,9 @@ function iit_business_process_node(&$vars) {
  * Override or insert variables into the comment templates.
  */
 /* -- Delete this line if you want to use these functions
-function iit_business_preprocess_comment(&$vars) {
+function iit_stuart_preprocess_comment(&$vars) {
 }
-function iit_business_process_comment(&$vars) {
+function iit_stuart_process_comment(&$vars) {
 }
 // */
 
@@ -87,15 +87,15 @@ function iit_business_process_comment(&$vars) {
  * Override or insert variables into the block templates.
  */
 /* -- Delete this line if you want to use these functions
-function iit_business_preprocess_block(&$vars) {
+function iit_stuart_preprocess_block(&$vars) {
 }
-function iit_business_process_block(&$vars) {
+function iit_stuart_process_block(&$vars) {
 }
 // */
 
 
 /**
- * Override of adaptivetheme_field to iit_business_field__field_page_section_anchor__field_page_section
+ * Override of adaptivetheme_field to iit_stuart_field__field_page_section_anchor__field_page_section
  * Override the styling of the page section title on a page section field collection
  *
  * @param $vars
@@ -114,7 +114,7 @@ function iit_business_process_block(&$vars) {
  * @see template_process_field()
  * @see field.tpl.php
  */
-function iit_business_field__field_page_section_anchor__field_page_section($vars) {
+function iit_stuart_field__field_page_section_anchor__field_page_section($vars) {
   $output = '';
   
   $content = drupal_render($vars['items'][0]);
@@ -128,7 +128,7 @@ function iit_business_field__field_page_section_anchor__field_page_section($vars
 
 
 /**
- * Override of adaptivetheme_field to iit_business_field__field_page_section_title__field_page_section
+ * Override of adaptivetheme_field to iit_stuart_field__field_page_section_title__field_page_section
  * Override the styling of the page section title on a page section field collection
  *
  * @param $vars
@@ -147,7 +147,7 @@ function iit_business_field__field_page_section_anchor__field_page_section($vars
  * @see template_process_field()
  * @see field.tpl.php
  */
-function iit_business_field__field_page_section_title__field_page_section($vars) {
+function iit_stuart_field__field_page_section_title__field_page_section($vars) {
   $output = '';
 
   // Render the label, if it's not hidden.
@@ -175,7 +175,7 @@ function iit_business_field__field_page_section_title__field_page_section($vars)
 
 
 /**
- * Override of adaptivetheme_field to iit_business_field__field_page_section_content__field_page_section
+ * Override of adaptivetheme_field to iit_stuart_field__field_page_section_content__field_page_section
  * Override the styling of the page section content on a page section field collection
  *
  * @param $vars
@@ -194,7 +194,7 @@ function iit_business_field__field_page_section_title__field_page_section($vars)
  * @see template_process_field()
  * @see field.tpl.php
  */
-function iit_business_field__field_page_section_content__field_page_section($vars) {
+function iit_stuart_field__field_page_section_content__field_page_section($vars) {
   $output = '';
 
   // Render the label, if it's not hidden.
