@@ -1838,6 +1838,28 @@ tr.error {}
 }
 /* end Field Collection Overrides */
 
+
+/* Field Collection Description text and add button */
+.description.field-collection-description {
+    color: #B1B1B1;
+    margin: 20px 0 10px 75px;
+}
+
+.action-links.action-links-field-collection-add a {
+    background-color: #B1B1B1;
+    padding: 6px 12px;
+    color: #fff;
+}
+
+.field-collection-container ul.action-links.action-links-field-collection-add {
+    float: left;
+    position: relative;
+    margin: 10px 0;
+    top: -41px;
+}
+/* end Field Collection Description text and add button */
+
+
 /* hide page titles on panel pages */
 body.page-graduate-home #page-title,
 body.page-undergraduate-home #page-title,
