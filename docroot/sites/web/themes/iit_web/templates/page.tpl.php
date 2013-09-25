@@ -166,6 +166,7 @@
       </div>
     <?php endif; ?>
 
+    <!--
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb-wrapper">
         <div class="container clearfix">
@@ -173,6 +174,7 @@
         </div>
       </div>
     <?php endif; ?>
+    -->
 
     <?php if ($messages || $page['help']): ?>
       <div id="messages-help-wrapper">
