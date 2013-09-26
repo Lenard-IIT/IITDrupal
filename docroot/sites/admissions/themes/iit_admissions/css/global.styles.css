@@ -143,7 +143,9 @@ ol {
 
 li {}
 
-dl {}
+dl {
+  font-size: .938em;
+}
 
 dd {}
 
@@ -152,6 +154,10 @@ dt {}
 abbr {}
 
 acronym {}
+
+table {
+  font-size: .938em;
+}
 
 pre,
 code,
