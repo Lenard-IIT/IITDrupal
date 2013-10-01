@@ -1836,4 +1836,47 @@ tr.error {}
 /* end Field Collection Description text and add button */
 
 
+/* Sidebar Menu */
+.sidebar nav.block-menu-block {
+  background-color: #1F7CC9;
+}
 
+.sidebar nav.block-menu-block a {
+  color: #fff;
+}
+/* end Sidebar Menu */
+
+
+/* header menu */
+#header .block-menu ul ul {
+  display: none;
+}
+
+#header .block-menu ul {
+  padding: 0;
+  background: url("/sites/admissions/themes/iit_admissions/css/images/background.png");
+}
+
+#header .block-menu .block-content ul li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#header .block-menu .block-content ul li a {
+  display: block;
+  padding: .2em 1.5em;
+  color: #666;
+  text-decoration: none;
+  outline: none;
+}
+
+#header .block-menu .block-content ul li a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+#header .block-menu .block-content ul li a.active-trail {
+  background-color: #1F7CC9;
+  color: #fff;
+}
+/* end header menu */
