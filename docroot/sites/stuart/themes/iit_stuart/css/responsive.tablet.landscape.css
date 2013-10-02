@@ -13,11 +13,13 @@
   font-family: 'tablet_landscape';
 }
 
-/* header menu */
-#header .block-menu {
-  border-top: 1px solid #888;
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 2em;
 }
+/* end Page Header Region */
 
+/* header menu */
 #header .block-menu ul {
 	float: left;
 	width: 100%;

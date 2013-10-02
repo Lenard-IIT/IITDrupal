@@ -1818,6 +1818,13 @@ tr.error {}
 #main-content h1 {
   color: #1F7CC9;
 }
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6, {
+  color: #1F7CC9;
+}
 /* end Standard Elements */
 
 /* Field Collection Description text and add button */
@@ -1850,6 +1857,24 @@ tr.error {}
   color: #fff;
 }
 /* end Sidebar Menu */
+
+
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 1em;
+}
+/* end Page Header Region */
+
+
+/* Page Header */
+#header .region-header .block-block {
+  margin: 0 .75em;
+}
+
+#header .region-header .block-block .block-inner {
+  margin: 0;
+}
+/* end Page Header */
 
 
 /* header menu */

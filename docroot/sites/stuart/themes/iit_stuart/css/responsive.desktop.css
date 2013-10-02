@@ -13,6 +13,12 @@
   font-family: 'desktop';
 }
 
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 2em;
+}
+/* end Page Header Region */
+
 /* header menu */
 #header .block-menu ul {
 	float: left;
