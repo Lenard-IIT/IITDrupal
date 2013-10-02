@@ -12,3 +12,18 @@
   /* used for testing media query in js */
   font-family: 'tablet_landscape';
 }
+
+/* header menu */
+#header .block-menu {
+  border-top: 1px solid #888;
+}
+
+#header .block-menu ul {
+	float: left;
+	width: 100%;
+}
+
+#header .block-menu .block-content ul li {
+	float: left;
+}
+/* end header menu */

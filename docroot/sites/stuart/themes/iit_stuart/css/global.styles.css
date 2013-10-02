@@ -1814,6 +1814,11 @@ tr.error {}
 }
 /* end Field Collection Overrides */
 
+/* Standard Elements */
+#main-content h1 {
+  color: #1F7CC9;
+}
+/* end Standard Elements */
 
 /* Field Collection Description text and add button */
 .description.field-collection-description {
@@ -1848,12 +1853,23 @@ tr.error {}
 
 
 /* header menu */
+#header .block-menu {
+  margin: 0 .75em;
+  padding: 0 0 .375em;
+  border-bottom: 1px solid #888;
+}
+
+#header .block-menu .block-inner {
+  margin: 0;
+}
+
 #header .block-menu ul ul {
   display: none;
 }
 
 #header .block-menu ul {
   padding: 0;
+  margin: 0;
   background: url("/sites/admissions/themes/iit_admissions/css/images/background.png");
 }
 
