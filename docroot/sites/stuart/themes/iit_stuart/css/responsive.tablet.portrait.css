@@ -25,6 +25,13 @@ html {
 }
 /* end Page Header Region */
 
+/* Page Header */
+#header .iit-page-header h2 {
+  font-size: 2.3125em;
+  padding: 1em 0 0;
+}
+/* end Page Header */
+
 /* header menu */
 #header .block-menu ul {
 	float: left;
