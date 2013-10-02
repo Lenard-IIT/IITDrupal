@@ -26,12 +26,12 @@ html {
 /* end Page Header Region */
 
 /* header menu */
-#header .block-menu ul {
+#header .block-menu-block ul {
 	float: left;
 	width: 100%;
 }
 
-#header .block-menu .block-content ul li {
+#header .block-menu-block .block-content ul li {
 	float: left;
 }
 /* end header menu */

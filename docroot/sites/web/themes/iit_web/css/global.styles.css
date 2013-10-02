@@ -1900,32 +1900,36 @@ tr.error {}
 
 
 /* header menu */
-#header .block-menu {
+#header .block-menu-block {
   margin: 0 .75em;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
 }
 
-#header .block-menu .block-inner {
-  margin: 0;
-}
-
-#header .block-menu ul ul {
+#header .block-menu-block h2 {
   display: none;
 }
 
-#header .block-menu ul {
-  padding: 0;
+#header .block-menu-block .block-inner {
   margin: 0;
-  background: url("/sites/web/themes/iit_admissions/css/images/background.png");
 }
 
-#header .block-menu .block-content ul li {
+#header .block-menu-block ul ul {
+  display: none;
+}
+
+#header .block-menu-block ul {
+  padding: 0;
+  margin: 0;
+  background: url("/sites/web/themes/iit_web/css/images/background.png");
+}
+
+#header .block-menu-block .block-content ul li {
   list-style-type: none;
   list-style-image: none;
 }
 
-#header .block-menu .block-content ul li a {
+#header .block-menu-block .block-content ul li a {
   display: block;
   padding: .2em 1.5em;
   color: #666;
@@ -1933,13 +1937,13 @@ tr.error {}
   outline: none;
 }
 
-#header .block-menu .block-content ul li a:hover {
+#header .block-menu-block .block-content ul li a:hover {
   background-color: #ccc;
   color: #fff;
 }
 
-#header .block-menu .block-content ul li a.active-trail {
-  background-color: #1F7CC9;
+#header .block-menu-block .block-content ul li a.active-trail {
+  background-color: #C00;
   color: #fff;
 }
 /* end header menu */
