@@ -1905,6 +1905,7 @@ tr.error {}
   margin: 0 .75em;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
+  width: inherit;
 }
 
 #header .block-menu .block-inner {
