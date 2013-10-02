@@ -8,7 +8,30 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 /* Increase the body font size on small devices 
+/*
 html {
   font-size: 81.3%;
 }
 */
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'tablet_portrait';
+}
+
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 2em;
+}
+/* end Page Header Region */
+
+/* header menu */
+#header .block-menu ul {
+	float: left;
+	width: 100%;
+}
+
+#header .block-menu .block-content ul li {
+	float: left;
+}
+/* end header menu */

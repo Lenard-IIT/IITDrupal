@@ -13,3 +13,8 @@ html {
   font-size: 112.5%;
 }
 */
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'smartphone_portrait';
+}

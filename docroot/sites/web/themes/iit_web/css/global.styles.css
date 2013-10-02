@@ -1834,6 +1834,21 @@ tr.error {}
 }
 /* end Field Collection Overrides */
 
+
+/* Standard Elements */
+#main-content h1 {
+  color: #C00;
+}
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  color: #C00;
+}
+/* end Standard Elements */
+
+
 /* Field Collection Description text and add button */
 .description.field-collection-description {
     color: #B1B1B1;
@@ -1855,15 +1870,77 @@ tr.error {}
 /* end Field Collection Description text and add button */
 
 
+/* Sidebar Menu */
+.sidebar nav.block-menu-block {
+  background-color: #C00;
+}
+
+.sidebar nav.block-menu-block a {
+  color: #fff;
+}
+/* end Sidebar Menu */
+
+
+/* Page Header Region */
 #header-wrapper {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+}
+/* end Page Header Region */
+
+
+/* Page Header */
+#header .region-header .block-block {
+  margin: 0 .75em;
 }
 
-h1#page-title {
-  line-height: 1em;
+#header .region-header .block-block .block-inner {
+  margin: 0;
+}
+/* end Page Header */
+
+
+/* header menu */
+#header .block-menu {
+  margin: 0 .75em;
+  padding: 0 0 .375em;
+  border-bottom: 1px solid #888;
 }
 
-h1 {
-  font-size: 2.75em;
+#header .block-menu .block-inner {
+  margin: 0;
 }
+
+#header .block-menu ul ul {
+  display: none;
+}
+
+#header .block-menu ul {
+  padding: 0;
+  margin: 0;
+  background: url("/sites/web/themes/iit_admissions/css/images/background.png");
+}
+
+#header .block-menu .block-content ul li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#header .block-menu .block-content ul li a {
+  display: block;
+  padding: .2em 1.5em;
+  color: #666;
+  text-decoration: none;
+  outline: none;
+}
+
+#header .block-menu .block-content ul li a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+#header .block-menu .block-content ul li a.active-trail {
+  background-color: #1F7CC9;
+  color: #fff;
+}
+/* end header menu */
 
