@@ -18,3 +18,9 @@ html {
   /* used for testing media query in js */
   font-family: 'smartphone_landscape';
 }
+
+/* header menu */
+#header .block-menu-block {
+  border-top: 1px solid #888;
+}
+/* end header menu */
