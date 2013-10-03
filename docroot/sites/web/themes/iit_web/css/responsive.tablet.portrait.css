@@ -25,12 +25,12 @@ html {
 }
 /* end Page Header Region */
 
-/* Page Header */
+/* Department Page Header */
 #header .iit-page-header h2 {
   font-size: 2.3125em;
   padding: 1em 0 0;
 }
-/* end Page Header */
+/* end Department Page Header */
 
 /* header menu */
 #header .block-menu-block ul {
@@ -42,3 +42,15 @@ html {
 	float: left;
 }
 /* end header menu */
+
+/* Department Footer */
+#footer #iit-department-footer {
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+#footer #iit-department-footer h5 {
+  font-size: 1.313em;
+  margin: 6px 0 0 0;
+}
+/* end Department Footer */

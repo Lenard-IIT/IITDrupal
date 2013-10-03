@@ -24,3 +24,15 @@ html {
   border-top: 1px solid #888;
 }
 /* end header menu */
+
+/* Department Footer */
+#footer #iit-department-footer {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#footer #iit-department-footer h5 {
+  font-size: 1.25em;
+  margin: 6px 0 0 0;
+}
+/* end Department Footer */

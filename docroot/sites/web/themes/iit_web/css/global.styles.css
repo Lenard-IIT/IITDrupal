@@ -1888,7 +1888,7 @@ tr.error {}
 /* end Page Header Region */
 
 
-/* Page Header */
+/* Department Page Header */
 #header .iit-page-header {
   position: relative;
   overflow: auto;
@@ -1919,7 +1919,43 @@ tr.error {}
 #header .iit-page-header h2 a span {
     color: #C00;
 }
-/* end Page Header */
+/* end Department Page Header */
+
+
+/* Department Footer */
+#footer-wrapper {
+  border-top: 3px solid #444;
+  background-color: #e9e9e9;
+}
+
+#footer #iit-department-footer {
+  position: relative;
+}
+
+#footer #iit-department-footer h5 {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#footer #iit-department-footer p {
+  font-size: .813em;
+  margin: 0 0 .8em;
+}
+
+#footer #iit-department-footer .social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer #iit-department-footer .social-icons li {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+#footer #iit-department-footer .social-icons li:first-child {
+  margin-left: 0;
+}
+/* end Department Footer */
 
 
 /* header menu */
