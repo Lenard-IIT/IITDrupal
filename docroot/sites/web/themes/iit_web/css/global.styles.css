@@ -1838,7 +1838,9 @@ tr.error {}
 /* Standard Elements */
 #main-content h1 {
   color: #C00;
+  font-size: 2.75em;
 }
+
 #main-content h2,
 #main-content h3,
 #main-content h4,
@@ -1985,7 +1987,14 @@ tr.error {}
 #header .block-menu-block ul {
   padding: 0;
   margin: 0;
-  background: url("/sites/web/themes/iit_web/css/images/background.png");
+  background: url("images/background.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  #header .block-menu ul {
+    background: url("images/background@2x.png");
+    background-size: 7px;
+  }
 }
 
 #header .block-menu-block .block-content ul li {
