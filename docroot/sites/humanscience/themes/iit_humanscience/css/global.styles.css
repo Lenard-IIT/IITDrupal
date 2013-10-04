@@ -1902,40 +1902,40 @@ tr.error {}
 
 
 /* header menu */
-#header .block-menu {
+#header .block-menu-block {
   margin: 0 .75em;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
   width: inherit;
 }
 
-#header .block-menu .block-inner {
+#header .block-menu-block .block-inner {
   margin: 0;
 }
 
-#header .block-menu ul ul {
+#header .block-menu-block ul ul {
   display: none;
 }
 
-#header .block-menu ul {
+#header .block-menu-block ul {
   padding: 0;
   margin: 0;
   background: url("images/background.png");
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  #header .block-menu ul {
+  #header .block-menu-block ul {
     background: url("images/background@2x.png");
     background-size: 7px;
   }
 }
 
-#header .block-menu .block-content ul li {
+#header .block-menu-block .block-content ul li {
   list-style-type: none;
   list-style-image: none;
 }
 
-#header .block-menu .block-content ul li a {
+#header .block-menu-block .block-content ul li a {
   display: block;
   padding: .2em 1.5em;
   color: #666;
@@ -1943,25 +1943,25 @@ tr.error {}
   outline: none;
 }
 
-#header .block-menu .block-content ul li a:hover {
+#header .block-menu-block .block-content ul li a:hover {
   background-color: #ccc;
   color: #fff;
 }
 
-#header .block-menu .block-content ul li a.active-trail {
+#header .block-menu-block .block-content ul li a.active-trail {
   background-color: #295F6C;
   color: #fff;
 }
 
-.psychology #header .block-menu .block-content ul li a.active-trail {
+.psychology #header .block-menu-block .block-content ul li a.active-trail {
   background-color: #7d9395;
 }
 
-.humanities #header .block-menu .block-content ul li a.active-trail {
+.humanities #header .block-menu-block .block-content ul li a.active-trail {
   background-color: #89b3c1;
 }
 
-.social-sciences #header .block-menu .block-content ul li a.active-trail {
+.social-sciences #header .block-menu-block .block-content ul li a.active-trail {
   background-color: #6291a5;
 }
 /* end header menu */
