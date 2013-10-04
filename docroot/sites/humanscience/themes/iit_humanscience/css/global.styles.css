@@ -1900,3 +1900,68 @@ tr.error {}
 }
 /* end Page Header */
 
+
+/* header menu */
+#header .block-menu {
+  margin: 0 .75em;
+  padding: 0 0 .375em;
+  border-bottom: 1px solid #888;
+  width: inherit;
+}
+
+#header .block-menu .block-inner {
+  margin: 0;
+}
+
+#header .block-menu ul ul {
+  display: none;
+}
+
+#header .block-menu ul {
+  padding: 0;
+  margin: 0;
+  background: url("images/background.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  #header .block-menu ul {
+    background: url("images/background@2x.png");
+    background-size: 7px;
+  }
+}
+
+#header .block-menu .block-content ul li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#header .block-menu .block-content ul li a {
+  display: block;
+  padding: .2em 1.5em;
+  color: #666;
+  text-decoration: none;
+  outline: none;
+}
+
+#header .block-menu .block-content ul li a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+#header .block-menu .block-content ul li a.active-trail {
+  background-color: #295F6C;
+  color: #fff;
+}
+
+.psychology #header .block-menu .block-content ul li a.active-trail {
+  background-color: #7d9395;
+}
+
+.humanities #header .block-menu .block-content ul li a.active-trail {
+  background-color: #89b3c1;
+}
+
+.social-sciences #header .block-menu .block-content ul li a.active-trail {
+  background-color: #6291a5;
+}
+/* end header menu */

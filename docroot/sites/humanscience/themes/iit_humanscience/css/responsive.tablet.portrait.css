@@ -31,3 +31,14 @@ html {
   padding: 1em 0 0;
 }
 /* end Page Header */
+
+/* header menu */
+#header .block-menu ul {
+	float: left;
+	width: 100%;
+}
+
+#header .block-menu .block-content ul li {
+	float: left;
+}
+/* end header menu */
