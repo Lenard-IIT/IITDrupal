@@ -18,3 +18,16 @@ html {
   /* used for testing media query in js */
   font-family: 'tablet_portrait';
 }
+
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 2em;
+}
+/* end Page Header Region */
+
+/* Page Header */
+#header .iit-page-header h2 {
+  font-size: 2.3125em;
+  padding: 1em 0 0;
+}
+/* end Page Header */

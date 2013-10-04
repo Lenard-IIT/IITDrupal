@@ -210,7 +210,7 @@ var {
  */
 #header-wrapper {
   /* Debug styles, is this working */
-  background: rgba(255, 192, 203, 0.5);
+  /* background: rgba(255, 192, 203, 0.5); */
 }
 #header-wrapper .container {}
 
@@ -1836,4 +1836,67 @@ tr.error {}
 /* end Field Collection Description text and add button */
 
 
+/* Sidebar Menu */
+.sidebar nav.block-menu-block {
+  background-color: #295F6C;
+}
+
+.sidebar nav.block-menu-block a {
+  color: #fff;
+}
+/* end Sidebar Menu */
+
+
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 1em;
+}
+/* end Page Header Region */
+
+
+/* Page Header */
+#header .iit-page-header {
+  position: relative;
+  overflow: auto;
+}
+
+#header .region-header .block-block {
+  margin: 0 .75em;
+  width: inherit;
+}
+
+#header .region-header .block-block .block-inner {
+  margin: 0;
+}
+
+#header .iit-page-header h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.428571428em 0 0;
+  margin: 0;
+}
+
+#header .iit-page-header h2 a {
+    color: #888;
+    text-decoration: none;
+}
+
+#header .iit-page-header h2 a span {
+    color: #295F6C;
+}
+
+.psychology #header .iit-page-header h2 a.department {
+    color: #7d9395;
+}
+
+.humanities #header .iit-page-header h2 a.department {
+    color: #89b3c1;
+}
+
+.social-sciences #header .iit-page-header h2 a.department {
+    color: #6291a5;
+}
+/* end Page Header */
 
