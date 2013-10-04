@@ -1827,6 +1827,10 @@ tr.error {}
 #main-content h6 {
   color: #1F7CC9;
 }
+
+.img-margin {
+  margin: 8px;
+}
 /* end Standard Elements */
 
 /* Field Collection Description text and add button */
