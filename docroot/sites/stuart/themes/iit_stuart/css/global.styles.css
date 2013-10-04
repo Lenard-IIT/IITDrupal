@@ -1827,11 +1827,13 @@ tr.error {}
 #main-content h6 {
   color: #1F7CC9;
 }
+/* end Standard Elements */
 
-.img-margin {
+/* news node Styles */
+.node-news .field-name-body img {
   margin: 8px;
 }
-/* end Standard Elements */
+/* end news node Styles */
 
 /* Field Collection Description text and add button */
 .description.field-collection-description {
