@@ -42,3 +42,11 @@ html {
 	float: left;
 }
 /* end header menu */
+
+/* header top 3 menu */
+#header #block-menu-block-3 {
+    position: absolute;
+    right:0;
+    top: 12px;
+}
+/* end header top 3 menu*/

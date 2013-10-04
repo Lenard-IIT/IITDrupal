@@ -1841,6 +1841,18 @@ tr.error {}
   background-color: #295F6C;
 }
 
+.psychology .sidebar nav.block-menu-block {
+  background-color: #7d9395;
+}
+
+.humanities .sidebar nav.block-menu-block {
+  background-color: #89b3c1;
+}
+
+.social-sciences .sidebar nav.block-menu-block {
+  background-color: #6291a5;
+}
+
 .sidebar nav.block-menu-block a {
   color: #fff;
 }
@@ -1858,6 +1870,10 @@ tr.error {}
 #header .iit-page-header {
   position: relative;
   overflow: auto;
+}
+
+#header .region-header {
+  position: relative;
 }
 
 #header .region-header .block-block {
@@ -1965,3 +1981,30 @@ tr.error {}
   background-color: #6291a5;
 }
 /* end header menu */
+
+
+/* header top 3 menu*/
+#header #block-menu-block-3 {
+    padding: 0;
+    border: 0;
+}
+
+#header #block-menu-block-3 ul {
+    background-image: none;
+}
+
+#header #block-menu-block-3 ul li a {
+    display: block;
+    padding: .35em 1em;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #666;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Open Sans Condensed',sans-serif; font-weight: bold; font-size: 1em; line-height: 1em; text-align: center; text-transform: uppercase;
+}
+
+#header #block-menu-block-3 ul li a:hover {
+    background-color: #888;
+}
+/* end header top 3 menu*/

@@ -24,3 +24,13 @@ html {
   border-top: 1px solid #888;
 }
 /* end header menu */
+
+/* header top 3 menu */
+#header #block-menu-block-3 {
+    margin-top: .9em;
+}
+
+#header #block-menu-block-3 ul li {
+    margin: 4px 0;
+}
+/* end header top 3 menu*/
