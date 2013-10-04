@@ -1870,6 +1870,7 @@ tr.error {}
 #header .iit-page-header {
   position: relative;
   overflow: auto;
+  z-index: 10;
 }
 
 #header .region-header {
@@ -1987,6 +1988,7 @@ tr.error {}
 #header #block-menu-block-3 {
     padding: 0;
     border: 0;
+    z-index: 100;
 }
 
 #header #block-menu-block-3 ul {
