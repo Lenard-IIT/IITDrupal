@@ -1815,6 +1815,49 @@ tr.error {}
 /* end Field Collection Overrides */
 
 
+/* Standard Elements */
+#main-content h1 {
+  font-size: 2.75em;
+}
+
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  color: #295F6C;
+}
+
+.psychology #main-content h1,
+.psychology #main-content h2,
+.psychology #main-content h3,
+.psychology #main-content h4,
+.psychology #main-content h5,
+.psychology #main-content h6 {
+  color: #7d9395;
+}
+
+.humanities #main-content h1,
+.humanities #main-content h2,
+.humanities #main-content h3,
+.humanities #main-content h4,
+.humanities #main-content h5,
+.humanities #main-content h6 {
+  color: #89b3c1;
+}
+
+.social-sciences #main-content h1,
+.social-sciences #main-content h2,
+.social-sciences #main-content h3,
+.social-sciences #main-content h4,
+.social-sciences #main-content h5,
+.social-sciences #main-content h6 {
+  color: #6291a5;
+}
+/* end Standard Elements */
+
+
 /* Field Collection Description text and add button */
 .description.field-collection-description {
     color: #B1B1B1;
