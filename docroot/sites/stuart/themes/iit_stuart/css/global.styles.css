@@ -88,32 +88,32 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h4 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h5 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h6 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
@@ -1926,7 +1926,7 @@ tr.error {}
 }
 
 #header .iit-page-header h2 {
-  font-family: 'oswaldbold', sans-serif;
+  font-family: 'oswaldbook', sans-serif;
   font-size: 1.75em;
   font-weight: normal;
   text-transform: uppercase;
