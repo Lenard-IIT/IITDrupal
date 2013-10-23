@@ -1912,6 +1912,18 @@ tr.error {}
   margin: .3125em 0;
 }
 
+.sidebar nav.block-menu-block ul li.leaf {
+    list-style-image: url("images/sidenav-dot.png");
+}
+
+.sidebar nav.block-menu-block ul li.collapsed {
+    list-style-image: url("images/sidenav-plus.png");
+}
+
+.sidebar nav.block-menu-block ul li.expanded {
+    list-style-image: url("images/sidenav-minus.png");
+}
+
 .sidebar nav.block-menu-block li a {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
