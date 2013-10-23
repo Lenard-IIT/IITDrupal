@@ -1905,23 +1905,27 @@ tr.error {}
 
 .sidebar nav.block-menu-block ul {
   margin: .75em 0;
+  padding: 0;
 }
 
 .sidebar nav.block-menu-block li {
   line-height: 1.25em;
   margin: .3125em 0;
+  list-style-type: none;
+  list-style-image: none;
+  padding-left: 1.1875em;
 }
 
 .sidebar nav.block-menu-block ul li.leaf {
-    list-style-image: url("images/sidenav-dot.png");
+  background: url("images/sidenav-dot.png") no-repeat .125em .375em;
 }
 
 .sidebar nav.block-menu-block ul li.collapsed {
-    list-style-image: url("images/sidenav-plus.png");
+  background: url("images/sidenav-plus.png") no-repeat .125em .375em;
 }
 
 .sidebar nav.block-menu-block ul li.expanded {
-    list-style-image: url("images/sidenav-minus.png");
+  background: url("images/sidenav-minus.png") no-repeat .125em .375em;
 }
 
 .sidebar nav.block-menu-block li a {
@@ -1938,6 +1942,8 @@ tr.error {}
   content: "« ";
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
+  position: relative;
+  top: -0.15em;
 }
 /* end Sidebar Menu */
 
