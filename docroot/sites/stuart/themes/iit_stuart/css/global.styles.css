@@ -1905,6 +1905,7 @@ tr.error {}
 .sidebar nav.block-menu-block li a {
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .sidebar nav.block-menu-block h2 {
@@ -1912,7 +1913,7 @@ tr.error {}
   text-transform: uppercase;
 }
 
-.sidebar nav.block-menu-block h2:before {
+.sidebar nav.block-menu-block h2 a:before {
   content: "« ";
 }
 /* end Sidebar Menu */
