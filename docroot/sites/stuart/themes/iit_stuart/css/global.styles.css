@@ -1903,6 +1903,10 @@ tr.error {}
   outline: none;
 }
 
+.sidebar nav.block-menu-block a:hover {
+  text-decoration: none;
+}
+
 .sidebar nav.block-menu-block ul {
   margin: .75em 0;
   padding: 0;
