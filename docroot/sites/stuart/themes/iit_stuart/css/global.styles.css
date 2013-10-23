@@ -1895,14 +1895,25 @@ tr.error {}
 /* Sidebar Menu */
 .sidebar nav.block-menu-block {
   background-color: #1F7CC9;
+  padding: 16px;
 }
 
 .sidebar nav.block-menu-block a {
   color: #fff;
 }
 
+.sidebar nav.block-menu-block li a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
 .sidebar nav.block-menu-block h2 {
   font-family: 'oswaldbook', sans-serif;
+  text-transform: uppercase;
+}
+
+.sidebar nav.block-menu-block h2:before {
+  content: "« ";
 }
 /* end Sidebar Menu */
 
