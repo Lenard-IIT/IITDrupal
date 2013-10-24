@@ -1881,6 +1881,12 @@ tr.error {}
 }
 /* end Field Collection Overrides */
 
+/* Page Section Styles */
+.field-name-field-page-section .field-collection-view {
+  margin: 0;
+  padding: 0;
+}
+/* end Page Section Styles */
 
 /* Field Collection Description text and add button */
 .description.field-collection-description {
@@ -2343,15 +2349,6 @@ body.graduate .sidebar nav.block-menu-block li {
   position: relative;
 }
 /* end Department Footers */
-
-
-/* Page Section Styles */
-.field-name-field-page-section .field-collection-view {
-  margin: 0;
-  padding: 0;
-}
-/* end Page Section Styles */
-
 
 /* Facebook Like Box */
 .fb-like-box, 
