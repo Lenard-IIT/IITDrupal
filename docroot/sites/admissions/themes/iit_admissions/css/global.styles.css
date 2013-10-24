@@ -1916,7 +1916,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.0625em;
+  font-size: 2em;
   margin: .2em 0 .8em 0;
   border-bottom: 1px solid #888;
   padding-bottom: .1em;
@@ -1926,14 +1926,12 @@ h3 {
   font-size: 1.5em;
   margin: 1em 0 .25em 0;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 h4 {
   font-size: 1.1875em;
   margin: 1em 0 .25em 0;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 h1#page-title {
