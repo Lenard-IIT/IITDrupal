@@ -1903,6 +1903,10 @@ a:hover {
 
 
 /* Sidebar Menu */
+.sidebar nav.block-menu-block .block-inner {
+  margin: 0;
+}
+
 .sidebar nav.block-menu-block {
   background-color: #1F7CC9;
   padding: 12px;
@@ -1971,6 +1975,12 @@ a:hover {
 .sidebar nav.block-menu-block h2 {
   font-family: 'oswaldbook', sans-serif;
   text-transform: uppercase;
+}
+
+.sidebar nav.block-menu-block h2.block-title {
+  font-size: 1.5em;
+  line-height: 1em;
+  border: 0;
 }
 
 .sidebar nav.block-menu-block h2 a:before {
