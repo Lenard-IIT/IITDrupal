@@ -2148,12 +2148,12 @@ body #main-content ul.action-links li {
 
 body.undergraduate .sidebar nav.block-menu-block {
   background-color: #F90;
-  padding: 12px;
+  padding: 16px;
 }
 
 body.graduate .sidebar nav.block-menu-block {
   background-color: #9B0000;
-  padding: 12px;
+  padding: 16px;
 }
 
 body.undergraduate .sidebar nav.block-menu-block a,

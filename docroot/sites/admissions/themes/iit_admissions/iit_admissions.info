@@ -61,7 +61,7 @@
 
 ;----------// Scripts
 
-  scripts[] = scripts/dept_menu.js
+  ; scripts[] = scripts/dept_menu.js
 
   ; Internet Explorer Scripts
   ;
@@ -76,6 +76,8 @@
   ; following as a guide:
 
   ; ie_scripts[lte IE 8][] = js/my-script.js
+
+  scripts[] = scripts/sidenav-script-min.js
 
 
 ;----------// Regions
