@@ -110,32 +110,32 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h3 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h4 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h5 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
 h6 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'oswaldlight', sans-serif;
   font-weight: normal;
 }
 
@@ -1912,7 +1912,7 @@ body.page-apply #page-title {
 /* end hide page titles on panel pages */
 
 h1 {
-  font-size: 2.75em;
+  font-size: 2.375em;
 }
 
 h2 {
