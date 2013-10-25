@@ -1934,7 +1934,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* end Standard Elements */
 
+/* ul bullets */
 #main-content ul {
   padding: 0;
   list-style-type: none;
@@ -1944,7 +1946,19 @@ a:hover {
   padding: 0 0 0 18px;
   background: url("images/bullet-stuart.png") no-repeat 0 6px;
 }
-/* end Standard Elements */
+
+#main-content ul.tabs li {
+  padding: 0;
+  background: transparent;
+}
+
+#main-content ul.action-links li,
+#main-content ul.field-collection-view-links li {
+  padding: 0;
+  background: transparent;
+}
+/* end ul bullets */
+
 
 /* news node Styles */
 .node-news .field-name-body img {
