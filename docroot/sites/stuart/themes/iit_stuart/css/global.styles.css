@@ -1934,6 +1934,16 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+#main-content ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#main-content ul li {
+  padding: 0 0 0 18px;
+  background: url("images/bullet-stuart.png") no-repeat 0 6px;
+}
 /* end Standard Elements */
 
 /* news node Styles */
