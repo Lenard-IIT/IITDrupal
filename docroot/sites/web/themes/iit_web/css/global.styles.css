@@ -2033,8 +2033,10 @@ a:hover {
 
 .sidebar nav.block-menu-block h2.block-title {
   font-size: 1.5em;
-  line-height: 1em;
+  line-height: 1.125em;
   border: 0;
+  margin-left: .7083333em;
+  text-indent: -.7083333em;
 }
 
 .sidebar nav.block-menu-block h2 a:before {
@@ -2172,6 +2174,7 @@ a:hover {
   color: #666;
   text-decoration: none;
   outline: none;
+  text-transform: uppercase;
 }
 
 #header .block-menu-block .block-content ul li a:hover {
