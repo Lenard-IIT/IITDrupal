@@ -76,3 +76,6 @@ $sites['ehs-stg.iit.edu'] = 'ehs';
 
 $sites['stuart-dev.iit.edu'] = 'stuart';
 $sites['stuart-stg.iit.edu'] = 'stuart';
+
+$sites['engineering-dev.iit.edu'] = 'engineering';
+$sites['engineering-stg.iit.edu'] = 'engineering';
