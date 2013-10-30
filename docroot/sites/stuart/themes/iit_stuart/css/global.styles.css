@@ -1914,7 +1914,7 @@ h1#page-title {
 }
 
 #main-content h1 {
-  color: #1F7CC9;
+  color: #1E6CB4;
 }
 
 #main-content h2,
@@ -1922,11 +1922,11 @@ h1#page-title {
 #main-content h4,
 #main-content h5,
 #main-content h6 {
-  color: #1F7CC9;
+  color: #1E6CB4;
 }
 
 a {
-  color: #1F7CC9;
+  color: #1E6CB4;
   outline: none;
   text-decoration: none;
 }
@@ -1957,6 +1957,16 @@ a:hover {
   padding: 0;
   background: transparent;
 }
+
+#main-content li.node-readmore {
+  padding: 0;
+  background: transparent;
+}
+
+#main-content ul.pager li {
+  padding: 0;
+  background: transparent;
+}
 /* end ul bullets */
 
 
@@ -1973,7 +1983,7 @@ a:hover {
 }
 
 .sidebar nav.block-menu-block {
-  background-color: #1F7CC9;
+  background-color: #1E6CB4;
   padding: 16px;
 }
 
@@ -2096,7 +2106,7 @@ a:hover {
 }
 
 #header .iit-page-header h2 a span {
-    color: #1F7CC9;
+    color: #1E6CB4;
 }
 /* end Page Header */
 
@@ -2190,7 +2200,9 @@ a:hover {
 }
 
 #header .block-menu .block-content ul li a.active-trail {
-  background-color: #1F7CC9;
+  background-color: #1E6CB4;
   color: #fff;
 }
 /* end header menu */
+
+
