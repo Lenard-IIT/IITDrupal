@@ -25,6 +25,13 @@ html {
 }
 /* end header menu */
 
+/* Page main content region and sidebar margins */
+#main-content {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+/* end Page main content region */
+
 /* Department Footer */
 #footer #iit-department-footer {
   text-align: center;

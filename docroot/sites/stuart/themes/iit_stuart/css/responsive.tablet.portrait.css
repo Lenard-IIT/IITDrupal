@@ -43,6 +43,17 @@ html {
 }
 /* end header menu */
 
+/* Page main content region and sidebar margins */
+#main-content {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+div.region-sidebar-second .block {
+  width: inherit;
+}
+/* end Page main content region */
+
 /* Department Footer */
 #footer #iit-department-footer {
   margin-bottom: 4px;
