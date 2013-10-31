@@ -2211,3 +2211,42 @@ a:hover {
 /* end header menu */
 
 
+/* faculty directory view */
+.view-faculty .views-row {
+    clear:both;
+    padding: 1em 0;
+    overflow:auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.view-faculty .views-row-last {
+    border:0
+}
+
+.view-faculty .views-field-field-image {
+    float:left;
+}
+
+.view-faculty .views-field-field-image img {
+    vertical-align:bottom;
+}
+
+.view-faculty h3 {
+    clear:both;
+    font-size: 2em;
+    margin: 0.8em 0 0.2em 0;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #888;
+}
+
+.view-faculty .views-field-nothing {
+    margin-left: 100px;
+    font-size: 1.1875em;
+}
+
+.view-faculty .views-field-field-title {
+    margin-left: 100px;
+    font-size: 0.8125em;
+    font-style: italic;
+}
+/* end faculty directory view */
