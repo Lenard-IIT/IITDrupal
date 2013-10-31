@@ -264,7 +264,8 @@ function iit_stuart_field__body__news($vars) {
   foreach ($vars['items'] as $delta => $item) {
     // Mod for news teasers
       if ($vars['element']['#bundle'] == 'news' && $vars['field_view_mode'] == 'teaser') {
-        $item = strip_tags($item, '<p><a><em><strong>');
+        $item_string = strip_tags($item['#markup'], '<p><a><em><strong>');
+
       }
     // end news teasers mod
     $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
