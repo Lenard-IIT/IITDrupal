@@ -2249,4 +2249,13 @@ a:hover {
     font-size: 0.8125em;
     font-style: italic;
 }
+
+.view-faculty #letter-selector a {
+    padding: 0 1.1%;
+    font-size: 1.1875em;
+}
+
+.view-faculty #letter-selector a:first-child {
+    padding-left: 0;
+}
 /* end faculty directory view */
