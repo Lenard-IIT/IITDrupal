@@ -265,7 +265,7 @@ function iit_stuart_field__body__news($vars) {
     // Mod for news teasers
     $itemcontent = '';
       if ($vars['element']['#bundle'] == 'news' && $vars['field_view_mode'] == 'teaser') {
-        $itemcontent = strip_tags(drupal_render($item), '<p><a><em><strong>');
+        $itemcontent = preg_replace('/<img[^>]+>/i', '', drupal_render($item));
       }
       else {
         $itemcontent = drupal_render($item);
