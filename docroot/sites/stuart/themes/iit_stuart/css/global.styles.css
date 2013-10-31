@@ -1972,6 +1972,11 @@ a:hover {
   padding: 0;
   background: transparent;
 }
+
+#main-content ul.contextual-links li {
+  padding: 0;
+  background: transparent;
+}
 /* end ul bullets add and remove */
 
 

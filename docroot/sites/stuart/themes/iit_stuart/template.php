@@ -231,5 +231,52 @@ function iit_stuart_preprocess_views_view(&$vars) {
 }
 
 
+/**
+ * Override function to Returns HTML for a field in news teaser.
+ * * Adaptivetheme overrides this in order to better support HTML5 by setting the
+ *
+ * @param $vars
+ *   An associative array containing:
+ *   - label_hidden: A boolean indicating to show or hide the field label.
+ *   - title_attributes: A string containing the attributes for the title.
+ *   - label: The label for the field.
+ *   - content_attributes: A string containing the attributes for the content's
+ *     div.
+ *   - items: An array of field items.
+ *   - item_attributes: An array of attributes for each item.
+ *   - classes: A string containing the classes for the wrapping div.
+ *   - attributes: A string containing the attributes for the wrapping div.
+ *
+ * @see template_preprocess_field()
+ * @see template_process_field()
+ * @see field.tpl.php
+ */
+function iit_stuart_field__body__news($vars) {
+  $output = '';
+
+  // Render the label, if it's not hidden.
+  if (!$vars['label_hidden']) {
+    $output .= '<h2 class="field-label"' . $vars['title_attributes'] . '>' . $vars['label'] . ':&nbsp;</h2>';
+  }
+
+  // Render the items.
+  $output .= '<div class="field-items"' . $vars['content_attributes'] . '>';
+  foreach ($vars['items'] as $delta => $item) {
+    // Mod for news teasers
+      if ($vars['element']['#bundle'] == 'news' && $vars['field_view_mode'] == 'teaser') {
+        $item = strip_tags($item, '<p><a><em><strong>');
+      }
+    // end news teasers mod
+    $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+    $output .= '<div class="' . $classes . '"' . $vars['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+  }
+  $output .= '</div>';
+
+  // Render the top-level wrapper element.
+  $tag = $vars['tag'];
+  $output = "<$tag class=\"" . $vars['classes'] . '"' . $vars['attributes'] . '>' . $output . "</$tag>";
+
+  return $output;
+}
 
 
