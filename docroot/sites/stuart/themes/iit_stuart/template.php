@@ -263,12 +263,16 @@ function iit_stuart_field__body__news($vars) {
   $output .= '<div class="field-items"' . $vars['content_attributes'] . '>';
   foreach ($vars['items'] as $delta => $item) {
     // Mod for news teasers
+    $itemcontent = '';
       if ($vars['element']['#bundle'] == 'news' && $vars['field_view_mode'] == 'teaser') {
-        $item['#markup'] = strip_tags($item['#markup'], '<p><a><em><strong>');
+        $itemcontent = strip_tags(drupal_render($item), '<p><a><em><strong>');
+      }
+      else {
+        $itemcontent = drupal_render($item);
       }
     // end news teasers mod
     $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
-    $output .= '<div class="' . $classes . '"' . $vars['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
+    $output .= '<div class="' . $classes . '"' . $vars['item_attributes'][$delta] . '>' . $itemcontent . '</div>';
   }
   $output .= '</div>';
 
