@@ -219,3 +219,17 @@ function iit_stuart_field__field_page_section_content__field_page_section($vars)
 
   return $output;
 }
+
+/**
+* Override or insert variables into the views view templates.
+*/
+function iit_stuart_preprocess_views_view(&$vars) {
+  $view = $vars['view'];
+  if ($view->name == 'faculty') {
+    drupal_add_js(drupal_get_path('theme', 'iit_stuart') . '/scripts/faculty-alpha-list-min.js');
+  }
+}
+
+
+
+

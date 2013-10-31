@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){a(".view-faculty h3").each(function(){a(this).attr("id",a(this).text())});var c=a("<div>",{id:"letter-selector-wrapper"}),d=a("<ul>",{id:"letter-selector"});a(".view-faculty h3").each(function(){var b=a(this).attr("id"),b=a("<a>",{title:b,href:"#"+b}).html(b);d.append(b)});c.append(d);a("div.view-id-faculty").prepend(c)});
