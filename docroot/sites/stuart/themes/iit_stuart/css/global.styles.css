@@ -1981,6 +1981,54 @@ a:hover {
 
 
 /* news overview teaser Styles */
+.view-id-news .field-name-field-image {
+    float: right;
+    margin: 0 0 0.625em 0.75em;
+}
+
+.view-id-news .field-name-body p {
+    margin-bottom: 0.75em;
+}
+
+.view-id-news .field-name-field-category {
+    clear: both;
+    margin: 0;
+    padding-top: 0.25em;
+    border-top: 1px solid #ddd;
+}
+
+.view-id-news .field-name-field-tags {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25em;
+}
+
+.view-id-news .field-name-node-link {
+    margin-bottom: 0.75em;
+}
+
+.view-id-news .field-name-title a:hover {
+    text-decoration:none;
+}
+
+#main-content .view-id-news .field-name-field-category h2,
+#main-content .view-id-news .field-name-field-tags h2{
+    border: 0;
+    font-size: 0.75em;
+    line-height: 2em;
+    font-weight: normal;
+    font-style: italic;
+    color: #555;
+    margin: 0 0.3333333em 0 0;
+    text-transform: uppercase;
+}
+
+#main-content .view-id-news .field-name-field-category ul li,
+#main-content .view-id-news .field-name-field-tags ul li {
+    padding:0;
+    background: transparent;
+    font-size: 1em;
+    line-height: 1.5em;
+}
 /* end news  overview teaser Styles */
 
 /* news node Styles */
