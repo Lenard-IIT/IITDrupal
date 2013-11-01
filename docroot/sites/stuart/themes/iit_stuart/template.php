@@ -251,6 +251,7 @@ function iit_stuart_preprocess_views_view(&$vars) {
  * @see template_process_field()
  * @see field.tpl.php
  */
+/*
 function iit_stuart_field__body__news($vars) {
   $output = '';
 
@@ -282,5 +283,5 @@ function iit_stuart_field__body__news($vars) {
 
   return $output;
 }
-
+*/
 
