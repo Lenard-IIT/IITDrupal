@@ -43,3 +43,9 @@ html {
   margin: 6px 0 0 0;
 }
 /* end Department Footer */
+
+/* news overview teaser Styles */
+.view-id-news .field-name-field-image {
+    display: none;
+}
+/* end news overview teaser Styles */
