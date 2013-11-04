@@ -2248,7 +2248,7 @@ a:hover {
 
 #header .block-menu .block-content ul li a {
   display: block;
-  padding: .2em 1.5em;
+  padding: 0.2em 1.5em;
   color: #666;
   text-decoration: none;
   outline: none;
@@ -2270,21 +2270,13 @@ a:hover {
 /* faculty directory view */
 .view-faculty .views-row {
     clear:both;
-    padding: 1em 0;
+    padding: 0.5em 0;
     overflow:auto;
     border-bottom: 1px solid #e0e0e0;
 }
 
 .view-faculty .views-row-last {
-    border:0
-}
-
-.view-faculty .views-field-field-image {
-    float:left;
-}
-
-.view-faculty .views-field-field-image img {
-    vertical-align:bottom;
+    border:0;
 }
 
 .view-faculty h3 {
@@ -2296,12 +2288,10 @@ a:hover {
 }
 
 .view-faculty .views-field-nothing {
-    margin-left: 100px;
     font-size: 1.1875em;
 }
 
 .view-faculty .views-field-field-title {
-    margin-left: 100px;
     font-size: 0.8125em;
     font-style: italic;
 }
