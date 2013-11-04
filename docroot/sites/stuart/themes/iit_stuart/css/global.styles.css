@@ -1909,7 +1909,7 @@ h4 {
 }
 
 h1#page-title {
-  line-height: 1em;
+  line-height: 1.263157894em;
   margin: 0 0 0.5em 0;
 }
 
@@ -2038,6 +2038,46 @@ a:hover {
 /* news node Styles */
 .node-news .field-name-body img {
   margin: 8px;
+}
+
+.node-news .field-name-field-category {
+    clear: both;
+    margin: 0;
+    padding-top: 0.25em;
+    border-top: 1px solid #ddd;
+}
+
+.node-news .field-name-field-tags {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25em;
+}
+
+.node-id-news .field-name-node-link {
+    margin-bottom: 0.75em;
+}
+
+.node-news .field-name-title a:hover {
+    text-decoration:none;
+}
+
+#main-content .node-news .field-name-field-category h2,
+#main-content .node-news .field-name-field-tags h2{
+    border: 0;
+    font-size: 0.75em;
+    line-height: 2em;
+    font-weight: normal;
+    font-style: italic;
+    color: #555;
+    margin: 0 0.3333333em 0 0;
+    text-transform: uppercase;
+}
+
+#main-content .node-news .field-name-field-category ul li,
+#main-content .node-news .field-name-field-tags ul li {
+    padding:0;
+    background: transparent;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 /* end news node Styles */
 
