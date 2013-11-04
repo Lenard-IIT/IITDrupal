@@ -2029,6 +2029,10 @@ a:hover {
     font-size: 1em;
     line-height: 1.5em;
 }
+
+#main-content .view-id-news .pager li {
+    margin: 0 0.625em;
+}
 /* end news  overview teaser Styles */
 
 /* news node Styles */
