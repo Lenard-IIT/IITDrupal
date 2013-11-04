@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){a(".view-faculty h3").each(function(){"faculty"===a(this).text().toLowerCase()&&a(this).attr("id","faculty");"industry experts"===a(this).text().toLowerCase()&&a(this).attr("id","industry")})});
