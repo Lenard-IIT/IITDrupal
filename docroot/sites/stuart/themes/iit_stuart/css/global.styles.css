@@ -2363,6 +2363,16 @@ a:hover {
 .node-faculty .field-name-field-image {
   float:right;
 }
+
+.node-faculty .field-name-field-title {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1.5em;
+}
+
+.node-faculty .field-name-field-education {
+  clear: both;
+}
 /* end full faculty bio view */
 
 
