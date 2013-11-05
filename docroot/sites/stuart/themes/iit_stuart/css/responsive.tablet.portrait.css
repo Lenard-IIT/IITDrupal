@@ -83,3 +83,14 @@ div.region-sidebar-second .block {
   padding-top: 0.538461538em;
 }
 /* end faculty directory view */
+
+/* full faculty bio view */
+.node-faculty .two-brick > .panel-row > .region-two-brick-left-above {
+  width: 68%;
+  margin-right: 2%;
+}
+
+.node-faculty .two-brick > .panel-row > .region-two-brick-right-above {
+  width: 30%;
+}
+/* end full faculty bio view */
