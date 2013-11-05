@@ -2364,28 +2364,24 @@ a:hover {
   margin: 0 0 0.5em 0;
 }
 
-.node-faculty .field-name-field-image {
-  float:right;
-}
-
 .node-faculty .field-name-field-title {
   font-size: 1em;
   font-style: italic;
   margin-bottom: 1.25em;
 }
 
-#main-content .node-faculty .region-two-brick-left-above section {
+#main-content .node-faculty .region-two-brick-right-above section {
   margin-bottom: 0.3125em;
 }
 
-#main-content .node-faculty .region-two-brick-left-above section h2 {
+#main-content .node-faculty .region-two-brick-right-above section h2 {
   border: 0;
   margin: 0;
   padding: 0;
   width: 6.25em;
 }
 
-#main-content .node-faculty .region-two-brick-left-above section p {
+#main-content .node-faculty .region-two-brick-right-above section p {
   margin: 0;
   
 }
