@@ -2349,3 +2349,21 @@ a:hover {
     padding-left: 0;
 }
 /* end faculty directory view */
+
+/* full faculty bio view */
+.node-type-faculty h1#page-title {
+  display:none;
+}
+
+.node-faculty .field-name-full-faculty-name h1 {
+  line-height: 1.263157894em;
+  margin: 0 0 0.5em 0;
+}
+
+.node-faculty .field-name-field-image {
+  float:right;
+}
+/* end full faculty bio view */
+
+
+
