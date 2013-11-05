@@ -2381,6 +2381,11 @@ a:hover {
   width: 6.25em;
 }
 
+#main-content .node-faculty .region-two-brick-right-above .field-name-faculty-cv-link {
+  font-weight: bold;
+  margin-top: 1.1875em;
+}
+
 #main-content .node-faculty .region-two-brick-right-above section p {
   margin: 0;
   
