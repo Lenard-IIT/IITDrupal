@@ -2400,4 +2400,69 @@ a:hover {
 /* end full faculty bio view */
 
 
+/* Stuart Homepage */
+#content .panel-flexible.stuart-home {
+    margin:0;
+}
+
+#content .panel-flexible.stuart-home .block-inner {
+    margin:0;
+    background-color: red;
+}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider .slides li {
+  padding: 0;
+  background: transparent;
+}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider .slides img {
+  max-width: 100%;
+  width: inherit;
+}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider .slides .views-field-field-left-hero-image {
+  width: 28.22580645%;
+  float: left;
+  margin-right: 1.43369176%;
+}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider .slides .views-field-field-right-hero-image {
+  width: 70.34050179%;
+  float: left;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-region-stuart-home-hero_left {
+  width: 100%;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-region-stuart-home-1_1 {
+  width: 49.10394265233%;
+  margin-right: 0.89605734767%;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-region-stuart-home-1_2 {
+  width: 23.655913978495%;
+  margin: 0 0.89605734767%;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-region-stuart-home-1_3 {
+  width: 23.655913978495%;
+  margin-left: 0.89605734767%;
+}
+
+#content .panel-flexible.stuart-home .home-row-2 .stuart-home-region-inside {
+  padding: 0;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-row {
+  padding-bottom: 0;
+}
+/* end Stuart Homepage */
 
