@@ -2411,6 +2411,7 @@ a:hover {
 }
 
 #content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider {
+  margin: 0;
   background: transparent;
   border: 0;
   border-radius: 0;
