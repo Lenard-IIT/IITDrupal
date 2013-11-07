@@ -2407,7 +2407,6 @@ a:hover {
 
 #content .panel-flexible.stuart-home .block-inner {
     margin:0;
-    background-color: red;
 }
 
 #content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider {
@@ -2439,6 +2438,19 @@ a:hover {
   float: left;
 }
 
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider .flex-control-nav.flex-control-paging {
+    bottom: 0;
+    right: 0;
+    width: inherit;
+    padding: 0 1%;
+}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider:hover .flex-prev {left: 30%;}
+
+#content .panel-flexible.stuart-home .pane-homepage-hero-block .flexslider .flex-control-nav.flex-control-paging li {
+    margin: 0 2px;
+}
+
 #content .panel-flexible.stuart-home .stuart-home-region-stuart-home-hero_left {
   width: 100%;
 }
@@ -2466,4 +2478,3 @@ a:hover {
   padding-bottom: 0;
 }
 /* end Stuart Homepage */
-
