@@ -230,6 +230,12 @@ function iit_stuart_preprocess_views_view(&$vars) {
   }
 }
 
+function iit_stuart_preprocess_panels_pane(&$vars) {
+  $paneId = $vars['id'];
+  if ($paneId == 'id="homepage-news-block"') {
+    drupal_add_js(drupal_get_path('theme', 'iit_stuart') . '/scripts/homepage-feed-icon.js');
+  }
+}
 
 /**
  * Override function to Returns HTML for a field in news teaser.

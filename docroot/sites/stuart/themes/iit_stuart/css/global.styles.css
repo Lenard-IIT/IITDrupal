@@ -2510,6 +2510,21 @@ a:hover {
   float: left;
 }
 
+#content .panel-flexible.stuart-home #homepage-news-block .feed-icon {
+  background-image: url('images/feed-icon.svg');
+  background-size: 0.55172413793103em;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 0.55172413793103em;
+  height: 0.55172413793103em;
+  text-indent: -9999px;
+  margin-top: 0.62068965517241em;
+}
+
+#content .panel-flexible.stuart-home #homepage-news-block .feed-icon:hover {
+  background-position: 0 -0.55172413793103em;
+}
+
 #content .panel-flexible.stuart-home #homepage-news-block h2.block-title a:hover {
   text-decoration: none;
 }
