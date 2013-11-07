@@ -1934,6 +1934,20 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.wrapper-43 {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+.wrapper-43 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* end Standard Elements */
 
 /* ul bullets add and remove */
@@ -2478,3 +2492,34 @@ a:hover {
   padding-bottom: 0;
 }
 /* end Stuart Homepage */
+
+/* Stuart Homepage News Block */
+#content .panel-flexible.stuart-home #homepage-news-block .views-field-title {
+  font-family: 'oswaldbook', sans-serif;
+  margin-right: 0.375em;
+}
+
+#content .panel-flexible.stuart-home #homepage-news-block .views-field-view-node {
+  font-size: 0.875em;
+}
+
+#content .panel-flexible.stuart-home #homepage-news-block .views-field-view-node a {
+  color: #555;
+  font-style: italic;
+}
+
+#content .panel-flexible.stuart-home #homepage-news-block .views-row {
+  margin: 0.875em 0;
+}
+/* end Stuart Homepage News Block */
+
+
+
+
+
+
+
+
+
+
+
