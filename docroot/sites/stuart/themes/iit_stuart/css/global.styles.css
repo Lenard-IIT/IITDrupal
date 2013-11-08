@@ -2521,6 +2521,10 @@ a:hover {
   margin-top: 0.62068965517241em;
 }
 
+.no-svg #content .panel-flexible.stuart-home #homepage-news-block .feed-icon {
+  background-image: url('images/feed-icon.png');
+}
+
 #content .panel-flexible.stuart-home #homepage-news-block .feed-icon:hover {
   background-position: 0 -0.55172413793103em;
 }
