@@ -2491,6 +2491,11 @@ a:hover {
 #content .panel-flexible.stuart-home .stuart-home-row {
   padding-bottom: 0;
 }
+
+#content .panel-flexible.stuart-home .ranking-logos img {
+  width: 50% !important;
+  height: auto !important;
+}
 /* end Stuart Homepage */
 
 /* Stuart Homepage News Block */
