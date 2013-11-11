@@ -49,3 +49,21 @@ html {
     display: none;
 }
 /* end news overview teaser Styles */
+
+/* stuart homepage */
+#content .panel-flexible.stuart-home .stuart-home-row.home-row-1 {
+  display: none;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-row.home-row-2 .stuart-home-region {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-row.home-row-2 .ranking-logos img {
+  width: 25% !important;
+  height: auto !important;
+}
+/* end stuart homepage */
