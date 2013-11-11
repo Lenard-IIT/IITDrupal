@@ -94,3 +94,28 @@ div.region-sidebar-second .block {
   margin-right: 3%;
 }
 /* end full faculty bio view */
+
+/* stuart homepage */
+#content .panel-flexible.stuart-home .stuart-home-row.home-row-2 .stuart-home-region-stuart-home-1_1 {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-row.home-row-2 .stuart-home-region-stuart-home-1_2 {
+  margin-left: 0;
+  width: 49.10394265233%;
+}
+
+#content .panel-flexible.stuart-home .stuart-home-row.home-row-2 .stuart-home-region-stuart-home-1_3 {
+  width: 49.10394265233%;
+}
+/* end stuart homepage */
+
+
+
+
+
+
+
