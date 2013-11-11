@@ -2577,7 +2577,39 @@ a:hover {
 }
 /* end Stuart Homepage News Block */
 
+/* Header Contact Buttons */
+#iit-stuart-header-buttons {
+  margin-bottom: .6em;
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  width: 236px;
+}
 
+#iit-stuart-header-buttons a {
+  color: #fff;
+  background-color: #666;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .35em 0;
+  display: inline-block;
+  width: 48%;
+  cursor: pointer;
+}
+
+.no-touch #iit-stuart-header-buttons a:hover {
+  background-color: #888;
+}
+
+#iit-stuart-header-buttons a:first-child {
+  margin-right: 4%;
+}
+/* end Header Contact Buttons */
 
 
 

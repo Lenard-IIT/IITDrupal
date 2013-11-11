@@ -67,3 +67,10 @@ html {
   height: auto !important;
 }
 /* end stuart homepage */
+
+/* Header Contact Buttons */
+#iit-stuart-header-buttons {
+  position: static;
+  width: 100%;
+}
+/* end Header Contact Buttons */
