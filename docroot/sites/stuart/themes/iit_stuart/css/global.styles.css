@@ -2579,14 +2579,33 @@ a:hover {
 
 /* Header Contact Buttons */
 #iit-stuart-header-buttons {
-  margin-bottom: .6em;
   position: absolute;
   right: 0;
-  bottom: 8px;
-  width: 236px;
+  bottom: 0;
+  font-size: 1em;
+  margin-bottom: 0.875em;
+}
+
+#iit-stuart-header-buttons ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1em;
+}
+
+#iit-stuart-header-buttons ul li {
+    float: left;
+    margin-left: 0.625em;
+}
+
+#iit-stuart-header-buttons ul li:first-child {
+    margin-left: 0;
 }
 
 #iit-stuart-header-buttons a {
+  display: block;
+  min-width: 7em;
+  cursor: pointer;
   color: #fff;
   background-color: #666;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -2596,18 +2615,11 @@ a:hover {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  padding: .35em 0;
-  display: inline-block;
-  width: 48%;
-  cursor: pointer;
+  padding: .5em;
 }
 
 .no-touch #iit-stuart-header-buttons a:hover {
   background-color: #888;
-}
-
-#iit-stuart-header-buttons a:first-child {
-  margin-right: 4%;
 }
 /* end Header Contact Buttons */
 

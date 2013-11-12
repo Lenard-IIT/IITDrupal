@@ -54,7 +54,22 @@
   /* Header Contact Buttons */
   #iit-stuart-header-buttons {
     position: static;
+    overflow: hidden;
+  }
+
+  #iit-stuart-header-buttons ul li {
+    float: left;
+    margin-left: 2%;
+    width: 49%
+  }
+
+  #iit-stuart-header-buttons ul li:first-child {
+    margin-left: 0;
+  }
+
+  #iit-stuart-header-buttons a {
     width: 100%;
+    padding: 0.4375em 0;
   }
   /* end Header Contact Buttons */
 }
