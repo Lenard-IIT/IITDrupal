@@ -2700,8 +2700,27 @@ a:hover {
 /* end Header Contact Buttons */
 
 
+/* Block at bottom of all program pages */
+#block-block-4 {
+    background-color: #E9E9E9;
+    padding: 1.25em;
+}
+
+#block-block-4 p {
+    margin: 0;
+}
+/* end Block at bottom of all program pages */
 
 
+/* Recent news block on media room page */
+#main-content .recent-news-block .views-row h4 {
+  text-transform: none;
+}
+
+#main-content .recent-news-block .more-link {
+  margin-top: 1.25em;
+}
+/* Recent news block on media room page */
 
 
 
