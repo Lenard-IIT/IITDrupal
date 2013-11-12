@@ -2622,10 +2622,6 @@ a:hover {
   background-color: #888;
 }
 
-#iit-stuart-header-buttons .overlay {
-  display: none;
-}
-
 /* Request Info Overlay */
 #iit-stuart-header-buttons .overlay {
     position:fixed;
@@ -2635,6 +2631,14 @@ a:hover {
     left: 0;
     bottom: 0;
     z-index: 2000;
+}
+
+#iit-stuart-header-buttons .overlay.closed {
+  display: none;
+}
+
+#iit-stuart-header-buttons .overlay.open {
+  display: block;
 }
 
 #iit-stuart-header-buttons .overlay #info-popup {
