@@ -2621,6 +2621,10 @@ a:hover {
 .no-touch #iit-stuart-header-buttons a:hover {
   background-color: #888;
 }
+
+#iit-stuart-header-buttons .overlay {
+  display: none;
+}
 /* end Header Contact Buttons */
 
 
