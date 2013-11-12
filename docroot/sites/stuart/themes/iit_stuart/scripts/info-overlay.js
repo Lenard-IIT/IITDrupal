@@ -4,6 +4,7 @@
 		var $overlay = $('#iit-stuart-header-buttons .overlay');
 
 		$('#request-info-button').click(function(evt){
+			evt.preventDefault();
 			$overlay.removeClass('closed').addClass('open');
 		});
 
