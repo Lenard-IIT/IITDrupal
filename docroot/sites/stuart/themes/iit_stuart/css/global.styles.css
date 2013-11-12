@@ -2625,6 +2625,74 @@ a:hover {
 #iit-stuart-header-buttons .overlay {
   display: none;
 }
+
+/* Request Info Overlay */
+#iit-stuart-header-buttons .overlay {
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    z-index: 2000;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup {
+    background-color: #fff;
+    width: 260px;
+    padding: 2.5em 1.25em 1.25em 1.25em;
+    margin: 20% auto;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup ul {
+    list-style-type: none;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup ul li {
+    float: none;
+    margin: 20px 0 0 0;
+    width: auto;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup ul li:first-child {
+    margin: 0;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup a {
+    width: auto;
+    padding: 0.5em;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup ul li a {
+    font-size: 1.6em;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup .info-undergraduate {
+    background-color: #f90;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup .info-graduate {
+    background-color: #9b0000;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup #overlay-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: inherit;
+}
+
+#iit-stuart-header-buttons .overlay #info-popup p {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0 0 0.80952380952381em 0;
+    color: #444;
+}
+/* end Request Info Overlay */
 /* end Header Contact Buttons */
 
 
