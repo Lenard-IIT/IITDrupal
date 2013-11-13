@@ -103,5 +103,9 @@ div.region-sidebar-second {
 }
 /* end full faculty bio view */
 
-
+/* Request Info Overlay */
+#iit-stuart-header-buttons .overlay {
+    background-color: #000;
+}
+/* end Request Info Overlay */
 
