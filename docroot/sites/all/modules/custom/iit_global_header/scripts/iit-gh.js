@@ -145,12 +145,20 @@ jQuery(document).ready(function($) {
         });
         $('#iit-gh-secondary-nav-overlay').css('display', 'none');
     });
+
+    $('#iit-gh-secondary-nav-overlay').on('touchend', function(e){
+        $('#iit-gh-secondary-nav').animate({left:"-100%"}, function() {
+            $('#iit-gh-secondary-nav').css('display', 'none');
+        });
+        $('#iit-gh-secondary-nav-overlay').css('display', 'none');
+    });
+    /*
     document.getElementById('iit-gh-secondary-nav-overlay').addEventListener('touchend', function(e) {
         $('#iit-gh-secondary-nav').animate({left:"-100%"}, function() {
             $('#iit-gh-secondary-nav').css('display', 'none');
         });
         $('#iit-gh-secondary-nav-overlay').css('display', 'none');
-    }, false);
+    }, false);*/
     // end Mobile Secondary Nav Overlay Click Handler
 
 
