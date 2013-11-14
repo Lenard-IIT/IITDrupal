@@ -18,3 +18,31 @@ html {
   /* used for testing media query in js */
   font-family: 'smartphone_landscape';
 }
+
+
+/* Department Footer */
+#footer #iit-department-footer {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#footer #iit-department-footer h5 {
+  font-size: 1.313em;
+  margin: 6px 0 0 0;
+}
+/* end Department Footer */
+
+
+/* Department Headers */
+#department-header-wrapper #department-nav #cos-link {
+	display: none;
+}
+
+#department-header-wrapper #department-nav ul li {
+  margin: 0.5em 0;
+}
+
+#department-header-wrapper #department-nav a {
+  padding: 0.5em;
+}
+/* end Department Headers */
