@@ -18,16 +18,3 @@ html {
   /* used for testing media query in js */
   font-family: 'tablet_portrait';
 }
-
-
-/* Department Footer */
-#footer #iit-department-footer {
-  margin-bottom: 4px;
-  text-align: center;
-}
-
-#footer #iit-department-footer h5 {
-  font-size: 1.313em;
-  margin: 6px 0 0 0;
-}
-/* end Department Footer */

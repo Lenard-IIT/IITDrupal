@@ -24,42 +24,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
 
-@font-face {
-    font-family: 'oswaldbold';
-    src: url('oswald-bold-webfont.eot');
-    src: url('oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald-bold-webfont.woff') format('woff'),
-         url('oswald-bold-webfont.ttf') format('truetype'),
-         url('oswald-bold-webfont.svg#oswaldbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'oswaldlight';
-    src: url('oswald-light-webfont.eot');
-    src: url('oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald-light-webfont.woff') format('woff'),
-         url('oswald-light-webfont.ttf') format('truetype'),
-         url('oswald-light-webfont.svg#oswaldlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'oswaldbook';
-    src: url('oswald-regular-webfont.eot');
-    src: url('oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald-regular-webfont.woff') format('woff'),
-         url('oswald-regular-webfont.ttf') format('truetype'),
-         url('oswald-regular-webfont.svg#oswaldbook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* =============================================================================
  *   Base
  * ========================================================================== */
@@ -88,32 +52,32 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'oswaldlight', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
 h2 {
-  font-family: 'oswaldlight', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
 h3 {
-  font-family: 'oswaldlight', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
 h4 {
-  font-family: 'oswaldlight', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
 h5 {
-  font-family: 'oswaldlight', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
 h6 {
-  font-family: 'oswaldlight', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: normal;
 }
 
@@ -246,7 +210,7 @@ var {
  */
 #header-wrapper {
   /* Debug styles, is this working */
-  /* background: rgba(255, 192, 203, 0.5); */
+  background: rgba(255, 192, 203, 0.5);
 }
 #header-wrapper .container {}
 
@@ -291,7 +255,7 @@ var {
  */
 #footer-wrapper {
   /* Debug styles, is this working? */
-  /* background: rgba(255, 192, 203, 0.5); */
+  background: rgba(255, 192, 203, 0.5);
 }
 #footer-wrapper .container {}
 
@@ -1814,7 +1778,6 @@ tr.error {}
 
 
 
-
 /* ============================================================================
  *   College of Science Global Styles
  * ========================================================================= */
@@ -1870,180 +1833,5 @@ tr.error {}
     top: -41px;
 }
 /* end Field Collection Description text and add button */
-
-
-/* Standard Elements */
-h1 {
-  font-size: 2.375em;
-}
-
-h2 {
-  font-size: 2em;
-  margin: 0.2em 0 0.8em 0;
-}
-
-#main-content h2 {
-  border-bottom: 1px solid #888;
-  padding-bottom: 0.1em;
-}
-
-h3 {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  margin: 1em 0 0.25em 0;
-  letter-spacing: 1px;
-}
-
-h4 {
-  font-size: 1.1875em;
-  text-transform: uppercase;
-  margin: 1em 0 0.25em 0;
-  letter-spacing: 1px;
-}
-
-h1#page-title {
-  line-height: 1.263157894em;
-  margin: 0 0 0.5em 0;
-}
-
-#main-content h1 {
-  color: #0e76bd;
-}
-
-#main-content h2,
-#main-content h3,
-#main-content h4,
-#main-content h5,
-#main-content h6 {
-  color: #0e76bd;
-}
-
-a {
-  color: #0e76bd;
-  outline: none;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.wrapper-43 {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-}
-
-.wrapper-43 iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-/* end Standard Elements */
-
-
-/* Department Footer */
-#footer-wrapper {
-  border-top: 3px solid #444;
-  background-color: #e9e9e9;
-}
-
-#footer .region-footer .block-block {
-  margin: 0;
-}
-
-#footer #iit-department-footer {
-  position: relative;
-}
-
-#footer #iit-department-footer h5 {
-  font-weight: normal;
-  font-family: 'oswaldbook', sans-serif;
-}
-
-#footer #iit-department-footer p {
-  font-size: 0.813em;
-  margin: 0 0 0.8em;
-}
-
-#footer #iit-department-footer .social-icons {
-  list-style-type: none;
-  padding: 0;
-}
-
-#footer #iit-department-footer .social-icons li {
-  display: inline-block;
-  margin-left: 4px;
-}
-
-#footer #iit-department-footer .social-icons li:first-child {
-  margin-left: 0;
-}
-/* end Department Footer */
-
-
-/* Department Headers */
-#department-header-wrapper {
-  font-size: 16px;
-}
-
-#department-header-wrapper #department-header h2 {
-  font-family: 'oswaldbook', sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 2em;
-  margin: 0.8em 0 0.2em 0;
-}
-
-#department-header-wrapper #department-header h2 a {
-  color: #888;
-  text-decoration: none;
-}
-
-#department-header-wrapper #department-header h2 a span {
-  color: #0e76bd;
-}
-
-
-/* end Department Headers */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
