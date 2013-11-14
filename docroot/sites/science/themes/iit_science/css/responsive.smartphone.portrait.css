@@ -33,16 +33,3 @@ html {
 /* end Department Footer */
 
 
-/* Department Headers */
-#department-header-wrapper #department-nav #cos-link {
-	display: none;
-}
-
-#department-header-wrapper #department-nav ul li {
-  margin: 0.5em 0;
-}
-
-#department-header-wrapper #department-nav a {
-  padding: 0.5em;
-}
-/* end Department Headers */
