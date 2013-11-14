@@ -1994,6 +1994,7 @@ a:hover {
   font-weight: normal;
   text-transform: uppercase;
   font-size: 2em;
+  margin: 0.8em 0 0.2em 0;
 }
 
 #department-header-wrapper #department-header h2 a {
@@ -2008,12 +2009,16 @@ a:hover {
 #department-header-wrapper #department-nav ul {
   margin: 0;
   padding: 0;
+  font-size: 1em;
 }
 
 #department-header-wrapper #department-nav a {
   display: block;
   text-decoration: none;
   color: #fff;
+  font-family: 'oswaldbook', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 #department-header-wrapper #department-nav a#cos-link {
