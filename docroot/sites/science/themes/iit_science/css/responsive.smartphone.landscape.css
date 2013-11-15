@@ -34,6 +34,8 @@ html {
 
 
 /* Department Headers */
+
+/* College of Science */
 #department-header-wrapper #department-nav #cos-link {
 	display: none;
 }
