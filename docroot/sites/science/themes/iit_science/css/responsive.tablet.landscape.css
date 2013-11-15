@@ -75,4 +75,63 @@
     bottom: 4px;
     left: 4px;
 }
+
+/* Deparment Specific Header */
+#department-header-wrapper #department-nav-solo ul {
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#department-header-wrapper #department-nav-solo ul:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+#department-header-wrapper #department-nav-solo ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+}
+
+#department-header-wrapper #department-nav-solo ul li {
+    width: 85.5%;
+    height: 0;
+    padding-top: 13%;
+}
+
+#department-header-wrapper #department-nav-solo ul li:first-child {
+    width: 13%;
+    height: 0;
+    padding-top: 13%;
+}
+
+#department-header-wrapper #department-nav-solo ul li a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+    font-size: 15px;
+    line-height: 1.1em;
+}
+
+#department-header-wrapper #department-nav-solo ul li a span {
+	position: absolute;
+	right: 0;
+    bottom: 4px;
+    left: 4px;
+}
+
+#department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 27px;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#am-link:hover {
+    color: #fff;
+    background-color: #e6c099;
+}
 /* end Department Headers */
