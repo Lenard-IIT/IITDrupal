@@ -56,7 +56,7 @@
   #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
 		font-size: 12px;
 	}
-  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+  .block #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
     font-size: 22px;
   }
 }
@@ -65,7 +65,7 @@
   #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
 		font-size: 14px;
 	}
-  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+  .block #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
     font-size: 25px;
   }
 }
@@ -74,7 +74,7 @@
   #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
     font-size: 17px;
 	}
-  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+  .block #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
     font-size: 31px;
   }
 }
@@ -83,7 +83,7 @@
   #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
     font-size: 18px;
 	}
-  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+  .block #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
     font-size: 32px;
   }
 }
@@ -92,7 +92,7 @@
   #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
     font-size: 21px;
 	}
-  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+  .block #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
     font-size: 38px;
   }
 }
