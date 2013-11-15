@@ -48,3 +48,22 @@
  * Desktops/laptops and up
  */
 /* @media only screen and (min-width: 1025px) {} */
+
+
+/* Department Headers */
+
+/* College of Science */
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	#department-header-wrapper #department-nav ul li a {
+    	font-size: 14px;
+	}
+}
+/* end Department Headers */
+
+
+
+
+
+
+
+

@@ -31,3 +31,48 @@
   margin-top: 6px;
 }
 /* end Department Footer */
+
+
+/* Department Headers */
+
+/* College of Science */
+#department-header-wrapper #department-nav ul {
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#department-header-wrapper #department-nav ul:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+#department-header-wrapper #department-nav ul li {
+    position: relative;
+    display: inline-block;
+    width: 13%;
+    height: 0;
+    padding-top: 13%;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+}
+
+#department-header-wrapper #department-nav ul li a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+    font-size: 15px;
+    line-height: 1.1em;
+}
+
+#department-header-wrapper #department-nav ul li a span {
+	position: absolute;
+	right: 0;
+    bottom: 4px;
+    left: 4px;
+}
+/* end Department Headers */
