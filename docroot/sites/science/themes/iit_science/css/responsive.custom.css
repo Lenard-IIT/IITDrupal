@@ -52,29 +52,49 @@
 
 /* Department Headers */
 @media only screen and (min-width: 675px) and (max-width: 759px) {
-	#department-header-wrapper.science #department-nav ul li a {
+	#department-header-wrapper.science #department-nav ul li a,
+  #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
 		font-size: 12px;
 	}
+  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 22px;
+  }
 }
 @media only screen and (min-width: 760px) and (max-width: 799px) {
-	#department-header-wrapper.science #department-nav ul li a {
+	#department-header-wrapper.science #department-nav ul li a,
+  #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
 		font-size: 14px;
 	}
+  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 25px;
+  }
 }
 @media only screen and (min-width: 900px) and (max-width: 959px) {
-	#department-header-wrapper.science #department-nav ul li a {
-    	font-size: 17px;
+	#department-header-wrapper.science #department-nav ul li a,
+  #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
+    font-size: 17px;
 	}
+  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 31px;
+  }
 }
 @media only screen and (min-width: 960px) and (max-width: 1024px) {
-	#department-header-wrapper.science #department-nav ul li a {
-    	font-size: 18px;
+	#department-header-wrapper.science #department-nav ul li a,
+  #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
+    font-size: 18px;
 	}
+  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 32px;
+  }
 }
 @media only screen and (min-width: 1150px) {
-	#department-header-wrapper.science #department-nav ul li a {
-    	font-size: 21px;
+	#department-header-wrapper.science #department-nav ul li a,
+  #department-header-wrapper #department-nav-solo ul li a.cos-nav-block {
+    font-size: 21px;
 	}
+  #department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 38px;
+  }
 }
 /* end Department Headers */
 
