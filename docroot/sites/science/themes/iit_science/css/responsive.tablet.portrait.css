@@ -134,4 +134,29 @@ html {
     color: #fff;
     background-color: #e6c099;
 }
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#bio-link:hover {
+    color: #fff;
+    background-color: #1e8663;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#chem-link:hover {
+    color: #fff;
+    background-color: #8cb4b4;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#cs-link:hover {
+    color: #fff;
+    background-color: #4b7faf;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#mse-link:hover {
+    color: #fff;
+    background-color: #b38db4;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#phy-link:hover {
+    color: #fff;
+    background-color: #de5340;
+}
 /* end Department Headers */
