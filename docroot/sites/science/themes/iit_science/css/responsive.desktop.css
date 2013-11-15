@@ -34,8 +34,11 @@
 
 
 /* Department Headers */
+#department-header-wrapper #department-header h2 {
+  font-size: 2.375em;
+}
 
-/* College of Science */
+/* College of Science whole */
 #department-header-wrapper #department-nav ul {
     text-align: justify;
     font-size: 0.1px;
@@ -159,6 +162,16 @@
     color: #fff;
     background-color: #de5340;
 }
+
+/* Department Header Buttons */
+#department-header #department-buttons {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    margin: 0;
+}
+/* end Department Header Buttons */
+
 /* end Department Headers */
 
 

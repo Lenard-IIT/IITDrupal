@@ -1989,12 +1989,24 @@ a:hover {
   font-size: 16px;
 }
 
+#department-header-wrapper #department-header {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#department-header-wrapper #department-nav,
+#department-header-wrapper #department-nav-solo {
+  clear: both;
+}
+
 #department-header-wrapper #department-header h2 {
   font-family: 'oswaldbook', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 2em;
-  margin: 0.8em 0 0.2em 0;
+  line-height: 1em;
+  margin: 1.052631578em 0 0 0;
 }
 
 #department-header-wrapper #department-header h2 a {
@@ -2119,6 +2131,50 @@ a:hover {
 #department-header-wrapper #department-nav-solo a span {
   text-transform: uppercase;
 }
+
+/* Department Header Buttons */
+#department-header #department-buttons {
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
+
+#department-header #department-buttons ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 1em;
+}
+
+#department-header #department-buttons ul li {
+  float: left;
+  margin-left: 0.625em;
+}
+
+#department-header #department-buttons ul li:first-child {
+  margin-left: 0;
+}
+
+#department-header #department-buttons ul li a {
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  background-color: #666;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.4375em 0.4375em;
+  cursor: pointer;
+  min-width: 5em;
+}
+
+#department-header #department-buttons ul li a:hover {
+  background-color: #888;
+}
+/* end Department Header Buttons */
+
 /* end Department Headers */
 
 
