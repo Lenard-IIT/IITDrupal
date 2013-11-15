@@ -51,6 +51,11 @@
 
 
 /* Department Headers */
+@media only screen and (min-width: 675px) and (max-width: 759px) {
+	#department-header-wrapper.science #department-nav ul li a {
+		font-size: 12px;
+	}
+}
 @media only screen and (min-width: 760px) and (max-width: 799px) {
 	#department-header-wrapper.science #department-nav ul li a {
 		font-size: 14px;
