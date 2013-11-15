@@ -54,7 +54,7 @@
 
 /* College of Science */
 @media only screen and (min-width: 768px) and (max-width: 799px) {
-	#department-header-wrapper #department-nav ul li a {
+	#department-header-wrapper.science #department-nav ul li a {
     	font-size: 14px;
 	}
 }
