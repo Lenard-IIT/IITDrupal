@@ -87,5 +87,20 @@ html {
     background-size: 7px;
   }
 }
+
+.js #department-header #department-buttons #button-menu-button {
+  display: block;
+}
+
+#department-header #department-buttons #button-menu-button { 
+  padding: 0.5em;
+  background-color: #666;
+  text-transform: uppercase;
+  font-family: 'oswaldbook', sans-serif;
+  font-weight: normal;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #666;
+}
 /* end Department Header Buttons */
 /* end Department Headers */

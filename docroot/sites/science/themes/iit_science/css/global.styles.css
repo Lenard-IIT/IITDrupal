@@ -2173,6 +2173,10 @@ a:hover {
 #department-header #department-buttons ul li a:hover {
   background-color: #888;
 }
+
+#department-header #department-buttons #button-menu-button {
+  display: none;
+}
 /* end Department Header Buttons */
 
 /* end Department Headers */
