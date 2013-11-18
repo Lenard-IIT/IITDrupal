@@ -2039,91 +2039,91 @@ a:hover {
 #department-header-wrapper #department-nav a#cos-link,
 #department-header-wrapper #department-nav-solo a#cos-link {
   background-color: #0e76bd;
-  border: 3px solid #0e76bd;
+  border: 2px solid #0e76bd;
 }
 
 .no-touch #department-header-wrapper #department-nav a#cos-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#cos-link:hover {
   background-color: #fff;
-  border: 3px solid #0e76bd;
+  border: 2px solid #0e76bd;
   color: #0e76bd;
 }
 
 #department-header-wrapper #department-nav a#am-link,
 #department-header-wrapper #department-nav-solo a#am-link {
   background-color: #e6c099;
-  border: 3px solid #e6c099;
+  border: 2px solid #e6c099;
 }
 
 .no-touch #department-header-wrapper #department-nav a#am-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#am-link:hover {
   background-color: #fff;
-  border: 3px solid #e6c099;
+  border: 2px solid #e6c099;
   color: #e6c099;
 }
 
 #department-header-wrapper #department-nav a#bio-link,
 #department-header-wrapper #department-nav-solo a#bio-link {
   background-color: #1e8663;
-  border: 3px solid #1e8663;
+  border: 2px solid #1e8663;
 }
 
 .no-touch #department-header-wrapper #department-nav a#bio-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#bio-link:hover {
   background-color: #fff;
-  border: 3px solid #1e8663;
+  border: 2px solid #1e8663;
   color: #1e8663;
 }
 
 #department-header-wrapper #department-nav a#chem-link,
 #department-header-wrapper #department-nav-solo a#chem-link {
   background-color: #8cb4b4;
-  border: 3px solid #8cb4b4;
+  border: 2px solid #8cb4b4;
 }
 
 .no-touch #department-header-wrapper #department-nav a#chem-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#chem-link:hover  {
   background-color: #fff;
-  border: 3px solid #8cb4b4;
+  border: 2px solid #8cb4b4;
   color: #8cb4b4;
 }
 
 #department-header-wrapper #department-nav a#cs-link,
 #department-header-wrapper #department-nav-solo a#cs-link {
   background-color: #4b7faf;
-  border: 3px solid #4b7faf;
+  border: 2px solid #4b7faf;
 }
 
 .no-touch #department-header-wrapper #department-nav a#cs-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#cs-link:hover {
   background-color: #fff;
-  border: 3px solid #4b7faf;
+  border: 2px solid #4b7faf;
   color: #4b7faf;
 }
 
 #department-header-wrapper #department-nav a#mse-link,
 #department-header-wrapper #department-nav-solo a#mse-link {
   background-color: #b38db4;
-  border: 3px solid #b38db4;
+  border: 2px solid #b38db4;
 }
 
 .no-touch #department-header-wrapper #department-nav a#mse-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#mse-link:hover {
   background-color: #fff;
-  border: 3px solid #b38db4;
+  border: 2px solid #b38db4;
   color: #b38db4;
 }
 
 #department-header-wrapper #department-nav a#phy-link,
 #department-header-wrapper #department-nav-solo a#phy-link {
   background-color: #de5340;
-  border: 3px solid #de5340;
+  border: 2px solid #de5340;
 }
 
 .no-touch #department-header-wrapper #department-nav a#phy-link:hover,
 .no-touch #department-header-wrapper #department-nav-solo a#phy-link:hover {
   background-color: #fff;
-  border: 3px solid #de5340;
+  border: 2px solid #de5340;
   color: #de5340;
 }
 
