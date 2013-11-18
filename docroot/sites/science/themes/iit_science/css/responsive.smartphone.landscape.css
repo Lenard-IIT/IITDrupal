@@ -93,14 +93,32 @@ html {
 }
 
 #department-header #department-buttons #button-menu-button { 
-  padding: 0.5em;
+  padding: 0;
   background-color: #666;
   text-transform: uppercase;
   font-family: 'oswaldbook', sans-serif;
   font-weight: normal;
   color: #fff;
-  cursor: pointer;
-  border: 2px solid #666;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#department-header #department-buttons #button-menu-button .icon {
+    background-image: url('images/menu-button-sqwht.svg');
+    background-size: 1.875em 1.875em;
+    width: 1.875em;
+    height: 1.875em;
+    margin: 0.4375em 0;
+    float: left;
+}
+
+.no-svg #department-header #department-buttons #button-menu-button .icon {
+    background-image: url('images/menu-button-sqwht.png');
+}
+
+#department-header #department-buttons #button-menu-button span {
+    line-height: 1.875em;
+    padding: 0 0.5em;
 }
 /* end Department Header Buttons */
 /* end Department Headers */
