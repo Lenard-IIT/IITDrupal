@@ -164,7 +164,7 @@
 }
 
 /* Department Header Buttons */
-#department-header #department-buttons {
+#department-header-wrapper #department-buttons {
     position: absolute;
     right: 0;
     bottom: 2px;

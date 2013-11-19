@@ -2133,28 +2133,28 @@ a:hover {
 }
 
 /* Department Header Buttons */
-#department-header #department-buttons {
+#department-header-wrapper #department-buttons {
   margin: 0 0 20px 0;
   overflow: hidden;
 }
 
-#department-header #department-buttons ul {
+#department-header-wrapper #department-buttons ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
   font-size: 1em;
 }
 
-#department-header #department-buttons ul li {
+#department-header-wrapper #department-buttons ul li {
   float: left;
   margin-left: 0.625em;
 }
 
-#department-header #department-buttons ul li:first-child {
+#department-header-wrapper #department-buttons ul li:first-child {
   margin-left: 0;
 }
 
-#department-header #department-buttons ul li a {
+#department-header-wrapper #department-buttons ul li a {
   display: block;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #fff;
@@ -2170,11 +2170,11 @@ a:hover {
   min-width: 5em;
 }
 
-#department-header #department-buttons ul li a:hover {
+#department-header-wrapper #department-buttons ul li a:hover {
   background-color: #888;
 }
 
-#department-header #department-buttons #button-menu-button {
+#department-header-wrapper #department-buttons #button-menu-button {
   display: none;
 }
 /* end Department Header Buttons */
