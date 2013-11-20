@@ -77,6 +77,7 @@
 
   scripts[] = scripts/sidenav-script-min.js
   scripts[] = scripts/info-overlay.min.js
+  scripts[] = scripts/search-box.min.js
 
 
 ;----------// Regions
