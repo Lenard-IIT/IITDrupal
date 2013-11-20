@@ -89,33 +89,33 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h2 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h3 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h4 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h5 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h6 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 p {
@@ -1960,8 +1960,8 @@ a:hover {
 }
 
 #footer #iit-department-footer h5 {
-  font-weight: normal;
-  font-family: 'oswaldbook', sans-serif;
+  font-weight: 400;
+  font-family: 'oswald', sans-serif;
 }
 
 #footer #iit-department-footer p {
@@ -2002,8 +2002,8 @@ a:hover {
 }
 
 #department-header-wrapper #department-header h2 {
-  font-family: 'oswaldbook', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 2em;
   line-height: 1em;
@@ -2032,8 +2032,8 @@ a:hover {
   display: block;
   text-decoration: none;
   color: #fff;
-  font-family: 'oswaldbook', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 }
 

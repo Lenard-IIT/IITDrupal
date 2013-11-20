@@ -96,8 +96,8 @@ html {
   padding: 0;
   background-color: #666;
   text-transform: uppercase;
-  font-family: 'oswaldbook', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
   color: #fff;
     cursor: pointer;
     overflow: hidden;
