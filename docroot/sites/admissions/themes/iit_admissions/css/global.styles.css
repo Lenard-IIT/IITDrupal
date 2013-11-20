@@ -2975,8 +2975,3 @@ body.graduate .region-sidebar-second .view ul li {
 /* end global flexslider overrides in content block */
 
 
-/* linkit height fix */
-#linkit-modal {
-  height: auto !important;
-}
-/* end linkit height fix */
