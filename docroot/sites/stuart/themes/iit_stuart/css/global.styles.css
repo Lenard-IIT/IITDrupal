@@ -2723,7 +2723,98 @@ a:hover {
 /* Recent news block on media room page */
 
 
+/* Search Page*/
+.page-search #search-form .form-submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #666;
+  border: 0;
+  padding: 0.5em 1em;
+  letter-spacing: 1px
+}
 
+.no-touch .page-search #search-form .form-submit:hover {
+  background-color: #888;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-homepage-hero-item {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-article {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-page {
+  display: none;
+}
+
+.page-search #search-form .form-checkboxes .form-item-type-panel {
+  display: none;
+}
+
+.page-search .search-results {
+  padding: 0;
+}
+
+.page-search .search-results .search-result .search-info {
+  display: none;
+}
+
+.page-search #main-content .item-list .pager li {
+  padding: 0 0.75em;
+}
+/* end Search Page */
+
+
+/* sidebar search form block */
+.sidebar #block-search-form {
+  background-color: #ccc;
+}
+
+.sidebar #block-search-form .block-inner {
+  padding: 1em;
+  margin: 0;
+}
+
+.sidebar #block-search-form .form-submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #666;
+  border: 0;
+  padding: 0.5em 1em;
+  letter-spacing: 1px
+}
+
+.no-touch .sidebar #block-search-form .form-submit:hover {
+  background-color: #888;
+}
+
+.sidebar #block-search-form #search-block-form .form-item-search-block-form {
+  width: 69%;
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+.sidebar #block-search-form #search-block-form .form-item-search-block-form input {
+  width: 95%;
+}
+
+.sidebar #block-search-form #search-block-form #edit-actions {
+  width: 28%;
+  display: inline-block;
+}
+/* end sidebar search form block */
 
 
 
