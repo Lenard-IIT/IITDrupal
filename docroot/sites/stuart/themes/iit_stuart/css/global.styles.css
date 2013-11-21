@@ -2790,12 +2790,12 @@ a:hover {
 
 /* Program page color overrides */
 .mba-program #main-content h1 {
-  color: #a04649;
+  color: #db384d;
 }
 
 .mba-program .sidebar nav.block-menu-block,
 .mba-program #header .block-menu .block-content ul li a.active-trail {
-  background-color: #a04649;
+  background-color: #db384d;
 }
 
 .mpa-program #main-content h1 {
@@ -2817,12 +2817,12 @@ a:hover {
 }
 
 .finance-program #main-content h1 {
-  color: #76a0b1;
+  color: #5372a5;
 }
 
 .finance-program .sidebar nav.block-menu-block,
 .finance-program #header .block-menu .block-content ul li a.active-trail {
-  background-color: #76a0b1;
+  background-color: #5372a5;
 }
 
 .mac-program #main-content h1 {
