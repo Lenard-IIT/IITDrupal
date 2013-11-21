@@ -2531,7 +2531,7 @@ a:hover {
 }
 
 #content .panel-flexible.stuart-home #homepage-news-block .views-field-title a {
-  color: #9f1b32;
+  color: #666;
 }
 
 #content .panel-flexible.stuart-home #homepage-news-block .views-field-view-node {
@@ -2539,7 +2539,7 @@ a:hover {
 }
 
 #content .panel-flexible.stuart-home #homepage-news-block .views-field-view-node a {
-  color: #555;
+  color: #9f1b32;
   font-style: italic;
 }
 
