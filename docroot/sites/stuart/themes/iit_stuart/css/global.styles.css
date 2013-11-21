@@ -2530,6 +2530,10 @@ a:hover {
   font-weight: 400;
 }
 
+#content .panel-flexible.stuart-home #homepage-news-block .views-field-title a {
+  color: #9f1b32;
+}
+
 #content .panel-flexible.stuart-home #homepage-news-block .views-field-view-node {
   font-size: 0.875em;
 }
