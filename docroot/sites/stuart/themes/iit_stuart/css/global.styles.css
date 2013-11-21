@@ -2788,4 +2788,73 @@ a:hover {
 /* end sidebar search form block */
 
 
+/* Program page color overrides */
+.mba-program #main-content h1 {
+  color: #a04649;
+}
+
+.mba-program .sidebar nav.block-menu-block,
+.mba-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #a04649;
+}
+
+.mpa-program #main-content h1 {
+  color: #d67b4d;
+}
+
+.mpa-program .sidebar nav.block-menu-block,
+.mpa-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #d67b4d;
+}
+
+.ems-program #main-content h1 {
+  color: #95ae5f;
+}
+
+.ems-program .sidebar nav.block-menu-block,
+.ems-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #95ae5f;
+}
+
+.finance-program #main-content h1 {
+  color: #76a0b1;
+}
+
+.finance-program .sidebar nav.block-menu-block,
+.finance-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #76a0b1;
+}
+
+.mac-program #main-content h1 {
+  color: #9a9bb2;
+}
+
+.mac-program .sidebar nav.block-menu-block,
+.mac-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #9a9bb2;
+}
+
+.phd-program #main-content h1 {
+  color: #99b6bb;
+}
+
+.phd-program .sidebar nav.block-menu-block,
+.phd-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #99b6bb;
+}
+
+.ug-program #main-content h1 {
+  color: #e4b965;
+}
+
+.ug-program .sidebar nav.block-menu-block,
+.ug-program #header .block-menu .block-content ul li a.active-trail {
+  background-color: #e4b965;
+}
+
+/* end Program page color overrides */
+
+
+
+
 
