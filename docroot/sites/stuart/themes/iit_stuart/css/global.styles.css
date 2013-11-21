@@ -1879,7 +1879,7 @@ h1#page-title {
 }
 
 #main-content h1 {
-  color: #1E6CB4;
+  color: #9f1b32;
 }
 
 #main-content h2,
@@ -1887,11 +1887,11 @@ h1#page-title {
 #main-content h4,
 #main-content h5,
 #main-content h6 {
-  color: #1E6CB4;
+  color: #666;
 }
 
 a {
-  color: #1E6CB4;
+  color: #9f1b32;
   outline: none;
   text-decoration: none;
 }
@@ -2067,7 +2067,7 @@ a:hover {
 }
 
 .sidebar nav.block-menu-block {
-  background-color: #1E6CB4;
+  background-color: #9f1b32;
   padding: 16px;
 }
 
@@ -2191,7 +2191,7 @@ a:hover {
 }
 
 #header .iit-page-header h2 a span {
-    color: #1E6CB4;
+    color: #9f1b32;
 }
 /* end Page Header */
 
@@ -2285,7 +2285,7 @@ a:hover {
 }
 
 #header .block-menu .block-content ul li a.active-trail {
-  background-color: #1E6CB4;
+  background-color: #9f1b32;
   color: #fff;
 }
 /* end header menu */
@@ -2466,7 +2466,7 @@ a:hover {
 
 /* Stuart Homepage News Block */
 #content .panel-flexible.stuart-home #homepage-news-block h2.block-title {
-  background-color: #1E6CB4;
+  background-color: #acacac;
   border: 0;
   padding: 0;
   margin-bottom: 0.625em;
@@ -2505,7 +2505,7 @@ a:hover {
 }
 
 #content .panel-flexible.stuart-home #homepage-calendar-block h2 {
-  background-color: #1E6CB4;
+  background-color: #789db4;
   color: #fff;
   border: 0;
   padding: 0;
@@ -2515,7 +2515,7 @@ a:hover {
 }
 
 #content .panel-flexible.stuart-home #homepage-rankings-block h2 {
-  background-color: #1E6CB4;
+  background-color: #df9742;
   color: #fff;
   border: 0;
   padding: 0;
