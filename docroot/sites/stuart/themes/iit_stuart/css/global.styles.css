@@ -2672,12 +2672,14 @@ a:hover {
 
 
 /* Block at bottom of all program pages */
-#block-block-4 {
+#block-block-4,
+#block-block-5 {
     background-color: #E9E9E9;
     padding: 1.25em;
 }
 
-#block-block-4 p {
+#block-block-4 p,
+#block-block-5 p {
     margin: 0;
 }
 /* end Block at bottom of all program pages */
