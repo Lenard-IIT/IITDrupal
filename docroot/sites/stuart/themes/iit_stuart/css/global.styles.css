@@ -1973,14 +1973,14 @@ a:hover {
     margin-bottom: 0.75em;
 }
 
-.view-id-news .field-name-field-category {
+#main-content .view-id-news .field-name-field-category {
     clear: both;
     margin: 0;
     padding-top: 0.25em;
     border: 0;
 }
 
-.view-id-news .field-name-field-tags {
+#main-content .view-id-news .field-name-field-tags {
     padding-bottom: 0.25em;
     border: 0;
 }
