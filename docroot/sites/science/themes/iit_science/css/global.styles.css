@@ -2147,6 +2147,102 @@ a:hover {
 /* end Department Headers */
 
 
+/* Sidebar Menu */
+.sidebar nav.block-menu-block .block-inner {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar nav.block-menu-block {
+  background-color: #9f1b32;
+  padding: 16px;
+}
+
+.sidebar nav.block-menu-block a {
+  color: #fff;
+  outline: none;
+}
+
+.sidebar nav.block-menu-block a:hover {
+  text-decoration: none;
+}
+
+.sidebar nav.block-menu-block ul {
+  margin: .75em 0;
+  padding: 0;
+}
+
+.sidebar nav.block-menu-block li {
+  line-height: 1.25em;
+  margin: .3125em 0;
+  list-style-type: none;
+  list-style-image: none;
+  padding-left: 1.1875em;
+}
+
+.sidebar nav.block-menu-block ul li.leaf {
+  background: url("images/sidenav-dot.png") no-repeat .125em .375em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar nav.block-menu-block ul li.leaf {
+    background: url("images/sidenav-dot@2x.png") no-repeat .125em .375em;
+    background-size: 9px;
+  }
+}
+
+.sidebar nav.block-menu-block ul li.collapsed {
+  background: url("images/sidenav-plus.png") no-repeat .125em .375em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar nav.block-menu-block ul li.collapsed {
+    background: url("images/sidenav-plus@2x.png") no-repeat .125em .375em;
+    background-size: 9px;
+  }
+}
+
+.sidebar nav.block-menu-block ul li.expanded {
+  background: url("images/sidenav-minus.png") no-repeat .125em .375em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .sidebar nav.block-menu-block ul li.expanded {
+    background: url("images/sidenav-minus@2x.png") no-repeat .125em .375em;
+    background-size: 9px;
+  }
+}
+
+.sidebar nav.block-menu-block li a {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.sidebar nav.block-menu-block h2 {
+  font-family: 'oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sidebar nav.block-menu-block h2.block-title {
+  font-size: 1.5em;
+  line-height: 1.125em;
+  border: 0;
+  margin-left: .7083333em;
+  text-indent: -.7083333em;
+  margin-bottom: 0;
+}
+
+.sidebar nav.block-menu-block h2 a:before {
+  content: "« ";
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: -0.15em;
+}
+/* end Sidebar Menu */
+
+
 /* General Sidebar block style */
 .sidebar .block {
     background-color: #ccc;
