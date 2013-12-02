@@ -2836,6 +2836,10 @@ a:hover {
   background-color: #db384d;
 }
 
+.mba-program #main-content ul li {
+  background: url("images/bullet-stuart-mba.png") no-repeat 0 6px
+}
+
 .mpa-program #main-content h1 {
   color: #d67b4d;
 }
@@ -2843,6 +2847,10 @@ a:hover {
 .mpa-program .sidebar nav.block-menu-block,
 .mpa-program #header .block-menu .block-content ul li a.active-trail {
   background-color: #d67b4d;
+}
+
+.mpa-program #main-content ul li {
+  background: url("images/bullet-stuart-mpa.png") no-repeat 0 6px
 }
 
 .ems-program #main-content h1 {
@@ -2854,6 +2862,10 @@ a:hover {
   background-color: #95ae5f;
 }
 
+.ems-program #main-content ul li {
+  background: url("images/bullet-stuart-ems.png") no-repeat 0 6px
+}
+
 .finance-program #main-content h1 {
   color: #5372a5;
 }
@@ -2861,6 +2873,10 @@ a:hover {
 .finance-program .sidebar nav.block-menu-block,
 .finance-program #header .block-menu .block-content ul li a.active-trail {
   background-color: #5372a5;
+}
+
+.finance-program #main-content ul li {
+  background: url("images/bullet-stuart-finance.png") no-repeat 0 6px
 }
 
 .mac-program #main-content h1 {
@@ -2872,6 +2888,10 @@ a:hover {
   background-color: #9a9bb2;
 }
 
+.mac-program #main-content ul li {
+  background: url("images/bullet-stuart-mac.png") no-repeat 0 6px
+}
+
 .phd-program #main-content h1 {
   color: #99b6bb;
 }
@@ -2881,6 +2901,10 @@ a:hover {
   background-color: #99b6bb;
 }
 
+.phd-program #main-content ul li {
+  background: url("images/bullet-stuart-phd.png") no-repeat 0 6px
+}
+
 .ug-program #main-content h1 {
   color: #e4b965;
 }
@@ -2888,6 +2912,10 @@ a:hover {
 .ug-program .sidebar nav.block-menu-block,
 .ug-program #header .block-menu .block-content ul li a.active-trail {
   background-color: #e4b965;
+}
+
+.ug-program #main-content ul li {
+  background: url("images/bullet-stuart-undergraduate.png") no-repeat 0 6px
 }
 
 /* end Program page color overrides */
