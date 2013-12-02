@@ -20,6 +20,13 @@ html {
 }
 
 
+/* Page main content region and sidebar margins */
+div.region-sidebar-second .block {
+  width: inherit;
+}
+/* end Page main content region */
+
+
 /* Department Footer */
 #footer #iit-department-footer {
   margin-bottom: 4px;

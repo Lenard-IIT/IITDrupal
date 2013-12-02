@@ -2147,6 +2147,25 @@ a:hover {
 /* end Department Headers */
 
 
+/* General Sidebar block style */
+.sidebar .block {
+    background-color: #ccc;
+}
+
+.sidebar .block .block-inner {
+    margin: 0;
+    padding: 1em;
+}
+
+.sidebar .block h2 {
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    color: #333;
+}
+/* end General Sidebar block style */
 
 
 

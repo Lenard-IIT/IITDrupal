@@ -14,6 +14,17 @@
 }
 
 
+/* Page main content region and sidebar margins */
+.sidebar-second #content-column .content-inner {
+  margin-right: 30.26315789%;
+}
+
+div.region-sidebar-second {
+  margin-left: -29.12280701%;
+}
+/* end Page main content region */
+
+
 /* Department Footer */
 #footer #iit-department-footer {
   margin-bottom: 4px;
