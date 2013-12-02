@@ -2158,6 +2158,10 @@ a:hover {
   padding: 16px;
 }
 
+.applied-mathematics .sidebar nav.block-menu-block {
+  background-color: #e6c099;
+}
+
 .sidebar nav.block-menu-block a {
   color: #fff;
   outline: none;
