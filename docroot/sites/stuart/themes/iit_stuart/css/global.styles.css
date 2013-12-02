@@ -1960,6 +1960,10 @@ a:hover {
 
 
 /* news overview teaser Styles */
+#main-content .view-id-news h2 {
+    border-bottom: none;
+}
+
 .view-id-news .field-name-field-image {
     float: right;
     margin: 0 0 0.625em 0.75em;
@@ -1973,12 +1977,21 @@ a:hover {
     clear: both;
     margin: 0;
     padding-top: 0.25em;
-    border-top: 1px solid #ddd;
+    border: 0;
 }
 
 .view-id-news .field-name-field-tags {
-    border-bottom: 1px solid #ddd;
     padding-bottom: 0.25em;
+    border: 0;
+}
+
+.view-id-news .field-type-taxonomy-term-reference {
+    margin-bottom: 0;
+}
+
+.view-id-news .views-row .node-news.view-mode-teaser {
+    border-bottom: 1px dashed #666;
+    padding: 0 1.25em 1.25em 1.25em;
 }
 
 .view-id-news .field-name-node-link {
