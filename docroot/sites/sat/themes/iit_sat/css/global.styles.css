@@ -1876,6 +1876,77 @@ a:hover {
 /* end Standard Elements */
 
 
+/* Department Footer */
+#footer-wrapper {
+  border-top: 3px solid #444;
+  background-color: #e9e9e9;
+}
+
+#footer .region-footer .block-block {
+  margin: 0;
+}
+
+#footer #iit-department-footer {
+  position: relative;
+}
+
+#footer #iit-department-footer h5 {
+  font-weight: 400;
+  font-family: 'oswald', sans-serif;
+}
+
+#footer #iit-department-footer p {
+  font-size: 0.813em;
+  margin: 0 0 0.8em;
+}
+
+#footer #iit-department-footer .social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer #iit-department-footer .social-icons li {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+#footer #iit-department-footer .social-icons li:first-child {
+  margin-left: 0;
+}
+/* end Department Footer */
+
+
+/* Department Headers */
+#department-header-wrapper {
+  font-size: 16px;
+}
+
+#department-header-wrapper #department-header {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#department-header-wrapper #department-header h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1em;
+  margin: 1.052631578em 0 0 0;
+}
+
+#department-header-wrapper #department-header h2 a {
+  color: #888;
+  text-decoration: none;
+}
+
+#department-header-wrapper #department-header h2 a span {
+  color: #0e76bd;
+}
+/* end Department Headers */
+
+
 /* Sidebar Menu */
 .sidebar nav.block-menu-block .block-inner {
   margin: 0;

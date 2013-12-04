@@ -42,3 +42,10 @@ div.region-sidebar-second {
   margin-top: 6px;
 }
 /* end Department Footer */
+
+
+/* Department Headers */
+#department-header-wrapper #department-header h2 {
+  font-size: 2.375em;
+}
+/* end Department Headers */
