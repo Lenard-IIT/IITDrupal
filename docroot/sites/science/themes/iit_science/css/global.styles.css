@@ -2390,7 +2390,54 @@ a:hover {
 /* end sidebar search form block */
 
 
+/* full faculty bio view */
+.node-type-faculty h1#page-title {
+  display:none;
+}
 
+#content .node-faculty .panel-display {
+  margin:0;
+}
+
+.node-faculty .field-name-full-faculty-name h1 {
+  line-height: 1.263157894em;
+  margin: 0 0 0.5em 0;
+}
+
+.node-faculty .field-name-field-faculty-title{
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above section {
+  margin-bottom: 0.3125em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above section h2 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 6.25em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above .field-name-faculty-cv-link {
+  font-weight: bold;
+  margin-top: 1.1875em;
+}
+
+#main-content .node-faculty .region-two-brick-right-above section p {
+  margin: 0;
+  
+}
+
+#main-content .node-faculty .region-two-brick-middle h2.field-label {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin: 0.8em 0 0.2em 0;
+}
+/* end full faculty bio view */
 
 
 

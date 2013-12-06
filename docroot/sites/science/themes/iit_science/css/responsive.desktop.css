@@ -186,7 +186,16 @@ div.region-sidebar-second {
 /* end Department Headers */
 
 
+/* full faculty bio view */
+.node-faculty .two-brick > .panel-row > .region-two-brick-right-above {
+  width: 71%;
+}
 
+.node-faculty .two-brick > .panel-row > .region-two-brick-left-above {
+  width: 26%;
+  margin-right: 3%;
+}
+/* end full faculty bio view */
 
 
 
