@@ -2440,6 +2440,44 @@ a:hover {
 /* end full faculty bio view */
 
 
+/* faculty directory view */
+.view-faculty .views-row {
+    clear:both;
+    padding: 0.5em 0;
+    overflow:auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.view-faculty .views-row-last {
+    border:0;
+}
+
+.view-faculty h3 {
+    clear:both;
+    font-size: 2em;
+    margin: 0.8em 0 0.2em 0;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #888;
+}
+
+.view-faculty .views-field-nothing {
+    font-size: 1.1875em;
+}
+
+.view-faculty .views-field-field-faculty-title {
+    font-size: 0.8125em;
+    font-style: italic;
+}
+
+.view-faculty #letter-selector a {
+    padding: 0 1.1%;
+    font-size: 1.1875em;
+}
+
+.view-faculty #letter-selector a:first-child {
+    padding-left: 0;
+}
+/* end faculty directory view */
 
 
 

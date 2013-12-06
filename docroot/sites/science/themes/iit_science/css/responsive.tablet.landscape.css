@@ -186,3 +186,22 @@ div.region-sidebar-second {
   margin-right: 3%;
 }
 /* end full faculty bio view */
+
+
+/* faculty directory view */
+.view-faculty .views-row {
+    border-bottom: 0;
+    padding: 0.25em 0;
+}
+
+.view-faculty .views-field-nothing {
+  float:left;
+  width:35%;
+}
+
+.view-faculty .views-field-field-faculty-title {
+  float: left;
+  width: 65%;
+  padding-top: 0.538461538em;
+}
+/* end faculty directory view */
