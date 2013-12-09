@@ -208,3 +208,18 @@ div.region-sidebar-second .block {
   padding-top: 0.538461538em;
 }
 /* end faculty directory view */
+
+
+/* College of Science Homepage */
+/* Homepage Hero Block Region */
+/* end Homepage Hero Block Region */
+
+/* Row 3 */
+#content .panel-flexible.science-home .science-home-row.home-row-3 .science-home-region {
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+/* end Row 3 */
+/* end College of Science Homepage */

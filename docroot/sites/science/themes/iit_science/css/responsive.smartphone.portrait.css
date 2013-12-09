@@ -130,4 +130,36 @@ html {
   display: none;
 }
 /* end Homepage Hero Block Region */
+
+/* Row 2 */
+#content .panel-flexible.science-home .home-row-2 .science-home-region-science-home-region_2_1 {
+    display: block;
+    width: 49.107142857143%;
+    margin-right: 0.892857142857%;
+}
+
+#content .panel-flexible.science-home .home-row-2 .science-home-region-science-home-region_2_2 {
+    display: block;
+    width: 49.107142857143%;
+    margin-left: 0.892857142857%;
+    margin-right: 0;
+}
+
+#content .panel-flexible.science-home .home-row-2 .science-home-region-science-home-region_2_3 {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px
+}
+/* end Row 2 */
+
+/* Row 3 */
+#content .panel-flexible.science-home .science-home-row.home-row-3 .science-home-region {
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+/* end Row 3 */
 /* end College of Science Homepage */
