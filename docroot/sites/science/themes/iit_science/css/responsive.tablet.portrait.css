@@ -223,3 +223,16 @@ div.region-sidebar-second .block {
 }
 /* end Row 3 */
 /* end College of Science Homepage */
+
+
+/* Department Homepages */
+
+/* Row 3 */
+#content .panel-flexible.am-home .am-home-row.home-row-3 .am-home-region {
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+/* end Row 3 */
+/* end Department Homepages */
