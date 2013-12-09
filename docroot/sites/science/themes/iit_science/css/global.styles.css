@@ -2481,7 +2481,6 @@ a:hover {
 
 
 /* College of Science Homepage */
-/* Homepage Hero Block Region */
 #content .panel-flexible.science-home {
     margin: 0;
 }
@@ -2495,6 +2494,7 @@ a:hover {
 	margin-bottom: 20px;
 }
 
+/* Homepage Hero Block Region */
 #content .panel-flexible.science-home .pane-homepage-hero-block {
 	margin: 0;
 }
@@ -2648,6 +2648,134 @@ a:hover {
 /* end College of Science Homepage */
 
 
+/* Department Homepages */
+#content .panel-flexible.am-home {
+    margin: 0;
+}
+
+#content .panel-flexible.am-home .block-inner {
+    margin: 0;
+}
+
+#content .panel-flexible.am-home .am-home-row {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+/* Row 1 Hero Row */
+#content .panel-flexible.am-home .home-row-1 .am-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.am-home .home-row-1 .am-home-region-am-home-dept_hero_left {
+    width: 49.107142857143%;
+    margin-right: 0.892857142857%;
+}
+
+#content .panel-flexible.am-home .home-row-1 .am-home-region-am-home-dept_hero_right {
+    width: 49.107142857143%;
+    margin-left: 0.892857142857%;
+}
+/* end Row 1 Hero Row */
+
+/* Row 2 */
+#content .panel-flexible.am-home .home-row-2 .am-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.am-home .home-row-2 .am-home-region-am-home-region_2_1 {
+    width: 23.660714285715%;
+    margin-right: 0.892857142857%;
+}
+
+#content .panel-flexible.am-home .home-row-2 .am-home-region-am-home-region_2_2 {
+    width: 23.660714285715%;
+    margin: 0 0.892857142857%;
+}
+
+#content .panel-flexible.am-home .home-row-2 .am-home-region-am-home-region_2_3 {
+    width: 49.107142857143%;
+    margin-left: 0.892857142857%;
+}
+
+#content .panel-flexible.am-home .home-image-button img {
+	margin: 0;
+	display: block;
+}
+
+#content .panel-flexible.am-home .home-row-2 p {
+	margin: 0;
+}
+
+#content .panel-flexible.am-home .home-row-2 .panel-pane.block {
+	margin: 0;
+}
+/* end Row 2 */
+
+/* Row 3 */
+#content .panel-flexible.am-home .home-row-3 .am-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.am-home .home-row-3 .am-home-region-am-home-region_3_1 {
+    width: 49.107142857143%;
+    margin-right: 0.892857142857%;
+}
+
+#content .panel-flexible.am-home .home-row-3 .am-home-region-am-home-region_3_2 {
+    width: 49.107142857143%;
+    margin-left: 0.892857142857%;
+}
+/* end Row 3 */
+
+/* News Block */
+#content .panel-flexible.am-home #am-homepage-news-block h2.block-title {
+    background-color: #666;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0 0 0.625em 0;
+    padding-left: 0.28125em;
+    overflow: hidden;
+    font-size: 1.8125em;
+}
+
+#content .panel-flexible.am-home #am-homepage-news-block .views-field-title {
+    font-family: 'oswald', sans-serif;
+    margin-right: 0.375em;
+    font-weight: 400;
+}
+
+#content .panel-flexible.am-home #am-homepage-news-block .views-row {
+    margin: 0.875em 0;
+}
+
+#content .panel-flexible.am-home #am-homepage-news-block .views-field-title a {
+    color: #666;
+}
+
+#content .panel-flexible.am-home #am-homepage-news-block .views-field-view-node {
+    font-size: 0.875em;
+}
+
+#content .panel-flexible.am-home #am-homepage-news-block .views-field-view-node a {
+    font-style: italic;
+}
+/* end News Block */
+
+/* Events Block */
+#content .panel-flexible.am-home #am-homepage-events-block h2.block-title {
+    background-color: #666;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0 0 0.625em 0;
+    padding-left: 0.28125em;
+    overflow: hidden;
+    font-size: 1.8125em;
+}
+/* end Events Block */
+/* end Department Homepages */
 
 
 
