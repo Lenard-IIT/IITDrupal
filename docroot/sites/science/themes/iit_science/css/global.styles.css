@@ -2480,7 +2480,65 @@ a:hover {
 /* end faculty directory view */
 
 
+/* College of Science Homepage */
+/* Homepage Hero Block Region */
+#content .panel-flexible.science-home {
+    margin: 0;
+}
 
+#content .panel-flexible.science-home .block-inner {
+    margin: 0;
+}
+ 
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider {
+    margin: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .slides {
+    padding: 0;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .slides li {
+    padding: 0;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .slides img {
+    max-width: 100%;
+    width: inherit;
+    margin: 0;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .slides .views-field-field-left-hero-image {
+    float: left;
+    width: 28.125%;
+    margin-right: 1.785714285714%;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .slides .views-field-field-right-hero-image {
+    float: left;
+    width: 70.089285714286%;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .flex-control-nav.flex-control-paging {
+    bottom: 0;
+    right: 0;
+    width: inherit;
+    padding: 0 1%;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider .flex-control-nav.flex-control-paging li {
+    margin: 0 2px;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block .flexslider:hover .flex-prev {
+    left: 30.4%;
+}
+/* end Homepage Hero Block Region */
+/* end College of Science Homepage */
 
 
 
