@@ -2570,6 +2570,15 @@ a:hover {
 
 #content .panel-flexible.science-home .home-image-button img {
 	margin: 0;
+	display: block;
+}
+
+#content .panel-flexible.science-home .home-row-2 p {
+	margin: 0;
+}
+
+#content .panel-flexible.science-home .home-row-2 .panel-pane.block {
+	margin: 0;
 }
 /* end Row 2 */
 
