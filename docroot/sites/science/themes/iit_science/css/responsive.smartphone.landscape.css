@@ -167,13 +167,13 @@ html {
 
 /* Department Homepages */
 /* Homepage Hero Block Region */
-#content .panel-flexible.am-home .home-row-1 .am-home-region-am-home-dept_hero_left {
+#content .panel-flexible.dept-home .home-row-1 .dept-home-region-dept-home-dept_hero_left {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
 
-#content .panel-flexible.am-home .home-row-1 .am-home-region-am-home-dept_hero_right {
+#content .panel-flexible.dept-home .home-row-1 .dept-home-region-dept-home-dept_hero_right {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -181,20 +181,20 @@ html {
 /* end Homepage Hero Block Region */
 
 /* Row 2 */
-#content .panel-flexible.am-home .home-row-2 .am-home-region-am-home-region_2_1 {
+#content .panel-flexible.dept-home .home-row-2 .dept-home-region-dept-home-region_2_1 {
     display: block;
     width: 49.107142857143%;
     margin-right: 0.892857142857%;
 }
 
-#content .panel-flexible.am-home .home-row-2 .am-home-region-am-home-region_2_2 {
+#content .panel-flexible.dept-home .home-row-2 .dept-home-region-dept-home-region_2_2 {
     display: block;
     width: 49.107142857143%;
     margin-left: 0.892857142857%;
     margin-right: 0;
 }
 
-#content .panel-flexible.am-home .home-row-2 .am-home-region-am-home-region_2_3 {
+#content .panel-flexible.dept-home .home-row-2 .dept-home-region-dept-home-region_2_3 {
     display: block;
     width: 100%;
     margin-left: 0;
@@ -204,7 +204,7 @@ html {
 /* end Row 2 */
 
 /* Row 3 */
-#content .panel-flexible.am-home .am-home-row.home-row-3 .am-home-region {
+#content .panel-flexible.dept-home .dept-home-row.home-row-3 .dept-home-region {
 	display: block;
 	width: 100%;
 	margin-left: 0;
