@@ -2597,6 +2597,54 @@ a:hover {
     margin-left: 0.892857142857%;
 }
 /* end Row 3 */
+
+/* News Block */
+#content .panel-flexible.science-home #cos-homepage-news-block h2.block-title {
+    background-color: #666;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0 0 0.625em 0;
+    padding-left: 0.28125em;
+    overflow: hidden;
+    font-size: 1.8125em;
+}
+
+#content .panel-flexible.science-home #cos-homepage-news-block .views-field-title {
+    font-family: 'oswald', sans-serif;
+    margin-right: 0.375em;
+    font-weight: 400;
+}
+
+#content .panel-flexible.science-home #cos-homepage-news-block .views-row {
+    margin: 0.875em 0;
+}
+
+#content .panel-flexible.science-home #cos-homepage-news-block .views-field-title a {
+    color: #666;
+}
+
+#content .panel-flexible.science-home #cos-homepage-news-block .views-field-view-node {
+    font-size: 0.875em;
+}
+
+#content .panel-flexible.science-home #cos-homepage-news-block .views-field-view-node a {
+    font-style: italic;
+}
+/* end News Block */
+
+/* Events Block */
+#content .panel-flexible.science-home #cos-homepage-events-block h2.block-title {
+    background-color: #666;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0 0 0.625em 0;
+    padding-left: 0.28125em;
+    overflow: hidden;
+    font-size: 1.8125em;
+}
+/* end Events Block */
 /* end College of Science Homepage */
 
 
