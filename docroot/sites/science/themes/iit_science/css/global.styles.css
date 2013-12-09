@@ -2489,6 +2489,15 @@ a:hover {
 #content .panel-flexible.science-home .block-inner {
     margin: 0;
 }
+
+#content .panel-flexible.science-home .science-home-row {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+#content .panel-flexible.science-home .pane-homepage-hero-block {
+	margin: 0;
+}
  
 #content .panel-flexible.science-home .pane-homepage-hero-block .flexslider {
     margin: 0;
@@ -2538,6 +2547,48 @@ a:hover {
     left: 30.4%;
 }
 /* end Homepage Hero Block Region */
+
+/* Row 2 */
+#content .panel-flexible.science-home .home-row-2 .science-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.science-home .home-row-2 .science-home-region-science-home-region_2_1 {
+    background-color: red;
+    width: 23.660714285715%;
+    margin-right: 0.892857142857%;
+}
+
+#content .panel-flexible.science-home .home-row-2 .science-home-region-science-home-region_2_2 {
+    background-color: blue;
+    width: 23.660714285715%;
+    margin: 0 0.892857142857%;
+}
+
+#content .panel-flexible.science-home .home-row-2 .science-home-region-science-home-region_2_3 {
+    background-color: green;
+    width: 49.107142857143%;
+    margin-left: 0.892857142857%;
+}
+/* end Row 2 */
+
+/* Row 3 */
+#content .panel-flexible.science-home .home-row-3 .science-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.science-home .home-row-3 .science-home-region-science-home-region_3_1 {
+    background-color: red;
+    width: 49.107142857143%;
+    margin-right: 0.892857142857%;
+}
+
+#content .panel-flexible.science-home .home-row-3 .science-home-region-science-home-region_3_2 {
+    background-color: blue;
+    width: 49.107142857143%;
+    margin-left: 0.892857142857%;
+}
+/* end Row 3 */
 /* end College of Science Homepage */
 
 
