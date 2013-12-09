@@ -122,3 +122,12 @@ html {
 }
 /* end Department Header Buttons */
 /* end Department Headers */
+
+
+/* College of Science Homepage */
+/* Homepage Hero Block Region */
+#content .panel-flexible.science-home .science-home-row.home-row-1 {
+  display: none;
+}
+/* end Homepage Hero Block Region */
+/* end College of Science Homepage */
