@@ -173,6 +173,13 @@ div.region-sidebar-second {
     color: #fff;
     background-color: #de5340;
 }
+
+/* Department Header Buttons */
+#department-header-wrapper #department-buttons {
+    margin: 20px 0 0 0;
+}
+/* end Department Header Buttons */
+
 /* end Department Headers */
 
 
