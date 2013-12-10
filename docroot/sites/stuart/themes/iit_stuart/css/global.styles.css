@@ -2980,3 +2980,11 @@ a:hover {
 /* end Sidebar Icon Links */
 
 
+/* Sidebar Item */
+.sidebar .sidebar-item h5 {
+  color: #9f1b32;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0 0 0.5em 0;
+}
+/* end Sidebar Item */
