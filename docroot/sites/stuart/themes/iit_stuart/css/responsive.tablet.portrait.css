@@ -114,7 +114,17 @@ div.region-sidebar-second .block {
 /* end stuart homepage */
 
 
-
+/* Sidebar Icon Links */
+#block-block-6,
+#block-block-7,
+#block-block-8,
+#block-block-9,
+#block-block-10,
+#block-block-11 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* end Sidebar Icon Links */
 
 
 
