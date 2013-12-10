@@ -100,5 +100,6 @@ html {
 #block-block-11 {
     margin-left: 10px;
     margin-right: 10px;
+    width: inherit;
 }
 /* end Sidebar Icon Links */
