@@ -2921,6 +2921,62 @@ a:hover {
 /* end Program page color overrides */
 
 
+/* Sidebar Icon Links */
+#block-block-6,
+#block-block-7,
+#block-block-8,
+#block-block-9,
+#block-block-10,
+#block-block-11 {
+    background-color: transparent;
+    position: relative;
+    border-bottom: 1px solid #888;
+    min-height: 36px;
+    padding-bottom: 0.5em;
+}
 
+#block-block-6 .block-inner,
+#block-block-7 .block-inner,
+#block-block-8 .block-inner,
+#block-block-9 .block-inner,
+#block-block-10 .block-inner,
+#block-block-11 .block-inner {
+    padding: 0;
+}
+
+#block-block-6 p,
+#block-block-7 p,
+#block-block-8 p,
+#block-block-9 p,
+#block-block-10 p,
+#block-block-11 p {
+    margin: 0;
+}
+
+.sidebar a.sidebar-icons {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.45em;
+    line-height: 1.181818181818em;
+    text-decoration: none;
+}
+
+.sidebar a.sidebar-icons:hover {
+    color: #888;
+}
+
+.sidebar a.sidebar-icons img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar a.sidebar-icons span {
+    padding-left: 54px;
+    display: block;
+    position: relative;
+    top: 0.25em;
+}
+/* end Sidebar Icon Links */
 
 
