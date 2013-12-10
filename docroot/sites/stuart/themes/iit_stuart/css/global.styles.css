@@ -2759,6 +2759,10 @@ a:hover {
   display: none;
 }
 
+.page-search #search-form .form-checkboxes .form-item-type-general-content {
+  display: none;
+}
+
 .page-search #search-form .form-checkboxes .form-item-type-page {
   display: none;
 }
