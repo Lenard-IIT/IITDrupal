@@ -2623,7 +2623,6 @@ a:hover {
 
 #content .panel-flexible.science-home #cos-homepage-news-block .views-field-title a {
     color: #666;
-    text-decoration: none;
 }
 
 #content .panel-flexible.science-home #cos-homepage-news-block .views-field-view-node {
@@ -2637,7 +2636,7 @@ a:hover {
 
 /* Events Block */
 #content .panel-flexible.science-home #cos-homepage-events-block h2.block-title {
-    background-color: #666;
+    background-color: #0e76bd;
     color: #fff;
     border: 0;
     padding: 0;
@@ -2645,6 +2644,63 @@ a:hover {
     padding-left: 0.28125em;
     overflow: hidden;
     font-size: 1.8125em;
+}
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-row {
+    margin: 0.875em 0;
+    position: relative;
+    min-height: 4.375em;
+}
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+}
+
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-field-time-of-event {
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: #555;
+    margin-left: 100px;
+}
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-field-location-of-event {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-nothing .event-calendar-wrapper {
+    border: 2px solid #0e76bd;
+}
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-nothing .event-calendar-wrapper .cal-day {
+    background-color: #0e76bd;
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+#content .panel-flexible.science-home #cos-homepage-events-block .views-field-nothing .event-calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
 }
 /* end Events Block */
 /* end College of Science Homepage */
@@ -2755,7 +2811,6 @@ a:hover {
 
 #content .panel-flexible.dept-home #dept-homepage-news-block .views-field-title a {
     color: #666;
-    text-decoration: none;
 }
 
 #content .panel-flexible.dept-home #dept-homepage-news-block .views-field-view-node {
@@ -2769,7 +2824,7 @@ a:hover {
 
 /* Events Block */
 #content .panel-flexible.dept-home #dept-homepage-events-block h2.block-title {
-    background-color: #666;
+    background-color: #0e76bd;
     color: #fff;
     border: 0;
     padding: 0;
@@ -2777,6 +2832,63 @@ a:hover {
     padding-left: 0.28125em;
     overflow: hidden;
     font-size: 1.8125em;
+}
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-row {
+    margin: 0.875em 0;
+    position: relative;
+    min-height: 4.375em;
+}
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+}
+
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-field-time-of-event {
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: #555;
+    margin-left: 100px;
+}
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-field-location-of-event {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-nothing .event-calendar-wrapper {
+    border: 2px solid #0e76bd;
+}
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-nothing .event-calendar-wrapper .cal-day {
+    background-color: #0e76bd;
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+#content .panel-flexible.dept-home #dept-homepage-events-block .views-field-nothing .event-calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
 }
 /* end Events Block */
 /* end Department Homepages */
