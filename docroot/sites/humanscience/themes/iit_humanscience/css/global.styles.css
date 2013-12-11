@@ -23,42 +23,7 @@
  * ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
-
-@font-face {
-    font-family: 'oswaldbold';
-    src: url('oswald-bold-webfont.eot');
-    src: url('oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald-bold-webfont.woff') format('woff'),
-         url('oswald-bold-webfont.ttf') format('truetype'),
-         url('oswald-bold-webfont.svg#oswaldbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'oswaldlight';
-    src: url('oswald-light-webfont.eot');
-    src: url('oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald-light-webfont.woff') format('woff'),
-         url('oswald-light-webfont.ttf') format('truetype'),
-         url('oswald-light-webfont.svg#oswaldlight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'oswaldbook';
-    src: url('oswald-regular-webfont.eot');
-    src: url('oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oswald-regular-webfont.woff') format('woff'),
-         url('oswald-regular-webfont.ttf') format('truetype'),
-         url('oswald-regular-webfont.svg#oswaldbook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext);
 
 /* =============================================================================
  *   Base
@@ -88,33 +53,33 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h2 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h3 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h4 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h5 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h6 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 p {
@@ -1881,11 +1846,11 @@ tr.error {}
 
 /* Standard Elements */
 h1 {
-  font-size: 2.375em;
+  font-size: 2.3125em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.9375em;
   margin: 0.2em 0 0.8em 0;
 }
 
@@ -1895,21 +1860,21 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4375em;
   text-transform: uppercase;
   margin: 1em 0 0.25em 0;
   letter-spacing: 1px;
 }
 
 h4 {
-  font-size: 1.1875em;
+  font-size: 1.125em;
   text-transform: uppercase;
   margin: 1em 0 0.25em 0;
   letter-spacing: 1px;
 }
 
 h1#page-title {
-  line-height: 1em;
+  line-height: 1.263157894em;
   margin: 0 0 0.5em 0;
 }
 
@@ -2074,7 +2039,8 @@ a:hover {
 }
 
 .sidebar nav.block-menu-block h2 {
-  font-family: 'oswaldbook', sans-serif;
+  font-family: 'oswald', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -2123,9 +2089,9 @@ a:hover {
 }
 
 #header .iit-page-header h2 {
-  font-family: 'oswaldbook', sans-serif;
+  font-family: 'oswald', sans-serif;
   font-size: 1.625em;
-  font-weight: normal;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 0.428571428em 0 0;
   margin: 0;
