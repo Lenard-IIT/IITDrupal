@@ -2931,7 +2931,8 @@ a:hover {
 #block-block-8,
 #block-block-9,
 #block-block-10,
-#block-block-11 {
+#block-block-11,
+#block-block-14 {
     background-color: transparent;
     position: relative;
     border-bottom: 1px solid #888;
@@ -2944,7 +2945,8 @@ a:hover {
 #block-block-8 .block-inner,
 #block-block-9 .block-inner,
 #block-block-10 .block-inner,
-#block-block-11 .block-inner {
+#block-block-11 .block-inner,
+#block-block-14 .block-inner {
     padding: 0;
 }
 
@@ -2953,7 +2955,8 @@ a:hover {
 #block-block-8 p,
 #block-block-9 p,
 #block-block-10 p,
-#block-block-11 p {
+#block-block-11 p,
+#block-block-14 p {
     margin: 0;
 }
 

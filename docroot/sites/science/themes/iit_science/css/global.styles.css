@@ -2614,6 +2614,7 @@ a:hover {
     font-family: 'oswald', sans-serif;
     margin-right: 0.375em;
     font-weight: 400;
+    font-size: 1.0625em;
 }
 
 #content .panel-flexible.science-home #cos-homepage-news-block .views-row {
@@ -2622,6 +2623,7 @@ a:hover {
 
 #content .panel-flexible.science-home #cos-homepage-news-block .views-field-title a {
     color: #666;
+    text-decoration: none;
 }
 
 #content .panel-flexible.science-home #cos-homepage-news-block .views-field-view-node {
@@ -2744,6 +2746,7 @@ a:hover {
     font-family: 'oswald', sans-serif;
     margin-right: 0.375em;
     font-weight: 400;
+    font-size: 1.0625em;
 }
 
 #content .panel-flexible.dept-home #dept-homepage-news-block .views-row {
@@ -2752,6 +2755,7 @@ a:hover {
 
 #content .panel-flexible.dept-home #dept-homepage-news-block .views-field-title a {
     color: #666;
+    text-decoration: none;
 }
 
 #content .panel-flexible.dept-home #dept-homepage-news-block .views-field-view-node {
