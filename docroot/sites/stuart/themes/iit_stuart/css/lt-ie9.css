@@ -32,12 +32,12 @@ html {
 
 /* header menu */
 #header .block-menu ul {
-	float: left;
-	width: 100%;
+  float: left;
+  width: 100%;
 }
 
 #header .block-menu .block-content ul li {
-	float: left;
+  float: left;
 }
 /* end header menu */
 
@@ -102,10 +102,3 @@ div.region-sidebar-second {
   margin-right: 3%;
 }
 /* end full faculty bio view */
-
-/* Request Info Overlay */
-#iit-stuart-header-buttons .overlay {
-    background-color: #333;
-}
-/* end Request Info Overlay */
-
