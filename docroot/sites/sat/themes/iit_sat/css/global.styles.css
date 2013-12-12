@@ -1802,11 +1802,11 @@ tr.error {}
 
 /* Standard Elements */
 h1 {
-  font-size: 2.375em;
+  font-size: 2.3125em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.9375em;
   margin: 0.2em 0 0.8em 0;
 }
 
@@ -1816,14 +1816,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4375em;
   text-transform: uppercase;
   margin: 1em 0 0.25em 0;
   letter-spacing: 1px;
 }
 
 h4 {
-  font-size: 1.1875em;
+  font-size: 1.125em;
   text-transform: uppercase;
   margin: 1em 0 0.25em 0;
   letter-spacing: 1px;
@@ -1960,11 +1960,11 @@ a:hover {
 
 /*.applied-mathematics .sidebar nav.block-menu-block {
   background-color: #e6c099;
-}*/
+}
 
 .physics .sidebar nav.block-menu-block {
   background-color: #de5340;
-}
+}*/
 
 .sidebar nav.block-menu-block a {
   color: #fff;
