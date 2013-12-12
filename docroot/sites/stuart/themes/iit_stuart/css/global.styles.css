@@ -1960,50 +1960,61 @@ a:hover {
 
 
 /* news overview teaser Styles */
-#main-content .view-id-news h2 {
+#main-content .view-id-news h2,
+.news-tags-category #main-content h2  {
     border-bottom: none;
 }
 
-.view-id-news .field-name-field-image {
+.view-id-news .field-name-field-image,
+.news-tags-category .field-name-field-image{
     float: right;
     margin: 0 0 0.625em 0.75em;
 }
 
-.view-id-news .field-name-body p {
+.view-id-news .field-name-body p,
+.news-tags-category .field-name-body p{
     margin-bottom: 0.75em;
 }
 
-#main-content .view-id-news .field-name-field-category {
+#main-content .view-id-news .field-name-field-category,
+.news-tags-category #main-content .field-name-field-category {
     clear: both;
     margin: 0;
     padding-top: 0.25em;
     border: 0;
 }
 
-#main-content .view-id-news .field-name-field-tags {
+#main-content .view-id-news .field-name-field-tags,
+.news-tags-category #main-content .field-name-field-tags {
     padding-bottom: 0.25em;
     border: 0;
 }
 
-.view-id-news .field-type-taxonomy-term-reference {
+.view-id-news .field-type-taxonomy-term-reference,
+.news-tags-category .field-type-taxonomy-term-reference {
     margin-bottom: 0;
 }
 
-.view-id-news .views-row .node-news.view-mode-teaser {
+.view-id-news .views-row .node-news.view-mode-teaser,
+.news-tags-category .node-news.view-mode-teaser{
     border-bottom: 1px dashed #666;
     padding: 0 1.25em 1.25em 1.25em;
 }
 
-.view-id-news .field-name-node-link {
+.view-id-news .field-name-node-link,
+.news-tags-category .field-name-node-link{
     margin-bottom: 0.75em;
 }
 
-.view-id-news .field-name-title a:hover {
+.view-id-news .field-name-title a:hover,
+.news-tags-category .field-name-title a:hover {
     text-decoration:none;
 }
 
 #main-content .view-id-news .field-name-field-category h2,
-#main-content .view-id-news .field-name-field-tags h2{
+#main-content .view-id-news .field-name-field-tags h2,
+.news-tags-category #main-content .field-name-field-category h2,
+.news-tags-category #main-content .field-name-field-tags h2 {
     border: 0;
     font-size: 0.75em;
     line-height: 2em;
@@ -2015,14 +2026,17 @@ a:hover {
 }
 
 #main-content .view-id-news .field-name-field-category ul li,
-#main-content .view-id-news .field-name-field-tags ul li {
+#main-content .view-id-news .field-name-field-tags ul li,
+.news-tags-category #main-content .field-name-field-category ul li,
+.news-tags-category #main-content .field-name-field-tags ul li {
     padding:0;
     background: transparent;
     font-size: 1em;
     line-height: 1.5em;
 }
 
-#main-content .view-id-news .pager li {
+#main-content .view-id-news .pager li,
+.news-tags-category #main-content .pager li {
     margin: 0 0.625em;
 }
 /* end news  overview teaser Styles */
@@ -2564,6 +2578,7 @@ a:hover {
   font-family: 'oswald', sans-serif;
   margin-right: 0.375em;
   font-weight: 400;
+  font-size: 1.0625em;
 }
 
 #content .panel-flexible.stuart-home #homepage-news-block .views-field-title a {

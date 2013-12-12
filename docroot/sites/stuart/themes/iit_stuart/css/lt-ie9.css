@@ -17,6 +17,12 @@ html {
   font-family: 'ie';
 }
 
+/* Request Info Overlay */
+#iit-stuart-header-buttons .overlay {
+  background-color: #000;
+}
+
+
 /* Page Header Region */
 #header-wrapper {
   margin-bottom: 2em;

@@ -45,7 +45,8 @@ html {
 /* end Department Footer */
 
 /* news overview teaser Styles */
-.view-id-news .field-name-field-image {
+.view-id-news .field-name-field-image,
+.news-tags-category .field-name-field-image {
     display: none;
 }
 /* end news overview teaser Styles */
