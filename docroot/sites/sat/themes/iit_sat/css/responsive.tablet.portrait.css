@@ -40,11 +40,19 @@ div.region-sidebar-second .block {
 /* end Department Footer */
 
 
-/* Department Headers */
-#department-header-wrapper #department-header h2 {
-  font-size: 2.375em;
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 2em;
 }
-/* end Department Headers */
+/* end Page Header Region */
+
+
+/* Page Header */
+#header .iit-page-header h2 {
+  font-size: 2.3125em;
+  padding: 1em 0 0;
+}
+/* end Page Header */
 
 
 /* header menu */

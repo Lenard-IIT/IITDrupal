@@ -1916,35 +1916,44 @@ a:hover {
 /* end Department Footer */
 
 
-/* Department Headers */
-#department-header-wrapper {
-  font-size: 16px;
-}
-
-#department-header-wrapper #department-header {
+/* Page Header */
+#header .iit-page-header {
   position: relative;
-  overflow: hidden;
-  margin-bottom: 20px;
+  z-index: 10;
 }
 
-#department-header-wrapper #department-header h2 {
+#header .region-header {
+  position: relative;
+}
+
+#header .region-header .block-block {
+  margin: 0 .75em;
+  width: inherit;
+}
+
+#header .region-header .block-block .block-inner {
+  margin: 0;
+}
+
+#header .iit-page-header h2 {
   font-family: 'oswald', sans-serif;
+  font-size: 1.625em;
   font-weight: 400;
   text-transform: uppercase;
-  font-size: 2em;
-  line-height: 1em;
-  margin: 1.052631578em 0 0 0;
-}
-
-#department-header-wrapper #department-header h2 a {
+  padding: 0.428571428em 0 0;
+  margin: 0;
   color: #888;
-  text-decoration: none;
 }
 
-#department-header-wrapper #department-header h2 a span {
-  color: #0e76bd;
+#header .iit-page-header h2 a {
+    color: #888;
+    text-decoration: none;
 }
-/* end Department Headers */
+
+#header .iit-page-header h2 a span {
+    color: #295F6C;
+}
+/* end Page Header */
 
 
 /* header menu */
