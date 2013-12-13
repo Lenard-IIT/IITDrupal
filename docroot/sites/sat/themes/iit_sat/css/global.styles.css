@@ -1835,7 +1835,7 @@ h1#page-title {
 }
 
 #main-content h1 {
-  color: #3b5998;
+  color: #1757ae;
 }
 
 #main-content h2,
@@ -1843,11 +1843,11 @@ h1#page-title {
 #main-content h4,
 #main-content h5,
 #main-content h6 {
-  color: #3b5998;
+  color: #1757ae;
 }
 
 a {
-  color: #3b5998;
+  color: #1757ae;
   outline: none;
   text-decoration: none;
 }
@@ -1959,7 +1959,7 @@ a:hover {
 }
 
 #header .iit-page-header h2 a span {
-    color: #3b5998;
+    color: #1757ae;
 }
 /* end Page Header */
 
@@ -2013,7 +2013,7 @@ a:hover {
 }
 
 #header .block-menu-block .block-content ul li a.active-trail {
-  background-color: #3b5998;
+  background-color: #1757ae;
   color: #fff;
 }
 
@@ -2027,7 +2027,7 @@ a:hover {
 }
 
 .sidebar nav.block-menu-block {
-  background-color: #3b5998;
+  background-color: #1757ae;
   padding: 16px;
 }
 
