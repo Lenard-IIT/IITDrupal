@@ -25,10 +25,16 @@
 /**
  * Preprocess variables for the html template.
  */
-/* -- Delete this line to enable.
 function iit_stuart_preprocess_html(&$vars) {
   global $theme_key;
 
+  $googlePlusLink = array(
+    '#attributes' => array(
+      'href' => 'https://plus.google.com/104433934257104523396',
+      'rel' => 'publisher',
+      ),
+  );
+  drupal_add_html_head_link($googlePlusLink);
   // Two examples of adding custom classes to the body.
   
   // Add a body class for the active theme name.
