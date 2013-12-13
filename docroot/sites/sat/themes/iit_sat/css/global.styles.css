@@ -1947,6 +1947,62 @@ a:hover {
 /* end Department Headers */
 
 
+/* header menu */
+#header .block-menu-block {
+  margin: 0 0.75em;
+  padding: 0 0 0.375em;
+  border-bottom: 1px solid #888;
+  width: inherit;
+}
+
+#header .block-menu-block .block-inner {
+  margin: 0;
+}
+
+#header .block-menu-block ul ul {
+  display: none;
+}
+
+#header .block-menu-block ul {
+  padding: 0;
+  margin: 0;
+  background: url("images/background.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  #header .block-menu-block ul {
+    background: url("images/background@2x.png");
+    background-size: 7px;
+  }
+}
+
+#header .block-menu-block .block-content ul li {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#header .block-menu-block .block-content ul li a {
+  display: block;
+  padding: 0.2em 1.5em;
+  color: #666;
+  text-decoration: none;
+  outline: none;
+  text-transform: uppercase;
+}
+
+#header .block-menu-block .block-content ul li a:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+#header .block-menu-block .block-content ul li a.active-trail {
+  background-color: #0e76bd;
+  color: #fff;
+}
+
+/* end header menu */
+
+
 /* Sidebar Menu */
 .sidebar nav.block-menu-block .block-inner {
   margin: 0;

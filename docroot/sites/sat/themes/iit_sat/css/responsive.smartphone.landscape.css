@@ -31,3 +31,10 @@ html {
   margin: 6px 0 0 0;
 }
 /* end Department Footer */
+
+
+/* header menu */
+#header .block-menu-block {
+  border-top: 1px solid #888;
+}
+/* end header menu */

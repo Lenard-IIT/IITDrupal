@@ -49,3 +49,15 @@ div.region-sidebar-second {
   font-size: 2.375em;
 }
 /* end Department Headers */
+
+
+/* header menu */
+#header .block-menu-block ul {
+  float: left;
+  width: 100%;
+}
+
+#header .block-menu-block .block-content ul li {
+  float: left;
+}
+/* end header menu */
