@@ -1916,6 +1916,13 @@ a:hover {
 /* end Department Footer */
 
 
+/* Page Header Region */
+#header-wrapper {
+  margin-bottom: 1em;
+}
+/* end Page Header Region */
+
+
 /* Page Header */
 #header .iit-page-header {
   position: relative;
