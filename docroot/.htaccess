@@ -58,7 +58,7 @@ DirectoryIndex index.php index.html index.htm
 
   # Temporary Redirect Stuart https to http
   RewriteCond %{HTTPS} on
-  RewriteCond %{HTTP_HOST} ^(stuart.iit.edu|www.stuart.iit.edu)$
+  RewriteCond %{HTTP_HOST} ^(stuart.iit.edu|www.stuart.iit.edu|stuart-dev.iit.edu)$
   RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI}
 
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
