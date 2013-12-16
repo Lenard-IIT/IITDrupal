@@ -2162,27 +2162,33 @@ a:hover {
   padding: 16px;
 }
 
-.applied-mathematics .sidebar nav.block-menu-block {
+.applied-mathematics .sidebar nav.block-menu-block,
+#block-menu-block-10 {
   background-color: #e6c099;
 }
 
-.biology .sidebar nav.block-menu-block {
+.biology .sidebar nav.block-menu-block,
+#block-menu-block-11 {
   background-color: #1e8663;
 }
 
-.chemistry .sidebar nav.block-menu-block {
+.chemistry .sidebar nav.block-menu-block,
+#block-menu-block-12 {
   background-color: #8cb4b4;
 }
 
-.computer-science .sidebar nav.block-menu-block {
+.computer-science .sidebar nav.block-menu-block,
+#block-menu-block-13 {
   background-color: #4b7faf;
 }
 
-.mathematics-science-education .sidebar nav.block-menu-block {
+.mathematics-science-education .sidebar nav.block-menu-block,
+#block-menu-block-15 {
   background-color: #b38db4;
 }
 
-.physics .sidebar nav.block-menu-block {
+.physics .sidebar nav.block-menu-block,
+#block-menu-block-14 {
   background-color: #de5340;
 }
 
