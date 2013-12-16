@@ -57,7 +57,8 @@ DirectoryIndex index.php index.html index.htm
   RewriteEngine on
 
   # Temporary Redirect Stuart https to http
-  RewriteCond %{HTTPS} on
+  #RewriteCond %{HTTPS} on
+  RewriteCond %{SERVER_PORT} ^443$
   RewriteCond %{HTTP_HOST} ^(stuart.iit.edu|www.stuart.iit.edu|stuart-dev.iit.edu)$
   RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
