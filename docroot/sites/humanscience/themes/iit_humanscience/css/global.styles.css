@@ -22,8 +22,8 @@
  *   Font Imports
  * ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
-@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
+@import url(//fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext);
 
 /* =============================================================================
  *   Base
@@ -256,7 +256,7 @@ var {
  */
 #footer-wrapper {
   /* Debug styles, is this working? */
-  background: rgba(255, 192, 203, 0.5);
+  /* background: rgba(255, 192, 203, 0.5); */
 }
 #footer-wrapper .container {}
 
@@ -1954,6 +1954,46 @@ a:hover {
   margin: 0.5em;
 }
 /* end Standard Elements */
+
+
+/* Department Footer */
+#footer-wrapper {
+  border-top: 3px solid #444;
+  background-color: #e9e9e9;
+}
+
+#footer .region-footer .block-block {
+  margin: 0;
+}
+
+#footer #iit-department-footer {
+  position: relative;
+}
+
+#footer #iit-department-footer h5 {
+  font-weight: 400;
+  font-family: 'oswald', sans-serif;
+}
+
+#footer #iit-department-footer p {
+  font-size: 0.813em;
+  margin: 0 0 0.8em;
+}
+
+#footer #iit-department-footer .social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer #iit-department-footer .social-icons li {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+#footer #iit-department-footer .social-icons li:first-child {
+  margin-left: 0;
+}
+/* end Department Footer */
 
 
 /* Sidebar Menu */
