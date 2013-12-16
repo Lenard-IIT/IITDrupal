@@ -65,7 +65,7 @@ DirectoryIndex index.php index.html index.htm
 
   # Temporary Redirect Stuart https to http
   RewriteCond %{HTTPS} on
-  RewriteCond %{HTTP_HOST} ^stuart-dev.iit.edu$
+  RewriteCond %{HTTP_HOST} ^stuart-dev\.iit\.edu$
   RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   # Make sure Authorization HTTP header is available to PHP
