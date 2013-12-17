@@ -1879,6 +1879,7 @@ a:hover {
 /* Sidebar Menu */
 .sidebar nav.block-menu-block .block-inner {
   margin: 0;
+  padding: 0;
 }
 
 .sidebar nav.block-menu-block {
