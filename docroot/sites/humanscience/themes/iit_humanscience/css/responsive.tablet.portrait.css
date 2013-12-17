@@ -46,12 +46,14 @@ div.region-sidebar-second .block {
 }
 /* end Page Header Region */
 
+
 /* Page Header */
 #header .iit-page-header h2 {
-  font-size: 2.3125em;
-  padding: 1em 0 0;
+  font-size: 2.125em;
+  padding: 1em 0 0.20588235294118em;
 }
 /* end Page Header */
+
 
 /* header menu */
 #header .block-menu-block ul {
@@ -63,6 +65,7 @@ div.region-sidebar-second .block {
 	float: left;
 }
 /* end header menu */
+
 
 /* header top 3 menu */
 #header #block-menu-block-3 {
