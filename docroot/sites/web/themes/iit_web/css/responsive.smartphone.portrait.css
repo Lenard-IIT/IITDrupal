@@ -19,11 +19,20 @@ html {
   font-family: 'smartphone_portrait';
 }
 
+
+/* Page Header */
+#header .iit-page-header h2 {
+  padding-bottom: 0.20588235294118em;
+}
+/* end Page Header */
+
+
 /* header menu */
 #header .block-menu-block {
   border-top: 1px solid #888;
 }
 /* end header menu */
+
 
 /* Department Footer */
 #footer #iit-department-footer {

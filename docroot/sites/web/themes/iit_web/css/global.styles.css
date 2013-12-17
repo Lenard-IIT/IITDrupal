@@ -22,7 +22,8 @@
  *   Google Font Imports
  * ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700);
+@import url(//fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext);
 
 @font-face {
     font-family: 'EconomicaBold-IIT';
@@ -110,33 +111,33 @@ body {
  * ========================================================================== */
 
 h1 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h2 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h3 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h4 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h5 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 h6 {
-  font-family: 'oswaldlight', sans-serif;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
 }
 
 p {
@@ -1845,6 +1846,7 @@ tr.error {}
   margin: 0 .75em;
 }
 
+/* Reset margins on Global Header and Footer so they span full width */
 #block-iit-global-header-iit-global-header, 
 #block-iit-global-header-iit-global-header .block-inner {
   margin: 0;
@@ -1856,56 +1858,13 @@ tr.error {}
 }
 
 
-/* Field Collection Overrides */
-.field-collection-container .field-items .field-item {
-  margin-bottom: 0;
-}
-
-.field-collection-view {
-  border: 0;
-}
-
-.field-collection-container {
-  border-bottom: 0;
-  margin-bottom: 0;
-}
-/* end Field Collection Overrides */
-
-/* Page Section Styles */
-.field-name-field-page-section .field-collection-view {
-  margin: 0;
-  padding: 0;
-}
-/* end Page Section Styles */
-
-/* Field Collection Description text and add button */
-.description.field-collection-description {
-    color: #B1B1B1;
-    margin: 20px 0 10px 75px;
-}
-
-.action-links.action-links-field-collection-add a {
-    background-color: #B1B1B1;
-    padding: 6px 12px;
-    color: #fff;
-}
-
-.field-collection-container ul.action-links.action-links-field-collection-add {
-    float: left;
-    position: relative;
-    margin: 10px 0;
-    top: -41px;
-}
-/* end Field Collection Description text and add button */
-
-
 /* Standard Elements */
 h1 {
-  font-size: 2.375em;
+  font-size: 2.3125em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.9375em;
   margin: 0.2em 0 0.8em 0;
 }
 
@@ -1915,21 +1874,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.4375em;
   text-transform: uppercase;
   margin: 1em 0 0.25em 0;
   letter-spacing: 1px;
 }
 
 h4 {
-  font-size: 1.1875em;
+  font-size: 1.125em;
   text-transform: uppercase;
   margin: 1em 0 0.25em 0;
   letter-spacing: 1px;
 }
 
 h1#page-title {
-  line-height: 1em;
+  line-height: 1.263157894em;
+  margin: 0 0 0.5em 0;
 }
 
 #main-content h1 {
@@ -1952,6 +1912,24 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.wrapper-43 {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+}
+
+.wrapper-43 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#main-content img {
+  margin: 0.5em;
 }
 /* end Standard Elements */
 
@@ -2027,8 +2005,8 @@ a:hover {
 }
 
 .sidebar nav.block-menu-block h2 {
-  font-family: 'oswaldbook', sans-serif;
-  text-transform: uppercase;
+  font-family: 'oswald', sans-serif;
+  text-transform: 400;
 }
 
 .sidebar nav.block-menu-block h2.block-title {
@@ -2059,7 +2037,11 @@ a:hover {
 /* Department Page Header */
 #header .iit-page-header {
   position: relative;
-  overflow: auto;
+  z-index: 10;
+}
+
+#header .region-header {
+  position: relative;
 }
 
 #header .region-header .block-block {
@@ -2072,11 +2054,14 @@ a:hover {
 }
 
 #header .iit-page-header h2 {
-  font-family: 'EconomicaBold-IIT',sans-serif;
-  font-size: 1.75em;
-  font-weight: normal;
+  font-family: 'oswald', sans-serif;
+  font-size: 1.625em;
+  font-weight: 400;
+  text-transform: uppercase;
   padding: 0.428571428em 0 0;
   margin: 0;
+  color: #888;
+  line-height: 1.26923076923077em;
 }
 
 #header .iit-page-header h2 a {
@@ -2105,8 +2090,8 @@ a:hover {
 }
 
 #footer #iit-department-footer h5 {
-  font-weight: normal;
-  font-family: 'oswaldbook', sans-serif;
+  font-weight: 400;
+  font-family: 'oswald', sans-serif;
 }
 
 #footer #iit-department-footer p {
@@ -2136,10 +2121,6 @@ a:hover {
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
   width: inherit;
-}
-
-#header .block-menu-block h2 {
-  display: none;
 }
 
 #header .block-menu-block .block-inner {
@@ -2188,3 +2169,23 @@ a:hover {
 }
 /* end header menu */
 
+
+/* General Sidebar block style */
+.sidebar .block {
+    background-color: #ccc;
+}
+
+.sidebar .block .block-inner {
+    margin: 0;
+    padding: 1em;
+}
+
+.sidebar .block h2 {
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    color: #333;
+}
+/* end General Sidebar block style */
