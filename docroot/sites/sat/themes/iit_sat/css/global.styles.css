@@ -2311,6 +2311,43 @@ a:hover {
 }
 /* end Homepage Hero Block Region */
 
-/* Row 2 */
+
+/* Row */
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .home-image-button img {
+    margin: 0;
+    display: block;
+}
+
+#content .panel-flexible.dept-home .dept-home-row p {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .panel-pane.block {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .one-column {
+    width: 23.660714285715%;
+    margin: 0 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .two-column {
+    width: 49.107142857143%;
+    margin: 0 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-first {
+    margin-left: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-last {
+    margin-right: 0;
+}
+
+/* end Row */
 
 /* end Department Homepages */
