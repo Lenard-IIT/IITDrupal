@@ -2250,11 +2250,13 @@ a:hover {
 }
 
 /* Homepage Hero Block Region */
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece {
   margin: 0;
 }
  
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider {
     margin: 0;
     background: transparent;
     border: 0;
@@ -2262,16 +2264,20 @@ a:hover {
     box-shadow: none;
 }
 
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .slides {
     padding: 0;
 }
 
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides li {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides li,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .slides li {
     padding: 0;
 }
 
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides img {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides img,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .slides img {
     max-width: 100%;
+    height: auto !important;
     width: inherit;
     margin: 0;
 }
@@ -2287,14 +2293,16 @@ a:hover {
     width: 70.089285714286%;
 }
 
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .flex-control-nav.flex-control-paging {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .flex-control-nav.flex-control-paging,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .flex-control-nav.flex-control-paging {
     bottom: 0;
     right: 0;
     width: inherit;
     padding: 0 1%;
 }
 
-#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .flex-control-nav.flex-control-paging li {
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .flex-control-nav.flex-control-paging li,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .flex-control-nav.flex-control-paging li {
     margin: 0 2px;
 }
 
