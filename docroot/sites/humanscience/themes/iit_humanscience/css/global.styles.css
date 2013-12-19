@@ -2327,7 +2327,7 @@ a:hover {
 /* Department Page Header */
 #header .lewis-dept-header {
     overflow: auto;
-    margin: 10px 0;
+    margin: 20px 0 10px;
 }
 
 #header .lewis-dept-header a {
