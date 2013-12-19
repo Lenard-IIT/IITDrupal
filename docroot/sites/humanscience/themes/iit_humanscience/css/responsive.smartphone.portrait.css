@@ -56,3 +56,12 @@ html {
     margin: 4px 0;
 }
 /* end header top 3 menu*/
+
+
+/* Sidebar Icon Links */
+#block-block-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: inherit;
+}
+/* end Sidebar Icon Links */

@@ -2123,6 +2123,50 @@ a:hover {
 /* end General Sidebar block style */
 
 
+/* Sidebar Icon Links */
+#block-block-10 {
+    background-color: transparent;
+    position: relative;
+    border-bottom: 1px solid #888;
+    min-height: 36px;
+    padding-bottom: 0.5em;
+}
+
+#block-block-10 .block-inner {
+    padding: 0;
+}
+
+#block-block-10 p {
+    margin: 0;
+}
+
+.sidebar a.sidebar-icons {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.45em;
+    line-height: 1.181818181818em;
+    text-decoration: none;
+}
+
+.sidebar a.sidebar-icons:hover {
+    color: #888;
+}
+
+.sidebar a.sidebar-icons img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar a.sidebar-icons span {
+    padding-left: 54px;
+    display: block;
+    position: relative;
+    top: 0.25em;
+}
+/* end Sidebar Icon Links */
+
+
 /* Search Page*/
 .page-search #search-form .form-submit {
   font-family: 'Open Sans Condensed', sans-serif;
