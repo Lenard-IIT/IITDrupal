@@ -2324,6 +2324,67 @@ a:hover {
 /* end Page Header */
 
 
+/* Department Page Header */
+#header .lewis-dept-header {
+    overflow: auto;
+    margin: 10px 0;
+}
+
+#header .lewis-dept-header a {
+  font-family: 'oswald', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  float: left;
+  display: block;
+  position: relative;
+}
+
+#header .lewis-dept-header a.college-link {
+    width: 28.125%;
+    height: 0;
+    padding-bottom: 5%;
+    margin-right: 1.785714285714%;
+    background-color: #295F6C;
+}
+
+#header .lewis-dept-header a.college-link h2 {
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    margin: 0;
+}
+
+#header .lewis-dept-header a.dept-link {
+    width: 73%;
+    height: 0;
+    padding-bottom: 5%;
+    width: 70.089285714286%;
+    background-color: #295F6C;
+}
+
+#header .lewis-dept-header a.dept-link h2 {
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    margin: 0;
+}
+
+.psychology #header .lewis-dept-header a.dept-link {
+    background-color: #7d9395;
+}
+
+.humanities #header .lewis-dept-header a.dept-link {
+    background-color: #89b3c1;
+}
+
+.social-sciences #header .lewis-dept-header a.dept-link {
+    background-color: #6291a5;
+}
+/* end Department Page Header */
+
+
 /* header menu */
 #header .block-menu-block {
   margin: 0 .75em;
