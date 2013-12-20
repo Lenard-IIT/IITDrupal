@@ -2329,59 +2329,40 @@ a:hover {
 /* Department Page Header */
 #header .lewis-dept-header {
     overflow: auto;
-    margin: 20px 0 10px;
+    margin: 0 0 10px;
+    padding-bottom: 2px;
 }
+
+.psychology #header .lewis-dept-header {border-bottom: 6px solid #302e2f;}
+.humanities #header .lewis-dept-header {border-bottom: 6px solid #a6a89c;}
+.social-sciences #header .lewis-dept-header {border-bottom: 6px solid #b84e46;}
 
 #header .lewis-dept-header a {
   font-family: 'oswald', sans-serif;
   font-size: 1em;
-  font-weight: 400;
   text-transform: uppercase;
+  text-decoration: none;
   color: #fff;
-  float: left;
   display: block;
-  position: relative;
 }
 
-#header .lewis-dept-header a.college-link {
-    width: 28.125%;
-    height: 0;
-    padding-bottom: 5%;
-    margin-right: 1.785714285714%;
+#header .lewis-dept-header a {
     background-color: #295F6C;
 }
 
-#header .lewis-dept-header a.college-link h2 {
-    position: absolute;
-    bottom: 0;
-    left: 8px;
-    margin: 0;
+#header .lewis-dept-header a h2 {
+    font-weight: 400;
 }
 
-#header .lewis-dept-header a.dept-link {
-    width: 73%;
-    height: 0;
-    padding-bottom: 5%;
-    width: 70.089285714286%;
-    background-color: #295F6C;
-}
-
-#header .lewis-dept-header a.dept-link h2 {
-    position: absolute;
-    bottom: 0;
-    left: 8px;
-    margin: 0;
-}
-
-.psychology #header .lewis-dept-header a.dept-link {
+.psychology #header .lewis-dept-header a {
     background-color: #7d9395;
 }
 
-.humanities #header .lewis-dept-header a.dept-link {
+.humanities #header .lewis-dept-header a {
     background-color: #89b3c1;
 }
 
-.social-sciences #header .lewis-dept-header a.dept-link {
+.social-sciences #header .lewis-dept-header a {
     background-color: #6291a5;
 }
 /* end Department Page Header */
