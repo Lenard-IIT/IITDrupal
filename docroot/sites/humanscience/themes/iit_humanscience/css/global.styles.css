@@ -2272,7 +2272,7 @@ a:hover {
 /* end Page Header Region */
 
 
-/* Page Header */
+/* Home Page Header */
 #header .iit-page-header {
   position: relative;
   z-index: 10;
@@ -2283,13 +2283,15 @@ a:hover {
 }
 
 #header .region-header .block-block {
-  margin: 0 .75em;
+  margin: 0 10px;
   width: inherit;
 }
+
 
 #header .region-header .block-block .block-inner {
   margin: 0;
 }
+
 
 #header .iit-page-header h2 {
   font-family: 'oswald', sans-serif;
@@ -2321,7 +2323,7 @@ a:hover {
 .social-sciences #header .iit-page-header h2 a.department {
     color: #6291a5;
 }
-/* end Page Header */
+/* end Home Page Header */
 
 
 /* Department Page Header */
@@ -2387,7 +2389,7 @@ a:hover {
 
 /* header menu */
 #header .block-menu-block {
-  margin: 0 .75em;
+  margin: 0 10px;
   padding: 0 0 .375em;
   border-bottom: 1px solid #888;
   width: inherit;
