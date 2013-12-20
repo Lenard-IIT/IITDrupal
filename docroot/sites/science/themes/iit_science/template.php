@@ -25,10 +25,23 @@
 /**
  * Preprocess variables for the html template.
  */
-/* -- Delete this line to enable.
 function iit_science_preprocess_html(&$vars) {
   global $theme_key;
 
+  $openSansWebfontLink = array(
+    'href' => '//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic|Open+Sans+Condensed:300,300italic,700',
+    'rel' => 'stylesheet',
+    'type' => 'text/css',
+  );
+  drupal_add_html_head_link($openSansWebfontLink);
+
+  $oswaldWebfontLink = array(
+    'href' => '//fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext',
+    'rel' => 'stylesheet',
+    'type' => 'text/css',
+  );
+  drupal_add_html_head_link($oswaldWebfontLink);
+  
   // Two examples of adding custom classes to the body.
   
   // Add a body class for the active theme name.
