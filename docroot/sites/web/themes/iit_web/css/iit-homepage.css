@@ -1,0 +1,17 @@
+/* =============================================================================
+ *   IIT Homepage - Global Styles - mobile first
+ * ========================================================================== */
+
+/* end IIT Homepage - Global Styles ==================================== */
+
+@media only screen and (min-width:1025px) {
+
+} /* end > 1300*/
+
+@media only screen and (min-width:750px) and (max-width:1024px) {
+
+} /* end 750 - 1024 */
+
+@media only screen and (min-width:600px) and (max-width:749px) {
+
+} /* end 600 - 749 */
