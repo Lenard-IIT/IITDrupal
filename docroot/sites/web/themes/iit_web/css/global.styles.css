@@ -1786,10 +1786,6 @@ tr.error {}
   font-family: 'desktop';
 }
 
-#main-content {
-  margin: 0 .75em;
-}
-
 /* Reset margins on Global Header and Footer so they span full width */
 #block-iit-global-header-iit-global-header, 
 #block-iit-global-header-iit-global-header .block-inner {
