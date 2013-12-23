@@ -1,6 +1,6 @@
 /*
  * @file
- * global.styles
+ * web.iit.edu global.styles
  *
  * Styles you add here will load for all device sizes, they are "global", as
  * opposed to "responsive" styles, which only load for a given breakpoint (media
@@ -1990,7 +1990,7 @@ a:hover {
 }
 
 #header .region-header .block-block {
-  margin: 0 .75em;
+  margin: 0 10px;
   width: inherit;
 }
 
@@ -2062,8 +2062,8 @@ a:hover {
 
 /* header menu */
 #header .block-menu-block {
-  margin: 0 .75em;
-  padding: 0 0 .375em;
+  margin: 0 10px;
+  padding: 0 0 0.375em;
   border-bottom: 1px solid #888;
   width: inherit;
 }
@@ -2096,7 +2096,7 @@ a:hover {
 
 #header .block-menu-block .block-content ul li a {
   display: block;
-  padding: .2em 1.5em;
+  padding: 0.2em 1.5em;
   color: #666;
   text-decoration: none;
   outline: none;
