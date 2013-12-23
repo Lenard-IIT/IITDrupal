@@ -2902,7 +2902,137 @@ a:hover {
 /* end Department Homepages */
 
 
+/****** Internal Page Styles ******/
+/* Program Block - Internal Pages */
+.program-view .view-grouping-header {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.4375em;
+    text-transform: uppercase;
+    margin: 1em 0 0.25em 0;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #bbb;
+}
 
+.program-view .view-grouping-content {
+    padding: 0 0 15px 40px;
+}
+
+#main-content .program-view .view-grouping-content h3 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.125em;
+    color: #666;
+    text-transform: uppercase;
+    margin: 1em 0 0.25em 0;
+    letter-spacing: 1px;
+}
+
+.program-view .view-grouping {
+    background: whitesmoke;
+    border-left: 7px solid #666;
+    padding-left: 7px
+}
+
+.program-view .views-row {
+    margin-bottom: .25em;
+}
+/* end Program Block - Internal Pages */
+
+/* News Block - Internal Pages */
+#main-content .view-id-news h2 {
+    border-bottom: none;
+}
+
+.view-id-news .views-row-odd, 
+.view-id-news .views-row-even {
+    border-bottom: 1px dashed #666;
+    padding: .25em 1.25em 2.25em 1.25em;
+    margin: 1em;
+}
+
+.view-id-news .views-field-title a:hover {
+    text-decoration:none;
+}
+
+#main-content .view-id-news .pager li,
+.news-tags-category #main-content .pager li {
+    margin: 0 .625em;
+}
+/* end News Block - Internal Pages */
+
+/* Events Block - Internal Pages */
+#content .events-block .views-row {
+    margin: 0.875em 0em;
+    padding-bottom: 2.5em;
+    position: relative;
+    min-height: 4.375em;
+    border-bottom: 1px solid #bbb;
+}
+
+#content .events-block .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+}
+
+
+#content .events-block .views-field-field-time-of-event {
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: #555;
+    margin-left: 100px;
+}
+
+#content .events-block .views-field-field-location-of-event {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+#content .events-block .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+#content .events-block .views-field-nothing .event-calendar-wrapper {
+    border: 2px solid #0e76bd;
+}
+
+#content .events-block .views-field-nothing .event-calendar-wrapper .cal-day {
+    background-color: #0e76bd;
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+#content .events-block .views-field-nothing .event-calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+/* end Events Block */
+
+/* Internal Slideshow Block  */
+.views-field.views-field-field-slideshow-image .slideshow-caption {
+    text-align: center;
+    padding: 1% 20%;
+}
+
+.views-field.views-field-field-slideshow-image img {
+    width: 98%;
+}
+/* end Internal Slideshow Block  */
+
+/****** end Internal Page Styles ******/
 
 
 
