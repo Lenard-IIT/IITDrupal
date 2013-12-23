@@ -1972,6 +1972,53 @@ a:hover {
 /* end Sidebar Menu */
 
 
+/* General Sidebar block style */
+.sidebar .block {
+    background-color: #ccc;
+}
+
+.sidebar .block .block-inner {
+    margin: 0;
+    padding: 1em;
+}
+
+.sidebar .block h2 {
+    margin-bottom: 0.25em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    color: #333;
+}
+/* end General Sidebar block style */
+
+
+/* Emergency Sidebar block style */
+#block-block-26 {
+    background-color: #c00;
+    color: #fff;
+}
+
+#block-block-26 h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#block-block-26 a {
+    color: #fff;
+}
+
+#block-block-26 a.signup-link {
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+#block-block-26 a.signup-link::after {
+    content: " »"
+}
+/* end Emergency Sidebar block style */
+
+
 /* Page Header Region */
 #header-wrapper {
   margin-bottom: 1em;
@@ -2113,24 +2160,3 @@ a:hover {
   color: #fff;
 }
 /* end header menu */
-
-
-/* General Sidebar block style */
-.sidebar .block {
-    background-color: #ccc;
-}
-
-.sidebar .block .block-inner {
-    margin: 0;
-    padding: 1em;
-}
-
-.sidebar .block h2 {
-    margin-bottom: 0.25em;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.5em;
-    line-height: 1.25em;
-    color: #333;
-}
-/* end General Sidebar block style */
