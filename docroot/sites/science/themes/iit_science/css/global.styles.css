@@ -2940,23 +2940,22 @@ a:hover {
 /* end Program Block - Internal Pages */
 
 /* News Block - Internal Pages */
-#main-content .view-id-news h2 {
+#main-content .news-block h2 {
     border-bottom: none;
 }
 
-.view-id-news .views-row-odd, 
-.view-id-news .views-row-even {
+.news-block .views-row-odd, 
+.news-block .views-row-even {
     border-bottom: 1px dashed #666;
     padding: .25em 1.25em 2.25em 1.25em;
     margin: 1em;
 }
 
-.view-id-news .views-field-title a:hover {
+.news-block .views-field-title a:hover {
     text-decoration:none;
 }
 
-#main-content .view-id-news .pager li,
-.news-tags-category #main-content .pager li {
+#main-content .news-block .pager li {
     margin: 0 .625em;
 }
 /* end News Block - Internal Pages */
