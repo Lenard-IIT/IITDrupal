@@ -51,7 +51,7 @@ function iit_web_preprocess_html(&$vars) {
       'name' => 'robots',
       ),
     );
-    drupal_add_html_head($metaNoIndex);
+    drupal_add_html_head($metaNoIndex, 'dev_noindex');
   }
 
   // Two examples of adding custom classes to the body.
