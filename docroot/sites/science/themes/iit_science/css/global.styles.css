@@ -2487,6 +2487,24 @@ a:hover {
 }
 /* end faculty directory view */
 
+/* department - faculty directory view */
+.department-faculty-listing h3 {
+    clear:both;
+    font-size: 2em;
+    margin: 0.8em 0 0.2em 0;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #888;
+}
+
+.department-faculty-listing .views-row {
+    margin-bottom: 1em;
+}
+
+.department-faculty-listing .views-field.views-field-title {
+    font-weight: 700;
+}
+/* end department - faculty directory view */
+
 
 /* College of Science Homepage */
 #content .panel-flexible.science-home {
@@ -3030,6 +3048,60 @@ a:hover {
     width: 98%;
 }
 /* end Internal Slideshow Block  */
+
+/* profile - directory view */
+.profile-thumnail-image-block {
+    display: inline-block;
+    width: 12%;
+    float: left;
+}
+
+.profile-thumnail-image-block img {
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    overflow:hidden;
+    margin:auto;
+}
+
+.profile-text-block {
+    display: inline-block;
+    width: 80%;
+    padding-left:1em;
+}
+
+.views-field.views-field-nothing {
+    clear: both;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-title-block {
+    font-weight: 600;
+}
+
+.profile-subtitle-block {
+    font-style: italic;
+    font-size:0.9em;
+    color: #666;
+}
+
+.profile-body-block {
+    font-size:0.9em;
+}
+/* end profile - directory view */
+
+/* profile content type */
+.node-profile .field-name-field-subtitle {
+    font-style: italic;
+    color: #666;
+}
+
+#main-content .node-profile img {
+    margin: 0 0 1em 0;
+}
+/* end profile content type */
 
 /****** end Internal Page Styles ******/
 

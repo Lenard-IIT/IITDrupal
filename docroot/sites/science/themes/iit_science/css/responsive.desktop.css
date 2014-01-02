@@ -217,5 +217,12 @@ div.region-sidebar-second {
 /* end faculty directory view */
 
 
-
+/* news - department listing  */
+.news-block .views-field-field-featured-image {
+    float: left;
+    display: inline-block;
+    width: 38%;
+    margin-right: 1.5em;
+}
+/* end news - department listing  */
 
