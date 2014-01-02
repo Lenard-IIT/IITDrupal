@@ -192,17 +192,17 @@ div.region-sidebar-second .block {
 
 
 /* faculty directory view */
-.view-faculty .views-row {
+.cos-faculty-directory .view-faculty .views-row {
     border-bottom: 0;
     padding: 0.25em 0;
 }
 
-.view-faculty .views-field-nothing {
+.cos-faculty-directory .view-faculty .views-field-nothing {
   float:left;
   width:35%;
 }
 
-.view-faculty .views-field-field-faculty-title {
+.cos-faculty-directory .view-faculty .views-field-field-faculty-title {
   float: left;
   width: 65%;
   padding-top: 0.538461538em;
