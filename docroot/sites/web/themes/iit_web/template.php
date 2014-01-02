@@ -44,11 +44,11 @@ function iit_web_preprocess_html(&$vars) {
 
   if ($_SERVER['SERVER_NAME'] == 'web-dev.iit.edu' || $_SERVER['SERVER_NAME'] == 'web-stg.iit.edu') {
     $metaNoIndex = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#attributes' => array(
-      'content' => 'noindex',
-      'name' => 'robots',
+      '#type' => 'html_tag',
+      '#tag' => 'meta',
+      '#attributes' => array(
+        'name' => 'robots',
+        'content' => 'noindex',
       ),
     );
     drupal_add_html_head($metaNoIndex, 'dev_noindex');
