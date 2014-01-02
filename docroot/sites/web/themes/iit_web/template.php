@@ -42,6 +42,18 @@ function iit_web_preprocess_html(&$vars) {
   );
   drupal_add_html_head_link($oswaldWebfontLink);
 
+  if ($_SERVER['SERVER_NAME'] == 'web-dev.iit.edu' || $_SERVER['SERVER_NAME'] == 'web-stg.iit.edu') {
+    $metaNoIndex = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'content' => 'noindex',
+      'name' => 'robots',
+      ),
+    );
+    drupal_add_html_head($metaNoIndex);
+  }
+
   // Two examples of adding custom classes to the body.
   
   // Add a body class for the active theme name.
