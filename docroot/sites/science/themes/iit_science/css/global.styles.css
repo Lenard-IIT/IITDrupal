@@ -3070,7 +3070,7 @@ a:hover {
     padding-left:1em;
 }
 
-.views-field.views-field-nothing {
+.view-id-profiles .views-field.views-field-nothing {
     clear: both;
     padding-bottom: 1em;
     margin-bottom: 1em;
