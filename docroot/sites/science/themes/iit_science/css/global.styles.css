@@ -1786,6 +1786,10 @@ tr.error {}
  *   College of Science Global Styles
  * ========================================================================= */
 
+.clear {
+  clear: both;
+}
+
 #media-check {
   /* used for testing media query in js */
   font-family: 'desktop';
@@ -3102,6 +3106,122 @@ a:hover {
     margin: 0 0 1em 0;
 }
 /* end profile content type */
+
+/* Crop Images to Circles */
+
+.image-crop-circle {
+    float: left;
+}
+
+.dean-signature {
+    float: left;
+    margin-left: 1em;
+    margin-top:1.5em
+}
+
+.image-crop-circle img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* end Crop Images to Circles */
+
+/* CoS and Department Administration Contact Information */
+
+.department-administration-page {
+    background: whitesmoke;
+    padding: 0 1.5em 0.2em 1.5em;
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+#main-content .department-administration-page h3 {
+    color: black;
+}
+
+.cos-administration {
+  border-top: 7px solid #0e76bd;
+}
+
+.am-administration {
+    border-top: 7px solid #e6c099;
+}
+
+.biology-administration {
+    border-top: 7px solid #1e8663;
+}
+
+.chem-administration {
+    border-top: 7px solid #8cb4b4;
+}
+
+.cs-administration {
+    border-top: 7px solid #4b7faf;
+}
+
+.msed-administration {
+    border-top: 7px solid #b38db4;
+}
+
+.phys-administration {
+    border-top: 7px solid #de5340;
+}
+
+.job-title {
+  color: #555;
+}
+
+/* end CoS and Department Administration Contact Information */
+
+/* Event Content Type (global) */
+
+#main-content .node-event h2.field-label  {
+    border-bottom: none;
+    margin-top: 0;
+    display: inline-block;
+    color: #444;
+}
+
+.node-event .field-name-field-speaker-affiliation,
+.node-event .field-name-field-speaker-2-affiliation  {
+    color: #666;
+    font-style: italic;
+}
+
+.node-event section {
+    margin-top: 1em;
+    padding-top:1em;
+    border-top: 1px solid #ccc;
+}
+
+#main-content .node-event img {
+    margin: 0;
+}
+
+.node-event .field-name-field-time-of-event {
+    margin-top: 0;
+    padding-top:0;
+    border-top: none;
+}
+
+.node-event .field-name-field-event-subtitle {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.4375em;
+    color: #0e76bd;
+    text-transform: uppercase;
+    margin: 0 0 0.25em 0;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+.node-event .field-name-field-type-of-event ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* end Event Content Type */
 
 /****** end Internal Page Styles ******/
 

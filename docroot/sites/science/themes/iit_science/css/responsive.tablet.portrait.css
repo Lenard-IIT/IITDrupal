@@ -241,7 +241,72 @@ div.region-sidebar-second .block {
 .news-block .views-field-field-featured-image {
     float: left;
     display: inline-block;
-    width: 38%;
+    max-width: 38%;
     margin-right: 1.5em;
 }
 /* end news - department listing  */
+
+/* Event Content Type (desktop) */
+
+#main-content .node-event h2.field-label  {
+    border-bottom: none;
+    margin-top: 0;
+    float: left;
+    display: inline-block;
+    width: 125px;
+    color: #444;
+}
+
+.node-event .field-name-field-speaker-website,
+.node-event .field-name-field-speaker-2-website {
+    margin-left: 125px;
+}
+
+.node-event .field-name-field-speaker-affiliation,
+.node-event .field-name-field-speaker-2-affiliation  {
+    color: #666;
+    font-style: italic;
+    margin-left: 125px;
+}
+
+.node-event section {
+    margin-top: 1em;
+    padding-top:1em;
+    border-top: 1px solid #ccc;
+}
+
+#main-content .node-event img {
+    margin: 0;
+}
+
+.node-event .field-name-field-time-of-event {
+    margin-top: 0;
+    padding-top:0;
+    border-top: none;
+}
+
+.node-event .field-name-field-description-of-event p, 
+.node-event .field-name-field-additional-information p {
+    ..background: yellow;
+    margin-left: 125px;
+}
+
+.node-event .field-name-field-event-subtitle {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.4375em;
+    color: #0e76bd;
+    text-transform: uppercase;
+    margin: 0 0 0.25em 0;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+.node-event .field-name-field-type-of-event ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* end Event Content Type (desktop) */
