@@ -2000,6 +2000,10 @@ a:hover {
     font-weight: 400;
 }
 
+#block-block-26 h4:first-child {
+  margin-top: 0;
+}
+
 #block-block-26 a {
     color: #fff;
 }
