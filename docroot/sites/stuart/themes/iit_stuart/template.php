@@ -47,6 +47,18 @@ function iit_stuart_preprocess_html(&$vars) {
     'type' => 'text/css',
   );
   drupal_add_html_head_link($oswaldWebfontLink);
+
+  if ($_SERVER['SERVER_NAME'] == 'stuart-dev.iit.edu' || $_SERVER['SERVER_NAME'] == 'stuart-stg.iit.edu') {
+  $metaNoIndex = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'robots',
+      'content' => 'noindex',
+    ),
+  );
+  drupal_add_html_head($metaNoIndex, 'dev_noindex');
+}
   
   // Two examples of adding custom classes to the body.
   

@@ -42,6 +42,18 @@ function iit_humanscience_preprocess_html(&$vars) {
   );
   drupal_add_html_head_link($oswaldWebfontLink);
 
+  if ($_SERVER['SERVER_NAME'] == 'humansci-dev.iit.edu' || $_SERVER['SERVER_NAME'] == 'humansci-stg.iit.edu') {
+    $metaNoIndex = array(
+      '#type' => 'html_tag',
+      '#tag' => 'meta',
+      '#attributes' => array(
+        'name' => 'robots',
+        'content' => 'noindex',
+      ),
+    );
+    drupal_add_html_head($metaNoIndex, 'dev_noindex');
+  }
+
   // Two examples of adding custom classes to the body.
   
   // Add a body class for the active theme name.
