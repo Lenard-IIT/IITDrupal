@@ -2464,3 +2464,39 @@ a:hover {
     background-color: #888;
 }
 /* end header top 3 menu*/
+
+
+/* Button Styles */
+body a.info-button {
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.06667em;
+  font-weight: bold;
+  padding: .25em .5em;
+  display: inline-block;
+  margin-top: .4em;
+}
+
+body a.info-button:hover {
+  background-color: #888;
+}
+
+body a.hs-button {
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 1.8em;
+  padding: .25em .5em;
+  display: inline-block;
+  margin-top: .4em;
+}
+
+body a.hs-button:hover {
+  background-color: #888;
+}
+/* end Button Styles */ 
