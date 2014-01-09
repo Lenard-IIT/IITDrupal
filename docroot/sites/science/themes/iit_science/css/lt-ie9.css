@@ -5,6 +5,290 @@
  * Assuming a mobile first approach with respond.js OFF, we must reset the font
  * size for lt IE9
  */
-html {
+/*html {
   font-size: 81.3%;
+}*/
+
+
+#media-check {
+  /* used for testing media query in js */
+  font-family: 'ie';
 }
+
+
+/* Page main content region and sidebar margins */
+.sidebar-second #content-column .content-inner {
+  margin-right: 30.26315789%;
+}
+
+div.region-sidebar-second {
+  margin-left: -29.12280701%;
+}
+/* end Page main content region */
+
+
+/* Department Footer */
+#footer #iit-department-footer {
+  margin-bottom: 4px;
+}
+
+#footer #iit-department-footer h5 {
+  font-size: 1.313em;
+  margin: 6px 0 0 0;
+}
+
+#footer #iit-department-footer .social-icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 6px;
+}
+/* end Department Footer */
+
+
+/* Department Headers */
+#department-header-wrapper #department-header h2 {
+  font-size: 2.375em;
+}
+
+/* College of Science whole */
+#department-header-wrapper #department-nav ul {
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#department-header-wrapper #department-nav ul:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+#department-header-wrapper #department-nav ul li {
+    position: relative;
+    display: inline-block;
+    width: 13%;
+    height: 0;
+    padding-top: 13%;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+}
+
+#department-header-wrapper #department-nav ul li a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+    font-size: 20px;
+    line-height: 1.1em;
+}
+
+#department-header-wrapper #department-nav ul li a span {
+	position: absolute;
+	right: 0;
+    bottom: 4px;
+    left: 4px;
+}
+
+/* Deparment Specific Header */
+#department-header-wrapper #department-nav-solo ul {
+    text-align: justify;
+    font-size: 0.1px;
+}
+
+#department-header-wrapper #department-nav-solo ul:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+
+#department-header-wrapper #department-nav-solo ul li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+}
+
+#department-header-wrapper #department-nav-solo ul li {
+    width: 85.5%;
+    height: 0;
+    padding-top: 13%;
+}
+
+#department-header-wrapper #department-nav-solo ul li:first-child {
+    width: 13%;
+    height: 0;
+    padding-top: 13%;
+}
+
+#department-header-wrapper #department-nav-solo ul li a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+    font-size: 20px;
+    line-height: 1.1em;
+}
+
+#department-header-wrapper #department-nav-solo ul li a span {
+	position: absolute;
+	right: 0;
+    bottom: 4px;
+    left: 4px;
+}
+
+#department-header-wrapper #department-nav-solo ul li a.cos-dept-nav-block {
+    font-size: 36px;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#am-link:hover {
+    color: #fff;
+    background-color: #e6c099;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#bio-link:hover {
+    color: #fff;
+    background-color: #1e8663;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#chem-link:hover {
+    color: #fff;
+    background-color: #8cb4b4;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#cs-link:hover {
+    color: #fff;
+    background-color: #4b7faf;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#mse-link:hover {
+    color: #fff;
+    background-color: #b38db4;
+}
+
+.no-touch #department-header-wrapper #department-nav-solo ul li a#phy-link:hover {
+    color: #fff;
+    background-color: #de5340;
+}
+
+/* Department Header Buttons */
+#department-header-wrapper #department-buttons {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    margin: 0;
+}
+/* end Department Header Buttons */
+
+/* end Department Headers */
+
+
+/* full faculty bio view */
+.node-faculty .two-brick > .panel-row > .region-two-brick-right-above {
+  width: 71%;
+}
+
+.node-faculty .two-brick > .panel-row > .region-two-brick-left-above {
+  width: 26%;
+  margin-right: 3%;
+}
+/* end full faculty bio view */
+
+
+/* faculty directory view */
+.cos-faculty-directory .view-faculty .views-row {
+    border-bottom: 0;
+    padding: 0.25em 0;
+}
+
+.cos-faculty-directory .view-faculty .views-field-nothing {
+  float:left;
+  width:35%;
+}
+
+.cos-faculty-directory .view-faculty .views-field-field-faculty-title {
+  float: left;
+  width: 65%;
+  padding-top: 0.538461538em;
+}
+/* end faculty directory view */
+
+
+/* news - department listing  */
+.news-block .views-field-field-featured-image {
+    float: left;
+    display: inline-block;
+    max-width: 38%;
+    margin-right: 1.5em;
+}
+/* end news - department listing  */
+
+/* Event Content Type (desktop) */
+
+#main-content .node-event h2.field-label  {
+    border-bottom: none;
+    margin-top: 0;
+    float: left;
+    display: inline-block;
+    width: 125px;
+    color: #444;
+}
+
+.node-event .field-name-field-speaker-website,
+.node-event .field-name-field-speaker-2-website {
+    margin-left: 125px;
+}
+
+.node-event .field-name-field-speaker-affiliation,
+.node-event .field-name-field-speaker-2-affiliation  {
+    color: #666;
+    font-style: italic;
+    margin-left: 125px;
+}
+
+.node-event section {
+    margin-top: 1em;
+    padding-top:1em;
+    border-top: 1px solid #ccc;
+}
+
+#main-content .node-event img {
+    margin: 0;
+}
+
+.node-event .field-name-field-time-of-event {
+    margin-top: 0;
+    padding-top:0;
+    border-top: none;
+}
+
+.node-event .field-name-field-description-of-event p, 
+.node-event .field-name-field-additional-information p {
+    ..background: yellow;
+    margin-left: 125px;
+}
+
+.node-event .field-name-field-event-subtitle {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.4375em;
+    color: #0e76bd;
+    text-transform: uppercase;
+    margin: 0 0 0.25em 0;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+.node-event .field-name-field-type-of-event ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+/* end Event Content Type (desktop) */
+
