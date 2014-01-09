@@ -1790,6 +1790,10 @@ tr.error {}
   clear: both;
 }
 
+.no-page-title #page-title {
+  display:none;
+}
+
 #media-check {
   /* used for testing media query in js */
   font-family: 'desktop';
@@ -3217,32 +3221,11 @@ a:hover {
 
 .node-event .field-name-field-type-of-event ul {
     list-style-type: none;
-    float: left;
+    /*float: left;*/
     margin: 0;
     padding: 0;
 }
 /* end Event Content Type */
 
 /****** end Internal Page Styles ******/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
