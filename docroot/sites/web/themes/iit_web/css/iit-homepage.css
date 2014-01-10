@@ -2,16 +2,515 @@
  *   IIT Homepage - Global Styles - mobile first
  * ========================================================================== */
 
-/* end IIT Homepage - Global Styles ==================================== */
+    /* Alert Message */
+    .page-homepage #iit-alert-message .inner-container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 
+    .page-homepage #iit-alert-message #iit-alert-message-content {
+        margin: 0 10px;
+        overflow: hidden;
+    }
+
+    .page-homepage #iit-alert-message.emergency {
+        background-color: #dc6603;
+        border-bottom: 3px solid orange;
+        box-shadow: inset 0px 3px 3px #333;
+    }
+
+    .page-homepage #iit-alert-message.emergency #iit-alert-message-content {
+        padding-left: 3.25em;
+        background-image: url('images/emergency-icon-white.png');
+        background-image: url('images/emergency-icon-white.svg'), none;
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: 0 1.7em;
+    }
+
+    .page-homepage #iit-alert-message.emergency h1.message-title {
+        color: #fff;
+        font-size: 1.7em;
+        font-weight: bold;
+        margin: 1em 0 0;
+    }
+
+    .page-homepage #iit-alert-message.emergency h3.message-updated {
+        color: #ffcb9f;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin: 0 0 .9em;
+    }
+
+    .page-homepage #iit-alert-message.emergency .message-body {
+        color: #fff;
+        font-size: 1em;
+        margin: 0 0 3em;
+    }
+
+    .page-homepage #iit-alert-message.emergency .message-body a {
+        color: #fff;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .page-homepage #iit-alert-message.emergency .message-body p {
+        margin: 0 0 0.75em;
+    }
+    /* end Alert Message */
+
+    
+    /* Homepage Structure */
+    .page-homepage #content-wrapper #block-system-main {
+        margin: 0;
+    }
+
+    .page-homepage #header-wrapper {
+        margin: 0;
+    }
+
+    .page-homepage #content-wrapper .container {
+        max-width: inherit;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .hero-row {
+        background-color: #666;
+        margin-bottom: 20px;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .hero-row .panels-flexible-region-inside {
+        max-width: 1120px;
+        margin: 0 auto;
+        background-color: #ccc;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row {
+        max-width: 1140px;
+        margin: 0 auto 20px;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row .panels-flexible-row-inside {
+        margin: 0 10px;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-inside {
+        padding: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-inside .block-inner {
+        margin: 0;
+    }
+    /* end Homepage Structure */
+
+
+    /* Department Links Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links .block-title {
+        display: none;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links p {
+        margin: 10px 0 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links p:first-child {
+        margin-top: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+        color: white;
+        font-family: 'EconomicaBold-IIT', sans-serif;
+        font-size: 23px;
+        line-height: 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 0.54545454545455em 0.54545454545455em 0.36363636363636em;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a.uga {
+        background-color: #F90;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a.ga {
+        background-color: #9B0000;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a.athletics {
+        background-color: #c00;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a.fueling-innovation {
+        background-color: #888;
+    }
+    /* end Department Links Region */
+
+
+    /* News and Events Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
+        color: #fff;
+        font-family: 'EconomicaBold-IIT', sans-serif;
+        font-size: 23px;
+        line-height: 1em;
+        text-transform: uppercase;
+        padding: 0.54545454545455em 0.54545454545455em 0.36363636363636em;
+        margin-bottom: 10px;
+        border: 0;
+        background-color: #444;
+    }
+    /* end News and Events Region */
+
+
+    /* Featured Content Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .block-title {
+        display: none;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content p {
+        margin: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content img {
+        margin: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .featured-2col {
+        float: left;
+        width: 48.181818181818%;
+        margin-left: 3.636363636364%;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .featured-2col:first-child {
+        float: left;
+        width: 48.181818181818%;
+        margin-left: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .featured-4x3 {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .featured-4x3 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .featured-16x9 {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-featured-content .featured-16x9 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    /* end Featured Content Region */
+
+
+/* end IIT Homepage - Global Styles ========================================= */
+
+
+
+
+/* Smartphone Sizes */
+@media only screen and (max-width:399px) {
+    /* Homepage Structure */
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-left_content_region {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-right_content_region {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* end Homepage Structure */
+
+
+    /* Department Links Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+        font-size: 23px;
+    }
+    /* end Department Links Region */
+
+
+    /* News and Events Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
+        font-size: 23px;
+    }
+    /* end News and Events Region */
+} /* end max 399 */
+
+@media only screen and (min-width:400px) and (max-width:599px) {
+    /* Homepage Structure */
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-left_content_region {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-right_content_region {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* end Homepage Structure */
+
+
+    /* Department Links Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+        font-size: 23px;
+    }
+    /* end Department Links Region */
+
+
+    /* News and Events Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
+        font-size: 23px;
+    }
+    /* end News and Events Region */
+} /* end 400 - 599 */
+/* end Smartphone Sizes */
+
+
+
+
+/* Tablet Sizes */
+@media only screen and (min-width:600px) and (max-width:767px) {
+    /* Homepage Structure */
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-left_content_region {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-right_content_region {
+        width: 100%;
+        margin-left: 0;
+    }
+    /* end Homepage Structure */
+
+
+    /* Department Links Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+        font-size: 23px;
+    }
+    /* end Department Links Region */
+
+
+    /* News and Events Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
+        font-size: 23px;
+    }
+    /* end News and Events Region */
+} /* end 600 - 799 */
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    /* Homepage Structure */
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-left_content_region {
+        width: 49.107142857143%;
+        margin-right: 0.892857142857%;
+    }
+
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-right_content_region {
+        width: 49.107142857143%;
+        margin-left: 0.892857142857%;
+    }
+    /* end Homepage Structure */
+
+
+    /* Homepage Hero Slideshow */
+    /* end Homepage Hero Slideshow */
+
+
+    /* Department Links Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+        font-size: 23px;
+    }
+    /* end Department Links Region */
+
+
+    /* News and Events Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
+        font-size: 23px;
+    }
+    /* end News and Events Region */
+} /* end 800 - 1024 */
+/* end Tablet Sizes */
+
+
+
+
+/* Desktop Sizes */
 @media only screen and (min-width:1025px) {
+    /* Homepage Structure */
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-left_content_region {
+        width: 49.107142857143%;
+        margin-right: 0.892857142857%;
+    }
 
+    .page-homepage .panel-flexible.iit-homepage .panels-flexible-region-iit-homepage-right_content_region {
+        width: 49.107142857143%;
+        margin-left: 0.892857142857%;
+    }
+    /* end Homepage Structure */
+
+
+    /* Homepage Hero Slideshow */
+    /* end Homepage Hero Slideshow */
+
+
+    /* Department Links Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+        font-size: 23px;
+    }
+    /* end Department Links Region */
+
+
+    /* News and Events Region */
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
+        font-size: 23px;
+    }
+    /* end News and Events Region */
 } /* end > 1300*/
+/* end Desktop Sizes */
 
-@media only screen and (min-width:750px) and (max-width:1024px) {
 
-} /* end 750 - 1024 */
 
-@media only screen and (min-width:600px) and (max-width:749px) {
 
-} /* end 600 - 749 */
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-row {
+    margin: 0.875em 0em;
+    position: relative;
+    min-height: 4.375em;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-row a {
+    text-decoration: none;
+}
+
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-field-date {
+    font-size: 0.875em;
+    font-weight: 700;
+    color: #333;
+    margin-left: 100px;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+    color: #888;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-title a {
+    color: #888;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-body {
+    color: #111;
+    margin-left: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-body a {
+    color: #111;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-body p {
+    font-size: 1em;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-nothing .calendar-wrapper {
+    border: 2px solid #444;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-nothing .calendar-wrapper a {
+    text-decoration: none;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-nothing .calendar-wrapper .cal-day {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+.page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .views-field-nothing .calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+/* temporary stuff emergency page */
+.page-emergency #iit-alert-message h4.no-alert {
+    font-style: italic;
+    color: #666;
+    font-size: 1.25em;
+    margin: 0.25em 0;
+}
+
+.page-emergency #iit-alert-message #iit-alert-message-content {
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.page-emergency #iit-alert-message.emergency {
+    border: 6px solid #dc6603;
+}
+
+.page-emergency #iit-alert-message.emergency #iit-alert-message-content {
+    padding-left: 3.25em;
+    background-image: url('images/emergency-icon.png');
+    background-image: url('images/emergency-icon.svg'), none;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 0 1.7em;
+}
+
+.page-emergency #iit-alert-message.emergency h1.message-title {
+    color: #dc6603;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 1em 0 0;
+}
+
+.page-emergency #iit-alert-message.emergency h3.message-updated {
+    color: #dc6603;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 .9em;
+}
+
+
+
