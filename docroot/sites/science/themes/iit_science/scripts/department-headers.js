@@ -24,6 +24,12 @@
     			}
     		});
 
+            if (!$('#department-header-wrapper').hasClass('science')) {
+                if (currentMedia === 'smartphone_portrait' || currentMedia === 'smartphone_landscape') {
+                    $('#department-buttons').appendTo($('#department-header-wrapper'));
+                }
+            }
+
     		if (!$('#department-header-wrapper').hasClass('science')) {
     			//Department Page
                 $(window).resize(function(){
