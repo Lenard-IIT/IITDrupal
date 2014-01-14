@@ -511,7 +511,7 @@ div.messages {
  * - Mapping services such as Google Maps may break also, see below for fixes.
  */
 img {
-  height: auto;
+  height: auto !important; /* Added important to drupal base */
   -ms-interpolation-mode: bicubic;
 }
 
