@@ -118,6 +118,12 @@ function iit_web_process_block(&$vars) {
 }
 // */
 
+function iit_web_preprocess_panels_pane(&$vars) {
+  $pane = $vars['pane'];
+  if ($pane->panel == 'homepage_hero_region') {
+    drupal_add_js(drupal_get_path('theme', 'iit_web') . '/scripts/homepage.min.js');
+  }
+}
 
 
 /**
