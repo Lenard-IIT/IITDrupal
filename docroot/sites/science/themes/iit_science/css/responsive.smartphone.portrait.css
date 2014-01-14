@@ -65,7 +65,14 @@ html {
     margin: 0.25em 0;
 }
 
-#department-header-wrapper #department-buttons ul li a {
+#department-header-wrapper #department-buttons ul li a,
+.science#department-header-wrapper #department-buttons ul li a,
+.am#department-header-wrapper #department-buttons ul li a,
+.bio#department-header-wrapper #department-buttons ul li a,
+.chem#department-header-wrapper #department-buttons ul li a,
+.cs#department-header-wrapper #department-buttons ul li a ,
+.mse#department-header-wrapper #department-buttons ul li a,
+.phy#department-header-wrapper #department-buttons ul li a   {
     text-align: left;
     color: #666;
     font-size: 16px;
