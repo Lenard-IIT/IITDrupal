@@ -2156,6 +2156,34 @@ a:hover {
 #department-header-wrapper #department-buttons #button-menu-button {
   display: none;
 }
+
+.science#department-header-wrapper #department-buttons ul li a {
+    background-color: #0e76bd;
+}
+
+.am#department-header-wrapper #department-buttons ul li a {
+    background-color: #e6c099;
+}
+
+.bio#department-header-wrapper #department-buttons ul li a {
+    background-color: #1e8663;
+}
+
+.chem#department-header-wrapper #department-buttons ul li a {
+    background-color: #8cb4b4;
+}
+
+.cs#department-header-wrapper #department-buttons ul li a {
+    background-color: #4b7faf;
+}
+
+.mse#department-header-wrapper #department-buttons ul li a {
+    background-color: #b38db4;
+}
+
+.phy#department-header-wrapper #department-buttons ul li a {
+    background-color: #de5340;
+}
 /* end Department Header Buttons */
 
 /* end Department Headers */
