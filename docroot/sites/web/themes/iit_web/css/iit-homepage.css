@@ -320,10 +320,22 @@
         background-color: #fff !important;
         color: #222 !important;
     }
+
+    #homepage-hero-slideshow .slide-title {
+	    border: 0;
+	    font-family: 'Oswald', sans-serif;
+	    font-weight: 700;
+	}
+
+	#homepage-hero-slideshow .slide-body {
+	    font-weight: 600;
+	    font-family: 'Open Sans', sans-serif;
+	}
     /* end Homepage Hero Slideshow */
 
 
 /* end IIT Homepage - Global Styles ========================================= */
+
 
 
 
@@ -349,8 +361,9 @@
     }
 
     #homepage-hero-slideshow .flexslider .flex-control-nav {
-        bottom: 0;
-        padding: 0;
+        bottom: 6px;
+        padding: 6px;
+        line-height: 11px;
     }
     
     #homepage-hero-slideshow .flexslider .flex-control-nav li {
@@ -359,9 +372,19 @@
 
     #homepage-hero-slideshow .flexslider .slideshow-item .slide-caption {
         height: 0;
-        padding-bottom: 30%;
+        padding-bottom: 25%;
         width: 100%;
     }
+
+    #homepage-hero-slideshow .slide-title {
+	    margin: 15px 15px 8px;
+	    font-size: 22px;
+	    line-height: 1.25em;
+	}
+
+	#homepage-hero-slideshow .slide-body {
+		display: none;
+	}
     /* end Homepage Hero Slideshow */
 
 
@@ -409,9 +432,19 @@
 
     #homepage-hero-slideshow .flexslider .slideshow-item .slide-caption {
         height: 0;
-        padding-bottom: 30%;
+        padding-bottom: 25%;
         width: 100%;
     }
+
+    #homepage-hero-slideshow .slide-title {
+	    margin: 20px 20px 8px;
+	    font-size: 28px;
+	    line-height: 1.25em;
+	}
+
+	#homepage-hero-slideshow .slide-body {
+		display: none;
+	}
     /* end Homepage Hero Slideshow */
 
 
@@ -429,6 +462,7 @@
     /* end News and Events Region */
 } /* end 400 - 599 */
 /* end Smartphone Sizes */
+
 
 
 
@@ -469,8 +503,9 @@
     }
 
     #homepage-hero-slideshow .flexslider .flex-control-nav {
-        bottom: 0;
+        bottom: 6px;
         padding: 0;
+        line-height: 11px;
     }
     
     #homepage-hero-slideshow .flexslider .flex-control-nav li {
@@ -479,9 +514,25 @@
 
     #homepage-hero-slideshow .flexslider .slideshow-item .slide-caption {
         height: 0;
-        padding-bottom: 30%;
+        padding-bottom: 25%;
         width: 100%;
     }
+
+    #homepage-hero-slideshow .slide-title {
+	    margin: 15px 20px 8px;
+	    font-size: 31px;
+	    line-height: 1.25em;
+	}
+
+	#homepage-hero-slideshow .slide-body {
+	    margin: 8px 20px;
+	    font-size: 15px;
+	}
+
+	#homepage-hero-slideshow .slide-body p {
+		font-size: 1em;
+		line-height: 1.25em;
+	}
     /* end Homepage Hero Slideshow */
 } /* end 600 - 799 */
 
@@ -538,16 +589,36 @@
     }
 
     #homepage-hero-slideshow .flexslider .flex-control-nav {
-        bottom: 0;
+        bottom: 6px;
+        left: 6px;
         width: inherit;
+        padding: 0;
+        line-height: 11px;
     }
 
     #homepage-hero-slideshow .flexslider .flex-control-nav li {
         margin-right: 4px;
     }
+
+    #homepage-hero-slideshow .slide-title {
+	    margin: 15px 15px 8px;
+	    font-size: 26px;
+	    line-height: 1.25em;
+	}
+
+	#homepage-hero-slideshow .slide-body {
+	    margin: 8px 15px;
+	    font-size: 15px;
+	}
+
+	#homepage-hero-slideshow .slide-body p {
+		font-size: 1em;
+		line-height: 1.25em;
+	}
     /* end Homepage Hero Slideshow */
 } /* end 800 - 1024 */
 /* end Tablet Sizes */
+
 
 
 
@@ -591,13 +662,32 @@
     }
 
     #homepage-hero-slideshow .flexslider .flex-control-nav {
-        bottom: 0;
+        bottom: 6px;
+        left: 6px;
         width: inherit;
+        padding: 0;
+        line-height: 11px;
     }
 
     #homepage-hero-slideshow .flexslider .flex-control-nav li {
         margin-right: 4px;
     }
+
+    #homepage-hero-slideshow .slide-title {
+	    margin: 40px 25px 8px;
+	    font-size: 32px;
+	    line-height: 1.25em;
+	}
+
+	#homepage-hero-slideshow .slide-body {
+	    margin: 8px 25px;
+	    font-size: 17px;
+	}
+
+	#homepage-hero-slideshow .slide-body p {
+		font-size: 1em;
+		line-height: 1.25em;
+	}
     /* end Homepage Hero Slideshow */
 
 
@@ -619,19 +709,7 @@
 
 
 
-#homepage-hero-slideshow .slide-title {
-    border: 0;
-    margin: 40px 30px 10px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
 
-#homepage-hero-slideshow .slide-body {
-    margin: 10px 30px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-}
 
 
 /** /
