@@ -3015,7 +3015,7 @@ a:hover {
 /* end News Block - Internal Pages */
 
 /* Events Block - Internal Pages */
-#content .events-block .views-row {
+.node-type-college-of-science-root-page #content .events-block .views-row {
     margin: 0.875em 0em;
     padding-bottom: 2.5em;
     position: relative;
@@ -3023,7 +3023,7 @@ a:hover {
     border-bottom: 1px solid #bbb;
 }
 
-#content .events-block .views-field-title {
+.node-type-college-of-science-root-page #content .events-block .views-field-title {
     font-family: 'oswald', sans-serif;
     font-weight: 400;
     font-size: 1.0625em;
@@ -3031,14 +3031,14 @@ a:hover {
 }
 
 
-#content .events-block .views-field-field-time-of-event {
+.node-type-college-of-science-root-page #content .events-block .views-field-field-time-of-event {
     font-size: 0.9375em;
     font-weight: 700;
     color: #555;
     margin-left: 100px;
 }
 
-#content .events-block .views-field-field-location-of-event {
+.node-type-college-of-science-root-page #content .events-block .views-field-field-location-of-event {
     font-size: 0.9375em;
     color: #666;
     font-style: italic;
@@ -3046,7 +3046,7 @@ a:hover {
     margin-left: 100px;
 }
 
-#content .events-block .views-field-nothing {
+.node-type-college-of-science-root-page #content .events-block .views-field-nothing {
     width: 80px;
     background-color: #fff;
     position: absolute;
@@ -3054,11 +3054,11 @@ a:hover {
     left: 0;
 }
 
-#content .events-block .views-field-nothing .event-calendar-wrapper {
+.node-type-college-of-science-root-page #content .events-block .views-field-nothing .event-calendar-wrapper {
     border: 2px solid #0e76bd;
 }
 
-#content .events-block .views-field-nothing .event-calendar-wrapper .cal-day {
+.node-type-college-of-science-root-page #content .events-block .views-field-nothing .event-calendar-wrapper .cal-day {
     background-color: #0e76bd;
     color: #fff;
     text-align: center;
@@ -3066,13 +3066,22 @@ a:hover {
     font-weight: 400;
 }
 
-#content .events-block .views-field-nothing .event-calendar-wrapper .cal-date {
+.node-type-college-of-science-root-page #content .events-block .views-field-nothing .event-calendar-wrapper .cal-date {
     text-align: center;
     font-family: 'oswald', sans-serif;
     font-weight: 300;
     color: #333;
 }
 /* end Events Block */
+
+/* Professional Masters Page h3 to look like h2 */
+
+.page-node-850 #content h3 {
+    color:#444;
+    border-bottom: 1px solid #444;
+}
+
+/* end Professional Masters Page h3 to look like h2 */
 
 /* Internal Slideshow Block  */
 .views-field.views-field-field-slideshow-image .slideshow-caption {
