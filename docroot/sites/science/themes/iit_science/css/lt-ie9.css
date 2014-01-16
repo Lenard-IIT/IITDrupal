@@ -15,6 +15,18 @@
   font-family: 'ie';
 }
 
+.container {
+    width: 960px;
+}
+
+.lt-ie9 img {
+    max-width: 100%;
+}
+
+
+/* PASTE DESKTOP STYLES BELOW */
+/* -------------------------- */
+
 
 /* Page main content region and sidebar margins */
 .sidebar-second #content-column .content-inner {
@@ -75,19 +87,19 @@ div.region-sidebar-second {
 }
 
 #department-header-wrapper #department-nav ul li a {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
     font-size: 20px;
     line-height: 1.1em;
 }
 
 #department-header-wrapper #department-nav ul li a span {
-	position: absolute;
-	right: 0;
+    position: absolute;
+    right: 0;
     bottom: 4px;
     left: 4px;
 }
@@ -125,19 +137,19 @@ div.region-sidebar-second {
 }
 
 #department-header-wrapper #department-nav-solo ul li a {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
     font-size: 20px;
     line-height: 1.1em;
 }
 
 #department-header-wrapper #department-nav-solo ul li a span {
-	position: absolute;
-	right: 0;
+    position: absolute;
+    right: 0;
     bottom: 4px;
     left: 4px;
 }
