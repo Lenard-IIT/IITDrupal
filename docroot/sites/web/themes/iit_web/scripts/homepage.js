@@ -5,7 +5,7 @@
         var newMedia = '';
         var $slides = $('#homepage-hero-slideshow .slides li');
 
-        if (currentMedia === 'smartphone_portrait' || currentMedia === 'smartphone_landscape') {
+        if (currentMedia === 'smartphone_portrait' || currentMedia === 'smartphone_landscape' || currentMedia === 'tablet_portrait') {
         	$slides.each(function(){
         		$('.slide-image', $(this)).prependTo($('.slideshow-item', $(this)));
         	});
