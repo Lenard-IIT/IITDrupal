@@ -98,7 +98,19 @@
 }
 /* end Department Headers */
 
-
+/* Header Buttons */
+@media only screen and (max-width: 715px) and (min-width: 600px) {
+  #department-header-wrapper #department-buttons ul li {
+      margin-left: 0.5em
+  }
+  
+  #department-header-wrapper #department-buttons ul li a {
+    font-size: 0.9375em;
+    padding: 0.4375em 0.4375em;
+    min-width: 3.86666666666667em;
+  }
+}
+/* end Header Buttons */
 
 
 

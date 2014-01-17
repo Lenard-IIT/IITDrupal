@@ -1941,7 +1941,7 @@ a:hover {
 }
 
 #main-content ul.pager li {
-  padding: 0;
+  padding: 0.5em;
   background: transparent;
 }
 
