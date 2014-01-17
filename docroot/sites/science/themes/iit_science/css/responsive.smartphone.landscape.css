@@ -30,6 +30,10 @@ html {
   font-size: 1.313em;
   margin: 6px 0 0 0;
 }
+
+#footer #iit-department-footer p {
+  text-align: center;
+}
 /* end Department Footer */
 
 
