@@ -1958,6 +1958,11 @@ a:hover {
 .sidebar nav.block-menu-block .contextual-links {
   margin: 0;
 }
+
+#main-content .flexslider ul li {
+   padding: 0;
+   background: transparent;
+}
 /* end Standard Elements */
 
 
