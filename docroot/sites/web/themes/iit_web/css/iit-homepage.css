@@ -331,6 +331,28 @@
 	    font-weight: 600;
 	    font-family: 'Open Sans', sans-serif;
 	}
+
+    .flex-direction-nav a {
+        background-image: url('images/next-prev.svg');
+        background-size: 60px;
+        width: 30px;
+        height: 60px;
+        background-color: #fff;
+    }
+
+    .no-svg .flex-direction-nav a {
+        background-image: url('images/next-prev.png');
+    }
+
+    .flexslider:hover .flex-prev {
+        opacity: 0.6;
+        left: 0;
+    }
+
+    .flexslider:hover .flex-next {
+        opacity: 0.6;
+        right: 0;
+    }
     /* end Homepage Hero Slideshow */
 
 
