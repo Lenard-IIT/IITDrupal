@@ -2507,6 +2507,6 @@ body a.hs-button:hover {
   border: 1px solid #333;
   margin: 30px;
   padding: 20px;
-  font-family: monospace;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;
 }
 /* end Type letter class */
