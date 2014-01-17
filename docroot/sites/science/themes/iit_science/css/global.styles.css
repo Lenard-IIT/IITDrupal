@@ -2807,6 +2807,14 @@ a:hover {
     font-weight: 300;
     color: #333;
 }
+
+.event-calendar-dept-type-loc {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;    
+}
 /* end Events Block */
 /* end College of Science Homepage */
 
