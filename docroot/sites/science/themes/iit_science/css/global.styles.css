@@ -3262,6 +3262,22 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+
+/* Table styles for events */
+.view-events table {
+    font-size:0.8em;
+}
+
+.view-events  td {
+    vertical-align:top;
+}
+
+.view-events .view-grouping-header {
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    font-size:1.5em;
+}
+/* end Table styles for events */
 /* end Event Content Type */
 
 /****** end Internal Page Styles ******/
