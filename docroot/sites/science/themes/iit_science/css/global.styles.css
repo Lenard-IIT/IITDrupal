@@ -1920,6 +1920,44 @@ a:hover {
 #main-content img {
   margin: 0.5em;
 }
+
+#main-content ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#main-content ul li {
+    padding: 0 0 0 18px;
+    background: url("/sites/science/themes/iit_science/css/images/bullet-science.png") no-repeat 0 6px;
+}
+
+#main-content ul.tabs li {
+  padding: 0;
+  background: transparent;
+}
+
+#main-content ul.contextual-links {
+  margin: 0;
+}
+
+#main-content ul.pager li {
+  padding: 0;
+  background: transparent;
+}
+
+#main-content li.views-ui-edit {
+  padding: 0;
+  background: transparent;
+}
+
+#main-content ul.contextual-links li {
+  padding: 0;
+  background: transparent;
+}
+
+.sidebar nav.block-menu-block .contextual-links {
+  margin: 0;
+}
 /* end Standard Elements */
 
 
