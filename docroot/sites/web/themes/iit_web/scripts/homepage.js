@@ -1,7 +1,7 @@
 (function($){
 	$(document).ready(function(){
 
-		var currentMedia = $('#media-check').css('font-family');
+		var currentMedia = $('#media-check').css('font-family').replace(/^['"]+|\s+|\\|(;\s?})+|['"]$/g, '');
         var newMedia = '';
         var $slides = $('#homepage-hero-slideshow .slides li');
 
@@ -12,7 +12,7 @@
         }
 
         $(window).resize(function(){
-        	newMedia = $('#media-check').css('font-family');
+        	newMedia = $('#media-check').css('font-family').replace(/^['"]+|\s+|\\|(;\s?})+|['"]$/g, '');
 
         	if (currentMedia !== newMedia) {
         		var newMediaType = (newMedia === 'smartphone_portrait' || newMedia === 'smartphone_landscape' || newMedia === 'tablet_portrait') ? 'mobile' : 'notmobile';
