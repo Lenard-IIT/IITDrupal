@@ -1968,6 +1968,10 @@ a:hover {
    padding: 0;
    background: transparent;
 }
+
+td {
+  vertical-align: top;
+}
 /* end Standard Elements */
 
 

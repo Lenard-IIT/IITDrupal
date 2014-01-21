@@ -1955,6 +1955,10 @@ a:hover {
 #main-content img {
   margin: 0.5em;
 }
+
+td {
+  vertical-align: top;
+}
 /* end Standard Elements */
 
 
