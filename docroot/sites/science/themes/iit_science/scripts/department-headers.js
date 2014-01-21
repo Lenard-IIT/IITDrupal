@@ -4,7 +4,7 @@
         //Make sure department or college header exists
         if ($('#department-header-wrapper').length > 0) {
 
-            var currentMedia = $('#media-check').css('font-family');
+            var currentMedia = $('#media-check').css('font-family').replace(/^['"]+|\s+|\\|(;\s?})+|['"]$/g, '');
             var newMedia = '';
 
     		$('#department-buttons').prepend('<div id="button-menu-button"><div class="icon"></div><span>Menu</span></div>');
@@ -33,7 +33,7 @@
     		if (!$('#department-header-wrapper').hasClass('science')) {
     			//Department Page
                 $(window).resize(function(){
-                    newMedia = $('#media-check').css('font-family');
+                    newMedia = $('#media-check').css('font-family').replace(/^['"]+|\s+|\\|(;\s?})+|['"]$/g, '');
 
                     if (currentMedia !== newMedia) {
                         //console.log("changing media");
