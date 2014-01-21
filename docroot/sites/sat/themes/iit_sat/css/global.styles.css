@@ -2088,6 +2088,10 @@ a:hover {
   }
 }
 
+.sidebar nav.block-menu-block a.active {
+    font-weight: 800;
+}
+
 .sidebar nav.block-menu-block li a {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
