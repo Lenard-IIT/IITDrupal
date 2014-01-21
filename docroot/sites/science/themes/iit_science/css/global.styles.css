@@ -2236,6 +2236,14 @@ td {
 .phy#department-header-wrapper #department-buttons ul li a {
     background-color: #de5340;
 }
+
+#department-header-wrapper #department-buttons ul li a.apply {
+    background-color: #de5340;
+}
+
+.phy#department-header-wrapper #department-buttons ul li a.apply {
+    background-color: #0e76bd;
+}
 /* end Department Header Buttons */
 
 /* end Department Headers */
