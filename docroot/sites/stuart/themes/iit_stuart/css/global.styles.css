@@ -2181,6 +2181,10 @@ a:hover {
     font-weight: 800;
 }
 
+.sidebar nav.block-menu-block h2 a.active {
+    font-weight: 400;
+}
+
 .sidebar nav.block-menu-block li a {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
