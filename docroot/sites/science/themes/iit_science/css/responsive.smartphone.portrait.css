@@ -76,7 +76,9 @@ html {
 .chem#department-header-wrapper #department-buttons ul li a,
 .cs#department-header-wrapper #department-buttons ul li a ,
 .mse#department-header-wrapper #department-buttons ul li a,
-.phy#department-header-wrapper #department-buttons ul li a   {
+.phy#department-header-wrapper #department-buttons ul li a,
+#department-header-wrapper #department-buttons ul li a.apply,
+.phy#department-header-wrapper #department-buttons ul li a.apply   {
     text-align: left;
     color: #666;
     font-size: 16px;
