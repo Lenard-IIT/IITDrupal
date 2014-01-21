@@ -1963,6 +1963,11 @@ a:hover {
    padding: 0;
    background: transparent;
 }
+
+#main-content .node-event .field-name-field-type-of-event ul li {
+   padding: 0;
+   background: transparent;
+}
 /* end Standard Elements */
 
 
