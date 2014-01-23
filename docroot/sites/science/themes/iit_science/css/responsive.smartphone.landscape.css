@@ -57,6 +57,10 @@ html {
     display: none;
 }
 
+.page-homepage #department-header-wrapper #department-nav {
+    display: block;
+}
+
 /* Department Header Buttons */
 #department-header-wrapper #department-buttons {
     margin: 1em 0 0 0;
@@ -75,6 +79,10 @@ html {
 
 #department-header-wrapper #department-buttons ul li.mobile-dept-menu-item {
   display: block;
+}
+
+.page-homepage #department-header-wrapper #department-buttons ul li.mobile-dept-menu-item {
+  display: none;
 }
 
 #department-header-wrapper #department-buttons ul li a,
