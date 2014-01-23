@@ -93,6 +93,20 @@ html {
   display: none;
 }
 
+#department-header-wrapper #department-buttons ul li.mobile-dept-menu-item.with-seperator:before {
+  content: 'Departments';
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+  padding: 0.4375em 0.4375em;
+  margin-left: -10px
+}
+
+#department-header-wrapper #department-buttons ul li.mobile-dept-menu-item {
+  margin-left: 10px
+}
+
 #department-header-wrapper #department-buttons ul li a,
 .science#department-header-wrapper #department-buttons ul li a,
 .am#department-header-wrapper #department-buttons ul li a,
