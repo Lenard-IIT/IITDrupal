@@ -78,9 +78,21 @@ function iit_humanscience_process_html(&$vars) {
 /**
  * Override or insert variables for the page templates.
  */
-/* -- Delete this line if you want to use these functions
+
 function iit_humanscience_preprocess_page(&$vars) {
+  
+  $page = menu_get_item();
+
+  if ($page['path'] == 'home') {
+    //dpm($vars);
+    drupal_add_js(drupal_get_path('theme', 'iit_humanscience') . '/scripts/home.js', array(
+      'type' => 'file', 'group' => JS_THEME, 'every_page' => FALSE));
+    drupal_add_css(drupal_get_path('theme', 'iit_humanscience') . '/css/home.css', array(
+      'type' => 'file', 'group' => CSS_THEME, 'every_page' => FALSE));
+  }
+  
 }
+/* -- Delete this line if you want to use these functions
 function iit_humanscience_process_page(&$vars) {
 }
 // */
