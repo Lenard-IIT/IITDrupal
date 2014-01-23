@@ -61,6 +61,14 @@ html {
     display: block;
 }
 
+#department-header-wrapper #department-header {
+  margin-bottom: 0;
+}
+
+.page-homepage #department-header-wrapper #department-header {
+  margin-bottom: 20px;
+}
+
 /* Department Header Buttons */
 #department-header-wrapper #department-buttons {
     margin: 1em 0 0 0;
