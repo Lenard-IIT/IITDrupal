@@ -153,19 +153,19 @@
         <a href="/humanities">
           <div class="dept-box" id="humanities-box">
             <h2>Humanities</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus vel nec enim. Nullam dictum imperdiet purus cursus consequat. Aenean ut est turpis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus.</p>
           </div>
         </a>
         <a href="/psychology">
           <div class="dept-box" id="psychology-box">
             <h2>Psychology</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus vel nec enim. Nullam dictum imperdiet purus cursus consequat. Aenean ut est turpis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus.</p>
           </div>
         </a>
         <a href="/social-sciences">
           <div class="dept-box" id="socialsciences-box">
             <h2>Social Sciences</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus vel nec enim. Nullam dictum imperdiet purus cursus consequat. Aenean ut est turpis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus.</p>
           </div>
         </a>
       </div>
