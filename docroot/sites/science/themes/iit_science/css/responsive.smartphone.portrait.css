@@ -53,6 +53,10 @@ html {
   padding: 0.5em;
 }
 
+#department-header-wrapper #department-nav{
+    display: none;
+}
+
 /* Department Header Buttons */
 #department-header-wrapper #department-buttons {
     margin: 1em 0 0 0;
@@ -67,6 +71,10 @@ html {
 #department-header-wrapper #department-buttons ul li {
     float: none;
     margin: 0.25em 0;
+}
+
+#department-header-wrapper #department-buttons ul li.mobile-dept-menu-item {
+  display: block;
 }
 
 #department-header-wrapper #department-buttons ul li a,

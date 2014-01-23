@@ -2181,6 +2181,10 @@ td {
   margin-left: 0.625em;
 }
 
+#department-header-wrapper #department-buttons ul li.mobile-dept-menu-item {
+  display: none;
+}
+
 #department-header-wrapper #department-buttons ul li:first-child {
   margin-left: 0;
 }
@@ -2244,6 +2248,8 @@ td {
 .phy#department-header-wrapper #department-buttons ul li a.apply {
     background-color: #0e76bd;
 }
+
+
 /* end Department Header Buttons */
 
 /* end Department Headers */
