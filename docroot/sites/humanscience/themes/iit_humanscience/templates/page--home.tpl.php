@@ -110,6 +110,7 @@
       <?php print render($page['iit_global_header']); ?>
     <?php endif; ?>
 
+
     <?php if ($messages || $page['help']): ?>
       <div id="messages-help-wrapper">
         <div class="container clearfix">
@@ -119,122 +120,25 @@
       </div>
     <?php endif; ?>
 
+
     <div id="header-wrapper">
       <div class="container clearfix">
         <header<?php print $header_attributes; ?>>
 
-        <?php print render($page['header']); ?>
+          <?php print render($page['header']); ?>
 
         </header>
       </div>
     </div>
 
 
-
-
     <div id="content-wrapper">
-
-    <div id="home-viewport">
-
-    <div id="hero-wrapper">
-      <img src="/sites/humanscience/files/elements/homepages/lewis/homeimage-1.jpg" alt="" class="">
-      <img src="/sites/humanscience/files/elements/homepages/lewis/homeimage-2.jpg" alt="" class="">
-      <img src="/sites/humanscience/files/elements/homepages/lewis/homeimage-3.jpg" alt="" class="">
-
-      <div id="hero-overlay">
-      </div>
-
+      <?php if ($content = render($page['content'])): ?>
+        <div id="content">
+          <?php print $content; ?>
+        </div>
+      <?php endif; ?>
     </div>
-
-
-
-    <div id="department-boxes">
-      <div class="dept-container">
-        <a href="/humanities">
-          <div class="dept-box" id="humanities-box">
-            <h2>Humanities</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus.</p>
-          </div>
-        </a>
-        <a href="/psychology">
-          <div class="dept-box" id="psychology-box">
-            <h2>Psychology</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus.</p>
-          </div>
-        </a>
-        <a href="/social-sciences">
-          <div class="dept-box" id="socialsciences-box">
-            <h2>Social Sciences</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin velit vitae purus sagittis, id ornare quam fringilla. Sed viverra mi sit amet turpis lobortis dapibus.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    </div>
-      
-      <!--<div id="columns"><div class="columns-inner clearfix">
-        <div id="content-column"><div class="content-inner">
-
-          <?php print render($page['highlighted']); ?>
-
-          <<?php print $tag; ?> id="main-content">
-
-            <?php print render($title_prefix); ?>
-
-            <?php if ($title || $primary_local_tasks || $secondary_local_tasks || $action_links = render($action_links)): ?>
-              <header<?php print $content_header_attributes; ?>>
-
-                <?php if ($title): ?>
-                  <h1 id="page-title"><?php print $title; ?></h1>
-                <?php endif; ?>
-
-                <?php if ($primary_local_tasks || $secondary_local_tasks || $action_links): ?>
-                  <div id="tasks">
-
-                    <?php if ($primary_local_tasks): ?>
-                      <ul class="tabs primary clearfix"><?php print render($primary_local_tasks); ?></ul>
-                    <?php endif; ?>
-
-                    <?php if ($secondary_local_tasks): ?>
-                      <ul class="tabs secondary clearfix"><?php print render($secondary_local_tasks); ?></ul>
-                    <?php endif; ?>
-
-                    <?php if ($action_links = render($action_links)): ?>
-                      <ul class="action-links clearfix"><?php print $action_links; ?></ul>
-                    <?php endif; ?>
-
-                  </div>
-                <?php endif; ?>
-
-              </header>
-            <?php endif; ?>
-
-            <?php if ($content = render($page['content'])): ?>
-              <div id="content">
-                <?php print $content; ?>
-              </div>
-            <?php endif; ?>
-
-            <?php print $feed_icons; ?>
-
-            <?php print render($title_suffix); // Prints page level contextual links ?>
-
-          </<?php print $tag; ?>>
-
-          <?php print render($page['content_aside']); ?>
-
-        </div></div>
-
-        <?php print render($page['sidebar_first']); ?>
-        <?php print render($page['sidebar_second']); ?>
-
-      </div></div>-->
-
-    </div>
-
-
-
 
 
     <?php if ($page['footer']): ?>
@@ -246,6 +150,7 @@
         </div>
       </div>
     <?php endif; ?>
+
 
     <?php if($page['iit_global_footer']): ?>
       <?php print render($page['iit_global_footer']); ?>
