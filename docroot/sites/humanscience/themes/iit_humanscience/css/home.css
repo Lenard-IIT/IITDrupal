@@ -155,14 +155,17 @@
 	top: 0;
 	left: 0;
 	z-index: 10;
+	display: none;
 }
 
 .page-home #hero-wrapper img.active-slide {
 	z-index: 15;
+	display: block;
 }
 
 .page-home #hero-wrapper img.lastactive-slide {
 	z-index: 12;
+	display: block;
 }
 
 .page-home #hero-wrapper .bgwidth {
