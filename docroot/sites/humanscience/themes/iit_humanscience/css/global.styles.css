@@ -1927,15 +1927,18 @@ a:hover {
 }
 
 .psychology a {
-  color: #7d9395;
+  /*color: #7d9395;*/
+  color: #295F6C;
 }
 
 .humanities a {
-  color: #89b3c1;
+  /*color: #89b3c1;*/
+  color: #295F6C;
 }
 
 .social-sciences a {
-  color: #6291a5;
+  /*color: #6291a5;*/
+  color: #295F6C;
 }
 
 .wrapper-43 {
