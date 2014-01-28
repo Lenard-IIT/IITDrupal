@@ -2413,11 +2413,12 @@ td {
 #header .block-menu-block .block-content ul li {
   list-style-type: none;
   list-style-image: none;
+  margin-right: 1.5em;
 }
 
 #header .block-menu-block .block-content ul li a {
   display: block;
-  padding: 0.2em 1em;
+  padding: 0.2em 0;
   color: #666;
   text-decoration: none;
   outline: none;
@@ -2439,31 +2440,31 @@ td {
 }
 
 .social-sciences #header .block-menu-block .block-content ul li a:hover {
-  color: #295F6C;
+  color: #6291a5;
 }
 
 #header .block-menu-block .block-content ul li a.active-trail {
   /*background-color: #295F6C;
   color: #fff;*/
-  color: #7d9395;
+  color: #295F6C;
   font-weight: bold;
 }
 
 .psychology #header .block-menu-block .block-content ul li a.active-trail {
   /*background-color: #7d9395;*/
-  color: #295F6C;
+  color: #7d9395;
   font-weight: bold;
 }
 
 .humanities #header .block-menu-block .block-content ul li a.active-trail {
   /*background-color: #89b3c1;*/
-  color: #295F6C;
+  color: #89b3c1;
   font-weight: bold;
 }
 
 .social-sciences #header .block-menu-block .block-content ul li a.active-trail {
   /*background-color: #6291a5;*/
-  color: #295F6C;
+  color: #6291a5;
   font-weight: bold;
 }
 /* end header menu */
