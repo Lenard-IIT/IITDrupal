@@ -44,6 +44,10 @@ div.region-sidebar-second .block {
 #header-wrapper {
   margin-bottom: 2em;
 }
+
+.page-humanities #header-wrapper {
+  margin-bottom: 6px;
+}
 /* end Page Header Region */
 
 
