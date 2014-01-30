@@ -1962,6 +1962,11 @@ a:hover {
 td {
   vertical-align: top;
 }
+
+table td ul {
+  margin: 0;
+  padding: 0;
+}
 /* end Standard Elements */
 
 
