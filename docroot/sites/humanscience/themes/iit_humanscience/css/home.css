@@ -65,8 +65,8 @@
 .page-home #header .block-menu-block .block-content ul li {
 	list-style-type: none;
 	list-style-image: none;
+	margin-right: 0;
 }
-
 
 
 .page-home #home-viewport {
@@ -109,8 +109,7 @@
 }
 
 .page-home #content-wrapper #department-boxes .dept-container {
-	width: 100%;
-	max-width: 1120px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -118,6 +117,7 @@
 	width: 31.33333333333333%;
 	float: left;
 	margin: 0 1%;
+	height: 175px;
 }
 
 .page-home #content-wrapper #department-boxes .dept-box h2 {
@@ -126,6 +126,7 @@
 	color: #fff;
 	margin: 20px 20px 5px;
 	font-size: 34px;
+	line-height: 1.25em;
 }
 
 .page-home #content-wrapper #department-boxes .dept-box p {
@@ -210,7 +211,7 @@
 	
 	.page-home #header .block-menu-block .block-content ul li a {
 		color: #444;
-		padding: 4px 15px;
+		padding: 4px 16px;
 		text-transform: none;
 		text-decoration: none;
 		font-size: 15px;
@@ -223,6 +224,15 @@
 
 	.page-home #header .block-menu-block div.contextual-links-wrapper ul.contextual-links {
 		background-color: #fff;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-container {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-box {
+		height: 175px;
 	}
 
 }
@@ -265,6 +275,20 @@
 	.no-touch .page-home #header .block-menu-block .block-content ul li a:hover {
 		color: #295F6C;
 		background-color: transparent;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-container {
+		width: 800px;
+		margin: 0 auto;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-box h2 {
+		margin: 20px 20px 5px;
+		font-size: 31px;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-box {
+		height: 160px;
 	}
 
 }
@@ -311,6 +335,24 @@
 
 	.page-home #iit-department-header-branding #button-menu-button {
 		display: block;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-container {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-box h2 {
+		margin: 15px 15px 5px;
+		font-size: 29px;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-box {
+		height: 195px;
+	}
+
+	.page-home #content-wrapper #department-boxes .dept-box p {
+		margin: 15px 15px 20px;
 	}
 
 }
@@ -364,42 +406,44 @@
 	}
 
 
+	.page-home #content-wrapper #department-boxes {
+		overflow: hidden;
+		position: static;
+		width: 100%;
+	}
 
+	.page-home #content-wrapper #department-boxes .dept-container {
+		width: 100%;
+		max-width: 1120px;
+		margin: 0 auto;
+	}
 
-.page-home #content-wrapper #department-boxes {
-	overflow: hidden;
-	position: static;
-	width: 100%;
-}
+	.page-home #content-wrapper #department-boxes .dept-box {
+		width: 100%;
+		float: none;
+		margin: 0;
+		overflow: hidden;
+	}
 
-.page-home #content-wrapper #department-boxes .dept-container {
-	width: 100%;
-	max-width: 1120px;
-	margin: 0 auto;
-}
+	.page-home #content-wrapper #department-boxes .dept-box h2 {
+		font-family: 'Pacifico', sans-serif;
+		text-align: center;
+		color: #fff;
+		margin: 20px 20px 10px;
+	}
 
-.page-home #content-wrapper #department-boxes .dept-box {
-	width: 100%;
-	float: none;
-	margin: 0;
-	overflow: hidden;
-}
+	.page-home #content-wrapper #department-boxes .dept-box p {
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		font-size: 13px;
+		margin: 20px 20px;
+		text-align: center;
+	}
 
-.page-home #content-wrapper #department-boxes .dept-box h2 {
-	font-family: 'Pacifico', sans-serif;
-	text-align: center;
-	color: #fff;
-	margin: 20px 20px 10px;
-}
-
-.page-home #content-wrapper #department-boxes .dept-box p {
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 13px;
-	margin: 20px 20px;
-	text-align: center;
-}
+	.page-home #content-wrapper #department-boxes .dept-box {
+		height: auto;
+	}
 
 }
 
@@ -452,41 +496,43 @@
 	}
 
 
+	.page-home #content-wrapper #department-boxes {
+		overflow: hidden;
+		position: static;
+		width: 100%;
+	}
 
+	.page-home #content-wrapper #department-boxes .dept-container {
+		width: 100%;
+		max-width: 1120px;
+		margin: 0 auto;
+	}
 
-.page-home #content-wrapper #department-boxes {
-	overflow: hidden;
-	position: static;
-	width: 100%;
-}
+	.page-home #content-wrapper #department-boxes .dept-box {
+		width: 100%;
+		float: none;
+		margin: 0;
+		overflow: hidden;
+	}
 
-.page-home #content-wrapper #department-boxes .dept-container {
-	width: 100%;
-	max-width: 1120px;
-	margin: 0 auto;
-}
+	.page-home #content-wrapper #department-boxes .dept-box h2 {
+		font-family: 'Pacifico', sans-serif;
+		text-align: center;
+		color: #fff;
+		margin: 20px 20px 10px;
+	}
 
-.page-home #content-wrapper #department-boxes .dept-box {
-	width: 100%;
-	float: none;
-	margin: 0;
-	overflow: hidden;
-}
+	.page-home #content-wrapper #department-boxes .dept-box p {
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		font-size: 13px;
+		margin: 20px 20px;
+		text-align: center;
+	}
 
-.page-home #content-wrapper #department-boxes .dept-box h2 {
-	font-family: 'Pacifico', sans-serif;
-	text-align: center;
-	color: #fff;
-	margin: 20px 20px 10px;
-}
-
-.page-home #content-wrapper #department-boxes .dept-box p {
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 13px;
-	margin: 20px 20px;
-	text-align: center;
-}
+	.page-home #content-wrapper #department-boxes .dept-box {
+		height: auto;
+	}
 
 }
