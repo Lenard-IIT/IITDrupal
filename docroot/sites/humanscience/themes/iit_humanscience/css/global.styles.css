@@ -2542,3 +2542,122 @@ body a.hs-button:hover {
   font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;
 }
 /* end Type letter class */
+
+
+
+/* Department Homepages */
+#content .panel-flexible.dept-home {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .block-inner {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* Homepage Hero Block Region */
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece {
+  margin: 0;
+}
+ 
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider {
+    margin: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .slides {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides li,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .slides li {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides img,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .slides img {
+    max-width: 100%;
+    height: auto !important;
+    width: inherit;
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides .views-field-field-left-hero-image {
+    float: left;
+    width: 28.125%;
+    margin-right: 1.785714285714%;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .slides .views-field-field-right-hero-image {
+    float: left;
+    width: 70.089285714286%;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .flex-control-nav.flex-control-paging,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .flex-control-nav.flex-control-paging {
+    bottom: 0;
+    right: 0;
+    width: inherit;
+    padding: 0 1%;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider .flex-control-nav.flex-control-paging li,
+#content .panel-flexible.dept-home .pane-homepage-hero-block.one-piece .flexslider .flex-control-nav.flex-control-paging li {
+    margin: 0 2px;
+}
+
+#content .panel-flexible.dept-home .pane-homepage-hero-block.two-piece .flexslider:hover .flex-prev {
+    left: 30.4%;
+}
+/* end Homepage Hero Block Region */
+
+
+/* Row */
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-inside {
+    padding: 0;
+}
+
+#content .panel-flexible.dept-home .home-image-button img {
+    margin: 0;
+    display: block;
+}
+
+#content .panel-flexible.dept-home .dept-home-row p {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .panel-pane.block {
+    margin: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .one-column {
+    width: 23.660714285715%;
+    margin: 0 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .two-column {
+    width: 49.107142857143%;
+    margin: 0 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-first {
+    margin-left: 0;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .dept-home-region-last {
+    margin-right: 0;
+}
+
+/* end Row */
+
+/* end Department Homepages */
