@@ -2284,7 +2284,9 @@ td {
   margin-bottom: 1em;
 }
 
-.page-humanities #header-wrapper {
+.page-humanities #header-wrapper,
+.page-social-sciences #header-wrapper,
+.page-psychology #header-wrapper {
   margin-bottom: 6px;
 }
 /* end Page Header Region */
