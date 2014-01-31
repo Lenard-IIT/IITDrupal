@@ -1924,6 +1924,10 @@ table td ul {
   margin: 0;
   padding: 0;
 }
+
+img.img-border {
+  border: 1px solid #bbb;
+}
 /* end Standard Elements */
 
 
