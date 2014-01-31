@@ -2524,7 +2524,7 @@ body a.hs-button:hover {
 
 #content .panel-flexible.dept-home .dept-home-row {
   padding: 0;
-  margin-bottom: 20px;
+  margin: 0 -0.892857142857%;
 }
 
 /* Homepage Hero Block Region */
@@ -2538,6 +2538,7 @@ body a.hs-button:hover {
     border: 0;
     border-radius: 0;
     box-shadow: none;
+    margin: 0 0.892857142857% 0.892857142857%;
 }
 
 #content .panel-flexible.dept-home .pane-department-hero-slideshow .flexslider .slides {
@@ -2587,21 +2588,18 @@ body a.hs-button:hover {
 }
 
 #content .panel-flexible.dept-home .dept-home-row .one-column {
-    width: 23.660714285715%;
-    margin: 0 0.892857142857%;
+    width: 23.214285714286%;
+    margin: 0.892857142857%;
 }
 
 #content .panel-flexible.dept-home .dept-home-row .two-column {
-    width: 49.107142857143%;
-    margin: 0 0.892857142857%;
+    width: 48.214285714286%;
+    margin: 0.892857142857%;
 }
 
-#content .panel-flexible.dept-home .dept-home-row .dept-home-region-first {
-    margin-left: 0;
-}
-
-#content .panel-flexible.dept-home .dept-home-row .dept-home-region-last {
-    margin-right: 0;
+#content .panel-flexible.dept-home .dept-home-row .four-column {
+    width: 98.214285714286%;
+    margin: 0.892857142857%;
 }
 
 /* end Row */

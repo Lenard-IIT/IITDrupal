@@ -46,6 +46,25 @@ html {
 }
 /* end Department Page Header */
 
+
+/* Department Homepages */
+
+/* Row */
+#content .panel-flexible.dept-home .dept-home-row .one-column {
+    width: 48.214285714286%;
+    margin: 0.892857142857%;
+}
+
+#content .panel-flexible.dept-home .dept-home-row .two-column {
+    width: 98.214285714286%;
+    margin: 0.892857142857%;
+}
+
+/* end Row */
+
+/* end Department Homepages */
+
+
 /* header menu */
 #header .block-menu-block {
   border-top: 1px solid #888;
