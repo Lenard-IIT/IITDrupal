@@ -2609,3 +2609,44 @@ body a.hs-button:hover {
 /* end Row */
 
 /* end Department Homepages */
+
+
+
+/* faculty directory view */
+.lewis-faculty-directory.view-faculty .views-row {
+    clear:both;
+    padding: 0.5em 0;
+    overflow:auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.lewis-faculty-directory.view-faculty .views-row-last {
+    border:0;
+}
+
+.lewis-faculty-directory.view-faculty h3 {
+    clear:both;
+    font-size: 2em;
+    margin: 0.8em 0 0.2em 0;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #888;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-nothing {
+    font-size: 1.1875em;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-field-title {
+    font-size: 0.8125em;
+    font-style: italic;
+}
+
+.lewis-faculty-directory.view-faculty #letter-selector a {
+    padding: 0 1.1%;
+    font-size: 1.1875em;
+}
+
+.lewis-faculty-directory.view-faculty #letter-selector a:first-child {
+    padding-left: 0;
+}
+/* end faculty directory view */

@@ -194,3 +194,23 @@ div.region-sidebar-second .block {
     display: block;
 }
 /* end Lewis Hompage Hero Nav */
+
+
+
+/* faculty directory view */
+.lewis-faculty-directory.view-faculty .views-row {
+    border-bottom: 0;
+    padding: 0.25em 0;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-nothing {
+  float:left;
+  width:35%;
+}
+
+.lewis-faculty-directory.view-faculty .views-field-field-title {
+  float: left;
+  width: 65%;
+  padding-top: 0.538461538em;
+}
+/* end faculty directory view */
