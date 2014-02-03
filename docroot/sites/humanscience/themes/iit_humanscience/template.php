@@ -90,13 +90,6 @@ function iit_humanscience_preprocess_page(&$vars) {
     
     drupal_add_css(drupal_get_path('theme', 'iit_humanscience') . '/css/home.css', array(
       'type' => 'file', 'group' => CSS_THEME, 'every_page' => FALSE));
-    
-    $pacificoWebfontLink = array(
-      'href' => '//fonts.googleapis.com/css?family=Pacifico',
-      'rel' => 'stylesheet',
-      'type' => 'text/css',
-      );
-    drupal_add_html_head_link($pacificoWebfontLink);
   }
   
 }
