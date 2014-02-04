@@ -16,7 +16,7 @@
 		var aspectRatio = 1.77777777777778;
 		var $theViewport = $('#hero-wrapper');
 		var SLIDESHOW_ACTIVE = 1;
-		var SLIDESHOW_TRANSITION_TIME = 4; //in seconds
+		var SLIDESHOW_TRANSITION_TIME = 1; //in seconds
 		var SLIDESHOW_IMG_TIME = 15; //in seconds
 		var availableImgWidths = [ 700, 1140, 1600, 1920 ];
 
