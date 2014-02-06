@@ -2154,12 +2154,30 @@ a:hover {
     overflow: hidden;
 }
 
+
 .page-emergency #iit-alert-message.emergency {
     border: 6px solid #dc6603;
 }
 
+.page-emergency #iit-alert-message.critical {
+    border: 6px solid #c00;
+}
+
+.page-emergency #iit-alert-message.information {
+    border: 6px solid #666;
+}
+
+
+.page-emergency #iit-alert-message.information #iit-alert-message-content {
+  padding: 0 1em;
+}
+
 .page-emergency #iit-alert-message.emergency #iit-alert-message-content {
-    padding-left: 3.25em;
+  padding: 0 1em;
+}
+
+.page-emergency #iit-alert-message.critical #iit-alert-message-content {
+    padding: 0  1em 0 3.25em;
     background-image: url('images/emergency-icon.png');
     background-image: url('images/emergency-icon.svg'), none;
     background-repeat: no-repeat;
@@ -2167,11 +2185,36 @@ a:hover {
     background-position: 0 1.7em;
 }
 
+
+.page-emergency #iit-alert-message.information h1.message-title {
+    color: #666;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 1em 0 0;
+}
+
 .page-emergency #iit-alert-message.emergency h1.message-title {
     color: #dc6603;
     font-size: 1.7em;
     font-weight: bold;
     margin: 1em 0 0;
+}
+
+.page-emergency #iit-alert-message.critical h1.message-title {
+    color: #c00;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 1em 0 0;
+}
+
+
+.page-emergency #iit-alert-message.information h3.message-updated {
+    color: #aaa;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 .9em;
 }
 
 .page-emergency #iit-alert-message.emergency h3.message-updated {
@@ -2182,6 +2225,16 @@ a:hover {
     font-weight: bold;
     margin: 0 0 .9em;
 }
+
+.page-emergency #iit-alert-message.critical h3.message-updated {
+    color: #c00;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 .9em;
+}
+
 /* Emergency Sidebar block style */
 #block-block-26 {
     background-color: #c00;

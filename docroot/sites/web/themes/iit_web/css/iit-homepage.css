@@ -13,41 +13,114 @@
         overflow: hidden;
     }
 
+
+    .page-homepage #iit-alert-message.information {
+        background-color: #e3e3e3;
+        border-bottom: 3px solid #666;
+        box-shadow: inset 0px 3px 3px #333;
+    }
+
     .page-homepage #iit-alert-message.emergency {
         background-color: #dc6603;
         border-bottom: 3px solid orange;
         box-shadow: inset 0px 3px 3px #333;
     }
 
-    .page-homepage #iit-alert-message.emergency #iit-alert-message-content {
+    .page-homepage #iit-alert-message.critical {
+        background-color: #c00;
+        border-bottom: 3px solid red;
+        box-shadow: inset 0px 3px 3px #333;
+        margin-bottom: 2em;
+    }
+
+
+    .page-homepage #iit-alert-message.critical #iit-alert-message-content {
         padding-left: 3.25em;
         background-image: url('images/emergency-icon-white.png');
         background-image: url('images/emergency-icon-white.svg'), none;
         background-repeat: no-repeat;
         background-size: 40px;
-        background-position: 0 1.7em;
+        background-position: 0 4.375em;
+    }
+
+
+    .page-homepage #iit-alert-message.information h1.message-title {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #333;
+        font-size: 1.25em;
+        font-weight: bold;
+        margin: 1em 0 0;
     }
 
     .page-homepage #iit-alert-message.emergency h1.message-title {
+        font-family: 'Open Sans Condensed', sans-serif;
         color: #fff;
         font-size: 1.7em;
         font-weight: bold;
         margin: 1em 0 0;
     }
 
+    .page-homepage #iit-alert-message.critical h1.message-title {
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #fff;
+        font-size: 2.25em;
+        font-weight: bold;
+        margin: 1.75em 0 0;
+    }
+
+
+    .page-homepage #iit-alert-message.information h3.message-updated {
+        color: #888;
+        font-size: 0.75em;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin: 0 0 0.6666666666666em;
+    }
+
     .page-homepage #iit-alert-message.emergency h3.message-updated {
         color: #ffcb9f;
+        font-size: 0.938em;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin: 0 0 0.9em;
+    }
+
+    .page-homepage #iit-alert-message.critical h3.message-updated {
+        color: #fff;
         font-size: 1em;
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
-        margin: 0 0 .9em;
+        margin: 0 0 1.25em;
+    }
+
+
+    .page-homepage #iit-alert-message.information .message-body {
+        color: #333;
+        font-size: 0.938em;
+        margin: 0 0 1em;
     }
 
     .page-homepage #iit-alert-message.emergency .message-body {
         color: #fff;
         font-size: 1em;
+        margin: 0 0 2em;
+    }
+
+    .page-homepage #iit-alert-message.critical .message-body {
+        color: #fff;
+        font-size: 1.1em;
         margin: 0 0 3em;
+        font-weight: 600;
+    }
+
+
+    .page-homepage #iit-alert-message.information .message-body a {
+        color: #888;
+        text-decoration: underline;
+        font-weight: bold;
     }
 
     .page-homepage #iit-alert-message.emergency .message-body a {
@@ -56,7 +129,22 @@
         font-weight: bold;
     }
 
+    .page-homepage #iit-alert-message.critical .message-body a {
+        color: #fff;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+
+    .page-homepage #iit-alert-message.information .message-body p {
+        margin: 0 0 0.75em;
+    }
+
     .page-homepage #iit-alert-message.emergency .message-body p {
+        margin: 0 0 0.75em;
+    }
+
+    .page-homepage #iit-alert-message.critical .message-body p {
         margin: 0 0 0.75em;
     }
     /* end Alert Message */
