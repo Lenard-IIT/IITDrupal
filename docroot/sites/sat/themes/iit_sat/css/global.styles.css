@@ -2469,3 +2469,43 @@ a:hover {
 /* end Events Block */
 
 /* end Department Homepages */
+
+
+
+/* full people bio view */
+#content .node-people .panel-display {
+  margin:0;
+}
+
+.node-people .field-name-field-faculty-title {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
+#main-content .node-people .field-name-field-image img {
+  margin: 0;
+}
+
+#main-content .node-people .region-two-brick-left-above section {
+  margin-bottom: 0.3125em;
+}
+
+#main-content .node-people .region-two-brick-left-above section h2 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 8em;
+}
+
+#main-content .node-people .region-two-brick-left-above section p {
+  margin: 0;
+}
+
+#main-content .node-people .region-two-brick-middle h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin: 0.8em 0 0.2em 0;
+}
+/* end full people bio view */
