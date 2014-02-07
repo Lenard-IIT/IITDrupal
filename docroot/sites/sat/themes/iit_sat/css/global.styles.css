@@ -2483,6 +2483,12 @@ a:hover {
   margin-bottom: 1.25em;
 }
 
+.node-people .field-name-field-staff-title {
+  font-size: 1em;
+  font-style: italic;
+  margin-bottom: 1.25em;
+}
+
 #main-content .node-people .field-name-field-image img {
   margin: 0;
 }

@@ -65,3 +65,15 @@ div.region-sidebar-second .block {
 	float: left;
 }
 /* end header menu */
+
+
+/* full people bio view */
+.node-people .two-brick > .panel-row > .region-two-brick-left-above {
+  width: 65%;
+}
+
+.node-people .two-brick > .panel-row > .region-two-brick-right-above {
+  width: 32%;
+  margin-left: 3%;
+}
+/* end full people bio view */
