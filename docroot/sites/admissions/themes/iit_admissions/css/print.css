@@ -305,3 +305,10 @@ form {
 #iit-gf-branding {
   display: none;
 }
+
+
+
+/* IIT Overidden Print Styles */
+#iit-gh-wrapper {
+  display: none;
+}
