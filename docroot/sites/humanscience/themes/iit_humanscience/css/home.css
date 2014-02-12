@@ -197,7 +197,7 @@
 		margin: 0;
 		position: absolute;
 		right: 0;
-		bottom: 8px;
+		bottom: 19px;
 		z-index: 25;
 		background-color: #295F6C;
 	}
@@ -211,7 +211,7 @@
 	}
 	
 	.page-home #header .block-menu-block .block-content ul li a {
-		color: #444;
+		color: #fff;
 		padding: 4px 12px;
 		text-transform: none;
 		text-decoration: none;
