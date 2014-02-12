@@ -249,6 +249,11 @@
   		font-family: 'tablet_landscape';
 	}
 
+	.page-home #header .block-menu-block {
+		position: static;
+		display: block;
+	} 
+
 	.page-home #header .block-menu-block ul {
 		background: transparent;
 		float: left;
@@ -259,7 +264,7 @@
 
 	.page-home #header .block-menu-block .block-content ul li a {
 		color: #fff;
-		padding: 4px 12px;
+		padding: 6px 15px;
 		text-transform: none;
 		text-decoration: none;
 		font-size: 15px;
@@ -301,6 +306,7 @@
 		border: 0;
 		width: inherit;
 		position: static;
+		background-color: #fff;
 	} 
 	    
 	.page-home #header .block-menu-block ul {
@@ -369,7 +375,8 @@
 		padding: 0 0 0.375em;
 		border: 0;
 		width: inherit;
-		background-color: transparent;
+		position: static;
+		background-color: #fff;
 	} 
 	    
 	.page-home #header .block-menu-block ul {
@@ -461,7 +468,8 @@
 		padding: 0 0 0.375em;
 		border: 0;
 		width: inherit;
-		background-color: transparent;
+		position: static;
+		background-color: #fff;
 	} 
 	    
 	.page-home #header .block-menu-block ul {
