@@ -1893,9 +1893,9 @@ a:hover {
   color: #295F6C;
 }
 
-.social-sciences a {
+.social-sciences #main-content a {
   /*color: #6291a5;*/
-  color: #295F6C;
+  color: #b84e46;
 }
 
 .wrapper-43 {
@@ -1991,7 +1991,7 @@ table td ul {
 }
 
 .social-sciences .sidebar nav.block-menu-block {
-  background-color: #6291a5;
+  background-color: #b84e46;
 }
 
 .sidebar nav.block-menu-block a {
