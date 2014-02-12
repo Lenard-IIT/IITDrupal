@@ -29,6 +29,7 @@
 	font-size: 2.3125em;
 	padding: 1.25em 0 0.26666666666667em;
 	line-height: 1.5em;
+    margin-right: 48px;
 }
 
 
@@ -200,6 +201,7 @@
 		bottom: 19px;
 		z-index: 25;
 		background-color: #295F6C;
+        border-bottom: 0;
 	}
 
 	.page-home #header .block-menu-block ul {
@@ -247,17 +249,6 @@
   		font-family: 'tablet_landscape';
 	}
 
-	.page-home #header .iit-page-header h2 {
-		padding: 0.53333333333333em 0 0.13333333333333em;
-	}
-
-	.page-home #header .block-menu-block {
-	    margin: 0 10px 0 -10px;
-	    padding: 0 0 4px;
-	    border-bottom: 0;
-	    width: inherit;
-	}
-
 	.page-home #header .block-menu-block ul {
 		background: transparent;
 		float: left;
@@ -267,11 +258,12 @@
 	}
 
 	.page-home #header .block-menu-block .block-content ul li a {
-		color: #444;
-		padding: 4px 22px;
+		color: #fff;
+		padding: 4px 12px;
 		text-transform: none;
 		text-decoration: none;
 		font-size: 15px;
+		font-weight: bold;
 	}
 
 	.no-touch .page-home #header .block-menu-block .block-content ul li a:hover {
@@ -308,6 +300,7 @@
 		padding: 0 0 0.375em;
 		border: 0;
 		width: inherit;
+		position: static;
 	} 
 	    
 	.page-home #header .block-menu-block ul {
@@ -376,6 +369,7 @@
 		padding: 0 0 0.375em;
 		border: 0;
 		width: inherit;
+		background-color: transparent;
 	} 
 	    
 	.page-home #header .block-menu-block ul {
@@ -467,6 +461,7 @@
 		padding: 0 0 0.375em;
 		border: 0;
 		width: inherit;
+		background-color: transparent;
 	} 
 	    
 	.page-home #header .block-menu-block ul {
