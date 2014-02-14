@@ -2740,3 +2740,16 @@ body a.hs-button:hover {
     padding-left: 0;
 }
 /* end faculty directory view */
+
+/* Faculty Research Page */
+.page-node-489 caption {
+    font-size: 1.5em;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+}
+
+.page-node-489 .view-id-faculty .views-table {
+    margin: 25px 0;
+}
+/* end Faculty Research Page */
