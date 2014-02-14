@@ -82,7 +82,6 @@
 
     #sat-home-hero-slideshow .flexslider .slideshow-item {
     	position: relative;
-    	z-index: 100;
     }
 
     #sat-home-hero-slideshow .flexslider .slideshow-item .slide-caption.top-left {
