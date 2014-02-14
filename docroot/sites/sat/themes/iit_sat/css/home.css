@@ -16,9 +16,13 @@
         max-width: inherit;
     }
 
+    .page-home .panel-flexible.sat-home .sat-home-depts-row {
+		margin-bottom: 0;
+    }
+
     .page-home .panel-flexible.sat-home .sat-home-row {
-		overflow: hidden;
-		margin-bottom: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
     }
 
     .page-home .panel-flexible.sat-home .sat-home-row .block-inner {
