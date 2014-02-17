@@ -1874,30 +1874,26 @@ h1#page-title {
 }
 
 a {
-  color: #295F6C;
+  color: #669c41;
   outline: none;
   text-decoration: none;
-}
-
-#main-content a {
-  color: #669c41;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.psychology #main-content a {
+.psychology a {
   /*color: #7d9395;*/
   color: #990225;
 }
 
-.humanities #main-content a {
+.humanities a {
   /*color: #89b3c1;*/
   color: #fb940b;
 }
 
-.social-sciences #main-content a {
+.social-sciences a {
   /*color: #6291a5;*/
   color: #b84e46;
 }
@@ -2130,6 +2126,7 @@ table td ul {
     font-size: 1.45em;
     line-height: 1.181818181818em;
     text-decoration: none;
+    color: #295F6C;
 }
 
 .sidebar a.sidebar-icons:hover {
