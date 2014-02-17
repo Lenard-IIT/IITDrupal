@@ -40,7 +40,7 @@
 
     .page-home .panel-flexible.sat-home .sat-home-blue-row {
     	background-color: #2871a4;
-        height: 300px;
+        min-height: 400px;
     }
 
     .page-home #header .iit-page-header h2 {
@@ -344,6 +344,83 @@
         background-image: url('images/menu-button-darksq.png');
     }
     /* end menu button */
+
+
+    /* Blue Marketing Bar */
+    #sat-home-marketing-slideshow {
+        margin: 0 20px;
+    }
+
+    #sat-home-marketing-slideshow .flexslider {
+        margin: 0;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #sat-home-marketing-slideshow .flexslider ul.slides {
+        padding: 0;
+    }
+
+    #sat-home-marketing-slideshow .sub-section {
+        width: 47%;
+        float: left;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section .item-list {
+        width: 50%;
+        float: left;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section .item-list ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: square;
+    }
+
+    #sat-home-marketing-slideshow .main-section {
+        width: 47%;
+        float: left;
+        margin-right: 6%;
+    }
+
+    #sat-home-marketing-slideshow .views-field-title h3 {
+        color: #fff;
+        font-size: 32px;
+        margin: 1.75em 0 0.5em 0;
+    }
+
+    #sat-home-marketing-slideshow .main-section .body-content {
+        color: #fff;
+        font-size: 19px
+    }
+
+    #sat-home-marketing-slideshow .main-section a.info-link {
+        color: #fff;
+        padding: 8px 12px;
+        background-color: #4aa0ba;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .no-touch #sat-home-marketing-slideshow .main-section a:hover.info-link {
+        color: #2871a4;
+        background-color: #fff;
+    }
+
+    #sat-home-marketing-slideshow .sub-section h4 {
+        color: #fff;
+        font-size: 23px;
+        margin-top: 0;
+        border-bottom: 1px solid #aedeff;
+    }
+
+    #sat-home-marketing-slideshow .sub-section .item-list {
+        color: #fff;
+        font-size: 17px;
+    }
+    /* end Blue Marketing Bar */
 
 /* end IIT Homepage - Global Styles ========================================= */
 
