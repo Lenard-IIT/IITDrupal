@@ -1879,6 +1879,10 @@ a {
   text-decoration: none;
 }
 
+#main-content a {
+  color: #669c41;
+}
+
 a:hover {
   text-decoration: underline;
 }
