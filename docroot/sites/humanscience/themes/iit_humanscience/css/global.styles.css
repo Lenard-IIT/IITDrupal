@@ -1883,14 +1883,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.psychology a {
+.psychology #main-content a {
   /*color: #7d9395;*/
-  color: #295F6C;
+  color: #990225;
 }
 
-.humanities a {
+.humanities #main-content a {
   /*color: #89b3c1;*/
-  color: #295F6C;
+  color: #fb940b;
 }
 
 .social-sciences #main-content a {
@@ -1983,11 +1983,11 @@ table td ul {
 }
 
 .psychology .sidebar nav.block-menu-block {
-  background-color: #7d9395;
+  background-color: #990225;
 }
 
 .humanities .sidebar nav.block-menu-block {
-  background-color: #89b3c1;
+  background-color: #fb940b;
 }
 
 .social-sciences .sidebar nav.block-menu-block {
