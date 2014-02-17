@@ -178,7 +178,7 @@
 		margin: 0 0 6px;
 	}
 
-    .flex-direction-nav a {
+    #sat-home-hero-slideshow .flex-direction-nav a {
         background-image: url('images/next-prev.svg');
         background-size: 60px;
         width: 30px;
@@ -186,16 +186,16 @@
         background-color: #fff;
     }
 
-    .no-svg .flex-direction-nav a {
+    .no-svg #sat-home-hero-slideshow .flex-direction-nav a {
         background-image: url('images/next-prev.png');
     }
 
-    .flexslider:hover .flex-prev {
+    #sat-home-hero-slideshow .flexslider:hover .flex-prev {
         opacity: 0.6;
         left: 0;
     }
 
-    .flexslider:hover .flex-next {
+    #sat-home-hero-slideshow .flexslider:hover .flex-next {
         opacity: 0.6;
         right: 0;
     }
