@@ -1945,6 +1945,10 @@ table td ul {
   position: relative;
 }
 
+#footer #iit-department-footer a {
+  color: #295F6C;
+}
+
 #footer #iit-department-footer h5 {
   font-weight: 400;
   font-family: 'oswald', sans-serif;
