@@ -2444,11 +2444,11 @@ a:hover {
 }
 
 #content .panel-flexible.dept-home #homepage-events-block .views-field-nothing .event-calendar-wrapper {
-    border: 2px solid #2871a4;
+    border: 2px solid #4aa0ba;
 }
 
 #content .panel-flexible.dept-home #homepage-events-block .views-field-nothing .event-calendar-wrapper .cal-day {
-    background-color: #2871a4;
+    background-color: #4aa0ba;
     color: #fff;
     text-align: center;
     font-family: 'oswald', sans-serif;
