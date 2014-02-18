@@ -1837,19 +1837,22 @@ h1#page-title {
 }
 
 #main-content h1 {
-  color: #1757ae;
+  color: #2871a4;
 }
 
-#main-content h2,
+#main-content h2 {
+  color: #777;
+}
+
 #main-content h3,
 #main-content h4,
 #main-content h5,
 #main-content h6 {
-  color: #1757ae;
+  color: #4aa0ba;
 }
 
 a {
-  color: #1757ae;
+  color: #2065a9;
   outline: none;
   text-decoration: none;
 }
@@ -1961,7 +1964,7 @@ a:hover {
 }
 
 #header .iit-page-header h2 a span {
-    color: #1757ae;
+    color: #4aa0ba;
 }
 /* end Page Header */
 
@@ -2015,7 +2018,7 @@ a:hover {
 }
 
 #header .block-menu-block .block-content ul li a.active-trail {
-  background-color: #1757ae;
+  background-color: #2871a4;
   color: #fff;
 }
 
@@ -2029,7 +2032,7 @@ a:hover {
 }
 
 .sidebar nav.block-menu-block {
-  background-color: #1757ae;
+  background-color: #2871a4;
   padding: 16px;
 }
 
@@ -2392,7 +2395,7 @@ a:hover {
 
 /* Events Block */
 #content .panel-flexible.dept-home #homepage-events-block h2.block-title {
-    background-color: #1757ae;
+    background-color: #2871a4;
     color: #fff;
     border: 0;
     padding: 0;
@@ -2441,11 +2444,11 @@ a:hover {
 }
 
 #content .panel-flexible.dept-home #homepage-events-block .views-field-nothing .event-calendar-wrapper {
-    border: 2px solid #1757ae;
+    border: 2px solid #2871a4;
 }
 
 #content .panel-flexible.dept-home #homepage-events-block .views-field-nothing .event-calendar-wrapper .cal-day {
-    background-color: #1757ae;
+    background-color: #2871a4;
     color: #fff;
     text-align: center;
     font-family: 'oswald', sans-serif;
