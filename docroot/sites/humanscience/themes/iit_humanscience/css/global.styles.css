@@ -1885,12 +1885,12 @@ a:hover {
 
 .psychology a {
   /*color: #7d9395;*/
-  color: #990225;
+  color: #669c41;
 }
 
 .humanities a {
   /*color: #89b3c1;*/
-  color: #fb940b;
+  color: #c19593;
 }
 
 .social-sciences a {
@@ -1987,11 +1987,11 @@ table td ul {
 }
 
 .psychology .sidebar nav.block-menu-block {
-  background-color: #990225;
+  background-color: #8ead52;
 }
 
 .humanities .sidebar nav.block-menu-block {
-  background-color: #fb940b;
+  background-color: #dcb6b4;
 }
 
 .social-sciences .sidebar nav.block-menu-block {
