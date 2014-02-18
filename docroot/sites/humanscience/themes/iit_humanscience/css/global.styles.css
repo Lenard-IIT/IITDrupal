@@ -2505,8 +2505,23 @@ body a.hs-button {
   margin-top: .4em;
 }
 
-body a.hs-button:hover {
+body a.hs-button:hover,
+body.psychology a.hs-button:hover,
+body.humanities a.hs-button:hover,
+body.social-sciences a.hs-button:hover {
   background-color: #888;
+}
+
+body.psychology a.hs-button {
+  background-color: #8ead52;
+}
+
+body.humanities a.hs-button {
+  background-color: #dcb6b4;
+}
+
+body.social-sciences a.hs-button {
+  background-color: #b84e46;
 }
 /* end Button Styles */
 
