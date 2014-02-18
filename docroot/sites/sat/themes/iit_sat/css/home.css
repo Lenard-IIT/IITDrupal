@@ -366,6 +366,7 @@
     #sat-home-marketing-slideshow .sub-section {
         width: 47%;
         float: left;
+        overflow: hidden;
     }
     
     #sat-home-marketing-slideshow .sub-section .item-list {
@@ -388,12 +389,12 @@
     #sat-home-marketing-slideshow .views-field-title h3 {
         color: #fff;
         font-size: 32px;
-        margin: 1.75em 0 0.5em 0;
+        margin: 1.75em 80px 0.5em 0;
     }
 
     #sat-home-marketing-slideshow .main-section .body-content {
         color: #fff;
-        font-size: 19px
+        font-size: 19px;
     }
 
     #sat-home-marketing-slideshow .main-section a.info-link {
@@ -413,12 +414,21 @@
         color: #fff;
         font-size: 23px;
         margin-top: 0;
-        border-bottom: 1px solid #aedeff;
+        border-bottom: 1px solid #4aa0ba;
     }
 
     #sat-home-marketing-slideshow .sub-section .item-list {
         color: #fff;
         font-size: 17px;
+    }
+
+    #sat-home-marketing-slideshow .flex-direction-nav a {
+        top: 88px
+    }
+
+    #sat-home-marketing-slideshow .flexslider:hover .flex-prev {
+        right: 35px;
+        left: inherit;
     }
     /* end Blue Marketing Bar */
 
@@ -550,6 +560,51 @@
     }
     /* end menu button */
 
+
+    /* Blue Marketing Bar */
+    #sat-home-marketing-slideshow .views-field-title h3 {
+        font-size: 25px;
+        margin: 1.75em 0px 0.5em 0;
+    }
+    
+    
+    #sat-home-marketing-slideshow .main-section .body-content {
+        font-size: 16px;
+    }
+    
+    #sat-home-marketing-slideshow .main-section {
+        width: inherit;
+        float: none;
+        margin-right: 0;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section .item-list {
+        width: inherit;
+        float: none;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section {
+        width: inherit;
+        float: none;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section .item-list {
+        font-size: 16px;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section h4 {
+        font-size: 20px;
+        margin-top: 20px;
+        border-bottom: 1px solid #4aa0ba;
+    }
+    
+    #sat-home-marketing-slideshow .main-section a.info-link {
+        font-size: 14px;
+    }
+    /* end Blue Marketing Bar */
+
 } /* end max 399 */
 
 
@@ -671,6 +726,46 @@
         display: block;
     }
     /* end menu button */
+
+
+    /* Blue Marketing Bar */
+    #sat-home-marketing-slideshow .views-field-title h3 {
+        font-size: 25px;
+        margin: 1.75em 0px 0.5em 0;
+    }
+    
+    
+    #sat-home-marketing-slideshow .main-section .body-content {
+        font-size: 16px;
+    }
+    
+    #sat-home-marketing-slideshow .main-section {
+        width: inherit;
+        float: none;
+        margin-right: 0;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section {
+        width: inherit;
+        float: none;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section .item-list {
+        font-size: 16px;
+    }
+    
+    #sat-home-marketing-slideshow .sub-section h4 {
+        font-size: 20px;
+        margin-top: 20px;
+        border-bottom: 1px solid #4aa0ba;
+    }
+    
+    #sat-home-marketing-slideshow .main-section a.info-link {
+        font-size: 14px;
+    }
+    /* end Blue Marketing Bar */
 
 } /* end 400 - 599 */
 /* end Smartphone Sizes */
