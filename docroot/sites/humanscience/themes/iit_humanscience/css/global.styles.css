@@ -1986,15 +1986,18 @@ table td ul {
   padding: 16px;
 }
 
-.psychology .sidebar nav.block-menu-block {
+.psychology .sidebar nav.block-menu-block,
+.human-sciences .sidebar nav#block-menu-block-18 {
   background-color: #8ead52;
 }
 
-.humanities .sidebar nav.block-menu-block {
+.humanities .sidebar nav.block-menu-block,
+.human-sciences .sidebar nav#block-menu-block-17 {
   background-color: #dcb6b4;
 }
 
-.social-sciences .sidebar nav.block-menu-block {
+.social-sciences .sidebar nav.block-menu-block,
+.human-sciences .sidebar nav#block-menu-block-19 {
   background-color: #b84e46;
 }
 
