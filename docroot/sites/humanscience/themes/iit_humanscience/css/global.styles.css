@@ -2719,6 +2719,10 @@ body.social-sciences a.hs-button {
   font-size: 1.7em;
   margin: 0.8em 0 0.2em 0;
 }
+
+.field-name-faculty-cv-link .file-icon {
+	margin: 0 !important;
+}
 /* end full faculty bio view */
 
 
