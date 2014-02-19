@@ -478,11 +478,15 @@
     font-size: 1.6em;
     margin-bottom: 0.3em;
     line-height: 1.3em;
+    margin-left: 0;
 }
 
 .page-home .sat-home-region-sat-home-news_and_events_region .views-row .views-field-field-location {
     font-size: 0.9375em;
     color: #222;
+    margin-left: 0;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .page-home .sat-home-region-sat-home-news_and_events_region .views-row .views-field-field-date {
@@ -490,7 +494,9 @@
     font-family: "Oswald", sans-serif;
     font-size: 1em;
     text-transform: uppercase;
-    margin-bottom: 0.3em
+    margin-bottom: 0.3em;
+    margin-left: 0;
+    font-weight: 400;
 }
 /* end news and events bar */
 

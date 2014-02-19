@@ -2244,6 +2244,64 @@ a:hover {
 /* end sidebar search form block */
 
 
+/* events block */
+.view-id-events .views-row {
+    margin: 0.875em 0;
+    position: relative;
+    min-height: 4.375em;
+}
+
+.view-id-events .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-field-date {
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: #555;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-field-location {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper {
+    border: 2px solid #4aa0ba;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper .cal-day {
+    background-color: #4aa0ba;
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+/* end events block */
+
+
 /* Department Homepages */
 #content .panel-flexible.dept-home {
     margin: 0;
@@ -2524,3 +2582,4 @@ a:hover {
   margin: 0.8em 0 0.2em 0;
 }
 /* end full people bio view */
+
