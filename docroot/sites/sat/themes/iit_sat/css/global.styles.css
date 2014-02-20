@@ -2605,3 +2605,52 @@ a:hover {
 }
 /* end full people bio view */
 
+
+/* ITM marketing specialization styles */
+#block-views-specializations-block-1 {}
+
+
+#block-views-specializations-block-1 .views-row {
+    border-bottom:1px solid #ddd;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+#block-views-specializations-block-1 .views-field-title {
+    margin-left: 6em;
+}
+
+#block-views-specializations-block-1 .views-field-body {
+    margin-left: 6em;
+}
+
+#block-views-specializations-block-1 .views-field-nothing {
+    margin-left: 6em;
+}
+
+#block-views-specializations-block-1 .views-field-uri {
+    position: absolute;
+    top: 0;
+    left: 8px;
+}
+
+#block-views-specializations-block-1 .views-field-uri a {
+    background-color: #2871a4;
+    width: 72px;
+    height: 72px;
+    display: block;
+    border-radius: 50%;
+}
+
+#block-views-specializations-block-1 .views-field-uri a img {
+    margin: 4px;
+}
+
+#block-views-specializations-block-1 .views-field-nothing a {
+    background:whitesmoke;
+    padding:0.5em;
+    font-size:0.8em;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+/* end ITM marketing specialization styles */
