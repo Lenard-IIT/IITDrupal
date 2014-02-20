@@ -52,6 +52,32 @@ div.region-sidebar-second .block {
   font-size: 2.125em;
   padding: 1em 0 0.20588235294118em;
 }
+
+#header .school-home {
+    margin: 0;
+    position: relative;
+    height: 2em;
+    font-size: 16px;
+}
+
+#header .school-home a {
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    color: #797979;
+    font-size: 1.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#header .school-home a span {
+    font-weight: 300;
+    font-size: 1.5em;
+    position: relative;
+    color: #bbb;
+    top: 0.13333333333333em;
+}
 /* end Page Header */
 
 

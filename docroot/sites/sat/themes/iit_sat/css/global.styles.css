@@ -1966,6 +1966,28 @@ a:hover {
 #header .iit-page-header h2 a span {
     color: #4aa0ba;
 }
+
+#header .school-home {
+    font-size: 15px;
+}
+
+#header .school-home a {
+    color: #797979;
+    font-size: 1.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1em;
+
+}
+
+#header .school-home a span {
+    font-weight: 300;
+    font-size: 1.5em;
+    position: relative;
+    color: #bbb;
+    top: 0.13333333333333em;
+}
 /* end Page Header */
 
 
