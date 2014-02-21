@@ -2782,7 +2782,7 @@ body.social-sciences a.hs-button {
 /* end Faculty Research Page */
 
 /* Slideshow Block */
-.block-nodeblock .node-slideshow .flexslider {
+.node-slideshow .flexslider {
     margin: 0 0 45px;
     background: transparent;
     border: 0;
@@ -2798,11 +2798,11 @@ body.social-sciences a.hs-button {
     zoom: 1;
 }
 
-.block-nodeblock .node-slideshow .flexslider img {
+.node-slideshow .flexslider img {
     margin: 0 !important;    
 }
 
-.block-nodeblock .node-slideshow .flexslider .flex-caption {
+.node-slideshow .flexslider .flex-caption {
     background-color: rgb(48, 46, 47);
     padding: 10px;
     color: #fff;
