@@ -2780,3 +2780,35 @@ body.social-sciences a.hs-button {
     margin: 25px 0;
 }
 /* end Faculty Research Page */
+
+/* Slideshow Block */
+.block-nodeblock .node-slideshow .flexslider {
+    margin: 0 0 45px;
+    background: transparent;
+    border: 0;
+    position: relative;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    zoom: 1;
+}
+
+.block-nodeblock .node-slideshow .flexslider img {
+    margin: 0 !important;    
+}
+
+.block-nodeblock .node-slideshow .flexslider .flex-caption {
+    background-color: rgb(48, 46, 47);
+    padding: 10px;
+    color: #fff;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+/* end Slideshow Block */
