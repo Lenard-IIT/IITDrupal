@@ -2879,3 +2879,71 @@ body.social-sciences a.hs-button {
 .page-node-525 .views-table tr td:first-child, 
 .page-node-537 .views-table tr td:first-child { width: 200px; }
 /* end Research interests pages */
+
+
+/* Events page blocks */
+/* events block */
+.view-id-events .views-row {
+    margin: 0.875em 0;
+    position: relative;
+    min-height: 4.375em;
+}
+
+.view-id-events .views-field-title {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.0625em;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-field-date {
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: #555;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-field-location {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.view-id-events .views-field-nothing {
+    width: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper {
+    border: 2px solid rgb(203,193,163);
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper .cal-day {
+    background-color: rgb(203,193,163);
+    color: #fff;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+}
+
+.view-id-events .views-field-nothing .event-calendar-wrapper .cal-date {
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+.view-id-events .event-calendar-dept-type-loc {
+    font-size: 0.9375em;
+    color: #666;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 100px;    
+}
+/* end events block */
+/* end Events page blocks */
