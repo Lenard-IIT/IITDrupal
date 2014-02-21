@@ -31,7 +31,7 @@
 
 .page-home #header .iit-page-header h2 {
 	float: left;
-	font-size: 2.3125em;
+	font-size: 2.6em;
 	padding: 1.25em 0 0.26666666666667em;
 	line-height: 1.5em;
     margin-right: 48px;
@@ -226,7 +226,7 @@
 
 .page-home #header .block-menu-block .block-content ul li a {
 	color: #fff;
-	padding: 4px 12px;
+	padding: 6px 15px;
 	text-transform: none;
 	text-decoration: none;
 	font-size: 15px;
@@ -271,15 +271,6 @@
 		width: inherit;
 		margin: 0;
 		padding: 0;
-	}
-
-	.page-home #header .block-menu-block .block-content ul li a {
-		color: #fff;
-		padding: 6px 15px;
-		text-transform: none;
-		text-decoration: none;
-		font-size: 15px;
-		font-weight: bold;
 	}
 
 	.no-touch .page-home #header .block-menu-block .block-content ul li a:hover {
@@ -379,6 +370,7 @@
 
 	.page-home #header .iit-page-header h2 {
 		line-height: 1.35em;
+		font-size: 2.4em;
 	}
 
 	.page-home #header .block-menu-block {
@@ -472,6 +464,7 @@
 
 	.page-home #header .iit-page-header h2 {
 		line-height: 1.35em;
+		font-size: 2.4em;
 	}
 
 	.page-home #header .block-menu-block {
