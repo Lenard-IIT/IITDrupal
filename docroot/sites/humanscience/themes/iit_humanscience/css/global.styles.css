@@ -1928,6 +1928,10 @@ table td ul {
   margin: 0;
   border: 0.5em solid #fff;
 }
+
+#main-content img.img-margin-none {
+  margin: 0;
+}
 /* end Standard Elements */
 
 
