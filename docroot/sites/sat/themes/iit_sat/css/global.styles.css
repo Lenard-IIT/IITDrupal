@@ -2654,3 +2654,42 @@ a:hover {
     margin: 10px 0;
 }
 /* end ITM marketing specialization styles */
+
+
+/* OPD Short Courses Page */
+.page-node-781 .field-item.even ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.page-node-781 .field-item.even ul li {
+    margin: 25px 1%;
+}
+
+.page-node-781 .field-item.even ul li a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1.6875em;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4aa0ba;
+    display:block;
+}
+
+.page-node-781 .field-item.even ul li a img {
+    margin: 0 20px 0 0 !important;
+    background-color: #2871a4;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.page-node-781 .field-item.even ul li a span {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+/* end OPD Short Courses Page */

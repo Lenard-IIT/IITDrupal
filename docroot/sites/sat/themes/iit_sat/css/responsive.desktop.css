@@ -108,3 +108,36 @@ div.region-sidebar-second {
   margin-left: 3%;
 }
 /* end full people bio view */
+
+
+/* OPD Short Courses Page */
+.page-node-781 .field-item.even ul li {
+    margin: 0 1%;
+    width: 48%;
+    float: left;
+    height: 0;
+    position: relative;
+    padding-bottom: 20%
+}
+
+.page-node-781 .field-item.even ul li a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.page-node-781 .field-item.even ul li a img {
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-node-781 .field-item.even ul li a span {
+    top: 10px;
+    position: absolute;
+    left: 80px;
+}
+/* end OPD Short Courses Page */
