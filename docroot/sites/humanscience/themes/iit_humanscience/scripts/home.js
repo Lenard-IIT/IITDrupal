@@ -117,8 +117,8 @@
 			collegeHeaderHeight = $('#header-wrapper').height();
 			windowHeight = $(window).height();
 
-			if (collegeHeaderHeight > 105) {
-				collegeHeaderHeight = 100;
+			if (collegeHeaderHeight > 165) {
+				collegeHeaderHeight = 160;
 			}
 
 			$('#hero-wrapper').height(windowHeight - globalHeaderHeight - collegeHeaderHeight);
