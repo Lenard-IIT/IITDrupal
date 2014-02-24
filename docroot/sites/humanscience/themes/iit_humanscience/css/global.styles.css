@@ -2862,7 +2862,7 @@ body.social-sciences a.hs-button {
 
 
 /* Research interests pages */
-.page-node-487 .views-table caption, 
+.page-node-489 .views-table caption, 
 .page-node-525 .views-table caption, 
 .page-node-537 .views-table caption {  
   font-size: 1.4375em;
@@ -2874,7 +2874,7 @@ body.social-sciences a.hs-button {
   letter-spacing: 1px; 
 }
 
-.page-node-487 .views-table tr td:first-child,  
+.page-node-489 .views-table tr td:first-child,  
 .page-node-525 .views-table tr td:first-child, 
 .page-node-537 .views-table tr td:first-child { width: 200px; }
 /* end Research interests pages */
@@ -2946,3 +2946,22 @@ body.social-sciences a.hs-button {
 }
 /* end events block */
 /* end Events page blocks */
+
+
+/* Course Description */
+#course-descriptions .course_title { 
+  font-size: 1.4375em;
+  color: #89b3c1;
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 1em 0 0.25em 0;
+  letter-spacing: 1px;
+}
+#course-descriptions .prerequisites {  display:block; }
+#course-descriptions .corequisites {  display:block; }
+#course-descriptions .description {  
+  font-size: .938em;
+  line-height: 1.5em; 
+}
+/* end Course Description */
