@@ -1966,13 +1966,12 @@ blockquote:before {
 figure.image-caption { display:inline-block; }
 
 figure.image-caption figcaption {
-  background-color: rgb(48, 46, 47);
+  background-color: rgb(203, 193, 163);
   padding: 10px;
-  color: #fff;
+  color: #222;
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  margin: 0;
+  font-size: 14px;
+  margin: 0 0 15px 0;
 }
 
 figure.image-caption img { display:block; }
