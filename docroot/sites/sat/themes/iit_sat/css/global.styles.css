@@ -2698,3 +2698,114 @@ a:hover {
     top: 10px;
 }
 /* end OPD Short Courses Page */
+
+/* ITM Marketing Specializations Page */
+
+.node-type-itm-specialization-marketing * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.node-type-itm-specialization-marketing *:before,
+.node-type-itm-specialization-marketing *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.node-type-itm-specialization-marketing .row {
+  width: 100%;
+  display: inline-block;
+}
+.node-type-itm-specialization-marketing .specialization-call-out,
+.node-type-itm-specialization-marketing .career-outlook {
+  padding:2em;
+  background-color: #eee;
+}
+.node-type-itm-specialization-marketing .career-outlook {
+  border-left: 7px solid #4aa0ba;
+}
+.node-type-itm-specialization-marketing .call-out-header h3 {
+  font-size:1.8em;
+  margin-top: 0;
+}
+.node-type-itm-specialization-marketing .career-outlook h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+.node-type-itm-specialization-marketing .desktop-one-third.call-out-header {
+  padding-right:2em;
+}
+.node-type-itm-specialization-marketing .desktop-two-thirds.call-out-text {
+  border-left: 3px solid;
+  padding-left: 2em;
+  font-size: 0.9em;
+}
+.node-type-itm-specialization-marketing .desktop-one-third {
+  width: 35%;
+  float: left;
+  padding: 0.3em;
+}
+.node-type-itm-specialization-marketing .desktop-two-thirds {
+  width: 65%;
+  float: left;
+  padding: 0.3em;
+}
+.node-type-itm-specialization-marketing .desktop-one-half {
+  width: 50%;
+  float: left;
+  padding: 0.3em;
+}
+.node-type-itm-specialization-marketing .desktop-full {
+  width: 100%;
+  float: left;
+  padding: 0.3em;
+}
+.node-type-itm-specialization-marketing .career-list {
+  margin:0;
+  padding-left: 1.3em;
+}
+.node-type-itm-specialization-marketing .fine-print {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #444;
+  padding-top: 1em;
+}
+.node-type-itm-specialization-marketing .fine-print p:last-child {
+  margin-bottom:0;
+}
+.node-type-itm-specialization-marketing .row hr {
+  border: 1px solid #ddd;
+}
+.node-type-itm-specialization-marketing .clear {
+  clear:both;
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul {
+  list-style-type:none;
+  padding-left:0;
+  font-family: 'oswald', sans-serif;
+  font-size:1.2em; 
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul li {
+  list-style-type:none;
+  display: block;
+  margin-bottom:0.5em;
+  margin-right: 1em;
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul li a {
+  display:block;
+  padding:0.3em;
+  color:white;
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul li.undergraduate {
+  background-color:#F58C1F;
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul li.graduate {
+  background-color:#9B0000;
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul li.certificate {
+  background-color:#2871a4;
+}
+.node-type-itm-specialization-marketing #main-content h4.specialization-requirements {
+  color:#444;
+}
+/* end of ITM Marketing Specializations Page */

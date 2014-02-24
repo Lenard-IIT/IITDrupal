@@ -71,3 +71,28 @@ html {
 }
 
 /* end OPD Short Courses Page */
+
+/* ITM Marketing Specializations Page */
+
+.node-type-itm-specialization-marketing .desktop-one-third {
+  width: inherit;
+  float: none;
+    padding-left:0;
+}
+.node-type-itm-specialization-marketing .desktop-two-thirds {
+  width: inherit;
+  float: none;
+}
+.node-type-itm-specialization-marketing .desktop-one-half {
+  width: inherit;
+  float: none;
+}
+.node-type-itm-specialization-marketing .desktop-two-thirds.call-out-text {
+  border-left: none;
+  padding-left: 0;
+}
+.node-type-itm-specialization-marketing .desktop-one-half ul li {
+    margin-right: 0;
+}
+
+/* end of ITM Marketing Specializations Page */

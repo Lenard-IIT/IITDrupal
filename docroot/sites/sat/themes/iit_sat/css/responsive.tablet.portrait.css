@@ -136,3 +136,11 @@ div.region-sidebar-second .block {
     left: 80px;
 }
 /* end OPD Short Courses Page */
+
+/* ITM Marketing Specializations Page */
+
+.node-type-itm-specialization-marketing .call-out-header h3 {
+  font-size: 1.3em;
+}
+
+/* end of ITM Marketing Specializations Page */
