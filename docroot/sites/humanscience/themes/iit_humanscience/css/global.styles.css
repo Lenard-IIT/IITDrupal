@@ -2965,3 +2965,75 @@ body.social-sciences a.hs-button {
   line-height: 1.5em; 
 }
 /* end Course Description */
+
+
+/* HS_Admission Buttons Peter Made */
+#HS_Admission { overflow:hidden; }
+#HS_Admission a { 
+  color:#FFF; 
+  font-family: 'oswald', sans-serif; 
+  font-weight: 300; 
+  font-size: 18px; 
+  position:absolute; 
+  bottom:0; 
+  top:0; 
+  left:0; 
+  right:0;
+}
+#HS_Admission div { 
+  position:relative; 
+  float:left; 
+  width:31.3333333333333333333333333%; 
+  padding-bottom:15%; 
+  height:0; 
+  margin:0 1%; 
+}
+#HS_Admission span { 
+  position:absolute; 
+  bottom:5px; 
+  left:5px; 
+}
+
+#HS_Admission #undergrad-admission {
+  background-color:#f90;
+}
+#HS_Admission #grad-humanities {
+  background-color:#89b3c1;
+}
+
+#HS_Admission #grad-psychology {
+  background-color:#7e9396;
+}
+
+#HS_Admission #hum-undergrad-resources { 
+  background-color:#89b3c1; 
+  width:48%;
+}
+
+#HS_Admission #hum-grad-resources { 
+  background-color:#a6a89c; 
+  width:48%;
+}
+
+#HS_Admission #psy-undergrad-resources { 
+  background-color:#7d9395; 
+  width:48%;
+}
+
+#HS_Admission #psy-grad-resources { 
+  background-color:#302e2f; 
+  width:48%;
+}
+
+#HS_Admission #humanities {
+  background-color:#89b3c1;
+}
+
+#HS_Admission #psychology {
+  background-color:#7e9396;
+}
+
+#HS_Admission #social-sciences {
+  background-color:#6291a5;
+}
+/* end HS_Admission Buttons Peter Made */

@@ -167,3 +167,12 @@ html {
     background-color: #8ead52;
 }
 /* end Lewis Hompage Hero Nav */
+
+
+/* HS_Admission Buttons Peter Made */
+#HS_Admission div { 
+    float:none; 
+    width:inherit; 
+    margin: 2% 0; 
+}
+/* end HS_Admission Buttons Peter Made */
