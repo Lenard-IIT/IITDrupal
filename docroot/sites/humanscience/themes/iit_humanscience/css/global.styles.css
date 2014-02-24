@@ -2534,9 +2534,9 @@ body a.info-button {
   font-family: 'Open Sans Condensed',sans-serif;
   font-size: 1.06667em;
   font-weight: bold;
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   display: inline-block;
-  margin-top: .4em;
+  margin-top: 0.4em;
 }
 
 body a.info-button:hover {
@@ -2545,14 +2545,14 @@ body a.info-button:hover {
 
 body a.hs-button {
   color: #fff;
-  background-color: #666;
+  background-color: #295F6C;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed',sans-serif;
   font-size: 1.8em;
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   display: inline-block;
-  margin-top: .4em;
+  margin-top: 0.4em;
 }
 
 body a.hs-button:hover,
