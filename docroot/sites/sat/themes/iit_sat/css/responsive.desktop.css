@@ -41,6 +41,17 @@ div.region-sidebar-second {
   right: 0;
   margin-top: 6px;
 }
+
+#footer #iit-department-footer .footer-address {
+  float: left;
+  margin-right: 25px;
+}
+
+#footer #iit-department-footer .campus-link {
+  clear: both;
+  display: block;
+  float: left;
+}
 /* end Department Footer */
 
 

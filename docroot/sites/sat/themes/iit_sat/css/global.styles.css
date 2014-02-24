@@ -1918,6 +1918,11 @@ a:hover {
 #footer #iit-department-footer .social-icons li:first-child {
   margin-left: 0;
 }
+
+#footer #iit-department-footer .campus-link {
+    margin: 8px 0 20px 0;
+    display: inline-block;
+}
 /* end Department Footer */
 
 
