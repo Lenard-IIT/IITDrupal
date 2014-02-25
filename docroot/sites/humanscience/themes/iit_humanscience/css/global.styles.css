@@ -1890,7 +1890,7 @@ a:hover {
 
 .humanities a {
   /*color: #89b3c1;*/
-  color: #c19593;
+  color: #bda877;
 }
 
 .social-sciences a {
@@ -2040,7 +2040,7 @@ figure.image-caption img { display:block; }
 
 .humanities .sidebar nav.block-menu-block,
 .human-sciences .sidebar nav#block-menu-block-17 {
-  background-color: #dcb6b4;
+  background-color: #bda877;
 }
 
 .social-sciences .sidebar nav.block-menu-block,
@@ -2567,7 +2567,7 @@ body.psychology a.hs-button {
 }
 
 body.humanities a.hs-button {
-  background-color: #dcb6b4;
+  background-color: #bda877;
 }
 
 body.social-sciences a.hs-button {
