@@ -71,6 +71,7 @@ $sites['science.iit.edu'] = 'science';
 
 $sites['humansci-dev.iit.edu'] = 'humanscience';
 $sites['humansci-stg.iit.edu'] = 'humanscience';
+$sites['humansciences.iit.edu'] = 'humanscience';
 
 $sites['ehs-dev.iit.edu'] = 'ehs';
 $sites['ehs-stg.iit.edu'] = 'ehs';
