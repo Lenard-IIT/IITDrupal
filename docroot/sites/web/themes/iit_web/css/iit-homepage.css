@@ -183,19 +183,23 @@
 
 
     /* Department Links Region */
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links .block-title {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links .block-title,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links .block-title {
         display: none;
     }
 
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links p {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links p,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links p {
         margin: 10px 0 0;
     }
 
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links p:first-child {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links p:first-child,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links p:first-child {
         margin-top: 0;
     }
 
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links a {
         color: white;
         font-family: 'EconomicaBold-IIT', sans-serif;
         font-size: 23px;
@@ -204,6 +208,7 @@
         text-decoration: none;
         display: block;
         padding: 0.54545454545455em 0.54545454545455em 0.36363636363636em;
+        background-color: #c00;
     }
 
     .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a.uga {
@@ -499,8 +504,9 @@
 
 
     /* Department Links Region */
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
-        font-size: 23px;
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links a {
+        font-size: 21px;
     }
     /* end Department Links Region */
 
@@ -559,8 +565,9 @@
 
 
     /* Department Links Region */
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
-        font-size: 23px;
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links a {
+        font-size: 22px;
     }
     /* end Department Links Region */
 
@@ -593,7 +600,8 @@
 
 
     /* Department Links Region */
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links a {
         font-size: 23px;
     }
     /* end Department Links Region */
@@ -661,7 +669,8 @@
 
 
     /* Department Links Region */
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links a {
         font-size: 23px;
     }
     /* end Department Links Region */
@@ -802,7 +811,8 @@
 
 
     /* Department Links Region */
-    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a {
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-dept-links a,
+    .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-secondary-links a {
         font-size: 23px;
     }
     /* end Department Links Region */
