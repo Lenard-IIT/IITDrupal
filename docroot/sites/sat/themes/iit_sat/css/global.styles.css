@@ -2627,6 +2627,7 @@ a:hover {
 
 #block-views-specializations-block-1 .views-field-body {
     margin-left: 6em;
+    margin-bottom:0.5em;
 }
 
 #block-views-specializations-block-1 .views-field-nothing {
@@ -2652,11 +2653,10 @@ a:hover {
 }
 
 #block-views-specializations-block-1 .views-field-nothing a {
-    background:whitesmoke;
+    background:#4aa0ba;
+    color:#fff;
     padding:0.5em;
     font-size:0.8em;
-    border: 1px solid #ccc;
-    margin: 10px 0;
 }
 /* end ITM marketing specialization styles */
 
@@ -2809,3 +2809,74 @@ a:hover {
   color:#444;
 }
 /* end of ITM Marketing Specializations Page */
+
+/* Full Student Profiles */
+#content .node-student-profile .region-two-brick-left-above {
+  width: 65%;
+}
+#content .node-student-profile .panel-display {
+  margin: 0;
+}
+#main-content .node-student-profile .region-two-brick-left-above section {
+  margin-bottom: 0.3125em;
+}
+#main-content .node-student-profile .region-two-brick-left-above section h2 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 8em;
+}
+#main-content .node-student-profile .region-two-brick-left-above section p {
+  margin: 0;
+}
+#main-content .node-student-profile .region-two-brick-middle h2 {
+  font-family: 'oswald', sans-serif;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin: 0.8em 0 0.2em 0;
+}
+/* end of Full Studnet Profiles */
+
+
+/* ITM Specialization Tables */
+table .specialization-col-width {
+width: 140px;
+}
+table td {
+border-right: 1px solid #ccc;
+}
+table {
+font-size: 0.9em
+}
+/* end of ITM Specialization Tables */
+
+
+/* ITM Program Page Full Listing */
+.page-node-89 .view-content .item-list ul {
+    list-style-type:none;
+}
+.page-node-89 .view-content .item-list ul li {
+    margin:0;
+    padding:0.8em 0;
+    border-bottom:1px solid #eee;
+}
+.no-touch .page-node-89 .view-content .item-list ul li:hover {
+    background-color:#eee 
+}
+.page-node-89 .view-content .item-list ul li a {
+    display:block; 
+    padding-left:0.5em;
+}
+.no-touch .page-node-89 .view-content .item-list ul li a:hover {
+    text-decoration:none; 
+}
+.page-node-89 #main-content h2.block-title {
+    background-color:#2871a4;
+    color:#FFF;
+    border-left: 4px solid #4aa0ba;
+    padding-left:0.3em;
+    border-bottom:0;
+}
+.page-node-89 .view-header h3 {
+    padding-left:0.3em;
+}
