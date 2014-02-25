@@ -317,6 +317,16 @@
         font-weight: 300;
         color: #333;
     }
+
+    #social-icons {
+        display: block;
+        float: right;
+        margin-top: 30px;
+    }
+
+    #social-icons img {
+       margin:0;
+    }
     /* end News and Events Region */
 
 
@@ -447,6 +457,8 @@
         right: 0;
     }
     /* end Homepage Hero Slideshow */
+
+
 
 
 /* end IIT Homepage - Global Styles ========================================= */
