@@ -2559,6 +2559,17 @@ a:hover {
 /* end Department Homepages */
 
 
+/* flexslider 2.2.2 css fixes for direction and paging */
+.flexslider ol.flex-control-paging {
+    z-index:25;
+}
+
+.flexslider .flex-direction-nav a:before {
+    position: relative;
+    top: -8px;
+}
+/* end flexslider 2.2.2 css fixes for direction and paging */
+
 
 /* full people bio view */
 #content .node-people .panel-display {

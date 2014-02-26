@@ -184,22 +184,46 @@
     width: 30px;
     height: 60px;
     background-color: #fff;
+    text-indent: -9999px;
+    text-align: left;
 }
 
 .no-svg #sat-home-hero-slideshow .flex-direction-nav a {
     background-image: url('images/next-prev.png');
 }
 
+#sat-home-hero-slideshow .flex-direction-nav a:before {
+    content: none;
+}
+
 #sat-home-hero-slideshow .flexslider:hover .flex-prev {
     opacity: 0.6;
     left: 0;
+    background-position: 0 0;
 }
 
 #sat-home-hero-slideshow .flexslider:hover .flex-next {
     opacity: 0.6;
     right: 0;
+    background-position: 30px 0;
 }
 
+#sat-home-hero-slideshow .flexslider:hover .flex-direction-nav a:hover {
+    opacity: 1;
+}
+
+#sat-home-hero-slideshow .flexslider .flex-control-nav {
+    bottom: 6px;
+    left: 6px;
+    width: inherit;
+    padding: 0;
+    line-height: 11px;
+    z-index: 25;
+}
+
+#sat-home-hero-slideshow .flexslider .flex-control-nav li {
+    margin-right: 4px;
+}
 /* end Homepage Hero Slideshow */
 
 /* Grid Stuff */
@@ -429,6 +453,11 @@
 #sat-home-marketing-slideshow .flexslider:hover .flex-prev {
     right: 35px;
     left: inherit;
+}
+
+#sat-home-marketing-slideshow .flex-direction-nav a:before {
+    position: relative;
+    top: -8px;
 }
 /* end Blue Marketing Bar */
 
