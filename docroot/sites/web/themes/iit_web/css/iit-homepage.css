@@ -437,7 +437,7 @@
 
     .flex-direction-nav a {
         background-image: url('images/next-prev.svg');
-        background-size: 60px;
+        background-size: 60px 60px;
         width: 30px;
         height: 60px;
         background-color: #fff;
