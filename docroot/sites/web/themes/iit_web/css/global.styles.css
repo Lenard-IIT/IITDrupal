@@ -2269,3 +2269,15 @@ a:hover {
 }
 /* end Emergency Sidebar block style */
 /* end Emergency Page Styles */
+
+
+/* flexslider 2.2.2 css fixes for direction and paging */
+.flexslider ol.flex-control-paging {
+    z-index:25;
+}
+
+.flexslider .flex-direction-nav a:before {
+    position: relative;
+    top: -8px;
+}
+/* end flexslider 2.2.2 css fixes for direction and paging */
