@@ -1917,6 +1917,23 @@ a:hover {
 }
 /* end Standard Elements */
 
+
+/* flexslider 2.2.2 css fixes for direction and paging */
+.flexslider ol.flex-control-paging {
+    z-index: 25;
+}
+
+.flexslider .flex-direction-nav a {
+    color: rgba(0,0,0,0.8);
+}
+
+.flexslider .flex-direction-nav a:before {
+    position: relative;
+    top: -8px;
+}
+/* end flexslider 2.2.2 css fixes for direction and paging */
+
+
 /* ul bullets add and remove */
 #main-content ul {
   padding: 0;
