@@ -86,12 +86,12 @@ div.region-sidebar-second {
 
 /* header menu */
 #header .block-menu-block ul {
-	float: left;
-	width: 100%;
+  float: left;
+  width: 100%;
 }
 
 #header .block-menu-block .block-content ul li {
-	float: left;
+  float: left;
 }
 /* end header menu */
 
