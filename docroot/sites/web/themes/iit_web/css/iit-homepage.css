@@ -319,6 +319,18 @@
         color: #333;
     }
 
+    #iit-homepage-news-events .view-header a.iit-today {
+        color: white;
+        font-family: 'EconomicaBold-IIT', sans-serif;
+        font-size: 23px;
+        line-height: 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding: 0.54545454545455em 0.54545454545455em 0.36363636363636em;
+        background-color: #444;
+    }
+
     #social-icons {
         display: block;
         float: right;
