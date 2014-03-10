@@ -98,4 +98,8 @@
 .page-homepage .panel-flexible.iit-homepage .content-row #iit-homepage-news-events .block-title {
     font-size: 23px;
 }
+
+#social-icons {
+    float:none;
+}
 /* end News and Events Region */
