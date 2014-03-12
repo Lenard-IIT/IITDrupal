@@ -61,8 +61,8 @@ DirectoryIndex index.php index.html index.htm
   RewriteCond %{HTTP_HOST} ^(stuart-dev\.iit\.edu|stuart-stg\.iit\.edu|stuart\.iit\.edu|www\.stuart\.iit\.edu)$
   RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  # login
-  RewriteCond %{HTTP_HOST} ^(science-dev\.iit\.edu)$
+  # Redirect select /login requests to https /user
+  RewriteCond %{HTTP_HOST} ^(science\.iit\.edu|humansciences\.iit\.edu)$
   RewriteCond %{REQUEST_URI} ^/login$
   RewriteRule ^(.*)$ https://%{HTTP_HOST}/user [L,R=302]
 
