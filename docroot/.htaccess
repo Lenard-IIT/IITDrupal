@@ -61,6 +61,11 @@ DirectoryIndex index.php index.html index.htm
   RewriteCond %{HTTP_HOST} ^(stuart-dev\.iit\.edu|stuart-stg\.iit\.edu|stuart\.iit\.edu|www\.stuart\.iit\.edu)$
   RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+  # login
+  RewriteCond %{HTTP_HOST} ^(science-dev\.iit\.edu)$
+  RewriteCond %{REQUEST_URI} ^/login$
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/user [L,R=302]
+
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.
